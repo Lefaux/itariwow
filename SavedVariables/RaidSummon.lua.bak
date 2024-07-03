@@ -1,7 +1,10 @@
 
 RaidSummonOptionsDB = {
 	["profileKeys"] = {
-		["Naediin - Pyrewood Village"] = "Default",
+		["Lefaux - Nethergarde Keep"] = "Default",
+		["Muilocko - Nethergarde Keep"] = "Default",
+		["Mattihunto - Nethergarde Keep"] = "Default",
+		["Bubblehearth - Nethergarde Keep"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

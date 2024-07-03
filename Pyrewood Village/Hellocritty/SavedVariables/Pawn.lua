@@ -1,0 +1,60 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0809,
+	["LastPlayerFullName"] = "Hellocritty-Nethergarde Keep",
+	["AutoSelectScales"] = false,
+	["ItemLevels"] = {
+		[7] = {
+			["ID"] = 3315,
+			["Level"] = 17,
+			["Link"] = "|cff1eff00|Hitem:3315::::::::12:::::::::|h[Ceremonial Leather Loincloth]|h|r",
+		},
+		[15] = {
+			["ID"] = 4689,
+			["Level"] = 13,
+			["Link"] = "|cffffffff|Hitem:4689::::::::13:::::::::|h[Hunting Cloak]|h|r",
+		},
+		[8] = {
+			["ID"] = 6557,
+			["Level"] = 16,
+			["Link"] = "|cff1eff00|Hitem:6557::::::928:1761824384:12:::::::::|h[Bard's Boots of the Gorilla]|h|r",
+		},
+		[16] = {
+			["ID"] = 2079,
+			["Level"] = 17,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:2079::::::23:276411904:12:::::::::|h[Sergeant's Warhammer of Strength]|h|r",
+		},
+		[17] = {
+			["ID"] = 2079,
+			["Level"] = 17,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:2079::::::23:276411904:13:::::::::|h[Sergeant's Warhammer of Strength]|h|r",
+		},
+		[5] = {
+			["ID"] = 4243,
+			["Level"] = 17,
+			["Link"] = "|cff1eff00|Hitem:4243::::::::12:::::::::|h[Fine Leather Tunic]|h|r",
+		},
+		[10] = {
+			["ID"] = 2976,
+			["Level"] = 15,
+			["Link"] = "|cff1eff00|Hitem:2976::::::::10:::::::::|h[Hunting Gloves]|h|r",
+		},
+		[6] = {
+			["ID"] = 6558,
+			["Level"] = 15,
+			["Link"] = "|cff1eff00|Hitem:6558::::::839:724156032:10:::::::::|h[Bard's Belt of the Eagle]|h|r",
+		},
+		[9] = {
+			["ID"] = 3158,
+			["Level"] = 12,
+			["Link"] = "|cffffffff|Hitem:3158::::::::13:::::::::|h[Burnt Hide Bracers]|h|r",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = nil
+PawnClassicScaleProviderOptions = {
+	["LastClass"] = "DRUID",
+	["LastAdded"] = 3,
+}

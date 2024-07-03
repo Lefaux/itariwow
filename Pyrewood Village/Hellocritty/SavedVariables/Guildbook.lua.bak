@@ -1,0 +1,552 @@
+
+GUILDBOOK_CHARACTER = {
+	["Inventory"] = {
+		["Current"] = {
+			["RANGEDSLOT"] = false,
+			["SHIRTSLOT"] = false,
+			["MAINHANDSLOT"] = "|cffffffff|Hitem:2495::::::::8:::::::::|h[Walking Stick]|h|r",
+			["HANDSSLOT"] = "|cffffffff|Hitem:5394::::::::8:::::::::|h[Archery Training Gloves]|h|r",
+			["TRINKET0SLOT"] = false,
+			["WAISTSLOT"] = "|cffffffff|Hitem:6058::::::::8:::::::::|h[Blackened Leather Belt]|h|r",
+			["BACKSLOT"] = "|cff9d9d9d|Hitem:1421::::::::8:::::::::|h[Worn Hide Cloak]|h|r",
+			["TABARDSLOT"] = false,
+			["SECONDARYHANDSLOT"] = false,
+			["WRISTSLOT"] = "|cff9d9d9d|Hitem:1420::::::::8:::::::::|h[Worn Leather Bracers]|h|r",
+			["TRINKET1SLOT"] = false,
+			["FINGER1SLOT"] = false,
+			["LEGSSLOT"] = "|cffffffff|Hitem:5398::::::::8:::::::::|h[Canopy Leggings]|h|r",
+			["FEETSLOT"] = false,
+			["FINGER0SLOT"] = false,
+			["CHESTSLOT"] = "|cffffffff|Hitem:4907::::::::8:::::::::|h[Woodland Tunic]|h|r",
+			["SHOULDERSLOT"] = false,
+			["HEADSLOT"] = false,
+			["NECKSLOT"] = false,
+		},
+	},
+	["Talents"] = {
+		["primary"] = {
+			{
+				["Tab"] = 1,
+				["Index"] = 1,
+				["Col"] = 1,
+				["Icon"] = 136006,
+				["MxRnk"] = 5,
+				["Row"] = 1,
+				["Rank"] = 0,
+			}, -- [1]
+			{
+				["Tab"] = 1,
+				["Index"] = 2,
+				["Col"] = 2,
+				["Icon"] = 136063,
+				["MxRnk"] = 1,
+				["Row"] = 1,
+				["Rank"] = 0,
+			}, -- [2]
+			{
+				["Tab"] = 1,
+				["Index"] = 3,
+				["Col"] = 3,
+				["Icon"] = 136063,
+				["MxRnk"] = 4,
+				["Row"] = 1,
+				["Rank"] = 0,
+			}, -- [3]
+			{
+				["Tab"] = 1,
+				["Index"] = 4,
+				["Col"] = 1,
+				["Icon"] = 136100,
+				["MxRnk"] = 3,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [4]
+			{
+				["Tab"] = 1,
+				["Index"] = 5,
+				["Col"] = 2,
+				["Icon"] = 136096,
+				["MxRnk"] = 5,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [5]
+			{
+				["Tab"] = 1,
+				["Index"] = 6,
+				["Col"] = 3,
+				["Icon"] = 135138,
+				["MxRnk"] = 5,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [6]
+			{
+				["Tab"] = 1,
+				["Index"] = 7,
+				["Col"] = 4,
+				["Icon"] = 136116,
+				["MxRnk"] = 3,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [7]
+			{
+				["Tab"] = 1,
+				["Index"] = 8,
+				["Col"] = 1,
+				["Icon"] = 136104,
+				["MxRnk"] = 3,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [8]
+			{
+				["Tab"] = 1,
+				["Index"] = 9,
+				["Col"] = 3,
+				["Icon"] = 136017,
+				["MxRnk"] = 1,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [9]
+			{
+				["Tab"] = 1,
+				["Index"] = 10,
+				["Col"] = 4,
+				["Icon"] = 136065,
+				["MxRnk"] = 2,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [10]
+			{
+				["Tab"] = 1,
+				["Index"] = 11,
+				["Col"] = 2,
+				["Icon"] = 136075,
+				["MxRnk"] = 5,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [11]
+			{
+				["Tab"] = 1,
+				["Index"] = 12,
+				["Col"] = 3,
+				["Icon"] = 135753,
+				["MxRnk"] = 5,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [12]
+			{
+				["Tab"] = 1,
+				["Index"] = 13,
+				["Col"] = 2,
+				["Icon"] = 136062,
+				["MxRnk"] = 1,
+				["Row"] = 5,
+				["Rank"] = 0,
+			}, -- [13]
+			{
+				["Tab"] = 1,
+				["Index"] = 14,
+				["Col"] = 3,
+				["Icon"] = 136087,
+				["MxRnk"] = 3,
+				["Row"] = 5,
+				["Rank"] = 0,
+			}, -- [14]
+			{
+				["Tab"] = 1,
+				["Index"] = 15,
+				["Col"] = 2,
+				["Icon"] = 136057,
+				["MxRnk"] = 5,
+				["Row"] = 6,
+				["Rank"] = 0,
+			}, -- [15]
+			{
+				["Tab"] = 1,
+				["Index"] = 16,
+				["Col"] = 2,
+				["Icon"] = 136036,
+				["MxRnk"] = 1,
+				["Row"] = 7,
+				["Rank"] = 0,
+			}, -- [16]
+			{
+				["Tab"] = 2,
+				["Index"] = 1,
+				["Col"] = 2,
+				["Icon"] = 132190,
+				["MxRnk"] = 5,
+				["Row"] = 1,
+				["Rank"] = 0,
+			}, -- [17]
+			{
+				["Tab"] = 2,
+				["Index"] = 2,
+				["Col"] = 3,
+				["Icon"] = 132121,
+				["MxRnk"] = 5,
+				["Row"] = 1,
+				["Rank"] = 0,
+			}, -- [18]
+			{
+				["Tab"] = 2,
+				["Index"] = 3,
+				["Col"] = 1,
+				["Icon"] = 132089,
+				["MxRnk"] = 5,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [19]
+			{
+				["Tab"] = 2,
+				["Index"] = 4,
+				["Col"] = 2,
+				["Icon"] = 132114,
+				["MxRnk"] = 2,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [20]
+			{
+				["Tab"] = 2,
+				["Index"] = 5,
+				["Col"] = 3,
+				["Icon"] = 134355,
+				["MxRnk"] = 5,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [21]
+			{
+				["Tab"] = 2,
+				["Index"] = 6,
+				["Col"] = 1,
+				["Icon"] = 136095,
+				["MxRnk"] = 2,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [22]
+			{
+				["Tab"] = 2,
+				["Index"] = 7,
+				["Col"] = 2,
+				["Icon"] = 132183,
+				["MxRnk"] = 1,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [23]
+			{
+				["Tab"] = 2,
+				["Index"] = 8,
+				["Col"] = 3,
+				["Icon"] = 134297,
+				["MxRnk"] = 3,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [24]
+			{
+				["Tab"] = 2,
+				["Index"] = 9,
+				["Col"] = 1,
+				["Icon"] = 136231,
+				["MxRnk"] = 2,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [25]
+			{
+				["Tab"] = 2,
+				["Index"] = 10,
+				["Col"] = 2,
+				["Icon"] = 132185,
+				["MxRnk"] = 3,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [26]
+			{
+				["Tab"] = 2,
+				["Index"] = 11,
+				["Col"] = 3,
+				["Icon"] = 132152,
+				["MxRnk"] = 2,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [27]
+			{
+				["Tab"] = 2,
+				["Index"] = 12,
+				["Col"] = 4,
+				["Icon"] = 132278,
+				["MxRnk"] = 2,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [28]
+			{
+				["Tab"] = 2,
+				["Index"] = 13,
+				["Col"] = 1,
+				["Icon"] = 132141,
+				["MxRnk"] = 2,
+				["Row"] = 5,
+				["Rank"] = 0,
+			}, -- [29]
+			{
+				["Tab"] = 2,
+				["Index"] = 14,
+				["Col"] = 3,
+				["Icon"] = 136033,
+				["MxRnk"] = 1,
+				["Row"] = 5,
+				["Rank"] = 0,
+			}, -- [30]
+			{
+				["Tab"] = 2,
+				["Index"] = 15,
+				["Col"] = 2,
+				["Icon"] = 135879,
+				["MxRnk"] = 5,
+				["Row"] = 6,
+				["Rank"] = 0,
+			}, -- [31]
+			{
+				["Tab"] = 2,
+				["Index"] = 16,
+				["Col"] = 2,
+				["Icon"] = 136112,
+				["MxRnk"] = 1,
+				["Row"] = 7,
+				["Rank"] = 0,
+			}, -- [32]
+			{
+				["Tab"] = 3,
+				["Index"] = 1,
+				["Col"] = 2,
+				["Icon"] = 136078,
+				["MxRnk"] = 5,
+				["Row"] = 1,
+				["Rank"] = 0,
+			}, -- [33]
+			{
+				["Tab"] = 3,
+				["Index"] = 2,
+				["Col"] = 3,
+				["Icon"] = 135881,
+				["MxRnk"] = 5,
+				["Row"] = 1,
+				["Rank"] = 0,
+			}, -- [34]
+			{
+				["Tab"] = 3,
+				["Index"] = 3,
+				["Col"] = 1,
+				["Icon"] = 136041,
+				["MxRnk"] = 5,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [35]
+			{
+				["Tab"] = 3,
+				["Index"] = 4,
+				["Col"] = 2,
+				["Icon"] = 136042,
+				["MxRnk"] = 5,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [36]
+			{
+				["Tab"] = 3,
+				["Index"] = 5,
+				["Col"] = 3,
+				["Icon"] = 132126,
+				["MxRnk"] = 2,
+				["Row"] = 2,
+				["Rank"] = 0,
+			}, -- [37]
+			{
+				["Tab"] = 3,
+				["Index"] = 6,
+				["Col"] = 2,
+				["Icon"] = 135863,
+				["MxRnk"] = 3,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [38]
+			{
+				["Tab"] = 3,
+				["Index"] = 7,
+				["Col"] = 3,
+				["Icon"] = 136045,
+				["MxRnk"] = 1,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [39]
+			{
+				["Tab"] = 3,
+				["Index"] = 8,
+				["Col"] = 4,
+				["Icon"] = 132150,
+				["MxRnk"] = 5,
+				["Row"] = 3,
+				["Rank"] = 0,
+			}, -- [40]
+			{
+				["Tab"] = 3,
+				["Index"] = 9,
+				["Col"] = 2,
+				["Icon"] = 135900,
+				["MxRnk"] = 5,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [41]
+			{
+				["Tab"] = 3,
+				["Index"] = 10,
+				["Col"] = 4,
+				["Icon"] = 136081,
+				["MxRnk"] = 3,
+				["Row"] = 4,
+				["Rank"] = 0,
+			}, -- [42]
+			{
+				["Tab"] = 3,
+				["Index"] = 11,
+				["Col"] = 1,
+				["Icon"] = 136076,
+				["MxRnk"] = 1,
+				["Row"] = 5,
+				["Rank"] = 0,
+			}, -- [43]
+			{
+				["Tab"] = 3,
+				["Index"] = 12,
+				["Col"] = 3,
+				["Icon"] = 136074,
+				["MxRnk"] = 5,
+				["Row"] = 5,
+				["Rank"] = 0,
+			}, -- [44]
+			{
+				["Tab"] = 3,
+				["Index"] = 13,
+				["Col"] = 4,
+				["Icon"] = 136107,
+				["MxRnk"] = 2,
+				["Row"] = 5,
+				["Rank"] = 0,
+			}, -- [45]
+			{
+				["Tab"] = 3,
+				["Index"] = 14,
+				["Col"] = 3,
+				["Icon"] = 136085,
+				["MxRnk"] = 5,
+				["Row"] = 6,
+				["Rank"] = 0,
+			}, -- [46]
+			{
+				["Tab"] = 3,
+				["Index"] = 15,
+				["Col"] = 2,
+				["Icon"] = 134914,
+				["MxRnk"] = 1,
+				["Row"] = 7,
+				["Rank"] = 0,
+			}, -- [47]
+		},
+	},
+	["CookingLevel"] = 0,
+	["Class"] = "",
+	["Profession2Spec"] = -1,
+	["Profession1Level"] = 10,
+	["MainCharacter"] = "-",
+	["MainSpecIsPvP"] = false,
+	["FirstAidLevel"] = 0,
+	["Profession2"] = "-",
+	["Profession1Spec"] = -1,
+	["Profession2Level"] = 0,
+	["PublicNote"] = "",
+	["OffSpecIsPvP"] = false,
+	["Race"] = "",
+	["OffSpec"] = "-",
+	["Profession1"] = "Herbalism",
+	["RankName"] = "",
+	["TalentTabs"] = {
+		["primary"] = {
+			{
+				["points"] = 0,
+				["spec"] = "Balance",
+				["texture"] = "DruidBalance",
+			}, -- [1]
+			{
+				["points"] = 0,
+				["spec"] = "Bear",
+				["texture"] = "DruidFeralCombat",
+			}, -- [2]
+			{
+				["points"] = 0,
+				["spec"] = "Restoration",
+				["texture"] = "DruidRestoration",
+			}, -- [3]
+		},
+	},
+	["Gender"] = "",
+	["ItemLevel"] = {
+		["Current"] = 6.88,
+	},
+	["CalendarEvents"] = {
+	},
+	["profile"] = {
+	},
+	["MainSpec"] = "-",
+	["Name"] = "",
+	["Alts"] = {
+	},
+	["OfficerNote"] = "",
+	["Availability"] = {
+	},
+	["FishingLevel"] = 0,
+	["PaperDollStats"] = {
+		["Current"] = {
+			["Intellect"] = 28,
+			["SpellCritHoly"] = 5,
+			["SpellCritFire"] = 5,
+			["SpellDmgHoly"] = 0,
+			["SpellCritNature"] = 5,
+			["SpellDmgFire"] = 0,
+			["Spirit"] = 29,
+			["MeleeHit"] = 0,
+			["RangedCrit"] = 4.33,
+			["SpellHit"] = 0,
+			["Defence"] = {
+				["Base"] = 34,
+				["Mod"] = 0,
+			},
+			["SpellDmgFrost"] = 0,
+			["SpellCrit"] = 5,
+			["HealingBonus"] = 0,
+			["MeleeDmgOH"] = 0,
+			["SpellDmgShadow"] = 0,
+			["RangedDps"] = 7.43,
+			["RangedHit"] = 0,
+			["Haste"] = 0,
+			["ManaRegen"] = 7.25,
+			["Dodge"] = 6.65,
+			["Armor"] = 187,
+			["Block"] = 0,
+			["SpellCritFrost"] = 5,
+			["Strength"] = 22,
+			["AttackPower"] = 24,
+			["Stamina"] = 23,
+			["Agility"] = 28,
+			["RangedDmg"] = 7.43,
+			["MeleeDpsMH"] = 5.91,
+			["MeleeDmgMH"] = 14.79,
+			["SpellCritShadow"] = 5,
+			["Parry"] = 0,
+			["Expertise"] = 0,
+			["ManaRegenCasting"] = 0,
+			["SpellCritArcane"] = 5,
+			["MeleeCrit"] = 5.69,
+			["MeleeDpsOH"] = 0,
+			["SpellDmgArcane"] = 0,
+			["ShieldBlock"] = 1,
+			["SpellDmgNature"] = 0,
+		},
+	},
+}

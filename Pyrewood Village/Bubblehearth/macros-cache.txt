@@ -1,0 +1,47 @@
+VER 3 0000000001000006 "BoF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Blessing of Freedom
+END
+VER 3 0000000001000004 "BoP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Blessing of Protection
+END
+VER 3 0000000001000002 "Dspl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Cleanse
+END
+VER 3 0000000001000007 "FoL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Flash of Light
+END
+VER 3 0000000001000001 "HL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Holy Light
+END
+VER 3 0000000001000005 "HL2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Holy Light(Rank 2)
+END
+VER 3 0000000001000009 "HL5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Holy Light(Rank 5)
+END
+VER 3 0000000001000008 "HL6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Holy Light(Rank 6)
+END
+VER 3 000000000100000C "HS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Holy Shock
+END
+VER 3 0000000001000003 "LoH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Lay on Hands
+END
+VER 3 000000000100000A "Mana" "132819"
+/p lil mana pls
+END
+VER 3 000000000100000B "Water" "132816"
+/1 is there a friendly mage  that would sell me level 55 water?
+/2 is there a friendly mage  that would sell me level 55 water?
+END

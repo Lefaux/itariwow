@@ -1,0 +1,16 @@
+
+IOWDB = {
+	["ginv"] = {
+		["ginv"] = true,
+		["guildinv"] = true,
+		["ginvite"] = true,
+	},
+	["keywordMatchMiddle"] = true,
+	["inv"] = {
+		["inv"] = true,
+		["invite"] = true,
+	},
+	["triggerOutgoingGInv"] = true,
+	["confirm"] = false,
+	["triggerOutgoingInv"] = false,
+}

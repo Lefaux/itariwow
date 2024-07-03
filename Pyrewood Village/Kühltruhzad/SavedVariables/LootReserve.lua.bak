@@ -1,0 +1,14 @@
+
+LootReserveCharacterSave = {
+	["Server"] = {
+		["RollHistory"] = {
+		},
+		["RecentLoot"] = {
+		},
+		["Version"] = "2023-06-26",
+	},
+	["Client"] = {
+		["CharacterFavorites"] = {
+		},
+	},
+}

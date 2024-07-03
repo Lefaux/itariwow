@@ -1,33 +1,8 @@
 
 LootReserveGlobalSave = {
-	["Client"] = {
-		["Settings"] = {
-			["RollRequestGlowOnlyReserved"] = true,
-			["AllowPreCache"] = false,
-			["CollapsedCategories"] = {
-			},
-			["RollRequestAutoCloseTiered"] = false,
-			["CollapsedExpansions"] = {
-			},
-			["SwapLDBButtons"] = false,
-			["RollRequestAutoRollNotified"] = false,
-			["ShowReopenHint"] = true,
-			["RollRequestShow"] = true,
-			["RollRequestShowUnusable"] = false,
-			["RollRequestShowUnusableBoE"] = false,
-			["RollRequestAutoRollReserved"] = true,
-			["LibDBIcon"] = {
-			},
-			["RollRequestWinnerReaction"] = true,
-			["RollRequestLoserReaction"] = true,
-		},
-		["Version"] = "2024-06-23",
-		["GlobalFavorites"] = {
-		},
-	},
 	["Server"] = {
 		["NewSessionSettings"] = {
-			["MaxReservesPerPlayer"] = 1,
+			["MaxReservesPerPlayer"] = 2,
 			["Multireserve"] = 1,
 			["Blind"] = false,
 			["Duration"] = 300,
@@ -37,6 +12,7 @@ LootReserveGlobalSave = {
 			["ImportedMembers"] = {
 			},
 			["LootCategories"] = {
+				1040, -- [1]
 			},
 		},
 		["Settings"] = {
@@ -73,10 +49,8 @@ LootReserveGlobalSave = {
 			["Phases"] = {
 				"Main Spec", -- [1]
 				"Off Spec", -- [2]
-				"PvP", -- [3]
-				"Cosmetic", -- [4]
-				"Collection", -- [5]
-				"Vendor", -- [6]
+				"Collection", -- [3]
+				"Vendor", -- [4]
 			},
 			["Disenchanters"] = {
 			},
@@ -95,6 +69,12 @@ LootReserveGlobalSave = {
 			["CollapsedExpansions"] = {
 			},
 			["ItemConditions"] = {
+				[1050] = {
+				},
+				[1040] = {
+				},
+				[1010] = {
+				},
 			},
 			["WinnerReservesRemoval"] = 2,
 			["RemoveRecentLootAfterRolling"] = true,
@@ -108,5 +88,32 @@ LootReserveGlobalSave = {
 				"Off Spec", -- [2]
 			},
 		},
+	},
+	["Client"] = {
+		["GlobalFavorites"] = {
+		},
+		["Settings"] = {
+			["RollRequestGlowOnlyReserved"] = true,
+			["AllowPreCache"] = false,
+			["CollapsedCategories"] = {
+			},
+			["RollRequestAutoCloseTiered"] = false,
+			["CollapsedExpansions"] = {
+			},
+			["SwapLDBButtons"] = false,
+			["RollRequestAutoRollNotified"] = true,
+			["ShowReopenHint"] = true,
+			["RollRequestShow"] = true,
+			["RollRequestShowUnusable"] = false,
+			["RollRequestShowUnusableBoE"] = false,
+			["RollRequestAutoRollReserved"] = true,
+			["LibDBIcon"] = {
+				["minimapPos"] = 158.8593791733099,
+				["hide"] = true,
+			},
+			["RollRequestWinnerReaction"] = true,
+			["RollRequestLoserReaction"] = true,
+		},
+		["Version"] = "2024-06-23",
 	},
 }

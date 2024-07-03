@@ -1,0 +1,907 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+	},
+	["currentStep"] = 1,
+	["questObjectivesCache"] = {
+		[0] = 0,
+	},
+	["currentGuideGroup"] = "",
+	["flightPaths"] = {
+		nil, -- [1]
+		"Stormwind, Elwynn", -- [2]
+		nil, -- [3]
+		"Sentinel Hill, Westfall", -- [4]
+		"Lakeshire, Redridge", -- [5]
+		"Ironforge, Dun Morogh", -- [6]
+		"Menethil Harbor, Wetlands", -- [7]
+		"Thelsamar, Loch Modan", -- [8]
+		nil, -- [9]
+		nil, -- [10]
+		nil, -- [11]
+		"Darkshire, Duskwood", -- [12]
+		nil, -- [13]
+		"Southshore, Hillsbrad", -- [14]
+		nil, -- [15]
+		"Refuge Pointe, Arathi", -- [16]
+		[43] = "Aerie Peak, The Hinterlands",
+		[66] = "Chillwind Camp, Western Plaguelands",
+		[45] = "Nethergarde Keep, Blasted Lands",
+		[74] = "Thorium Point, Searing Gorge",
+		[19] = "Booty Bay, Stranglethorn",
+		[71] = "Morgan's Vigil, Burning Steppes",
+		[67] = "Light's Hope Chapel, Eastern Plaguelands",
+	},
+	["questNameCache"] = {
+	},
+	["guideDisabled"] = {
+		25772, -- [1]
+		21350, -- [2]
+		15228, -- [3]
+		28144, -- [4]
+		13298, -- [5]
+		47212, -- [6]
+		11355, -- [7]
+		63774, -- [8]
+		22251, -- [9]
+		22312, -- [10]
+		31871, -- [11]
+		24660, -- [12]
+		28740, -- [13]
+		29887, -- [14]
+		40524, -- [15]
+		nil, -- [16]
+		nil, -- [17]
+		nil, -- [18]
+		nil, -- [19]
+		nil, -- [20]
+		nil, -- [21]
+		nil, -- [22]
+		10866, -- [23]
+		30184, -- [24]
+		85246, -- [25]
+		nil, -- [26]
+		nil, -- [27]
+		nil, -- [28]
+		nil, -- [29]
+		nil, -- [30]
+		69117, -- [31]
+		nil, -- [32]
+		26331, -- [33]
+		nil, -- [34]
+		nil, -- [35]
+		nil, -- [36]
+		nil, -- [37]
+		nil, -- [38]
+		nil, -- [39]
+		nil, -- [40]
+		nil, -- [41]
+		nil, -- [42]
+		nil, -- [43]
+		nil, -- [44]
+		nil, -- [45]
+		nil, -- [46]
+		nil, -- [47]
+		nil, -- [48]
+		nil, -- [49]
+		37213, -- [50]
+		621, -- [51]
+		967, -- [52]
+		1045, -- [53]
+		3598, -- [54]
+		2969, -- [55]
+		3500, -- [56]
+		785, -- [57]
+		816, -- [58]
+		1047, -- [59]
+		727, -- [60]
+		983, -- [61]
+		1407, -- [62]
+		1078, -- [63]
+		1092, -- [64]
+		1001, -- [65]
+		896, -- [66]
+		808, -- [67]
+		1068, -- [68]
+		746, -- [69]
+		1262, -- [70]
+		2045, -- [71]
+		4814, -- [72]
+		3634, -- [73]
+		3630, -- [74]
+		857, -- [75]
+		1425, -- [76]
+		1358, -- [77]
+		1242, -- [78]
+		1280, -- [79]
+		652, -- [80]
+		970, -- [81]
+		881, -- [82]
+		770, -- [83]
+		5656, -- [84]
+		893, -- [85]
+		2972, -- [86]
+		2202, -- [87]
+		1009, -- [88]
+		2130, -- [89]
+		982, -- [90]
+		6944, -- [91]
+		1003, -- [92]
+		742, -- [93]
+		591, -- [94]
+		1296, -- [95]
+		804, -- [96]
+		1053, -- [97]
+		767, -- [98]
+		1971, -- [99]
+		1084, -- [100]
+		934, -- [101]
+		928, -- [102]
+		1634, -- [103]
+		934, -- [104]
+		3507, -- [105]
+		1526, -- [106]
+		1453, -- [107]
+		1174, -- [108]
+		1010, -- [109]
+		984, -- [110]
+		553, -- [111]
+		607, -- [112]
+		1001, -- [113]
+		1050, -- [114]
+		1012, -- [115]
+		2477, -- [116]
+		2925, -- [117]
+		2779, -- [118]
+		1079, -- [119]
+		1007, -- [120]
+		686, -- [121]
+		1245, -- [122]
+		1117, -- [123]
+		967, -- [124]
+		1307, -- [125]
+		5361, -- [126]
+		2095, -- [127]
+		2616, -- [128]
+		1517, -- [129]
+		673, -- [130]
+		1301, -- [131]
+		3130, -- [132]
+		799, -- [133]
+		2470, -- [134]
+		1773, -- [135]
+		1826, -- [136]
+		995, -- [137]
+		1281, -- [138]
+		1408, -- [139]
+		833, -- [140]
+		1064, -- [141]
+		1567, -- [142]
+		1117, -- [143]
+		683, -- [144]
+		821, -- [145]
+		1655, -- [146]
+		1025, -- [147]
+		1959, -- [148]
+		2290, -- [149]
+		890, -- [150]
+		7120, -- [151]
+		4991, -- [152]
+		634, -- [153]
+		1886, -- [154]
+		1350, -- [155]
+		1308, -- [156]
+		1420, -- [157]
+		2181, -- [158]
+		547, -- [159]
+		3213, -- [160]
+		1244, -- [161]
+		678, -- [162]
+		682, -- [163]
+		684, -- [164]
+		682, -- [165]
+		1137, -- [166]
+		988, -- [167]
+		1595, -- [168]
+		1553, -- [169]
+		1613, -- [170]
+		1656, -- [171]
+		1041, -- [172]
+		962, -- [173]
+		1429, -- [174]
+		775, -- [175]
+		807, -- [176]
+		1158, -- [177]
+		1092, -- [178]
+		3454, -- [179]
+		849, -- [180]
+		1545, -- [181]
+		967, -- [182]
+		1180, -- [183]
+		1799, -- [184]
+		2837, -- [185]
+		3319, -- [186]
+		2207, -- [187]
+		2304, -- [188]
+		2771, -- [189]
+		2326, -- [190]
+		1785, -- [191]
+		2857, -- [192]
+		2037, -- [193]
+		1858, -- [194]
+		2963, -- [195]
+		1663, -- [196]
+		1764, -- [197]
+		1187, -- [198]
+		1202, -- [199]
+		1190, -- [200]
+		1208, -- [201]
+		2982, -- [202]
+		2279, -- [203]
+		21611, -- [204]
+		18697, -- [205]
+		1635, -- [206]
+		1746, -- [207]
+		1650, -- [208]
+		1837, -- [209]
+		2552, -- [210]
+		1947, -- [211]
+		2259, -- [212]
+		1768, -- [213]
+		1698, -- [214]
+		3746, -- [215]
+		1381, -- [216]
+		958, -- [217]
+		2623, -- [218]
+		1526, -- [219]
+		2138, -- [220]
+		1692, -- [221]
+		1680, -- [222]
+		1614, -- [223]
+		1701, -- [224]
+		1940, -- [225]
+		1634, -- [226]
+		1723, -- [227]
+		2255, -- [228]
+		1685, -- [229]
+		2854, -- [230]
+		2562, -- [231]
+		6364, -- [232]
+		4836, -- [233]
+		3123, -- [234]
+		5771, -- [235]
+		2582, -- [236]
+		1986, -- [237]
+		3508, -- [238]
+		9493, -- [239]
+		1750, -- [240]
+		2092, -- [241]
+		3057, -- [242]
+		3137, -- [243]
+		3186, -- [244]
+		1957, -- [245]
+		5830, -- [246]
+		4982, -- [247]
+		1942, -- [248]
+		1999, -- [249]
+		2449, -- [250]
+		2075, -- [251]
+		1133, -- [252]
+		4984, -- [253]
+		911, -- [254]
+		1028, -- [255]
+		1566, -- [256]
+		954, -- [257]
+		937, -- [258]
+		1758, -- [259]
+		2093, -- [260]
+		1048, -- [261]
+		1448, -- [262]
+		935, -- [263]
+		1166, -- [264]
+		807, -- [265]
+		821, -- [266]
+		1339, -- [267]
+		1176, -- [268]
+		1354, -- [269]
+		892, -- [270]
+		864, -- [271]
+		899, -- [272]
+		879, -- [273]
+		1138, -- [274]
+		1031, -- [275]
+		1023, -- [276]
+		1023, -- [277]
+		1187, -- [278]
+		1545, -- [279]
+		2520, -- [280]
+		2494, -- [281]
+		1268, -- [282]
+		1527, -- [283]
+		731, -- [284]
+		779, -- [285]
+		1069, -- [286]
+		916, -- [287]
+		2298, -- [288]
+		2818, -- [289]
+		2755, -- [290]
+		2174, -- [291]
+		1137, -- [292]
+		1182, -- [293]
+		1176, -- [294]
+		1104, -- [295]
+		1178, -- [296]
+		640, -- [297]
+		619, -- [298]
+		1048, -- [299]
+		969, -- [300]
+		1104, -- [301]
+		1052, -- [302]
+		1464, -- [303]
+		1819, -- [304]
+		2097, -- [305]
+		1599, -- [306]
+		1236, -- [307]
+		758, -- [308]
+		797, -- [309]
+		748, -- [310]
+		944, -- [311]
+		1122, -- [312]
+		5006, -- [313]
+		6282, -- [314]
+		1950, -- [315]
+		757, -- [316]
+		1512, -- [317]
+		1925, -- [318]
+		2158, -- [319]
+		2662, -- [320]
+		1977, -- [321]
+		653, -- [322]
+		876, -- [323]
+		884, -- [324]
+		2041, -- [325]
+		1039, -- [326]
+		1068, -- [327]
+		1514, -- [328]
+		1213, -- [329]
+		7412, -- [330]
+		1807, -- [331]
+		1816, -- [332]
+		3979, -- [333]
+		2120, -- [334]
+		1692, -- [335]
+		6674, -- [336]
+		8040, -- [337]
+		8737, -- [338]
+		7675, -- [339]
+		7099, -- [340]
+		2163, -- [341]
+		6436, -- [342]
+		2549, -- [343]
+		6783, -- [344]
+		8112, -- [345]
+		2158, -- [346]
+		2761, -- [347]
+		2814, -- [348]
+		2549, -- [349]
+		1806, -- [350]
+		13426, -- [351]
+		2949, -- [352]
+		6655, -- [353]
+		1644, -- [354]
+		3124, -- [355]
+		909, -- [356]
+		1054, -- [357]
+		1315, -- [358]
+		936, -- [359]
+		8538, -- [360]
+		1471, -- [361]
+		2007, -- [362]
+		[0] = 362,
+	},
+	["currentGuideName"] = "",
+	["stepSkip"] = {
+	},
+	["discardPile"] = {
+	},
+	["guideMetaData"] = {
+		["RestedXP Alliance 1-20||11-13 Loch Modan (Hunter)"] = {
+			["guideId"] = 2386759600,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "14-16 Darkshore",
+			["classic"] = "",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["defaultFor"] = "Dwarf",
+			["era/som"] = "",
+			["enabledFor"] = "Alliance Hunter",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|11-13 Loch Modan (Hunter)",
+			["name"] = "11-13 Loch Modan (Hunter)",
+			["version"] = 1,
+			["length"] = 27401,
+			["defaultfor"] = "Dwarf",
+			["displayname"] = "11-13 Loch Modan",
+		},
+		["RestedXP Alliance 1-20||6-11 Dun Morogh"] = {
+			["guideId"] = 52235449,
+			["era/som"] = "",
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "11-12 Elwynn (Dwarf/Gnome);11-12 Voidwalker Quest;12-14 Loch Modan (Dwarf/Gnome);11-13 Loch Modan (Hunter)",
+			["classic"] = "",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["defaultFor"] = "Dwarf/Gnome",
+			["xprate"] = ">1.49",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Dun Morogh",
+			["name"] = "06-11 Dun Morogh",
+			["version"] = 1,
+			["length"] = 145475,
+			["defaultfor"] = "Dwarf/Gnome",
+			["displayname"] = "6-11 Dun Morogh",
+		},
+		["RestedXP Survival Guide (A)||6-11 Elwynn Forest"] = {
+			["guideId"] = 2306674745,
+			["era/som"] = "",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Human",
+			["hardcore"] = "",
+			["classic"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["name"] = "06-11 Elwynn Forest",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|06-11 Elwynn Forest",
+			["version"] = 1,
+			["next"] = "11-13 Loch Modan",
+			["length"] = 67322,
+			["displayname"] = "6-11 Elwynn Forest",
+		},
+		["RestedXP Survival Guide (A)||18-19 Loch Modan"] = {
+			["guideId"] = 1715867385,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "19-20 Redridge",
+			["classic"] = "",
+			["hardcore"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|18-19 Loch Modan",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["length"] = 16345,
+			["name"] = "18-19 Loch Modan",
+			["displayname"] = "18-19 Loch Modan",
+		},
+		["RestedXP Alliance 1-20||6-11 Dun Morogh (Hunter)"] = {
+			["guideId"] = 2196115360,
+			["era/som"] = "",
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "11-13 Loch Modan (Hunter)",
+			["classic"] = "",
+			["defaultfor"] = "Dwarf Hunter",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["defaultFor"] = "Dwarf Hunter",
+			["xprate"] = "<1.5",
+			["enabledFor"] = "Alliance Hunter",
+			["name"] = "06-11 Dun Morogh (Hunter)",
+			["version"] = 1,
+			["length"] = 27646,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Dun Morogh (Hunter)",
+			["displayname"] = "6-11 Dun Morogh",
+		},
+		["RestedXP Survival Guide (A)||20-21 Darkshore/Ashenvale"] = {
+			["guideId"] = 27398847,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "21-23 Stonetalon/Ashenvale",
+			["classic"] = "",
+			["hardcore"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|20-21 Darkshore/Ashenvale",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["length"] = 26633,
+			["name"] = "20-21 Darkshore/Ashenvale",
+			["displayname"] = "20-21 Darkshore/Ashenvale",
+		},
+		["RestedXP Alliance 1-20||16-19 Darkshore"] = {
+			["guideId"] = 60230882,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "19-21 Darkshore/Ashenvale",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|16-19 Darkshore",
+			["version"] = 1,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 218296,
+			["name"] = "16-19 Darkshore",
+			["displayname"] = "16-19 Darkshore",
+		},
+		["RestedXP Survival Guide (A)||1-6 Shadowglen"] = {
+			["guideId"] = 1305284356,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["group"] = "RestedXP Survival Guide (A)",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|01-06 Shadowglen",
+			["version"] = 1,
+			["name"] = "01-06 Shadowglen",
+			["length"] = 11309,
+			["next"] = "6-11 Teldrassil",
+			["displayname"] = "1-6 Shadowglen",
+		},
+		["RestedXP Alliance 1-20||6-11 Teldrassil"] = {
+			["guideId"] = 94965021,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["enabledFor"] = "Alliance",
+			["defaultFor"] = "NightElf",
+			["classic"] = "",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Teldrassil",
+			["version"] = 1,
+			["next"] = "14-16 Darkshore",
+			["length"] = 94606,
+			["name"] = "06-11 Teldrassil",
+			["displayname"] = "6-11 Teldrassil",
+		},
+		["enableGroupQuests"] = {
+			["RestedXP Alliance 1-20"] = true,
+			["RestedXP Survival Guide (A)"] = true,
+		},
+		["RestedXP Survival Guide (A)||15-18 Darkshore"] = {
+			["guideId"] = 1493569283,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "18-19 Loch Modan",
+			["classic"] = "",
+			["hardcore"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|15-18 Darkshore",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["length"] = 42175,
+			["name"] = "15-18 Darkshore",
+			["displayname"] = "15-18 Darkshore",
+		},
+		["RestedXP Survival Guide (A)||11-13 Loch Modan (Dwarf/Gnome)"] = {
+			["guideId"] = 1454117750,
+			["era/som"] = "",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Gnome/Dwarf",
+			["hardcore"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Gnome/Dwarf",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|11-13 Loch Modan (Dwarf/Gnome)",
+			["name"] = "11-13 Loch Modan (Dwarf/Gnome)",
+			["version"] = 1,
+			["length"] = 21425,
+			["next"] = "13-15 Westfall",
+			["displayname"] = "11-13 Loch Modan (Dwarf/Gnome)",
+		},
+		["RestedXP Survival Guide (A)||13-15 Westfall"] = {
+			["guideId"] = 1247612573,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Human/Gnome/Dwarf/NightElf",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "Human/Gnome/Dwarf/NightElf",
+			["group"] = "RestedXP Survival Guide (A)",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|13-15 Westfall",
+			["version"] = 1,
+			["name"] = "13-15 Westfall",
+			["length"] = 21745,
+			["next"] = "15-18 Darkshore",
+			["displayname"] = "13-15 Westfall",
+		},
+		["RestedXP Survival Guide (A)||11-13 Darkshore (Night Elf)"] = {
+			["guideId"] = 587731612,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "13-13 Loch Modan (Night Elf)",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["group"] = "RestedXP Survival Guide (A)",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|11-13 Darkshore (Night Elf)",
+			["version"] = 1,
+			["name"] = "11-13 Darkshore (Night Elf)",
+			["length"] = 21122,
+			["defaultfor"] = "NightElf",
+			["displayname"] = "11-13 Darkshore (Night Elf)",
+		},
+		["RestedXP Survival Guide (A)||10-11 Elwynn (Dwarf/Gnome)"] = {
+			["guideId"] = 249434715,
+			["era/som"] = "",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Gnome/Dwarf",
+			["hardcore"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Gnome/Dwarf",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|10-11 Elwynn (Dwarf/Gnome)",
+			["name"] = "10-11 Elwynn (Dwarf/Gnome)",
+			["version"] = 1,
+			["length"] = 28167,
+			["next"] = "11-13 Loch Modan (Dwarf/Gnome)",
+			["displayname"] = "10-11 Elwynn (Dwarf/Gnome)",
+		},
+		["RestedXP Survival Guide (A)||13-13 Loch Modan (Night Elf)"] = {
+			["guideId"] = 798233232,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "13-15 Westfall",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["group"] = "RestedXP Survival Guide (A)",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|13-13 Loch Modan (Night Elf)",
+			["version"] = 1,
+			["name"] = "13-13 Loch Modan (Night Elf)",
+			["length"] = 29921,
+			["defaultfor"] = "NightElf",
+			["displayname"] = "13-13 Loch Modan (Night Elf)",
+		},
+		["RestedXP Survival Guide (A)||6-10 Dun Morogh"] = {
+			["guideId"] = 1486425819,
+			["era/som"] = "",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Dwarf/Gnome",
+			["hardcore"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Dwarf/Gnome",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|06-10 Dun Morogh",
+			["name"] = "06-10 Dun Morogh",
+			["version"] = 1,
+			["length"] = 55423,
+			["next"] = "10-11 Elwynn (Dwarf/Gnome)",
+			["displayname"] = "6-10 Dun Morogh",
+		},
+		["RestedXP Alliance 1-20||11-13 Loch Modan"] = {
+			["guideId"] = 233442505,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "13-15 Westfall; 14-16 Darkshore",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|11-13 Loch Modan",
+			["defaultFor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["name"] = "11-13 Loch Modan",
+			["defaultfor"] = "Human",
+			["length"] = 62597,
+			["version"] = 1,
+			["displayname"] = "11-13 Loch Modan",
+		},
+		["RestedXP Survival Guide (A)||19-20 Redridge"] = {
+			["guideId"] = 1241255555,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "20-21 Darkshore/Ashenvale",
+			["classic"] = "",
+			["hardcore"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|19-20 Redridge",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["length"] = 60123,
+			["name"] = "19-20 Redridge",
+			["displayname"] = "19-20 Redridge",
+		},
+		["RestedXP Alliance 1-20||19-21 Darkshore/Ashenvale"] = {
+			["guideId"] = 2540441764,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "21-23 Ashenvale/Stonetalon",
+			["classic"] = "",
+			["season"] = "0",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|19-21 Darkshore/Ashenvale",
+			["version"] = 1,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["name"] = "19-21 Darkshore/Ashenvale",
+			["length"] = 24781,
+			["enabledFor"] = "Alliance Hunter",
+			["displayname"] = "19-21 Darkshore/Ashenvale",
+		},
+		["RestedXP Alliance 1-20||1-6 Shadowglen"] = {
+			["guideId"] = 4200140001,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["enabledFor"] = "Alliance",
+			["defaultFor"] = "NightElf",
+			["classic"] = "",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|01-06 Shadowglen",
+			["version"] = 1,
+			["next"] = "6-11 Teldrassil",
+			["length"] = 33153,
+			["name"] = "01-06 Shadowglen",
+			["displayname"] = "1-6 Shadowglen",
+		},
+		["RestedXP Alliance 1-20||6-11 Elwynn Forest"] = {
+			["guideId"] = 764153366,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "11-13 Loch Modan",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Elwynn Forest",
+			["defaultFor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["name"] = "06-11 Elwynn Forest",
+			["defaultfor"] = "Human",
+			["length"] = 173934,
+			["version"] = 1,
+			["displayname"] = "6-11 Elwynn Forest",
+		},
+		["RestedXP Survival Guide (A)||11-13 Loch Modan"] = {
+			["guideId"] = 1704267500,
+			["era/som"] = "",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Human",
+			["hardcore"] = "",
+			["classic"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["name"] = "11-13 Loch Modan",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|11-13 Loch Modan",
+			["version"] = 1,
+			["next"] = "13-15 Westfall",
+			["length"] = 19583,
+			["displayname"] = "11-13 Loch Modan",
+		},
+		["RestedXP Survival Guide (A)||1-6 Coldridge Valley"] = {
+			["guideId"] = 2904887570,
+			["era/som"] = "",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Dwarf/Gnome",
+			["hardcore"] = "",
+			["classic"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Dwarf/Gnome",
+			["enabledFor"] = "Alliance",
+			["name"] = "01-06 Coldridge Valley",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|01-06 Coldridge Valley",
+			["version"] = 1,
+			["next"] = "6-10 Dun Morogh",
+			["length"] = 17307,
+			["displayname"] = "1-6 Coldridge Valley",
+		},
+		["RestedXP Alliance 1-20||13-15 Westfall"] = {
+			["guideId"] = 4142468218,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "14-16 Darkshore",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|13-15 Westfall",
+			["defaultFor"] = "!NightElf !Hunter",
+			["xprate"] = "<1.5",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["name"] = "13-15 Westfall",
+			["defaultfor"] = "!NightElf !Hunter",
+			["length"] = 32996,
+			["version"] = 1,
+			["displayname"] = "13-15 Westfall",
+		},
+		["RestedXP Survival Guide (A)||1-6 Northshire"] = {
+			["guideId"] = 1319112478,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Human",
+			["classic"] = "",
+			["group"] = "RestedXP Survival Guide (A)",
+			["hardcore"] = "",
+			["defaultFor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["name"] = "01-06 Northshire",
+			["next"] = "6-11 Elwynn Forest; 6-13 Elwynn Forest",
+			["length"] = 14987,
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|01-06 Northshire",
+			["displayname"] = "1-6 Northshire",
+		},
+		["RestedXP Alliance 1-20||14-16 Darkshore"] = {
+			["guideId"] = 56233181,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "16-19 Darkshore",
+			["classic"] = "",
+			["version"] = 1,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|14-16 Darkshore",
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 159942,
+			["name"] = "14-16 Darkshore",
+			["displayname"] = "11-16 Darkshore",
+		},
+		["RestedXP Survival Guide (A)||6-11 Teldrassil"] = {
+			["guideId"] = 1529941824,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["group"] = "RestedXP Survival Guide (A)",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|06-11 Teldrassil",
+			["version"] = 1,
+			["name"] = "06-11 Teldrassil",
+			["length"] = 44602,
+			["next"] = "11-13 Darkshore (Night Elf)",
+			["displayname"] = "6-11 Teldrassil",
+		},
+		["enabledDungeons"] = {
+			["Horde"] = {
+			},
+			["Alliance"] = {
+				["DM"] = "The Deadmines",
+				["WC"] = "Wailing Caverns",
+			},
+		},
+		["RestedXP Alliance 1-20||1-6 Coldridge Valley"] = {
+			["guideId"] = 1290669807,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "Dwarf/Gnome",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|01-06 Coldridge Valley",
+			["defaultFor"] = "Dwarf/Gnome",
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["name"] = "01-06 Coldridge Valley",
+			["version"] = 1,
+			["length"] = 50271,
+			["next"] = "6-11 Dun Morogh (Hunter);6-11 Dun Morogh",
+			["displayname"] = "1-6 Coldridge Valley",
+		},
+		["RestedXP Alliance 1-20||1-6 Northshire"] = {
+			["guideId"] = 4213968123,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["classic"] = "",
+			["defaultFor"] = "Human",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["version"] = 1,
+			["next"] = "6-11 Elwynn Forest",
+			["name"] = "01-06 Northshire",
+			["length"] = 62236,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|01-06 Northshire",
+			["displayname"] = "1-6 Northshire",
+		},
+		["dungeonGuides"] = {
+			["RestedXP Alliance 1-20"] = true,
+			["RestedXP Survival Guide (A)"] = true,
+		},
+	},
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+	},
+	["profiles"] = {
+		["Mattihunto - Nethergarde Keep"] = {
+			["levels"] = {
+				[60] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+					},
+					["quests"] = {
+					},
+				},
+			},
+			["trackedGuid"] = "Player-5284-01822684",
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+	},
+	["profiles"] = {
+		["Mattihunto - Nethergarde Keep"] = {
+		},
+	},
+}
+RXPCSettings = nil

@@ -1,0 +1,40 @@
+VER 3 0000000001000003 "Freeze" "INV_MISC_QUESTIONMARK"
+#showtoolt
+/cast Freezing Trap
+/script if UnitAffectingCombat("player") then CastSpellByName("Feign Death") end
+/script if UnitExists("pettarget") and CheckInteractDistance("target", 3) and UnitIsUnit("target", "pettarget") then PetPassiveMode(); else end
+END
+VER 3 0000000001000004 "Immo" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Immolation Trap
+/script if UnitAffectingCombat("player") then CastSpellByName("Feign Death") end
+END
+VER 3 0000000001000005 "Melee" "132147"
+#/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+END
+VER 3 0000000001000006 "Passive" "132118"
+/script PetFollow("Raziya")
+/script CastPetAction(10);
+/cast Dash
+END
+VER 3 0000000001000007 "Pet" "132115"
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/script CastPetAction(2);
+/script CastPetAction(10);
+/script PetAttack(target)
+/cast Charge
+/cast Dash
+/cast 
+/cast Hunter's Mark
+END
+VER 3 0000000001000001 "PetAtk" "132103"
+/petattack
+/cast Hunter's Mark
+END
+VER 3 0000000001000002 "Vanish" "132089"
+/run local i,x=1,0 while UnitBuff("player",i) do if UnitBuff("player",i)=="Interface\\Icons\\Ability_Ambush" then x=1 end i=i+1 end if x==0 then CastSpellByName("Shadowmeld") else end
+/cast Feign Death
+END

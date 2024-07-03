@@ -1,6 +1,6 @@
 
 Blizzard_CombatLog_Filters = {
-	["currentFilter"] = 1,
+	["currentFilter"] = 2,
 	["filters"] = {
 		{
 			["quickButtonName"] = "My actions",
@@ -153,10 +153,10 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = false,
-				["schoolNameHighlighting"] = true,
-				["unitBraces"] = true,
 				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = false,
 				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
@@ -402,10 +402,10 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = false,
-				["schoolNameHighlighting"] = true,
-				["unitBraces"] = true,
 				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = false,
 				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,

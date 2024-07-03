@@ -1,0 +1,9 @@
+
+TradeSkillDWQ = {
+	["First Aid"] = {
+		["selectedIdx"] = 0,
+		["TSDWqueueList"] = {
+		},
+	},
+	["version"] = 1.7,
+}

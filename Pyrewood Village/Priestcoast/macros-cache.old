@@ -1,0 +1,4 @@
+VER 3 0000000001000001 "R" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Renew
+END

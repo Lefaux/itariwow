@@ -1,0 +1,46 @@
+
+KalielsTrackerDB = {
+	["char"] = {
+		["Lefaux - Nethergarde Keep"] = {
+			["quests"] = {
+				["filter"] = "all",
+			},
+			["collapsed"] = true,
+		},
+		["Bubblehearth - Nethergarde Keep"] = {
+			["collapsed"] = true,
+		},
+	},
+	["global"] = {
+		["helpTutorial"] = 9,
+		["version"] = "4.0.2",
+		["supportersTutorial"] = 1,
+	},
+	["profileKeys"] = {
+		["Lefaux - Nethergarde Keep"] = "Default",
+		["Hellocritty - Nethergarde Keep"] = "Default",
+		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Kühltruhzad - Nethergarde Keep"] = "Default",
+		["Muilocko - Nethergarde Keep"] = "Default",
+		["Mattihunto - Nethergarde Keep"] = "Default",
+		["Priestcoast - Nethergarde Keep"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["borderThickness"] = 5,
+			["messageAchievement"] = false,
+			["xOffset"] = 0,
+			["progressBar"] = "Clean",
+			["yOffset"] = -292,
+			["font"] = "PT Sans Narrow Regular",
+			["filterAuto"] = {
+				"zone", -- [1]
+			},
+			["fontSize"] = 11,
+			["maxHeight"] = 540,
+			["bgrInset"] = 3.5,
+			["achievementsHeaderTitleAppend"] = false,
+			["textWordWrap"] = true,
+		},
+	},
+}

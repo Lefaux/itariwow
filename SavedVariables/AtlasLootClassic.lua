@@ -1,13 +1,192 @@
 
 AtlasLootClassicDB = {
-	["profileKeys"] = {
-		["Naediin - Pyrewood Village"] = "Naediin - Pyrewood Village",
-	},
 	["global"] = {
 		["__addonrevision"] = 3020000,
 	},
+	["profileKeys"] = {
+		["Lefaux - Nethergarde Keep"] = "Lefaux - Nethergarde Keep",
+		["Bubblehearth - Nethergarde Keep"] = "Bubblehearth - Nethergarde Keep",
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+		["Priestcoast - Nethergarde Keep"] = "Priestcoast - Nethergarde Keep",
+		["Hellocritty - Nethergarde Keep"] = "Hellocritty - Nethergarde Keep",
+		["Locknroll - Nethergarde Keep"] = "Locknroll - Nethergarde Keep",
+		["Kühltruhzad - Nethergarde Keep"] = "Kühltruhzad - Nethergarde Keep",
+		["Aimalot - Wild Growth"] = "Aimalot - Wild Growth",
+		["Lefaux - Wild Growth"] = "Lefaux - Wild Growth",
+		["Muilocko - Nethergarde Keep"] = "Muilocko - Nethergarde Keep",
+		["Muisnipe - Razorfen"] = "Muisnipe - Razorfen",
+	},
 	["profiles"] = {
-		["Naediin - Pyrewood Village"] = {
+		["Lefaux - Nethergarde Keep"] = {
+			["minimap"] = {
+				["minimapPos"] = 181.9340479449305,
+				["shown"] = false,
+				["hide"] = true,
+			},
+			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					-33.6666259765625, -- [4]
+					82.1904296875, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"Naxxramas", -- [2]
+					9, -- [3]
+					3, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["Bubblehearth - Nethergarde Keep"] = {
+			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					92.2857437133789, -- [4]
+					4.238134384155273, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"Naxxramas", -- [2]
+					2, -- [3]
+					3, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["shown"] = false,
+				["minimapPos"] = 196.1992419575529,
+				["hide"] = true,
+			},
+		},
+		["Mattihunto - Nethergarde Keep"] = {
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-365.6195373535156, -- [4]
+					57.23810577392578, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"BlackrockDepths", -- [2]
+					2, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["shown"] = false,
+				["minimapPos"] = 166.2763147245702,
+				["hide"] = true,
+			},
+		},
+		["Priestcoast - Nethergarde Keep"] = {
+			["GUI"] = {
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"Enchanting", -- [2]
+					2, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 209.6501578344629,
+			},
+		},
+		["Hellocritty - Nethergarde Keep"] = {
+			["GUI"] = {
+				["selected"] = {
+					"AtlasLootClassic_PvP", -- [1]
+					"ArathiBasin", -- [2]
+					nil, -- [3]
+					2, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 208.5453153449267,
+			},
+		},
+		["Locknroll - Nethergarde Keep"] = {
+			["minimap"] = {
+				["minimapPos"] = 204.3581838094657,
+			},
+		},
+		["Kühltruhzad - Nethergarde Keep"] = {
+			["minimap"] = {
+				["minimapPos"] = 196.3464100079501,
+			},
+		},
+		["Aimalot - Wild Growth"] = {
+			["GUI"] = {
+				["point"] = {
+					"LEFT", -- [1]
+					nil, -- [2]
+					"LEFT", -- [3]
+					265.3331604003906, -- [4]
+					86.09518432617188, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"Naxxramas", -- [2]
+					12, -- [3]
+					3, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 189.7804884607713,
+				["shown"] = false,
+				["hide"] = true,
+			},
+		},
+		["Lefaux - Wild Growth"] = {
+			["minimap"] = {
+				["minimapPos"] = 188.8048790293666,
+				["shown"] = false,
+				["hide"] = true,
+			},
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"BlackfathomDeeps", -- [2]
+					7, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["Muilocko - Nethergarde Keep"] = {
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-384.7143859863281, -- [4]
+					-10.3332576751709, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"BlackwingLair", -- [2]
+					8, -- [3]
+					3, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["shown"] = false,
+				["minimapPos"] = 176.4194332611226,
+				["hide"] = true,
+			},
+		},
+		["Muisnipe - Razorfen"] = {
 		},
 	},
 }

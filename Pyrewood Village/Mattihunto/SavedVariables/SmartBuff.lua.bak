@@ -1,0 +1,174 @@
+
+SMARTBUFF_Options = {
+	["ToggleAutoCombat"] = false,
+	["AutoSwitchTemplateInst"] = true,
+	["BuffTarget"] = false,
+	["CurrentFontSize"] = 14,
+	["SplashY"] = 0,
+	["MMCPosX"] = -32.30219765769151,
+	["IgnoreList"] = {
+	},
+	["ToggleSubGrpChanged"] = false,
+	["SplashX"] = 0,
+	["ToggleMsgNormal"] = true,
+	["AutoTimer"] = 5,
+	["ToggleGrp"] = {
+		true, -- [1]
+		false, -- [2]
+		false, -- [3]
+		false, -- [4]
+		false, -- [5]
+		false, -- [6]
+		false, -- [7]
+		false, -- [8]
+	},
+	["AutoSwitchTemplate"] = true,
+	["AntiDaze"] = true,
+	["RebuffTimer"] = 20,
+	["SplashIconSize"] = 12,
+	["ToggleAutoSplash"] = true,
+	["VersionNr"] = 11403,
+	["UpgradeToDualSpec"] = true,
+	["BuffPvP"] = false,
+	["LastTemplate"] = "Solo",
+	["ActionBtnY"] = -432.571533203125,
+	["OldWheelDown"] = "",
+	["Debug"] = false,
+	["ColSplashFont"] = {
+		["b"] = 1,
+		["g"] = 1,
+		["r"] = 1,
+	},
+	["ToggleMsgError"] = true,
+	["ActionBtnX"] = 1294.47607421875,
+	["ShowMiniGrp"] = false,
+	["AutoSoundSelection"] = 1,
+	["OldWheelUp"] = "",
+	["MinCharges"] = 3,
+	["Toggle"] = true,
+	["HideMmButton"] = false,
+	["ToggleAutoSound"] = true,
+	["BuffInCities"] = true,
+	["MMCPosY"] = -114.5950434945413,
+	["AddList"] = {
+	},
+	["ToggleMsgWarning"] = true,
+	["LinkSelfBuffCheck"] = true,
+	["SplashDuration"] = 2,
+	["LinkGrpBuffCheck"] = true,
+	["CurrentFont"] = 9,
+	["ToggleAuto"] = true,
+	["BlacklistTimer"] = 5,
+	["CheckCharges"] = true,
+	["HideSAButton"] = false,
+	["ScrollWheelDown"] = true,
+	["ToggleAutoChat"] = false,
+	["InShapeshift"] = true,
+	["ScrollWheelUp"] = true,
+	["InCombat"] = true,
+}
+SMARTBUFF_Buffs = {
+	{
+		["Solo"] = {
+			["Track Beasts"] = {
+				["IgnoreList"] = {
+				},
+				["ManaLimit"] = 0,
+				["RBTime"] = 0,
+				["MH"] = false,
+				["CIn"] = false,
+				["COut"] = true,
+				["EnableS"] = false,
+				["SelfNot"] = false,
+				["EnableG"] = false,
+				["OH"] = false,
+				["AddList"] = {
+				},
+				["Reminder"] = true,
+				["RH"] = false,
+				["SelfOnly"] = false,
+			},
+			["Track Humanoids"] = {
+				["IgnoreList"] = {
+				},
+				["ManaLimit"] = 0,
+				["RBTime"] = 0,
+				["MH"] = false,
+				["CIn"] = false,
+				["COut"] = true,
+				["EnableS"] = false,
+				["SelfNot"] = false,
+				["EnableG"] = false,
+				["OH"] = false,
+				["AddList"] = {
+				},
+				["Reminder"] = true,
+				["RH"] = false,
+				["SelfOnly"] = false,
+			},
+			["GrpBuffSize"] = 3,
+			["Scroll of Protection"] = {
+				["IgnoreList"] = {
+				},
+				["ManaLimit"] = 0,
+				["RBTime"] = 0,
+				["MH"] = false,
+				["CIn"] = false,
+				["COut"] = true,
+				["EnableS"] = false,
+				["SelfNot"] = false,
+				["EnableG"] = false,
+				["OH"] = false,
+				["AddList"] = {
+				},
+				["Reminder"] = true,
+				["RH"] = false,
+				["SelfOnly"] = false,
+			},
+			["Aspect of the Hawk"] = {
+				["IgnoreList"] = {
+				},
+				["ManaLimit"] = 0,
+				["RBTime"] = 0,
+				["MH"] = false,
+				["CIn"] = false,
+				["COut"] = true,
+				["EnableS"] = false,
+				["SelfNot"] = false,
+				["EnableG"] = false,
+				["OH"] = false,
+				["AddList"] = {
+				},
+				["Reminder"] = true,
+				["RH"] = false,
+				["SelfOnly"] = false,
+			},
+			["SelfFirst"] = false,
+			["Aspect of the Monkey"] = {
+				["IgnoreList"] = {
+				},
+				["ManaLimit"] = 0,
+				["RBTime"] = 0,
+				["MH"] = false,
+				["CIn"] = false,
+				["COut"] = true,
+				["EnableS"] = false,
+				["SelfNot"] = false,
+				["EnableG"] = false,
+				["OH"] = false,
+				["AddList"] = {
+				},
+				["Reminder"] = true,
+				["RH"] = false,
+				["SelfOnly"] = false,
+			},
+		},
+		["Order"] = {
+			"Aspect of the Hawk", -- [1]
+			"Aspect of the Monkey", -- [2]
+			"Track Humanoids", -- [3]
+			"Track Beasts", -- [4]
+			"Scroll of Protection", -- [5]
+		},
+	}, -- [1]
+}

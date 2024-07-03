@@ -1,0 +1,42 @@
+
+GUILDBOOK_CHARACTER = {
+	["Profession1Level"] = 0,
+	["Talents"] = {
+		["primary"] = {
+		},
+	},
+	["CookingLevel"] = 0,
+	["Class"] = "",
+	["Race"] = "",
+	["FirstAidLevel"] = 0,
+	["Alts"] = {
+	},
+	["Profession2Level"] = 0,
+	["PublicNote"] = "",
+	["OffSpecIsPvP"] = false,
+	["profile"] = {
+	},
+	["OffSpec"] = "-",
+	["Profession1"] = "-",
+	["RankName"] = "",
+	["Inventory"] = {
+		["Current"] = {
+		},
+	},
+	["Gender"] = "",
+	["MainSpecIsPvP"] = false,
+	["Availability"] = {
+	},
+	["CalendarEvents"] = {
+	},
+	["MainSpec"] = "-",
+	["Name"] = "",
+	["MainCharacter"] = "-",
+	["OfficerNote"] = "",
+	["Profession2"] = "-",
+	["FishingLevel"] = 0,
+	["PaperDollStats"] = {
+		["Current"] = {
+		},
+	},
+}

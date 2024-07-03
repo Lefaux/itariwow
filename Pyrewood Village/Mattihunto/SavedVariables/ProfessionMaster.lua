@@ -1,0 +1,6 @@
+
+Frames = {
+}
+CharacterSettings = {
+	["welcomeRead"] = true,
+}

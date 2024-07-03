@@ -1,0 +1,75 @@
+
+GearMenuConfiguration = {
+	["enableDragAndDrop"] = true,
+	["trinketMenuSlotSize"] = 40,
+	["trinketMenuShowCooldowns"] = true,
+	["filterItemQuality"] = 2,
+	["firstTimeInitializationDone"] = true,
+	["enableTrinketMenu"] = true,
+	["lockTrinketMenuFrame"] = false,
+	["enableFastPress"] = false,
+	["enableSimpleTooltips"] = false,
+	["enableTooltips"] = true,
+	["enableUnequipSlot"] = true,
+	["gearBars"] = {
+		{
+			["showKeyBindings"] = true,
+			["id"] = 134291,
+			["slots"] = {
+				{
+					["type"] = {
+						"INVTYPE_TRINKET", -- [1]
+					},
+					["inventoryTypeId"] = 11,
+					["name"] = "slot_name_upper_trinket",
+					["simplifiedName"] = "slot_name_trinket",
+					["slotId"] = 13,
+					["textureId"] = 136528,
+				}, -- [1]
+				{
+					["type"] = {
+						"INVTYPE_TRINKET", -- [1]
+					},
+					["inventoryTypeId"] = 11,
+					["name"] = "slot_name_lower_trinket",
+					["simplifiedName"] = "slot_name_trinket",
+					["slotId"] = 14,
+					["textureId"] = 136528,
+				}, -- [2]
+				{
+					["type"] = {
+						"INVTYPE_HEAD", -- [1]
+					},
+					["inventoryTypeId"] = 1,
+					["name"] = "slot_name_head",
+					["slotId"] = 1,
+					["textureId"] = 136516,
+				}, -- [3]
+			},
+			["displayName"] = "Default GearBar",
+			["isLocked"] = false,
+			["showCooldowns"] = true,
+			["position"] = {
+				["posX"] = 259.5714721679688,
+				["posY"] = 16.76184463500977,
+				["point"] = "LEFT",
+				["relativePoint"] = "LEFT",
+			},
+			["changeSlotSize"] = 40,
+			["gearSlotSize"] = 40,
+		}, -- [1]
+	},
+	["quickChangeRules"] = {
+	},
+	["uiTheme"] = 2,
+	["trinketMenuColumns"] = 4,
+	["frames"] = {
+		["GM_TrinketMenuFrame"] = {
+			["relativePoint"] = "LEFT",
+			["point"] = "LEFT",
+			["posY"] = 16.76184463500977,
+			["posX"] = 81.85723114013672,
+		},
+	},
+	["addonVersion"] = "v2.3.8",
+}

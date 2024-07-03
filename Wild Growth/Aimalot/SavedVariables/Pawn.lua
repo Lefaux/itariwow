@@ -1,0 +1,65 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0806,
+	["ItemLevels"] = {
+		[7] = {
+			["ID"] = 9756,
+			["Level"] = 14,
+			["Link"] = "|cff1eff00|Hitem:9756::::::256:1651315072:13:::::::::|h[Gypsy Trousers of the Wolf]|h|r",
+		},
+		[15] = {
+			["ID"] = 5618,
+			["Level"] = 11,
+			["Link"] = "|cffffffff|Hitem:5618::::::::9:::::::::|h[Scout's Cloak]|h|r",
+		},
+		[8] = {
+			["ID"] = 9601,
+			["Level"] = 12,
+			["Link"] = "|cffffffff|Hitem:9601::::::::12:::::::::|h[Cushioned Boots]|h|r",
+		},
+		[16] = {
+			["ID"] = 2218,
+			["Level"] = 13,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:2218::::::::12:::::::::|h[Craftsman's Dagger]|h|r",
+		},
+		[17] = {
+			["ID"] = 2218,
+			["Level"] = 13,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:2218::::::::13:::::::::|h[Craftsman's Dagger]|h|r",
+		},
+		[5] = {
+			["ID"] = 3161,
+			["Level"] = 15,
+			["Link"] = "|cff1eff00|Hitem:3161::::::::13:::::::::|h[Robe of the Keeper]|h|r",
+		},
+		[10] = {
+			["ID"] = 4239,
+			["Level"] = 13,
+			["Link"] = "|cffffffff|Hitem:4239::::::::13:::::::::|h[Embossed Leather Gloves]|h|r",
+		},
+		[6] = {
+			["ID"] = 2283,
+			["Level"] = 15,
+			["Link"] = "|cff1eff00|Hitem:2283::::::::13:::::::::|h[Rat Cloth Belt]|h|r",
+		},
+		[18] = {
+			["ID"] = 3036,
+			["Level"] = 15,
+			["Link"] = "|cff1eff00|Hitem:3036::::::::10:::::::::|h[Heavy Shortbow]|h|r",
+		},
+		[9] = {
+			["ID"] = 5419,
+			["Level"] = 7,
+			["Link"] = "|cffffffff|Hitem:5419::::::::8:::::::::|h[Feral Bracers]|h|r",
+		},
+	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Aimalot-Wild Growth",
+}
+PawnMrRobotScaleProviderOptions = nil
+PawnClassicScaleProviderOptions = {
+	["LastClass"] = "HUNTER",
+	["LastAdded"] = 3,
+}

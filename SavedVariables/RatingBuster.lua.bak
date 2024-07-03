@@ -1,0 +1,22 @@
+
+RatingBusterDB = {
+	["namespaces"] = {
+		["AlwaysBuffed"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Lefaux - Nethergarde Keep"] = "WARRIOR",
+		["Bubblehearth - Nethergarde Keep"] = "WARRIOR",
+		["Muilocko - Nethergarde Keep"] = "WARLOCK",
+		["Mattihunto - Nethergarde Keep"] = "HUNTER",
+		["Muisnipe - Razorfen"] = "HUNTER",
+	},
+	["profiles"] = {
+		["HUNTER"] = {
+		},
+		["WARRIOR"] = {
+		},
+		["WARLOCK"] = {
+		},
+	},
+}

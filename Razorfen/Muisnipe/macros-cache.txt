@@ -1,0 +1,10 @@
+VER 3 0000000001000002 "JK" "236444"
+/reload
+END
+VER 3 0000000001000003 "JK2" "236444"
+END
+VER 3 0000000001000001 "Opener" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Hunter's Mark(Rank 1)
+/petattack
+END

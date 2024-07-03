@@ -1,0 +1,2103 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+	},
+	["currentStep"] = 1,
+	["questObjectivesCache"] = {
+		[0] = 0,
+	},
+	["currentGuideGroup"] = "",
+	["flightPaths"] = {
+		nil, -- [1]
+		"Stormwind, Elwynn", -- [2]
+		nil, -- [3]
+		"Sentinel Hill, Westfall", -- [4]
+		"Lakeshire, Redridge", -- [5]
+		"Ironforge, Dun Morogh", -- [6]
+		"Menethil Harbor, Wetlands", -- [7]
+		"Thelsamar, Loch Modan", -- [8]
+		nil, -- [9]
+		nil, -- [10]
+		nil, -- [11]
+		"Darkshire, Duskwood", -- [12]
+		nil, -- [13]
+		"Southshore, Hillsbrad", -- [14]
+		nil, -- [15]
+		"Refuge Pointe, Arathi", -- [16]
+		[43] = "Aerie Peak, The Hinterlands",
+		[66] = "Chillwind Camp, Western Plaguelands",
+		[45] = "Nethergarde Keep, Blasted Lands",
+		[67] = "Light's Hope Chapel, Eastern Plaguelands",
+		[74] = "Thorium Point, Searing Gorge",
+		[71] = "Morgan's Vigil, Burning Steppes",
+		[19] = "Booty Bay, Stranglethorn",
+	},
+	["questNameCache"] = {
+	},
+	["guideMetaData"] = {
+		["RestedXP Alliance 1-20||11-13 Loch Modan (Hunter)"] = {
+			["guideId"] = 2386759600,
+			["version"] = 1,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "14-16 Darkshore",
+			["classic"] = "",
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["defaultFor"] = "Dwarf",
+			["defaultfor"] = "Dwarf",
+			["length"] = 27401,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|11-13 Loch Modan (Hunter)",
+			["name"] = "11-13 Loch Modan (Hunter)",
+			["era/som"] = "",
+			["enabledFor"] = "Alliance Hunter",
+			["displayname"] = "11-13 Loch Modan",
+		},
+		["RestedXP Alliance 40-50||44-48 Feralas"] = {
+			["guideId"] = 4106554422,
+			["subgroup"] = "RXP Speedrun Guide 40-50",
+			["next"] = "48-49 Tanaris/Hinterlands",
+			["enabledFor"] = "Alliance",
+			["somname"] = "45-47 Feralas",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 40-50|44-48 Feralas",
+			["version"] = 20,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["classic"] = "",
+			["length"] = 38446,
+			["name"] = "44-48 Feralas",
+			["displayname"] = "44-48 Feralas",
+		},
+		["RestedXP Alliance 1-20||6-11 Dun Morogh (Hunter)"] = {
+			["guideId"] = 2196115360,
+			["defaultfor"] = "Dwarf Hunter",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["defaultFor"] = "Dwarf Hunter",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Dun Morogh (Hunter)",
+			["length"] = 27646,
+			["displayname"] = "6-11 Dun Morogh",
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "11-13 Loch Modan (Hunter)",
+			["enabledFor"] = "Alliance Hunter",
+			["xprate"] = "<1.5",
+			["version"] = 1,
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["era/som"] = "",
+			["classic"] = "",
+			["name"] = "06-11 Dun Morogh (Hunter)",
+		},
+		["RestedXP Alliance 50-60||59-60 Winterspring/Silithus part 2"] = {
+			["guideId"] = 1416893491,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|59-60 Winterspring/Silithus part 2",
+			["name"] = "59-60 Winterspring/Silithus part 2",
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 32404,
+			["version"] = 20,
+			["displayname"] = "59-60 Winterspring/Silithus part 2",
+		},
+		["RestedXP Alliance 1-20||16-19 Darkshore"] = {
+			["guideId"] = 60230882,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "19-21 Darkshore/Ashenvale",
+			["classic"] = "",
+			["name"] = "16-19 Darkshore",
+			["version"] = 1,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|16-19 Darkshore",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 218296,
+			["enabledFor"] = "Alliance",
+			["displayname"] = "16-19 Darkshore",
+		},
+		["RestedXP Survival Guide (A)||52-53 Felwood"] = {
+			["guideId"] = 1000279600,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "53-54 Feralas/Azshara",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|52-53 Felwood",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 18077,
+			["name"] = "52-53 Felwood",
+			["displayname"] = "52-53 Felwood",
+		},
+		["RestedXP Survival Guide (A)||41-42 Badlands"] = {
+			["guideId"] = 1228148341,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "42-43 Stranglethorn Vale III",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|41-42 Badlands",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 14558,
+			["name"] = "41-42 Badlands",
+			["displayname"] = "41-42 Badlands",
+		},
+		["RestedXP Survival Guide (A)||11-13 Loch Modan (Dwarf/Gnome)"] = {
+			["guideId"] = 1454117750,
+			["defaultfor"] = "Gnome/Dwarf",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Gnome/Dwarf",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|11-13 Loch Modan (Dwarf/Gnome)",
+			["length"] = 21425,
+			["displayname"] = "11-13 Loch Modan (Dwarf/Gnome)",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "13-15 Westfall",
+			["classic"] = "",
+			["lowPrio"] = "*RestedXP Survival Guide (A)",
+			["name"] = "11-13 Loch Modan (Dwarf/Gnome)",
+			["hardcore"] = "",
+			["era/som"] = "",
+			["version"] = 1,
+			["enabledFor"] = "Alliance",
+		},
+		["RestedXP Survival Guide (A)||11-13 Darkshore (Night Elf)"] = {
+			["guideId"] = 587731612,
+			["name"] = "11-13 Darkshore (Night Elf)",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "13-13 Loch Modan (Night Elf)",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["defaultfor"] = "NightElf",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|11-13 Darkshore (Night Elf)",
+			["version"] = 1,
+			["length"] = 21122,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "11-13 Darkshore (Night Elf)",
+		},
+		["RestedXP Survival Guide (A)||44-45 Tanaris"] = {
+			["guideId"] = 1002049076,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "45-46 Feralas",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|44-45 Tanaris",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 9212,
+			["name"] = "44-45 Tanaris",
+			["displayname"] = "44-45 Tanaris",
+		},
+		["RestedXP Survival Guide (A)||50-51 Tanaris/Un'goro"] = {
+			["guideId"] = 3091927294,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "51-52 Blasted Lands",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|50-51 Tanaris/Un'goro",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 37349,
+			["name"] = "50-51 Tanaris/Un'goro",
+			["displayname"] = "50-51 Tanaris/Un'goro",
+		},
+		["RestedXP Survival Guide (A)||19-20 Redridge"] = {
+			["guideId"] = 1241255555,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "20-21 Darkshore/Ashenvale",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["hardcore"] = "",
+			["name"] = "19-20 Redridge",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|19-20 Redridge",
+			["version"] = 1,
+			["length"] = 60123,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "19-20 Redridge",
+		},
+		["RestedXP Alliance 1-20||1-6 Shadowglen"] = {
+			["guideId"] = 4200140001,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["defaultFor"] = "NightElf",
+			["classic"] = "",
+			["name"] = "01-06 Shadowglen",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|01-06 Shadowglen",
+			["next"] = "6-11 Teldrassil",
+			["length"] = 33153,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "1-6 Shadowglen",
+		},
+		["RestedXP Survival Guide (A)||1-6 Coldridge Valley"] = {
+			["guideId"] = 2904887570,
+			["defaultfor"] = "Dwarf/Gnome",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Dwarf/Gnome",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|01-06 Coldridge Valley",
+			["length"] = 17307,
+			["displayname"] = "1-6 Coldridge Valley",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "6-10 Dun Morogh",
+			["enabledFor"] = "Alliance",
+			["lowPrio"] = "*RestedXP Survival Guide (A)",
+			["name"] = "01-06 Coldridge Valley",
+			["hardcore"] = "",
+			["era/som"] = "",
+			["classic"] = "",
+			["version"] = 1,
+		},
+		["RestedXP Survival Guide (A)||21-23 Stonetalon/Ashenvale"] = {
+			["guideId"] = 392565574,
+			["subgroup"] = "RXP Survival Guide 20-30",
+			["next"] = "23-24 Wetlands",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 20-30|21-23 Stonetalon/Ashenvale",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 17872,
+			["name"] = "21-23 Stonetalon/Ashenvale",
+			["displayname"] = "21-23 Stonetalon/Ashenvale",
+		},
+		["RestedXP Survival Guide (A)||30-30 Wetlands/Hillsbrad"] = {
+			["guideId"] = 4017951325,
+			["subgroup"] = "RXP Survival Guide 20-30",
+			["next"] = "30-32 Duskwood",
+			["hardcore"] = "",
+			["name"] = "30-30 Wetlands/Hillsbrad",
+			["group"] = "RestedXP Survival Guide (A)",
+			["era"] = "",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 20-30|30-30 Wetlands/Hillsbrad",
+			["enabledFor"] = "Alliance",
+			["classic"] = "",
+			["length"] = 17812,
+			["version"] = 15,
+			["displayname"] = "30-30 Wetlands/Hillsbrad",
+		},
+		["RestedXP Survival Guide (A)||6-11 Teldrassil"] = {
+			["guideId"] = 1529941824,
+			["name"] = "06-11 Teldrassil",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["next"] = "11-13 Darkshore (Night Elf)",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|06-11 Teldrassil",
+			["version"] = 1,
+			["length"] = 44602,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "6-11 Teldrassil",
+		},
+		["RestedXP Alliance 50-60||55-56 Winterspring"] = {
+			["guideId"] = 978783879,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "56-57 Burning Steppes",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|55-56 Winterspring",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 14062,
+			["name"] = "55-56 Winterspring",
+			["displayname"] = "55-56 Winterspring",
+		},
+		["RestedXP Survival Guide (A)||24-27 Duskwood/Redridge"] = {
+			["guideId"] = 3731689989,
+			["subgroup"] = "RXP Survival Guide 20-30",
+			["next"] = "27-27 Wetlands",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 20-30|24-27 Duskwood/Redridge",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 57000,
+			["name"] = "24-27 Duskwood/Redridge",
+			["displayname"] = "24-27 Duskwood/Redridge",
+		},
+		["RestedXP Alliance 50-60||56-57 Burning Steppes"] = {
+			["guideId"] = 1685000022,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "57-59 Western/Eastern Plaguelands",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|56-57 Burning Steppes",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 40451,
+			["name"] = "56-57 Burning Steppes",
+			["displayname"] = "56-57 Burning Steppes",
+		},
+		["RestedXP Survival Guide (A)||57-58 Western/Eastern Plaguelands"] = {
+			["guideId"] = 2797278691,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "58-59 Felwood/Winterspring",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|57-58 Western/Eastern Plaguelands",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 60869,
+			["name"] = "57-58 Western/Eastern Plaguelands",
+			["displayname"] = "57-58 Western/Eastern Plaguelands",
+		},
+		["RestedXP Alliance 40-50||48-49 Tanaris/Hinterlands"] = {
+			["guideId"] = 2777747706,
+			["subgroup"] = "RXP Speedrun Guide 40-50",
+			["next"] = "49-50 Tanaris/Un'Goro",
+			["enabledFor"] = "Alliance",
+			["somname"] = "47-49 Tanaris/Hinterlands",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 40-50|48-49 Tanaris/Hinterlands",
+			["version"] = 20,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["classic"] = "",
+			["length"] = 14435,
+			["name"] = "48-49 Tanaris/Hinterlands",
+			["displayname"] = "48-49 Tanaris/Hinterlands",
+		},
+		["RestedXP Survival Guide (A)||53-54 Feralas/Azshara"] = {
+			["guideId"] = 3099988249,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "54-55 Un'Goro",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|53-54 Feralas/Azshara",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 21466,
+			["name"] = "53-54 Feralas/Azshara",
+			["displayname"] = "53-54 Feralas/Azshara",
+		},
+		["RestedXP Survival Guide (A)||58-59 Felwood/Winterspring"] = {
+			["guideId"] = 402658167,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "59-60 Winterspring/Silithus part 1",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|58-59 Felwood/Winterspring",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 27442,
+			["name"] = "58-59 Felwood/Winterspring",
+			["displayname"] = "58-59 Felwood/Winterspring",
+		},
+		["RestedXP Survival Guide (A)||6-11 Elwynn Forest"] = {
+			["guideId"] = 2306674745,
+			["defaultfor"] = "Human",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Human",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|06-11 Elwynn Forest",
+			["length"] = 67322,
+			["displayname"] = "6-11 Elwynn Forest",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "11-13 Loch Modan",
+			["enabledFor"] = "Alliance",
+			["lowPrio"] = "*RestedXP Survival Guide (A)",
+			["name"] = "06-11 Elwynn Forest",
+			["hardcore"] = "",
+			["era/som"] = "",
+			["classic"] = "",
+			["version"] = 1,
+		},
+		["RestedXP Alliance 50-60||53-53 Azshara"] = {
+			["guideId"] = 4113763392,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "53-54 UnGoro Crater",
+			["classic"] = "",
+			["version"] = 20,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|53-53 Azshara",
+			["era/som"] = "",
+			["name"] = "53-53 Azshara",
+			["length"] = 17093,
+			["enabledFor"] = "Alliance",
+			["displayname"] = "53-53 Azshara",
+		},
+		["RestedXP Alliance 40-50||49-50 Tanaris/Un'Goro"] = {
+			["guideId"] = 1648889592,
+			["subgroup"] = "RXP Speedrun Guide 40-50",
+			["next"] = "50-50 Stranglethorn Vale",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 40-50|49-50 Tanaris/Un'Goro",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 33012,
+			["name"] = "49-50 Tanaris/Un'Goro",
+			["displayname"] = "49-50 Tanaris/Un'Goro",
+		},
+		["RestedXP Alliance 50-60||50-50 Stranglethorn Vale"] = {
+			["guideId"] = 2526679171,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "50-51 Searing Gorge",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|50-50 Stranglethorn Vale",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 14544,
+			["name"] = "50-50 Stranglethorn Vale",
+			["displayname"] = "50-50 Stranglethorn Vale",
+		},
+		["RestedXP Survival Guide (A)||46-47 Hinterlands/Badlands"] = {
+			["guideId"] = 382014250,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "47-48 Tanaris",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|46-47 Hinterlands/Badlands",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 38050,
+			["name"] = "46-47 Hinterlands/Badlands",
+			["displayname"] = "46-47 Hinterlands/Badlands",
+		},
+		["RestedXP Alliance 30-40||32-33 Hillsbrad/Arathi"] = {
+			["guideId"] = 1919750026,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "33-34 Thousand Needles",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|32-33 Hillsbrad/Arathi",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 37801,
+			["name"] = "32-33 Hillsbrad/Arathi",
+			["displayname"] = "32-33 Hillsbrad/Arathi",
+		},
+		["RestedXP Alliance 50-60||52-53 Feralas"] = {
+			["guideId"] = 4105964595,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "53-53 Azshara",
+			["enabledFor"] = "Alliance",
+			["version"] = 20,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|52-53 Feralas",
+			["era/som"] = "",
+			["name"] = "52-53 Feralas",
+			["length"] = 21555,
+			["classic"] = "",
+			["displayname"] = "52-53 Feralas",
+		},
+		["RestedXP Alliance 30-40||29-32 Duskwood"] = {
+			["guideId"] = 34278594,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "32-33 Hillsbrad/Arathi",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|29-32 Duskwood",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 70631,
+			["name"] = "29-32 Duskwood",
+			["displayname"] = "29-32 Duskwood",
+		},
+		["RestedXP Alliance 30-40||39-40 Alterac/Arathi"] = {
+			["guideId"] = 1394413238,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "40-40 Dustwallow Marsh;40-40 Dustwallow Marsh2",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|39-40 Alterac/Arathi",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 65092,
+			["name"] = "39-40 Alterac/Arathi",
+			["displayname"] = "39-40 Alterac/Arathi",
+		},
+		["RestedXP Alliance 50-60||57-59 Western/Eastern Plaguelands"] = {
+			["guideId"] = 972559353,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "59-59 Winterspring/Silithus part 1",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|57-59 Western/Eastern Plaguelands",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 46797,
+			["name"] = "57-59 Western/Eastern Plaguelands",
+			["displayname"] = "57-59 Western/Eastern Plaguelands",
+		},
+		["RestedXP Survival Guide (A)||33-34 Thousand Needles"] = {
+			["guideId"] = 3410563460,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "34-35 Stranglethorn Vale I",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|33-34 Thousand Needles",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 19819,
+			["name"] = "33-34 Thousand Needles",
+			["displayname"] = "33-34 Thousand Needles",
+		},
+		["RestedXP Survival Guide (A)||13-15 Westfall"] = {
+			["guideId"] = 1247612573,
+			["name"] = "13-15 Westfall",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Human/Gnome/Dwarf/NightElf",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "Human/Gnome/Dwarf/NightElf",
+			["next"] = "15-18 Darkshore",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|13-15 Westfall",
+			["version"] = 1,
+			["length"] = 21745,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "13-15 Westfall",
+		},
+		["RestedXP Survival Guide (A)||1-6 Northshire"] = {
+			["guideId"] = 1319112478,
+			["next"] = "6-11 Elwynn Forest; 6-13 Elwynn Forest",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "Human",
+			["classic"] = "",
+			["lowPrio"] = "*RestedXP Survival Guide (A)",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Human",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|01-06 Northshire",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["name"] = "01-06 Northshire",
+			["length"] = 14987,
+			["hardcore"] = "",
+			["displayname"] = "1-6 Northshire",
+		},
+		["RestedXP Survival Guide (A)||39-40 Desolace"] = {
+			["guideId"] = 1241779841,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "40-41 Alterac/Arathi",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|39-40 Desolace",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 28523,
+			["name"] = "39-40 Desolace",
+			["displayname"] = "39-40 Desolace",
+		},
+		["RestedXP Survival Guide (A)||38-39 Swamp of Sorrows"] = {
+			["guideId"] = 3387101572,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "39-39 Dustwallow Marsh",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|38-39 Swamp of Sorrows",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 21994,
+			["name"] = "38-39 Swamp of Sorrows",
+			["displayname"] = "38-39 Swamp of Sorrows",
+		},
+		["RestedXP Alliance 30-40||34-35 Stranglethorn Vale I"] = {
+			["guideId"] = 3088781549,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "35-36 Desolace;36-38 Stranglethorn Vale II",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|34-35 Stranglethorn Vale I",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 35476,
+			["name"] = "34-35 Stranglethorn Vale I",
+			["displayname"] = "34-35 Stranglethorn Vale I",
+		},
+		["RestedXP Survival Guide (A)||55-56 Felwood II"] = {
+			["guideId"] = 1740312296,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "56-57 Burning Steppes",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|55-56 Felwood II",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 24089,
+			["name"] = "55-56 Felwood II",
+			["displayname"] = "55-56 Felwood II",
+		},
+		["RestedXP Survival Guide (A)||54-55 Un'Goro"] = {
+			["guideId"] = 979373541,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "55-56 Felwood II",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|54-55 Un'Goro",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 29384,
+			["name"] = "54-55 Un'Goro",
+			["displayname"] = "54-55 Un'Goro",
+		},
+		["RestedXP Survival Guide (A)||32-33 Hillsbrad/Arathi I"] = {
+			["guideId"] = 3994882530,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "33-34 Thousand Needles",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|32-33 Hillsbrad/Arathi I",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 13549,
+			["name"] = "32-33 Hillsbrad/Arathi I",
+			["displayname"] = "32-33 Hillsbrad/Arathi I",
+		},
+		["RestedXP Alliance 1-20||1-6 Coldridge Valley"] = {
+			["guideId"] = 1290669807,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "Dwarf/Gnome",
+			["classic"] = "",
+			["name"] = "01-06 Coldridge Valley",
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["defaultFor"] = "Dwarf/Gnome",
+			["enabledFor"] = "Alliance",
+			["next"] = "6-11 Dun Morogh (Hunter);6-11 Dun Morogh",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|01-06 Coldridge Valley",
+			["version"] = 1,
+			["length"] = 50271,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "1-6 Coldridge Valley",
+		},
+		["RestedXP Survival Guide (A)||42-43 Stranglethorn Vale III"] = {
+			["guideId"] = 1048384364,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "43-44 Swamp of Sorrows II",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|42-43 Stranglethorn Vale III",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 31519,
+			["name"] = "42-43 Stranglethorn Vale III",
+			["displayname"] = "42-43 Stranglethorn Vale III",
+		},
+		["RestedXP Alliance 50-60||51-51 Blasted Lands"] = {
+			["guideId"] = 1143606851,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "51-52 WPL",
+			["classic"] = "",
+			["version"] = 20,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|51-51 Blasted Lands",
+			["era/som"] = "",
+			["name"] = "51-51 Blasted Lands",
+			["length"] = 11102,
+			["enabledFor"] = "Alliance",
+			["displayname"] = "51-51 Blasted Lands",
+		},
+		["RestedXP Alliance 40-50||43-44 Tanaris"] = {
+			["guideId"] = 4109175877,
+			["subgroup"] = "RXP Speedrun Guide 40-50",
+			["next"] = "44-48 Feralas",
+			["enabledFor"] = "Alliance !Warlock",
+			["somname"] = "44-45 Tanaris",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 40-50|43-44 Tanaris",
+			["version"] = 20,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["classic"] = "",
+			["length"] = 18693,
+			["name"] = "43-44 Tanaris",
+			["displayname"] = "43-44 Tanaris",
+		},
+		["RestedXP Survival Guide (A)||15-18 Darkshore"] = {
+			["guideId"] = 1493569283,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "18-19 Loch Modan",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["hardcore"] = "",
+			["name"] = "15-18 Darkshore",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|15-18 Darkshore",
+			["version"] = 1,
+			["length"] = 42175,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "15-18 Darkshore",
+		},
+		["RestedXP Alliance 20-30||23-24 Wetlands"] = {
+			["guideId"] = 24120493,
+			["subgroup"] = "RXP Speedrun Guide 20-30",
+			["next"] = "24-27 Duskwood/Redridge",
+			["classic"] = "",
+			["xprate"] = "<1.59",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 20-30|23-24 Wetlands",
+			["version"] = 20,
+			["enabledFor"] = "Alliance Hunter",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 13205,
+			["name"] = "23-24 Wetlands",
+			["displayname"] = "23-24 Wetlands",
+		},
+		["RestedXP Alliance 20-30||21-23 Ashenvale/Stonetalon"] = {
+			["guideId"] = 3041726805,
+			["subgroup"] = "RXP Speedrun Guide 20-30",
+			["next"] = "23-24 Wetlands",
+			["classic"] = "",
+			["xprate"] = "<1.59",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 20-30|21-23 Ashenvale/Stonetalon",
+			["version"] = 20,
+			["enabledFor"] = "Alliance Hunter",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 19335,
+			["name"] = "21-23 Ashenvale/Stonetalon",
+			["displayname"] = "21-23 Ashenvale/Stonetalon",
+		},
+		["RestedXP Survival Guide (A)||43-44 Swamp of Sorrows II"] = {
+			["guideId"] = 4277670446,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "44-45 Tanaris",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|43-44 Swamp of Sorrows II",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 9492,
+			["name"] = "43-44 Swamp of Sorrows II",
+			["displayname"] = "43-44 Swamp of Sorrows II",
+		},
+		["RestedXP Alliance 50-60||52-52 Felwood"] = {
+			["guideId"] = 4110617668,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "52-53 Feralas",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|52-52 Felwood",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 30162,
+			["name"] = "52-52 Felwood",
+			["displayname"] = "52-52 Felwood",
+		},
+		["RestedXP Survival Guide (A)||49-50 Searing Gorge"] = {
+			["guideId"] = 2537164864,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "50-51 Tanaris/Un'goro",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|49-50 Searing Gorge",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 20450,
+			["name"] = "49-50 Searing Gorge",
+			["displayname"] = "49-50 Searing Gorge",
+		},
+		["RestedXP Alliance 30-40||33-34 Thousand Needles"] = {
+			["guideId"] = 1930694549,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "34-35 Stranglethorn Vale I",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|33-34 Thousand Needles",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 35973,
+			["name"] = "33-34 Thousand Needles",
+			["displayname"] = "33-34 Thousand Needles",
+		},
+		["RestedXP Survival Guide (A)||35-36 Hillsbrad/Arathi II"] = {
+			["guideId"] = 14553649,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "36-37 Desolace",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|35-36 Hillsbrad/Arathi II",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 12393,
+			["name"] = "35-36 Hillsbrad/Arathi II",
+			["displayname"] = "35-36 Hillsbrad/Arathi II",
+		},
+		["RestedXP Survival Guide (A)||48-49 STV/Hinterlands II"] = {
+			["guideId"] = 3947041220,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "49-50 Searing Gorge",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|48-49 STV/Hinterlands II",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 34000,
+			["name"] = "48-49 STV/Hinterlands II",
+			["displayname"] = "48-49 STV/Hinterlands II",
+		},
+		["RestedXP Survival Guide (A)||47-48 Tanaris"] = {
+			["guideId"] = 1006177850,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "48-49 STV/Hinterlands II",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|47-48 Tanaris",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 17797,
+			["name"] = "47-48 Tanaris",
+			["displayname"] = "47-48 Tanaris",
+		},
+		["RestedXP Alliance 40-50||40-40 Dustwallow Marsh"] = {
+			["guideId"] = 1960251325,
+			["subgroup"] = "RXP Speedrun Guide 40-50",
+			["next"] = "41-41 Badlands",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 40-50|40-40 Dustwallow Marsh",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 19311,
+			["name"] = "40-40 Dustwallow Marsh",
+			["displayname"] = "40-40 Dustwallow Marsh",
+		},
+		["RestedXP Survival Guide (A)||45-46 Feralas"] = {
+			["guideId"] = 997658146,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "46-47 Hinterlands/Badlands",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|45-46 Feralas",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 24202,
+			["name"] = "45-46 Feralas",
+			["displayname"] = "45-46 Feralas",
+		},
+		["RestedXP Survival Guide (A)||51-52 Blasted Lands"] = {
+			["guideId"] = 2520715311,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "52-52 Searing Gorge/WPL",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|51-52 Blasted Lands",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 10431,
+			["name"] = "51-52 Blasted Lands",
+			["displayname"] = "51-52 Blasted Lands",
+		},
+		["RestedXP Survival Guide (A)||13-13 Loch Modan (Night Elf)"] = {
+			["guideId"] = 798233232,
+			["name"] = "13-13 Loch Modan (Night Elf)",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "13-15 Westfall",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["defaultfor"] = "NightElf",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|13-13 Loch Modan (Night Elf)",
+			["version"] = 1,
+			["length"] = 29921,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "13-13 Loch Modan (Night Elf)",
+		},
+		["RestedXP Survival Guide (A)||39-39 Dustwallow Marsh"] = {
+			["guideId"] = 3456831930,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "39-40 Desolace",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|39-39 Dustwallow Marsh",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 10539,
+			["name"] = "39-39 Dustwallow Marsh",
+			["displayname"] = "39-39 Dustwallow Marsh",
+		},
+		["RestedXP Alliance 40-50||41-43 STV/Swamp of Sorrows"] = {
+			["guideId"] = 2897350840,
+			["subgroup"] = "RXP Speedrun Guide 40-50",
+			["next"] = "43-44 Tanaris",
+			["enabledFor"] = "Alliance",
+			["somname"] = "41-44 STV/Swamp of Sorrows",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 40-50|41-43 STV/Swamp of Sorrows",
+			["version"] = 20,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["classic"] = "",
+			["length"] = 39939,
+			["name"] = "41-43 STV/Swamp of Sorrows",
+			["displayname"] = "41-43 STV/Swamp of Sorrows",
+		},
+		["RestedXP Survival Guide (A)||56-57 Burning Steppes"] = {
+			["guideId"] = 3125481793,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "57-58 Western/Eastern Plaguelands",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|56-57 Burning Steppes",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 20139,
+			["name"] = "56-57 Burning Steppes",
+			["displayname"] = "56-57 Burning Steppes",
+		},
+		["RestedXP Survival Guide (A)||20-21 Darkshore/Ashenvale"] = {
+			["guideId"] = 27398847,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "21-23 Stonetalon/Ashenvale",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["hardcore"] = "",
+			["name"] = "20-21 Darkshore/Ashenvale",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|20-21 Darkshore/Ashenvale",
+			["version"] = 1,
+			["length"] = 26633,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "20-21 Darkshore/Ashenvale",
+		},
+		["RestedXP Survival Guide (A)||6-10 Dun Morogh"] = {
+			["guideId"] = 1486425819,
+			["defaultfor"] = "Dwarf/Gnome",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Dwarf/Gnome",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|06-10 Dun Morogh",
+			["length"] = 55423,
+			["displayname"] = "6-10 Dun Morogh",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "10-11 Elwynn (Dwarf/Gnome)",
+			["classic"] = "",
+			["lowPrio"] = "*RestedXP Survival Guide (A)",
+			["name"] = "06-10 Dun Morogh",
+			["hardcore"] = "",
+			["era/som"] = "",
+			["version"] = 1,
+			["enabledFor"] = "Alliance",
+		},
+		["RestedXP Alliance 1-20||1-6 Northshire"] = {
+			["guideId"] = 4213968123,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["next"] = "6-11 Elwynn Forest",
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["defaultFor"] = "Human",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|01-06 Northshire",
+			["version"] = 1,
+			["name"] = "01-06 Northshire",
+			["length"] = 62236,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "1-6 Northshire",
+		},
+		["RestedXP Survival Guide (A)||37-38 Stranglethorn Vale II"] = {
+			["guideId"] = 735253291,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "38-39 Swamp of Sorrows",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|37-38 Stranglethorn Vale II",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 16182,
+			["name"] = "37-38 Stranglethorn Vale II",
+			["displayname"] = "37-38 Stranglethorn Vale II",
+		},
+		["RestedXP Alliance 30-40||36-38 Stranglethorn Vale II"] = {
+			["guideId"] = 3385463099,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "38-39 Swamp of Sorrows",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|36-38 Stranglethorn Vale II",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 29133,
+			["name"] = "36-38 Stranglethorn Vale II",
+			["displayname"] = "36-38 Stranglethorn Vale II",
+		},
+		["RestedXP Survival Guide (A)||36-37 Desolace"] = {
+			["guideId"] = 1243090564,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "37-38 Stranglethorn Vale II",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|36-37 Desolace",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 27111,
+			["name"] = "36-37 Desolace",
+			["displayname"] = "36-37 Desolace",
+		},
+		["RestedXP Survival Guide (A)||34-35 Stranglethorn Vale I"] = {
+			["guideId"] = 404427484,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "35-36 Hillsbrad/Arathi II",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|34-35 Stranglethorn Vale I",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 24386,
+			["name"] = "34-35 Stranglethorn Vale I",
+			["displayname"] = "34-35 Stranglethorn Vale I",
+		},
+		["RestedXP Alliance 20-30||22-24 Wetlands SoD"] = {
+			["guideId"] = 917376466,
+			["subgroup"] = "RXP Speedrun Guide 20-30",
+			["next"] = "24-27 Duskwood/Redridge",
+			["classic"] = "",
+			["xprate"] = ">1.59",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 20-30|22-24 Wetlands SoD",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 32189,
+			["name"] = "22-24 Wetlands SoD",
+			["displayname"] = "22-24 Wetlands SoD",
+		},
+		["RestedXP Survival Guide (A)||59-60 Winterspring/Silithus part 2"] = {
+			["guideId"] = 3275691550,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|59-60 Winterspring/Silithus part 2",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 31219,
+			["name"] = "59-60 Winterspring/Silithus part 2",
+			["displayname"] = "59-60 Winterspring/Silithus part 2",
+		},
+		["RestedXP Alliance 20-30||24-27 Duskwood/Redridge"] = {
+			["guideId"] = 2215645204,
+			["subgroup"] = "RXP Speedrun Guide 20-30",
+			["next"] = "27-29 Wetlands/Hillsbrad;29-32 Duskwood",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 20-30|24-27 Duskwood/Redridge",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 100156,
+			["name"] = "24-27 Duskwood/Redridge",
+			["displayname"] = "24-27 Duskwood/Redridge",
+		},
+		["RestedXP Survival Guide (A)||30-32 Duskwood"] = {
+			["guideId"] = 1247874729,
+			["subgroup"] = "RXP Survival Guide 30-40",
+			["next"] = "32-33 Hillsbrad/Arathi I",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 30-40|30-32 Duskwood",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 58238,
+			["name"] = "30-32 Duskwood",
+			["displayname"] = "30-32 Duskwood",
+		},
+		["RestedXP Survival Guide (A)||27-30 Ashenvale"] = {
+			["guideId"] = 1491406580,
+			["subgroup"] = "RXP Survival Guide 20-30",
+			["next"] = "30-30 Wetlands/Hillsbrad",
+			["hardcore"] = "",
+			["name"] = "27-30 Ashenvale",
+			["group"] = "RestedXP Survival Guide (A)",
+			["era"] = "",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 20-30|27-30 Ashenvale",
+			["enabledFor"] = "Alliance",
+			["classic"] = "",
+			["length"] = 37092,
+			["version"] = 15,
+			["displayname"] = "27-30 Ashenvale",
+		},
+		["RestedXP Alliance 20-30||27-29 Wetlands/Hillsbrad"] = {
+			["guideId"] = 2488733818,
+			["subgroup"] = "RXP Speedrun Guide 20-30",
+			["next"] = "29-32 Duskwood",
+			["classic"] = "",
+			["xprate"] = "<1.99",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 20-30|27-29 Wetlands/Hillsbrad",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 38751,
+			["name"] = "27-29 Wetlands/Hillsbrad",
+			["displayname"] = "27-29 Wetlands/Hillsbrad",
+		},
+		["RestedXP Survival Guide (A)||27-27 Wetlands"] = {
+			["guideId"] = 1252396709,
+			["subgroup"] = "RXP Survival Guide 20-30",
+			["next"] = "27-30 Ashenvale",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 20-30|27-27 Wetlands",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 17199,
+			["name"] = "27-27 Wetlands",
+			["displayname"] = "27-27 Wetlands",
+		},
+		["RestedXP Alliance 1-20||6-11 Dun Morogh"] = {
+			["guideId"] = 52235449,
+			["defaultfor"] = "Dwarf/Gnome",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["defaultFor"] = "Dwarf/Gnome",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Dun Morogh",
+			["length"] = 145475,
+			["displayname"] = "6-11 Dun Morogh",
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "11-12 Elwynn (Dwarf/Gnome);11-12 Voidwalker Quest;12-14 Loch Modan (Dwarf/Gnome);11-13 Loch Modan (Hunter)",
+			["enabledFor"] = "Alliance",
+			["xprate"] = ">1.49",
+			["name"] = "06-11 Dun Morogh",
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["era/som"] = "",
+			["classic"] = "",
+			["version"] = 1,
+		},
+		["RestedXP Survival Guide (A)||23-24 Wetlands"] = {
+			["guideId"] = 1247022750,
+			["subgroup"] = "RXP Survival Guide 20-30",
+			["next"] = "24-27 Duskwood/Redridge",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 20-30|23-24 Wetlands",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 9932,
+			["name"] = "23-24 Wetlands",
+			["displayname"] = "23-24 Wetlands",
+		},
+		["RestedXP Alliance 50-60||59-59 Winterspring/Silithus part 1"] = {
+			["guideId"] = 1432491066,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "59-60 Winterspring/Silithus part 2",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|59-59 Winterspring/Silithus part 1",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 44251,
+			["name"] = "59-59 Winterspring/Silithus part 1",
+			["displayname"] = "59-59 Winterspring/Silithus part 1",
+		},
+		["RestedXP Survival Guide (A)||40-41 Alterac/Arathi"] = {
+			["guideId"] = 2800554142,
+			["subgroup"] = "RXP Survival Guide 40-50",
+			["next"] = "41-42 Badlands",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 40-50|40-41 Alterac/Arathi",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 40782,
+			["name"] = "40-41 Alterac/Arathi",
+			["displayname"] = "40-41 Alterac/Arathi",
+		},
+		["RestedXP Alliance 1-20||19-21 Darkshore/Ashenvale"] = {
+			["guideId"] = 2540441764,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "21-23 Ashenvale/Stonetalon",
+			["classic"] = "",
+			["season"] = "0",
+			["enabledFor"] = "Alliance Hunter",
+			["version"] = 1,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|19-21 Darkshore/Ashenvale",
+			["name"] = "19-21 Darkshore/Ashenvale",
+			["length"] = 24781,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "19-21 Darkshore/Ashenvale",
+		},
+		["RestedXP Survival Guide (A)||1-6 Shadowglen"] = {
+			["guideId"] = 1305284356,
+			["name"] = "01-06 Shadowglen",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["classic"] = "",
+			["hardcore"] = "",
+			["defaultFor"] = "NightElf",
+			["next"] = "6-11 Teldrassil",
+			["enabledFor"] = "Alliance",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|01-06 Shadowglen",
+			["version"] = 1,
+			["length"] = 11309,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "1-6 Shadowglen",
+		},
+		["RestedXP Alliance 1-20||6-11 Teldrassil"] = {
+			["guideId"] = 94965021,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["defaultfor"] = "NightElf",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["defaultFor"] = "NightElf",
+			["classic"] = "",
+			["name"] = "06-11 Teldrassil",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Teldrassil",
+			["next"] = "14-16 Darkshore",
+			["length"] = 94606,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "6-11 Teldrassil",
+		},
+		["dungeonGuides"] = {
+			["RestedXP Alliance 1-20"] = true,
+			["RestedXP Alliance 20-30"] = true,
+			["RestedXP Alliance 40-50"] = true,
+			["RestedXP Alliance 30-40"] = true,
+			["RestedXP Alliance 50-60"] = true,
+			["RestedXP Survival Guide (A)"] = true,
+		},
+		["RestedXP Alliance 20-30||21-22 Ashenvale SoD"] = {
+			["guideId"] = 1146687012,
+			["subgroup"] = "RXP Speedrun Guide 20-30",
+			["next"] = "22-24 Wetlands SoD",
+			["classic"] = "",
+			["xprate"] = ">1.59",
+			["name"] = "21-22 Ashenvale SoD",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 20-30|21-22 Ashenvale SoD",
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 39220,
+			["version"] = 20,
+			["displayname"] = "21-22 Ashenvale",
+		},
+		["RestedXP Alliance 50-60||53-54 UnGoro Crater"] = {
+			["guideId"] = 1145638482,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "54-55 Felwood/Winterspring",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|53-54 UnGoro Crater",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 28970,
+			["name"] = "53-54 UnGoro Crater",
+			["displayname"] = "53-54 UnGoro Crater",
+		},
+		["RestedXP Survival Guide (A)||18-19 Loch Modan"] = {
+			["guideId"] = 1715867385,
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "19-20 Redridge",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["hardcore"] = "",
+			["name"] = "18-19 Loch Modan",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|18-19 Loch Modan",
+			["version"] = 1,
+			["length"] = 16345,
+			["group"] = "RestedXP Survival Guide (A)",
+			["displayname"] = "18-19 Loch Modan",
+		},
+		["RestedXP Survival Guide (A)||59-60 Winterspring/Silithus part 1"] = {
+			["guideId"] = 3275626013,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "59-60 Winterspring/Silithus part 2",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|59-60 Winterspring/Silithus part 1",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 22751,
+			["name"] = "59-60 Winterspring/Silithus part 1",
+			["displayname"] = "59-60 Winterspring/Silithus part 1",
+		},
+		["RestedXP Alliance 40-50||41-41 Badlands"] = {
+			["guideId"] = 9702535,
+			["subgroup"] = "RXP Speedrun Guide 40-50",
+			["next"] = "41-43 STV/Swamp of Sorrows",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 40-50|41-41 Badlands",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 23334,
+			["name"] = "41-41 Badlands",
+			["displayname"] = "41-41 Badlands",
+		},
+		["RestedXP Alliance 1-20||11-13 Loch Modan"] = {
+			["guideId"] = 233442505,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "13-15 Westfall; 14-16 Darkshore",
+			["classic"] = "",
+			["name"] = "11-13 Loch Modan",
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["defaultFor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|11-13 Loch Modan",
+			["defaultfor"] = "Human",
+			["length"] = 62597,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "11-13 Loch Modan",
+		},
+		["RestedXP Alliance 1-20||6-11 Elwynn Forest"] = {
+			["guideId"] = 764153366,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "11-13 Loch Modan",
+			["classic"] = "",
+			["name"] = "06-11 Elwynn Forest",
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["defaultFor"] = "Human",
+			["enabledFor"] = "Alliance",
+			["version"] = 1,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|06-11 Elwynn Forest",
+			["defaultfor"] = "Human",
+			["length"] = 173934,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "6-11 Elwynn Forest",
+		},
+		["RestedXP Alliance 50-60||51-52 WPL"] = {
+			["guideId"] = 3326937702,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "52-52 Felwood",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|51-52 WPL",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 18231,
+			["name"] = "51-52 WPL",
+			["displayname"] = "51-52 WPL",
+		},
+		["RestedXP Survival Guide (A)||52-52 Searing Gorge/WPL"] = {
+			["guideId"] = 3666481502,
+			["subgroup"] = "RXP Survival Guide 50-60",
+			["next"] = "52-53 Felwood",
+			["hardcore"] = "",
+			["version"] = 15,
+			["group"] = "RestedXP Survival Guide (A)",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 50-60|52-52 Searing Gorge/WPL",
+			["classic"] = "",
+			["enabledFor"] = "Alliance",
+			["length"] = 23843,
+			["name"] = "52-52 Searing Gorge/WPL",
+			["displayname"] = "52-52 Searing Gorge/WPL",
+		},
+		["RestedXP Alliance 50-60||50-51 Searing Gorge"] = {
+			["guideId"] = 1152650830,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "51-51 Blasted Lands",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|50-51 Searing Gorge",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 20740,
+			["name"] = "50-51 Searing Gorge",
+			["displayname"] = "50-51 Searing Gorge",
+		},
+		["RestedXP Alliance 30-40||38-39 Swamp of Sorrows"] = {
+			["guideId"] = 1907232661,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "39-40 Alterac/Arathi",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|38-39 Swamp of Sorrows",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 27339,
+			["name"] = "38-39 Swamp of Sorrows",
+			["displayname"] = "38-39 Swamp of Sorrows",
+		},
+		["RestedXP Alliance 1-20||13-15 Westfall"] = {
+			["guideId"] = 4142468218,
+			["name"] = "13-15 Westfall",
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "14-16 Darkshore",
+			["classic"] = "",
+			["lowPrio"] = "*RestedXP Alliance 1-20",
+			["enabledFor"] = "Alliance",
+			["defaultFor"] = "!NightElf !Hunter",
+			["xprate"] = "<1.5",
+			["version"] = 1,
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|13-15 Westfall",
+			["defaultfor"] = "!NightElf !Hunter",
+			["length"] = 32996,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["displayname"] = "13-15 Westfall",
+		},
+		["RestedXP Alliance 30-40||35-36 Desolace"] = {
+			["guideId"] = 21236883,
+			["subgroup"] = "RXP Speedrun Guide 30-40",
+			["next"] = "36-38 Stranglethorn Vale II",
+			["classic"] = "",
+			["version"] = 20,
+			["xprate"] = "<1.99",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 30-40|35-36 Desolace",
+			["era/som"] = "",
+			["name"] = "35-36 Desolace",
+			["length"] = 25425,
+			["enabledFor"] = "Alliance Hunter",
+			["displayname"] = "35-36 Desolace",
+		},
+		["RestedXP Survival Guide (A)||11-13 Loch Modan"] = {
+			["guideId"] = 1704267500,
+			["defaultfor"] = "Human",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Human",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|11-13 Loch Modan",
+			["length"] = 19583,
+			["displayname"] = "11-13 Loch Modan",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "13-15 Westfall",
+			["enabledFor"] = "Alliance",
+			["lowPrio"] = "*RestedXP Survival Guide (A)",
+			["name"] = "11-13 Loch Modan",
+			["hardcore"] = "",
+			["era/som"] = "",
+			["classic"] = "",
+			["version"] = 1,
+		},
+		["RestedXP Survival Guide (A)||10-11 Elwynn (Dwarf/Gnome)"] = {
+			["guideId"] = 249434715,
+			["defaultfor"] = "Gnome/Dwarf",
+			["group"] = "RestedXP Survival Guide (A)",
+			["defaultFor"] = "Gnome/Dwarf",
+			["key"] = "RestedXP Survival Guide (A)|RXP Survival Guide 1-20|10-11 Elwynn (Dwarf/Gnome)",
+			["length"] = 28167,
+			["displayname"] = "10-11 Elwynn (Dwarf/Gnome)",
+			["subgroup"] = "RXP Survival Guide 1-20",
+			["next"] = "11-13 Loch Modan (Dwarf/Gnome)",
+			["classic"] = "",
+			["lowPrio"] = "*RestedXP Survival Guide (A)",
+			["name"] = "10-11 Elwynn (Dwarf/Gnome)",
+			["hardcore"] = "",
+			["era/som"] = "",
+			["version"] = 1,
+			["enabledFor"] = "Alliance",
+		},
+		["enabledDungeons"] = {
+			["Horde"] = {
+			},
+			["Alliance"] = {
+				["RFK"] = "Razorfen Kraul",
+				["SFK"] = "Shadowfang Keep",
+				["STOCKS"] = "The Stockade",
+				["RFD"] = "Razorfen Downs",
+				["WC"] = "Wailing Caverns",
+				["GNOMER"] = "Gnomeregan",
+				["DM"] = "The Deadmines",
+				["SM"] = "Scarlet Monastery",
+				["BFD"] = "Blackfathom Deeps",
+				["ULDA"] = "Uldaman",
+				["MARA"] = "Maraudon",
+				["BRD"] = "Blackrock Depths",
+				["ST"] = "Sunken Temple",
+				["ZF"] = "Zul'Farrak",
+			},
+		},
+		["RestedXP Alliance 50-60||54-55 Felwood/Winterspring"] = {
+			["guideId"] = 3082948996,
+			["subgroup"] = "RXP Speedrun Guide 50-60",
+			["next"] = "55-56 Winterspring",
+			["classic"] = "",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 50-60|54-55 Felwood/Winterspring",
+			["version"] = 20,
+			["enabledFor"] = "Alliance",
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 32608,
+			["name"] = "54-55 Felwood/Winterspring",
+			["displayname"] = "54-55 Felwood/Winterspring",
+		},
+		["enableGroupQuests"] = {
+			["RestedXP Alliance 1-20"] = true,
+			["RestedXP Alliance 20-30"] = true,
+			["RestedXP Alliance 30-40"] = true,
+			["RestedXP Alliance 50-60"] = true,
+			["RestedXP Survival Guide (A)"] = true,
+		},
+		["RestedXP Alliance 1-20||14-16 Darkshore"] = {
+			["guideId"] = 56233181,
+			["subgroup"] = "RXP Speedrun Guide 1-20",
+			["next"] = "16-19 Darkshore",
+			["classic"] = "",
+			["name"] = "14-16 Darkshore",
+			["key"] = "RestedXP Speedrun Guide (A)|RXP Speedrun Guide 1-20|14-16 Darkshore",
+			["version"] = 1,
+			["group"] = "RestedXP Speedrun Guide (A)",
+			["length"] = 159942,
+			["enabledFor"] = "Alliance",
+			["displayname"] = "11-16 Darkshore",
+		},
+	},
+	["currentGuideName"] = "",
+	["stepSkip"] = {
+	},
+	["discardPile"] = {
+	},
+	["guideDisabled"] = {
+		25772, -- [1]
+		21350, -- [2]
+		15228, -- [3]
+		28144, -- [4]
+		13298, -- [5]
+		47212, -- [6]
+		11355, -- [7]
+		63774, -- [8]
+		22251, -- [9]
+		22312, -- [10]
+		31871, -- [11]
+		24660, -- [12]
+		28740, -- [13]
+		29887, -- [14]
+		40524, -- [15]
+		nil, -- [16]
+		nil, -- [17]
+		nil, -- [18]
+		nil, -- [19]
+		nil, -- [20]
+		nil, -- [21]
+		nil, -- [22]
+		10866, -- [23]
+		30184, -- [24]
+		85246, -- [25]
+		nil, -- [26]
+		nil, -- [27]
+		nil, -- [28]
+		nil, -- [29]
+		nil, -- [30]
+		69117, -- [31]
+		nil, -- [32]
+		26331, -- [33]
+		nil, -- [34]
+		43003, -- [35]
+		nil, -- [36]
+		11179, -- [37]
+		nil, -- [38]
+		13072, -- [39]
+		22709, -- [40]
+		nil, -- [41]
+		16215, -- [42]
+		nil, -- [43]
+		18617, -- [44]
+		9075, -- [45]
+		nil, -- [46]
+		45772, -- [47]
+		22856, -- [48]
+		nil, -- [49]
+		14113, -- [50]
+		nil, -- [51]
+		30023, -- [52]
+		nil, -- [53]
+		34973, -- [54]
+		10456, -- [55]
+		nil, -- [56]
+		nil, -- [57]
+		25566, -- [58]
+		nil, -- [59]
+		24806, -- [60]
+		nil, -- [61]
+		nil, -- [62]
+		16156, -- [63]
+		10587, -- [64]
+		nil, -- [65]
+		nil, -- [66]
+		nil, -- [67]
+		21013, -- [68]
+		20381, -- [69]
+		28609, -- [70]
+		nil, -- [71]
+		16896, -- [72]
+		nil, -- [73]
+		nil, -- [74]
+		nil, -- [75]
+		nil, -- [76]
+		nil, -- [77]
+		36462, -- [78]
+		nil, -- [79]
+		nil, -- [80]
+		31221, -- [81]
+		nil, -- [82]
+		nil, -- [83]
+		70807, -- [84]
+		nil, -- [85]
+		nil, -- [86]
+		nil, -- [87]
+		nil, -- [88]
+		nil, -- [89]
+		nil, -- [90]
+		nil, -- [91]
+		nil, -- [92]
+		15347, -- [93]
+		60553, -- [94]
+		28580, -- [95]
+		58169, -- [96]
+		35266, -- [97]
+		18863, -- [98]
+		77666, -- [99]
+		46193, -- [100]
+		9426, -- [101]
+		19325, -- [102]
+		31369, -- [103]
+		32826, -- [104]
+		45466, -- [105]
+		30755, -- [106]
+		37696, -- [107]
+		21660, -- [108]
+		41808, -- [109]
+		7292, -- [110]
+		30583, -- [111]
+		23000, -- [112]
+		21393, -- [113]
+		11723, -- [114]
+		37189, -- [115]
+		42751, -- [116]
+		19539, -- [117]
+		22003, -- [118]
+		24054, -- [119]
+		18505, -- [120]
+		14775, -- [121]
+		28895, -- [122]
+		48102, -- [123]
+		65770, -- [124]
+		38891, -- [125]
+		5075, -- [126]
+		34842, -- [127]
+		nil, -- [128]
+		nil, -- [129]
+		nil, -- [130]
+		nil, -- [131]
+		nil, -- [132]
+		nil, -- [133]
+		nil, -- [134]
+		nil, -- [135]
+		nil, -- [136]
+		nil, -- [137]
+		nil, -- [138]
+		nil, -- [139]
+		nil, -- [140]
+		nil, -- [141]
+		nil, -- [142]
+		nil, -- [143]
+		nil, -- [144]
+		nil, -- [145]
+		nil, -- [146]
+		nil, -- [147]
+		nil, -- [148]
+		nil, -- [149]
+		nil, -- [150]
+		nil, -- [151]
+		nil, -- [152]
+		nil, -- [153]
+		nil, -- [154]
+		nil, -- [155]
+		nil, -- [156]
+		nil, -- [157]
+		nil, -- [158]
+		nil, -- [159]
+		nil, -- [160]
+		nil, -- [161]
+		nil, -- [162]
+		nil, -- [163]
+		nil, -- [164]
+		nil, -- [165]
+		nil, -- [166]
+		nil, -- [167]
+		nil, -- [168]
+		nil, -- [169]
+		nil, -- [170]
+		nil, -- [171]
+		nil, -- [172]
+		nil, -- [173]
+		nil, -- [174]
+		nil, -- [175]
+		nil, -- [176]
+		nil, -- [177]
+		nil, -- [178]
+		nil, -- [179]
+		35827, -- [180]
+		52310, -- [181]
+		25719, -- [182]
+		68955, -- [183]
+		42047, -- [184]
+		17165, -- [185]
+		23671, -- [186]
+		28019, -- [187]
+		35856, -- [188]
+		14704, -- [189]
+		39900, -- [190]
+		11345, -- [191]
+		25854, -- [192]
+		22518, -- [193]
+		22248, -- [194]
+		10556, -- [195]
+		36805, -- [196]
+		42934, -- [197]
+		19102, -- [198]
+		17921, -- [199]
+		25878, -- [200]
+		18957, -- [201]
+		14834, -- [202]
+		26234, -- [203]
+		44371, -- [204]
+		68193, -- [205]
+		34757, -- [206]
+		8797, -- [207]
+		nil, -- [208]
+		nil, -- [209]
+		37213, -- [210]
+		27857, -- [211]
+		621, -- [212]
+		967, -- [213]
+		1045, -- [214]
+		3598, -- [215]
+		2969, -- [216]
+		3500, -- [217]
+		785, -- [218]
+		816, -- [219]
+		1047, -- [220]
+		727, -- [221]
+		983, -- [222]
+		1407, -- [223]
+		1078, -- [224]
+		1092, -- [225]
+		1001, -- [226]
+		896, -- [227]
+		808, -- [228]
+		1068, -- [229]
+		746, -- [230]
+		1262, -- [231]
+		2045, -- [232]
+		4814, -- [233]
+		3634, -- [234]
+		3630, -- [235]
+		857, -- [236]
+		1425, -- [237]
+		1358, -- [238]
+		1242, -- [239]
+		1280, -- [240]
+		652, -- [241]
+		970, -- [242]
+		881, -- [243]
+		770, -- [244]
+		5656, -- [245]
+		893, -- [246]
+		2972, -- [247]
+		2202, -- [248]
+		1009, -- [249]
+		2130, -- [250]
+		982, -- [251]
+		6944, -- [252]
+		1003, -- [253]
+		742, -- [254]
+		591, -- [255]
+		1296, -- [256]
+		804, -- [257]
+		1053, -- [258]
+		767, -- [259]
+		1971, -- [260]
+		1084, -- [261]
+		934, -- [262]
+		928, -- [263]
+		1634, -- [264]
+		934, -- [265]
+		3507, -- [266]
+		1526, -- [267]
+		1453, -- [268]
+		1174, -- [269]
+		1010, -- [270]
+		984, -- [271]
+		553, -- [272]
+		607, -- [273]
+		1001, -- [274]
+		1050, -- [275]
+		1012, -- [276]
+		2477, -- [277]
+		2925, -- [278]
+		2779, -- [279]
+		1079, -- [280]
+		1007, -- [281]
+		686, -- [282]
+		1245, -- [283]
+		1117, -- [284]
+		967, -- [285]
+		1307, -- [286]
+		5361, -- [287]
+		2095, -- [288]
+		2616, -- [289]
+		1517, -- [290]
+		673, -- [291]
+		1301, -- [292]
+		3130, -- [293]
+		799, -- [294]
+		2470, -- [295]
+		1773, -- [296]
+		1826, -- [297]
+		995, -- [298]
+		1281, -- [299]
+		1408, -- [300]
+		833, -- [301]
+		1064, -- [302]
+		1567, -- [303]
+		1117, -- [304]
+		683, -- [305]
+		821, -- [306]
+		1655, -- [307]
+		1025, -- [308]
+		1959, -- [309]
+		2290, -- [310]
+		890, -- [311]
+		7120, -- [312]
+		4991, -- [313]
+		634, -- [314]
+		1886, -- [315]
+		1350, -- [316]
+		1308, -- [317]
+		1420, -- [318]
+		2181, -- [319]
+		547, -- [320]
+		3213, -- [321]
+		1244, -- [322]
+		678, -- [323]
+		682, -- [324]
+		684, -- [325]
+		682, -- [326]
+		1137, -- [327]
+		988, -- [328]
+		1595, -- [329]
+		1553, -- [330]
+		1613, -- [331]
+		1656, -- [332]
+		1041, -- [333]
+		962, -- [334]
+		1429, -- [335]
+		775, -- [336]
+		807, -- [337]
+		1158, -- [338]
+		1092, -- [339]
+		3454, -- [340]
+		849, -- [341]
+		1545, -- [342]
+		967, -- [343]
+		1180, -- [344]
+		1799, -- [345]
+		2837, -- [346]
+		3319, -- [347]
+		2207, -- [348]
+		2304, -- [349]
+		2771, -- [350]
+		2326, -- [351]
+		1785, -- [352]
+		2857, -- [353]
+		2037, -- [354]
+		1858, -- [355]
+		2963, -- [356]
+		1663, -- [357]
+		1764, -- [358]
+		1187, -- [359]
+		1202, -- [360]
+		1190, -- [361]
+		1208, -- [362]
+		2982, -- [363]
+		2279, -- [364]
+		21611, -- [365]
+		18697, -- [366]
+		1635, -- [367]
+		1746, -- [368]
+		1650, -- [369]
+		1837, -- [370]
+		2552, -- [371]
+		1947, -- [372]
+		2259, -- [373]
+		1768, -- [374]
+		1698, -- [375]
+		3746, -- [376]
+		1381, -- [377]
+		958, -- [378]
+		2623, -- [379]
+		1526, -- [380]
+		2138, -- [381]
+		1692, -- [382]
+		1680, -- [383]
+		1614, -- [384]
+		1701, -- [385]
+		1940, -- [386]
+		1634, -- [387]
+		1723, -- [388]
+		2255, -- [389]
+		1685, -- [390]
+		2854, -- [391]
+		2562, -- [392]
+		6364, -- [393]
+		4836, -- [394]
+		3123, -- [395]
+		5771, -- [396]
+		2582, -- [397]
+		1986, -- [398]
+		3508, -- [399]
+		9493, -- [400]
+		1750, -- [401]
+		2092, -- [402]
+		3057, -- [403]
+		3137, -- [404]
+		3186, -- [405]
+		1957, -- [406]
+		5830, -- [407]
+		4982, -- [408]
+		1942, -- [409]
+		1999, -- [410]
+		2449, -- [411]
+		2075, -- [412]
+		1133, -- [413]
+		4984, -- [414]
+		911, -- [415]
+		1028, -- [416]
+		1566, -- [417]
+		954, -- [418]
+		937, -- [419]
+		1758, -- [420]
+		2093, -- [421]
+		1048, -- [422]
+		1448, -- [423]
+		935, -- [424]
+		1166, -- [425]
+		807, -- [426]
+		821, -- [427]
+		1339, -- [428]
+		1176, -- [429]
+		1354, -- [430]
+		892, -- [431]
+		864, -- [432]
+		899, -- [433]
+		879, -- [434]
+		1138, -- [435]
+		1031, -- [436]
+		1023, -- [437]
+		1023, -- [438]
+		1187, -- [439]
+		1545, -- [440]
+		2520, -- [441]
+		2494, -- [442]
+		1268, -- [443]
+		1527, -- [444]
+		731, -- [445]
+		779, -- [446]
+		1069, -- [447]
+		916, -- [448]
+		2298, -- [449]
+		2818, -- [450]
+		2755, -- [451]
+		2174, -- [452]
+		1137, -- [453]
+		1182, -- [454]
+		1176, -- [455]
+		1104, -- [456]
+		1178, -- [457]
+		640, -- [458]
+		619, -- [459]
+		1048, -- [460]
+		969, -- [461]
+		1104, -- [462]
+		1052, -- [463]
+		1464, -- [464]
+		1819, -- [465]
+		2097, -- [466]
+		1599, -- [467]
+		1236, -- [468]
+		758, -- [469]
+		797, -- [470]
+		748, -- [471]
+		944, -- [472]
+		1122, -- [473]
+		5006, -- [474]
+		6282, -- [475]
+		1950, -- [476]
+		757, -- [477]
+		1512, -- [478]
+		1925, -- [479]
+		2158, -- [480]
+		2662, -- [481]
+		1977, -- [482]
+		653, -- [483]
+		876, -- [484]
+		884, -- [485]
+		2041, -- [486]
+		1039, -- [487]
+		1068, -- [488]
+		1514, -- [489]
+		1213, -- [490]
+		7412, -- [491]
+		1807, -- [492]
+		1816, -- [493]
+		3979, -- [494]
+		2120, -- [495]
+		1692, -- [496]
+		6674, -- [497]
+		8040, -- [498]
+		8737, -- [499]
+		7675, -- [500]
+		7099, -- [501]
+		2163, -- [502]
+		6436, -- [503]
+		2549, -- [504]
+		6783, -- [505]
+		8112, -- [506]
+		2158, -- [507]
+		2761, -- [508]
+		2814, -- [509]
+		2549, -- [510]
+		1806, -- [511]
+		13426, -- [512]
+		2949, -- [513]
+		6655, -- [514]
+		1644, -- [515]
+		3124, -- [516]
+		909, -- [517]
+		1054, -- [518]
+		1315, -- [519]
+		936, -- [520]
+		8538, -- [521]
+		1471, -- [522]
+		2007, -- [523]
+		[0] = 523,
+	},
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+	},
+	["profiles"] = {
+		["Mattihunto - Nethergarde Keep"] = {
+			["levels"] = {
+				[60] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+					},
+					["quests"] = {
+					},
+				},
+			},
+			["trackedGuid"] = "Player-5284-01822684",
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+	},
+	["profiles"] = {
+		["Mattihunto - Nethergarde Keep"] = {
+		},
+	},
+}
+RXPCSettings = nil

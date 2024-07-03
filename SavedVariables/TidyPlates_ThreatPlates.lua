@@ -1,18 +1,55 @@
 
 ThreatPlatesDB = {
 	["char"] = {
-		["Naediin - Pyrewood Village"] = {
+		["Aimalot - Wild Growth"] = {
 			["welcome"] = true,
 		},
-	},
-	["profileKeys"] = {
-		["Naediin - Pyrewood Village"] = "Default",
+		["Bubblehearth - Nethergarde Keep"] = {
+			["welcome"] = true,
+		},
+		["Mattihunto - Nethergarde Keep"] = {
+			["welcome"] = true,
+		},
+		["Priestcoast - Nethergarde Keep"] = {
+			["welcome"] = true,
+		},
+		["Hellocritty - Nethergarde Keep"] = {
+			["welcome"] = true,
+		},
+		["Lefaux - Nethergarde Keep"] = {
+			["welcome"] = true,
+		},
+		["Locknroll - Nethergarde Keep"] = {
+			["welcome"] = true,
+		},
+		["Lefaux - Wild Growth"] = {
+			["welcome"] = true,
+		},
+		["Muilocko - Nethergarde Keep"] = {
+			["welcome"] = true,
+		},
+		["Muisnipe - Razorfen"] = {
+			["welcome"] = true,
+		},
 	},
 	["global"] = {
 		["version"] = "11.2.13",
 	},
+	["profileKeys"] = {
+		["Aimalot - Wild Growth"] = "Default",
+		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Mattihunto - Nethergarde Keep"] = "Default",
+		["Priestcoast - Nethergarde Keep"] = "Default",
+		["Hellocritty - Nethergarde Keep"] = "Default",
+		["Lefaux - Nethergarde Keep"] = "Default",
+		["Locknroll - Nethergarde Keep"] = "Default",
+		["Lefaux - Wild Growth"] = "Default",
+		["Muilocko - Nethergarde Keep"] = "Default",
+		["Muisnipe - Razorfen"] = "Default",
+	},
 	["profiles"] = {
 		["Default"] = {
+			["CheckForIncompatibleAddons"] = false,
 			["settings"] = {
 				["frame"] = {
 					["height"] = 32,

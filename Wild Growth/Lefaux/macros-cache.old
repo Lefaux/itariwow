@@ -1,0 +1,8 @@
+VER 3 0000000001000004 "Cleanse" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead] Purify
+END
+VER 3 0000000001000003 "HL" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead] Holy Light
+END

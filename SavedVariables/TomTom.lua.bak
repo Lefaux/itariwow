@@ -1,26 +1,42 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Naediin - Pyrewood Village"] = "Default",
+		["Lefaux - Nethergarde Keep"] = "Default",
+		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Mattihunto - Nethergarde Keep"] = "Default",
+		["Priestcoast - Nethergarde Keep"] = "Default",
+		["Hellocritty - Nethergarde Keep"] = "Default",
+		["Locknroll - Nethergarde Keep"] = "Default",
+		["Kühltruhzad - Nethergarde Keep"] = "Default",
+		["Aimalot - Wild Growth"] = "Default",
+		["Lefaux - Wild Growth"] = "Default",
+		["Muilocko - Nethergarde Keep"] = "Default",
+		["Muisnipe - Razorfen"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["arrow"] = {
+				["lock"] = true,
 				["position"] = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
+					3.808732271194458, -- [4]
+					-80.76220703125, -- [5]
 				},
 			},
+			["mapcoords"] = {
+				["playerenable"] = false,
+				["cursorenable"] = false,
+			},
 			["block"] = {
+				["enable"] = false,
 				["position"] = {
-					"CENTER", -- [1]
+					"TOP", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					0, -- [4]
-					-100, -- [5]
+					"TOP", -- [3]
+					1.523950219154358, -- [4]
+					-21.76224899291992, -- [5]
 				},
 			},
 		},
@@ -29,10 +45,40 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
-		["Naediin - Pyrewood Village"] = "Naediin - Pyrewood Village",
+		["Lefaux - Nethergarde Keep"] = "Lefaux - Nethergarde Keep",
+		["Bubblehearth - Nethergarde Keep"] = "Bubblehearth - Nethergarde Keep",
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+		["Priestcoast - Nethergarde Keep"] = "Priestcoast - Nethergarde Keep",
+		["Hellocritty - Nethergarde Keep"] = "Hellocritty - Nethergarde Keep",
+		["Locknroll - Nethergarde Keep"] = "Locknroll - Nethergarde Keep",
+		["Kühltruhzad - Nethergarde Keep"] = "Kühltruhzad - Nethergarde Keep",
+		["Aimalot - Wild Growth"] = "Aimalot - Wild Growth",
+		["Lefaux - Wild Growth"] = "Lefaux - Wild Growth",
+		["Muilocko - Nethergarde Keep"] = "Muilocko - Nethergarde Keep",
+		["Muisnipe - Razorfen"] = "Muisnipe - Razorfen",
 	},
 	["profiles"] = {
-		["Naediin - Pyrewood Village"] = {
+		["Lefaux - Nethergarde Keep"] = {
+		},
+		["Bubblehearth - Nethergarde Keep"] = {
+		},
+		["Mattihunto - Nethergarde Keep"] = {
+		},
+		["Priestcoast - Nethergarde Keep"] = {
+		},
+		["Hellocritty - Nethergarde Keep"] = {
+		},
+		["Locknroll - Nethergarde Keep"] = {
+		},
+		["Kühltruhzad - Nethergarde Keep"] = {
+		},
+		["Aimalot - Wild Growth"] = {
+		},
+		["Lefaux - Wild Growth"] = {
+		},
+		["Muilocko - Nethergarde Keep"] = {
+		},
+		["Muisnipe - Razorfen"] = {
 		},
 	},
 }

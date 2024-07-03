@@ -1,0 +1,5 @@
+VER 3 0000000001000001 "Opener" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Hunter's Mark(Rank 1)
+/petattack
+END

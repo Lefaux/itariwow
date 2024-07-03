@@ -1,0 +1,103 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0911,
+	["LastPlayerFullName"] = "Mattihunto-Nethergarde Keep",
+	["AutoSelectScales"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 18421,
+			["Level"] = 63,
+			["Link"] = "|cff0070dd|Hitem:18421::::::::60:::::::::|h[Backwood Helm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 19856,
+			["Level"] = 68,
+			["Link"] = "|cffa335ee|Hitem:19856::::::::60:::::::::|h[The Eye of Hakkar]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 16848,
+			["Level"] = 66,
+			["Link"] = "|cffa335ee|Hitem:16848::::::::60:::::::::|h[Giantstalker's Epaulets]|h|r",
+		}, -- [3]
+		[13] = {
+			["ID"] = 13965,
+			["Level"] = 63,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff0070dd|Hitem:13965::::::::60:::::::::|h[Blackhand's Breadth]|h|r",
+		},
+		[7] = {
+			["ID"] = 15062,
+			["Level"] = 60,
+			["Link"] = "|cff0070dd|Hitem:15062:1843:::::::55:::::::::|h[Devilsaur Leggings]|h|r",
+		},
+		[14] = {
+			["ID"] = 18473,
+			["Level"] = 62,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff0070dd|Hitem:18473::::::::60:::::::::|h[Royal Seal of Eldre'Thalas]|h|r",
+		},
+		[15] = {
+			["ID"] = 13340,
+			["Level"] = 63,
+			["Link"] = "|cff0070dd|Hitem:13340::::::::60:::::::::|h[Cape of the Black Baron]|h|r",
+		},
+		[8] = {
+			["ID"] = 16849,
+			["Level"] = 66,
+			["Link"] = "|cffa335ee|Hitem:16849::::::::60:::::::::|h[Giantstalker's Boots]|h|r",
+		},
+		[16] = {
+			["ID"] = 18715,
+			["Level"] = 75,
+			["Link"] = "|cffa335ee|Hitem:18715::::::::60:::::::::|h[Lok'delar, Stave of the Ancient Keepers]|h|r",
+		},
+		[9] = {
+			["ID"] = 21502,
+			["Level"] = 71,
+			["Link"] = "|cff0070dd|Hitem:21502::::::::60:::::::::|h[Sand Reaver Wristguards]|h|r",
+		},
+		[18] = {
+			["ID"] = 18713,
+			["Level"] = 75,
+			["Link"] = "|cffa335ee|Hitem:18713::::::::60:::::::::|h[Rhok'delar, Longbow of the Ancient Keepers]|h|r",
+		},
+		[10] = {
+			["ID"] = 16940,
+			["Level"] = 76,
+			["Link"] = "|cffa335ee|Hitem:16940::::::::60:::::::::|h[Dragonstalker's Gauntlets]|h|r",
+		},
+		[17] = {
+			["ID"] = 18737,
+			["Level"] = 62,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff0070dd|Hitem:18737::::::::60:::::::::|h[Bone Slicing Hatchet]|h|r",
+		},
+		[11] = {
+			["ID"] = 21477,
+			["Level"] = 74,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:21477::::::::60:::::::::|h[Ring of Fury]|h|r",
+		},
+		[6] = {
+			["ID"] = 16851,
+			["Level"] = 66,
+			["Link"] = "|cffa335ee|Hitem:16851::::::::60:::::::::|h[Giantstalker's Belt]|h|r",
+		},
+		[12] = {
+			["ID"] = 13098,
+			["Level"] = 63,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff0070dd|Hitem:13098::::::::60:::::::::|h[Painweaver Band]|h|r",
+		},
+		[5] = {
+			["ID"] = 16674,
+			["Level"] = 63,
+			["Link"] = "|cff0070dd|Hitem:16674::::::::60:::::::::|h[Beaststalker's Tunic]|h|r",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = nil
+PawnClassicScaleProviderOptions = {
+	["LastClass"] = "HUNTER",
+	["LastAdded"] = 3,
+}

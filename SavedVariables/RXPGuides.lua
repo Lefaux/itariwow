@@ -1,0 +1,271 @@
+
+RXPData = {
+	["gameVersion"] = 11502,
+	["defaultProfile"] = false,
+	["release"] = "v4.6.17",
+	["cacheVersion"] = 24,
+	["trainGenericSpells"] = true,
+}
+RXPDB = {
+	["profileKeys"] = {
+		["Lefaux - Nethergarde Keep"] = "global",
+		["Mattihunto - Nethergarde Keep"] = "global",
+		["Muilocko - Nethergarde Keep"] = "global",
+		["Bubblehearth - Nethergarde Keep"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+		},
+	},
+}
+RXPSettings = {
+	["profileKeys"] = {
+		["Lefaux - Nethergarde Keep"] = "Lefaux - Nethergarde Keep",
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+		["Muilocko - Nethergarde Keep"] = "Muilocko - Nethergarde Keep",
+		["Bubblehearth - Nethergarde Keep"] = "Bubblehearth - Nethergarde Keep",
+	},
+	["profiles"] = {
+		["Lefaux - Nethergarde Keep"] = {
+			["windowScale"] = 1.15,
+			["frameSizes"] = {
+				["arrowFrame"] = {
+					31.99999046325684, -- [1]
+					31.99999046325684, -- [2]
+				},
+				["RXPFrame"] = {
+					223.9751129150391, -- [1]
+					174.5549011230469, -- [2]
+				},
+				["activeItemFrame"] = {
+					64.95210266113281, -- [1]
+					39.99995040893555, -- [2]
+				},
+				["activeTargetFrame"] = {
+					73.77758026123047, -- [1]
+					68, -- [2]
+				},
+			},
+			["activeTalentGuide"] = "WARRIOR - Softcore Warrior 30-55",
+			["enableLevelUpAnnounceGroup"] = false,
+			["frameHeight"] = 174.5548858642578,
+			["macroAnnounced"] = true,
+			["activeTheme"] = "RXP Red",
+			["framePositions"] = {
+				["arrowFrame"] = {
+					{
+						"CENTER", -- [1]
+						nil, -- [2]
+						"CENTER", -- [3]
+						2.285459041595459, -- [4]
+						-106.6669311523438, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"RIGHT", -- [1]
+						nil, -- [2]
+						"RIGHT", -- [3]
+						-263.775634765625, -- [4]
+						-164.3196411132813, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						nil, -- [2]
+						"CENTER", -- [3]
+						257.5238647460938, -- [4]
+						-91.42867279052734, -- [5]
+					}, -- [1]
+				},
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						nil, -- [2]
+						"CENTER", -- [3]
+						337.5237426757813, -- [4]
+						-12.19050121307373, -- [5]
+					}, -- [1]
+				},
+			},
+		},
+		["Mattihunto - Nethergarde Keep"] = {
+			["framePositions"] = {
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameHeight"] = 125.0000686645508,
+			["frameSizes"] = {
+				["arrowFrame"] = {
+					31.99999046325684, -- [1]
+					31.99999046325684, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					28.00005531311035, -- [2]
+				},
+				["activeItemFrame"] = {
+					64.9522705078125, -- [1]
+					39.99995040893555, -- [2]
+				},
+				["activeTargetFrame"] = {
+					73.77774810791016, -- [1]
+					68, -- [2]
+				},
+			},
+		},
+		["Muilocko - Nethergarde Keep"] = {
+			["framePositions"] = {
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameHeight"] = 125.0000686645508,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					73.77774810791016, -- [1]
+					68, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					28.00005531311035, -- [2]
+				},
+				["activeItemFrame"] = {
+					64.9522705078125, -- [1]
+					39.99995040893555, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999046325684, -- [1]
+					31.99999046325684, -- [2]
+				},
+			},
+		},
+		["Bubblehearth - Nethergarde Keep"] = {
+			["framePositions"] = {
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameHeight"] = 125.0000686645508,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					73.77774810791016, -- [1]
+					68, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					28.00005531311035, -- [2]
+				},
+				["activeItemFrame"] = {
+					64.9522705078125, -- [1]
+					39.99995040893555, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999046325684, -- [1]
+					31.99999046325684, -- [2]
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,19 @@
+
+TradeSkillDWQ = {
+	["Cooking"] = {
+		["TSDWqueueList"] = {
+		},
+		["selectedIdx"] = 0,
+	},
+	["Leatherworking"] = {
+		["TSDWqueueList"] = {
+		},
+		["selectedIdx"] = 0,
+	},
+	["version"] = 1.7,
+	["First Aid"] = {
+		["TSDWqueueList"] = {
+		},
+		["selectedIdx"] = 0,
+	},
+}

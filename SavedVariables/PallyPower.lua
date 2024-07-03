@@ -1,79 +1,7838 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Naediin - Pyrewood Village"] = "Other",
+		["Lefaux - Nethergarde Keep"] = "Other",
+		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Mattihunto - Nethergarde Keep"] = "Other",
+		["Priestcoast - Nethergarde Keep"] = "Other",
+		["Hellocritty - Nethergarde Keep"] = "Other",
+		["Locknroll - Nethergarde Keep"] = "Other",
+		["Kühltruhzad - Nethergarde Keep"] = "Other",
+		["Aimalot - Wild Growth"] = "Other",
+		["Lefaux - Wild Growth"] = "Default",
+		["Muilocko - Nethergarde Keep"] = "Other",
+		["Muisnipe - Razorfen"] = "Other",
 	},
 	["profiles"] = {
+		["Default"] = {
+			["buffscale"] = 0.8,
+			["layout"] = "Layout 3",
+			["rfbuff"] = false,
+			["display"] = {
+				["offsetX"] = 228.0475158691406,
+				["offsetY"] = 33.71374893188477,
+				["frameLocked"] = true,
+			},
+			["freeassign"] = false,
+			["enable"] = true,
+			["border"] = "None",
+			["minimap"] = {
+				["show"] = false,
+			},
+			["configscale"] = 0.7000000000000001,
+			["autobuff"] = {
+				["autobutton"] = false,
+			},
+			["skin"] = "ElvUI Blank",
+			["SalvInCombat"] = true,
+			["rf"] = false,
+		},
 		["Other"] = {
 			["enable"] = true,
+			["minimap"] = {
+				["minimapPos"] = 167.2276236603431,
+			},
 		},
 	},
 }
 PallyPower_Assignments = {
+	["Aladeen"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+	},
+	["Valhala"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+	},
+	["Daaz"] = {
+		6, -- [1]
+		4, -- [2]
+		0, -- [3]
+		0, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		6, -- [9]
+	},
+	["Wuji"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		1, -- [4]
+		nil, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+	},
+	["Bubblehearth"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+	},
+	["Endridz"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+	},
+	["Auther"] = {
+		4, -- [1]
+		4, -- [2]
+		0, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		0, -- [9]
+	},
+	["Sinoc"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		0, -- [9]
+	},
+	["Nazerion"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+	},
 }
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
+	["Valhala"] = 1,
+	["Reynolds-PyrewoodVillage"] = 0,
+	["Zarlic-Firemaw"] = 0,
+	["Feran-MirageRaceway"] = 1,
+	["Icekissx-Firemaw"] = 0,
+	["Bubblehearth"] = 1,
+	["Béllona-Firemaw"] = 0,
+	["Wazig"] = 0,
+	["Lampadaire-PyrewoodVillage"] = 0,
+	["Lillian-PyrewoodVillage"] = 0,
+	["Sönics-PyrewoodVillage"] = 1,
+	["Arnarz-Firemaw"] = 0,
+	["Outofdodge-MirageRaceway"] = 0,
+	["Sarkiel-PyrewoodVillage"] = 0,
+	["Paleface"] = 0,
+	["Bubblehearth-NethergardeKeep"] = 0,
+	["Snevriden-Firemaw"] = 0,
+	["Zerblatt"] = 0,
+	["Bodrick"] = 0,
+	["Snake-PyrewoodVillage"] = 0,
+	["Beerdrin-PyrewoodVillage"] = 0,
+	["Healmecarl-PyrewoodVillage"] = 0,
+	["Wuji"] = 0,
+	["Tidora-PyrewoodVillage"] = 0,
+	["Dâe-Firemaw"] = 0,
+	["Ødegård-PyrewoodVillage"] = 0,
+	["Cerberrus-PyrewoodVillage"] = 0,
+	["Pwnela"] = 7,
+	["Vidina-MirageRaceway"] = 0,
+	["Dondrakiss-PyrewoodVillage"] = 0,
+	["Theorik-Firemaw"] = 0,
+	["Heerathon-PyrewoodVillage"] = 7,
+	["Muhlord-PyrewoodVillage"] = 0,
+	["Mccoone-Firemaw"] = 0,
+	["Dusa-Everlook"] = 0,
+	["Tgoex-Firemaw"] = 0,
+	["Eilse-PyrewoodVillage"] = 0,
+	["Buck-PyrewoodVillage"] = 0,
+	["Zaralyn-PyrewoodVillage"] = 1,
+	["Daaz"] = 5,
+	["Eryo-PyrewoodVillage"] = 6,
+	["Uteram-Firemaw"] = 0,
+	["Stellabright-PyrewoodVillage"] = 1,
+	["Gonken-Firemaw"] = 0,
+	["Eddri-PyrewoodVillage"] = 0,
+	["Corneliuz-PyrewoodVillage"] = 0,
+	["Thund"] = 0,
+	["Nopaine-PyrewoodVillage"] = 0,
+	["Grym-PyrewoodVillage"] = 0,
+	["Muush-Firemaw"] = 0,
+	["Grincheux-Auberdine"] = 0,
+	["Öak-Firemaw"] = 0,
+	["Tigereye"] = 0,
+	["Buffvendor"] = 1,
+	["Bubbleboi-PyrewoodVillage"] = 0,
+	["Pinata-Firemaw"] = 0,
+	["Brewhammer-PyrewoodVillage"] = 0,
+	["Ødegård"] = 0,
+	["Ill-Skullflame"] = 0,
+	["Brickman"] = 0,
+	["Jilena"] = 0,
+	["Mantower-Firemaw"] = 0,
+	["Bodrick-PyrewoodVillage"] = 0,
+	["Paladìn"] = 0,
+	["Pícus-Ashbringer"] = 0,
+	["Daaz-PyrewoodVillage"] = 5,
+	["Masserati-PyrewoodVillage"] = 0,
+	["Corneliuz"] = 0,
+	["Holyjimmy-Bloodfang"] = 0,
+	["Markofmir"] = 7,
+	["Denoth-PyrewoodVillage"] = 0,
+	["Lillian"] = 0,
+	["Naizadin-PyrewoodVillage"] = 0,
+	["Loshchichko-Firemaw"] = 0,
+	["Killhorde-Ashbringer"] = 0,
+	["Valyrian"] = 0,
+	["Hendric-MirageRaceway"] = 0,
+	["Derillian"] = 0,
+	["Mewtwo-PyrewoodVillage"] = 0,
+	["Browheelie-PyrewoodVillage"] = 0,
+	["Jesq"] = 0,
+	["Defcon-Firemaw"] = 0,
+	["Miyung-PyrewoodVillage"] = 0,
+	["Lucker-PyrewoodVillage"] = 0,
+	["Claudi-PyrewoodVillage"] = 0,
+	["Taschkon-Firemaw"] = 0,
+	["Prehoffer-MirageRaceway"] = 1,
+	["Dontrishot-Firemaw"] = 0,
+	["Sann-Firemaw"] = 0,
+	["Vettan-Skullflame"] = 0,
+	["Exermo-Firemaw"] = 0,
+	["Lanya-PyrewoodVillage"] = 0,
+	["Baanshee"] = 0,
+	["Aldaris-Firemaw"] = 0,
+	["Lumio-Firemaw"] = 0,
+	["Borbelade"] = 0,
+	["Kaemi-MirageRaceway"] = 3,
+	["Brenolf-PyrewoodVillage"] = 0,
+	["Escanór-Firemaw"] = 0,
+	["Bimblewit-Firemaw"] = 0,
+	["Paleface-PyrewoodVillage"] = 0,
+	["Déezy-MirageRaceway"] = 0,
+	["Butterkurt-MirageRaceway"] = 0,
+	["Eyejay-MirageRaceway"] = 1,
+	["Retbot-PyrewoodVillage"] = 0,
+	["Dior-PyrewoodVillage"] = 0,
+	["Vhoscythe-PyrewoodVillage"] = 1,
+	["Beerdrin"] = 0,
+	["Arländ-MirageRaceway"] = 0,
+	["Gabrielle"] = 1,
+	["Holyclicker-Firemaw"] = 0,
+	["Renowned-MirageRaceway"] = 0,
+	["Malak-MirageRaceway"] = 0,
+	["Léonheart-Firemaw"] = 0,
+	["Ozan-PyrewoodVillage"] = 0,
+	["Noel-MirageRaceway"] = 0,
+	["Sinoc"] = 4,
+	["Delfoy-MirageRaceway"] = 0,
+	["Grndwzrdkng-Firemaw"] = 0,
+	["Justx-PyrewoodVillage"] = 0,
+	["Painsu-Firemaw"] = 0,
+	["Ciker-Ashbringer"] = 0,
+	["Fergus-PyrewoodVillage"] = 6,
+	["Ramsaryon-PyrewoodVillage"] = 6,
+	["Nazerion-MirageRaceway"] = 6,
+	["Horogina-MirageRaceway"] = 0,
+	["Endridz-PyrewoodVillage"] = 1,
+	["Roulis-Firemaw"] = 0,
+	["Vaní"] = 2,
+	["Icejam-Firemaw"] = 0,
+	["Jesq-PyrewoodVillage"] = 0,
+	["Cosbe-PyrewoodVillage"] = 0,
+	["Venison-Mograine"] = 0,
+	["Bouchard-Firemaw"] = 0,
+	["Fatmatt-Firemaw"] = 0,
+	["Aladeen"] = 5,
+	["Lorex-PyrewoodVillage"] = 0,
+	["Palvaer-PyrewoodVillage"] = 1,
+	["Lakba-PyrewoodVillage"] = 0,
+	["Robomatic-Ashbringer"] = 0,
+	["Gottschalk-PyrewoodVillage"] = 0,
+	["Bazalt-Firemaw"] = 0,
+	["Idontheal-PyrewoodVillage"] = 0,
+	["Kkthxbye-PyrewoodVillage"] = 0,
+	["Lefaux"] = 0,
+	["Kompostkværn-Firemaw"] = 0,
+	["Tigereye-PyrewoodVillage"] = 1,
+	["Achillea-PyrewoodVillage"] = 0,
+	["Idontheal"] = 0,
+	["Olymp-Everlook"] = 0,
+	["Antinormal"] = 0,
+	["Ramsaryon"] = 5,
+	["Derazpally-Firemaw"] = 0,
+	["Orin-MirageRaceway"] = 0,
+	["Hrothoo-MirageRaceway"] = 0,
+	["Frár-PyrewoodVillage"] = 0,
+	["Flashbringer"] = 0,
+	["Palladonna-PyrewoodVillage"] = 0,
+	["Maghnus-PyrewoodVillage"] = 5,
+	["Shanibee-PyrewoodVillage"] = 0,
+	["Vidina"] = 0,
+	["Deb-PyrewoodVillage"] = 0,
+	["Thenorkes-Firemaw"] = 0,
+	["Lumpan"] = 0,
+	["Endridz"] = 0,
+	["Loladino-MirageRaceway"] = 0,
+	["Rizzl-Firemaw"] = 0,
+	["Jerush-PyrewoodVillage"] = 1,
+	["Bämäräng-MirageRaceway"] = 0,
+	["Ryanna-MirageRaceway"] = 1,
+	["Ronceveau-Auberdine"] = 0,
+	["Gallowhill-PyrewoodVillage"] = 0,
+	["Sancey-Golemagg"] = 0,
+	["Vendell-Firemaw"] = 0,
+	["Holybluff-MirageRaceway"] = 7,
+	["Valyrian-PyrewoodVillage"] = 0,
+	["Lawin-PyrewoodVillage"] = 0,
+	["Aeolia-Firemaw"] = 0,
+	["Satican-Ashbringer"] = 0,
+	["Arthoorias-PyrewoodVillage"] = 0,
+	["Turdpolisher-Mograine"] = 0,
+	["Paanda-Firemaw"] = 0,
+	["Michadin"] = 0,
+	["Denoth"] = 0,
+	["Betzivu-Firemaw"] = 0,
+	["Signal-Firemaw"] = 0,
+	["Ksunuki"] = 0,
+	["Milasus-PyrewoodVillage"] = 1,
+	["Sedler-Firemaw"] = 0,
+	["Lumpan-PyrewoodVillage"] = 1,
+	["Hyghhealz-Everlook"] = 0,
+	["Frár"] = 0,
+	["Wuji-PyrewoodVillage"] = 1,
+	["Michadin-MirageRaceway"] = 0,
+	["Lasty-Finkle"] = 0,
+	["Arnaldjur"] = 0,
+	["Derillian-PyrewoodVillage"] = 0,
+	["Titanuk-Firemaw"] = 0,
+	["Wazig-PyrewoodVillage"] = 0,
+	["Nicq-Firemaw"] = 0,
+	["Vap-PyrewoodVillage"] = 0,
+	["Catchy-PyrewoodVillage"] = 0,
+	["Buck"] = 0,
+	["Jovira-PyrewoodVillage"] = 0,
+	["Rogrh-PyrewoodVillage"] = 0,
+	["Boglins-Firemaw"] = 0,
+	["Bopcom"] = 0,
+	["Kalex-Firemaw"] = 0,
+	["Sauleif-Earthshaker"] = 0,
+	["Invisusira-Venoxis"] = 0,
+	["Ksunuki-PyrewoodVillage"] = 0,
+	["Cerberrus"] = 0,
+	["Svettmann"] = 0,
+	["Grumpy-Earthshaker"] = 0,
+	["Dut-MirageRaceway"] = 1,
+	["Aozachi-PyrewoodVillage"] = 0,
+	["Trinetiy-Firemaw"] = 0,
+	["Markofmir-PyrewoodVillage"] = 7,
+	["Creambreath-PyrewoodVillage"] = 0,
+	["Smasheralda"] = 0,
+	["Niffel-Firemaw"] = 0,
+	["Kkthxbye"] = 0,
+	["Deví-PyrewoodVillage"] = 6,
+	["Bubblegumm-Firemaw"] = 0,
+	["Semyra-MirageRaceway"] = 0,
+	["Silberflamme-PyrewoodVillage"] = 1,
+	["Malora-Firemaw"] = 0,
+	["Auther"] = 5,
+	["Renar-PyrewoodVillage"] = 0,
+	["Knoppers-Firemaw"] = 0,
 }
 PallyPower_SavedPresets = {
-	["PallyPower_NormalAssignments"] = {
-		[0] = {
-		},
-	},
-	["PallyPower_AuraAssignments"] = {
-		[0] = {
-		},
-	},
 	["PallyPower_Assignments"] = {
+		[0] = {
+		},
+	},
+	["PallyPower_NormalAssignments"] = {
 		[0] = {
 		},
 	},
 }
 PallyPower_ChanNames = {
 	[0] = "None",
+	[4] = "elysiumheal",
 }
 LCD_Data = {
-	["Player-5284-01C52AA9"] = {
-		[2458] = {
-			[2] = 635692.096,
-			[3] = "BUFF",
-		},
+	["Player-5284-01997E3E"] = {
 	},
-	["Player-5284-01D9744D"] = {
-		[17038] = {
-			1200, -- [1]
-			635692.096, -- [2]
+	["Player-5284-01C51C3C"] = {
+	},
+	["Creature-0-5211-230-21542-8902-00018DC1BC"] = {
+	},
+	["Player-5284-01BEC7BB"] = {
+	},
+	["Pet-0-5208-0-13-1996-0500866612"] = {
+	},
+	["Player-5284-021A18DA"] = {
+	},
+	["Player-5284-01B872A5"] = {
+	},
+	["Player-5284-01C546A8"] = {
+	},
+	["Player-5284-018E149B"] = {
+	},
+	["Creature-0-5250-0-56-4474-000054EC93"] = {
+	},
+	["Pet-0-5253-469-18539-3825-02000188A7"] = {
+	},
+	["Player-5284-01C0F5AA"] = {
+	},
+	["Player-5284-0198A51A"] = {
+	},
+	["Player-5284-019653EA"] = {
+	},
+	["Player-5284-0199E1DD"] = {
+	},
+	["Pet-0-5253-30-191-11357-040085F03B"] = {
+	},
+	["Player-5284-019D332D"] = {
+	},
+	["Player-5284-019033DC"] = {
+	},
+	["Player-5284-0146BE8A"] = {
+	},
+	["Player-5825-020E3F84"] = {
+	},
+	["Player-5284-000CE5F0"] = {
+	},
+	["Player-5284-0197037B"] = {
+	},
+	["Player-5825-020A21F1"] = {
+	},
+	["Player-5284-0199DF02"] = {
+	},
+	["Player-5284-0183D530"] = {
+	},
+	["Player-5284-017C0580"] = {
+	},
+	["Player-5284-01C407D8"] = {
+	},
+	["Player-5284-016FE574"] = {
+	},
+	["Creature-0-5208-0-17-1907-0000ECCB1A"] = {
+	},
+	["Pet-0-5211-489-23007-9696-0500840056"] = {
+	},
+	["Player-5284-019C52E3"] = {
+	},
+	["Pet-0-5250-0-51-7456-010089F50A"] = {
+	},
+	["Player-5284-01B77CD6"] = {
+	},
+	["Player-5284-019E830F"] = {
+	},
+	["Pet-0-5209-0-47-1860-0900A43688"] = {
+	},
+	["Player-5284-019AA5DA"] = {
+	},
+	["Player-5284-01B1C44B"] = {
+	},
+	["Player-5284-01C469D2"] = {
+	},
+	["Player-5284-019D5464"] = {
+	},
+	["Player-5284-01981DA8"] = {
+	},
+	["Pet-0-5253-229-17169-2850-010088D855"] = {
+	},
+	["Player-5284-01B1B0DE"] = {
+	},
+	["Pet-0-5253-0-5-9696-01008581DB"] = {
+	},
+	["Player-5284-016757DE"] = {
+	},
+	["Player-5284-01C15121"] = {
+	},
+	["Player-5284-0118DC6F"] = {
+	},
+	["Player-5284-019D2804"] = {
+	},
+	["Pet-0-5253-0-34-7434-0200772A59"] = {
+	},
+	["Pet-0-5252-0-47-2043-05007E65E8"] = {
+	},
+	["Player-5284-01C3720D"] = {
+	},
+	["Player-5284-01B7C180"] = {
+	},
+	["Player-5284-01C3D4C0"] = {
+	},
+	["Player-5284-02476C83"] = {
+	},
+	["Pet-0-5250-0-87-1258-0A0086926B"] = {
+	},
+	["Player-5284-018E5BBB"] = {
+	},
+	["Player-5284-01654C47"] = {
+	},
+	["Player-5284-019CB603"] = {
+	},
+	["Pet-0-5253-0-25-1195-020082BE7E"] = {
+	},
+	["Pet-0-5211-109-22561-3868-030088984D"] = {
+	},
+	["Creature-0-5250-0-41-2561-00002FFA7D"] = {
+	},
+	["Creature-0-5251-1-19-15542-0001B92C4C"] = {
+	},
+	["Player-5284-020A9650"] = {
+	},
+	["Player-5284-01C2172F"] = {
+	},
+	["Pet-0-5250-0-14-10741-0100763F15"] = {
+	},
+	["Player-5284-0189BA1D"] = {
+	},
+	["Player-5825-02076E30"] = {
+	},
+	["Pet-0-5252-0-38-6516-01008A56D5"] = {
+	},
+	["Creature-0-5250-0-83-1787-0000783086"] = {
+	},
+	["Player-5284-021CF08B"] = {
+	},
+	["Player-5284-016544F4"] = {
+	},
+	["Player-5284-01DC265C"] = {
+	},
+	["Creature-0-5250-0-75-2408-00005362EE"] = {
+	},
+	["Creature-0-5253-0-2-14390-00007CACB6"] = {
+	},
+	["Player-5284-019A664D"] = {
+	},
+	["Player-5284-01797F8D"] = {
+	},
+	["Pet-0-5251-0-17-1961-04008C08C8"] = {
+	},
+	["Player-5284-018CED12"] = {
+	},
+	["Pet-0-5250-0-2-730-0600809420"] = {
+	},
+	["Pet-0-5251-0-3-1130-01008C4B45"] = {
+	},
+	["Player-5284-01C44718"] = {
+	},
+	["Player-5284-019B7606"] = {
+	},
+	["Player-5284-019B4B9B"] = {
+	},
+	["Pet-0-5250-0-59-10200-030084D227"] = {
+	},
+	["Player-5284-015E2228"] = {
+	},
+	["Pet-0-5252-0-38-9696-02008C93AC"] = {
+	},
+	["Player-5284-019EBF29"] = {
+	},
+	["Pet-0-5252-0-24-2042-02008642AC"] = {
+	},
+	["Player-5284-01A45B50"] = {
+	},
+	["Player-5284-01B8754F"] = {
+	},
+	["Player-5284-01874324"] = {
+	},
+	["Player-5284-019A43CF"] = {
+	},
+	["Player-5284-013ECBE6"] = {
+	},
+	["Player-5284-0196514D"] = {
+	},
+	["Pet-0-5210-0-87-11368-01009A75EE"] = {
+	},
+	["Player-5284-01B8E3F3"] = {
+	},
+	["Player-5284-01C1F581"] = {
+	},
+	["Player-5284-018641FF"] = {
+	},
+	["Player-5284-01675BF2"] = {
+	},
+	["Player-5284-01766FD8"] = {
+	},
+	["Player-5284-017FCC4A"] = {
+	},
+	["Player-5284-01A2FBD8"] = {
+	},
+	["Pet-0-5250-0-10-2850-02008CF1B3"] = {
+	},
+	["Player-5284-018AAE88"] = {
+	},
+	["Player-5284-01495EBF"] = {
+	},
+	["Player-5284-0167847A"] = {
+	},
+	["Player-5284-016D2E1F"] = {
+	},
+	["Pet-0-5209-0-20-1961-02008D1E40"] = {
+	},
+	["Player-5825-02152FD3"] = {
+	},
+	["Player-5284-019D8FD2"] = {
+	},
+	["Pet-0-5253-409-17723-7434-06008CC652"] = {
+	},
+	["Player-5284-02143B6A"] = {
+	},
+	["Player-5284-019D7B7F"] = {
+	},
+	["Player-5284-01745685"] = {
+	},
+	["Player-5284-01970422"] = {
+	},
+	["Creature-0-5251-1-45-15545-000147D713"] = {
+	},
+	["Player-5284-017BD3F2"] = {
+	},
+	["Player-5284-01971D3B"] = {
+	},
+	["Creature-0-5253-0-93-11867-000039B3E7"] = {
+	},
+	["Player-5825-0217B0DB"] = {
+	},
+	["Player-5284-01C46A08"] = {
+	},
+	["Pet-0-5250-0-56-2850-01007F9F5D"] = {
+	},
+	["Player-5284-019D598D"] = {
+	},
+	["Player-5284-01DE4291"] = {
+	},
+	["Player-5284-01BBE10C"] = {
+	},
+	["Player-5284-019D8F4A"] = {
+	},
+	["Player-5284-01C6F640"] = {
+	},
+	["Player-5284-01C042D1"] = {
+	},
+	["Player-5284-016EB050"] = {
+	},
+	["Player-5233-01BB88B5"] = {
+	},
+	["Player-5284-01FC939B"] = {
+	},
+	["Pet-0-5250-0-5-3619-02008C51C0"] = {
+	},
+	["Player-5284-0185942E"] = {
+	},
+	["Player-5284-019AFC20"] = {
+	},
+	["Pet-0-5209-0-22-7456-0200A23B19"] = {
+	},
+	["Player-5284-016E4365"] = {
+	},
+	["Player-5284-01682391"] = {
+	},
+	["Player-5284-015F04FF"] = {
+	},
+	["Player-5284-013A5860"] = {
+	},
+	["Player-5284-01B73F7D"] = {
+	},
+	["Player-5284-019D6FED"] = {
+	},
+	["Player-5284-01BFF8E6"] = {
+	},
+	["Player-5284-01ADB67A"] = {
+	},
+	["Player-5284-0199A58F"] = {
+	},
+	["Player-5284-01843BCF"] = {
+	},
+	["Player-5284-01C432BC"] = {
+	},
+	["Player-5284-01C63BF1"] = {
+	},
+	["Player-5284-01C0D3B3"] = {
+	},
+	["Creature-0-5252-0-2-12480-00000CEB8A"] = {
+	},
+	["Player-5284-017EFE90"] = {
+	},
+	["Player-5284-0180A906"] = {
+	},
+	["Player-5284-015EDA0F"] = {
+	},
+	["Player-5284-01786447"] = {
+	},
+	["Pet-0-5253-30-13041-2850-01008CB00D"] = {
+	},
+	["Player-5284-018CC618"] = {
+	},
+	["Player-5284-01C01E17"] = {
+	},
+	["Creature-0-5252-0-30-8532-0000466183"] = {
+	},
+	["Player-5284-01781AC3"] = {
+	},
+	["Player-5284-019A3822"] = {
+	},
+	["Player-5284-0198A282"] = {
+	},
+	["Pet-0-5253-0-7-2850-02008BE52E"] = {
+	},
+	["Player-5284-0186160F"] = {
+	},
+	["Pet-0-5253-0-7-1186-0400831B8B"] = {
+	},
+	["Player-5284-01C0B029"] = {
+	},
+	["Creature-0-5253-30-6068-12051-0005CE6C41"] = {
+	},
+	["Pet-0-5211-309-15003-9696-050085C854"] = {
+	},
+	["Player-5284-01654C67"] = {
+	},
+	["Player-5284-016E6906"] = {
+	},
+	["Player-5825-020B1DF7"] = {
+	},
+	["Pet-0-5250-0-54-2850-03008AD3B1"] = {
+	},
+	["Creature-0-5210-0-7-6740-00002F32F5"] = {
+	},
+	["Player-5284-01C4C396"] = {
+	},
+	["Player-5284-01C4C356"] = {
+	},
+	["Player-5284-017DF325"] = {
+	},
+	["Pet-0-5253-0-12-9697-0B00863DB0"] = {
+	},
+	["Pet-0-5253-1-40-1863-010085E8E2"] = {
+	},
+	["Player-5825-0216D92E"] = {
+	},
+	["Player-5284-01C6A1E3"] = {
+	},
+	["Player-5284-0180FF77"] = {
+	},
+	["Pet-0-5210-0-78-736-010086A355"] = {
+	},
+	["Player-5284-019EA636"] = {
+	},
+	["Pet-0-5211-30-11384-7456-04008CE9BC"] = {
+	},
+	["Player-5825-02034EA4"] = {
+	},
+	["Player-5284-01985430"] = {
+	},
+	["Player-5284-019AC438"] = {
+	},
+	["Pet-0-5253-0-5-7432-050085BADB"] = {
+	},
+	["Player-5284-017CDBF5"] = {
+	},
+	["Player-5284-0199CD0C"] = {
+	},
+	["Player-5284-01C5436C"] = {
+	},
+	["Player-5284-01994C7C"] = {
+	},
+	["Player-5825-02175030"] = {
+	},
+	["Pet-0-5253-533-29397-8602-0A008B66AB"] = {
+	},
+	["Player-5284-018594FB"] = {
+	},
+	["Pet-0-5208-0-13-7455-04008A9B5D"] = {
+	},
+	["Player-5284-015D91D4"] = {
+	},
+	["Player-5284-01BA3788"] = {
+	},
+	["Player-5284-0199DFC0"] = {
+	},
+	["Player-5284-01814062"] = {
+	},
+	["Player-5284-018DF3AE"] = {
+	},
+	["Player-5284-01847868"] = {
+	},
+	["Player-5284-016DFD49"] = {
+	},
+	["Player-5284-01654398"] = {
+	},
+	["Player-5284-018D10A7"] = {
+	},
+	["Player-5284-01B5209B"] = {
+	},
+	["Player-5284-01BC914B"] = {
+	},
+	["Creature-0-5209-1-118-2189-0001706882"] = {
+	},
+	["Player-5825-0208D4FE"] = {
+	},
+	["Player-5284-019C61DE"] = {
+	},
+	["Player-5284-01909FFF"] = {
+	},
+	["Player-5284-019C4E2C"] = {
+	},
+	["Player-5284-0189B9BE"] = {
+	},
+	["Player-5284-021B4A37"] = {
+	},
+	["Player-5284-01BC3DD3"] = {
+	},
+	["Player-5284-019B3FF5"] = {
+	},
+	["Player-5284-02612842"] = {
+	},
+	["Player-5284-019A8A0F"] = {
+	},
+	["Player-5284-019B1706"] = {
+	},
+	["Pet-0-5211-409-20128-9696-030082C708"] = {
+	},
+	["Pet-0-5251-0-13-1196-0100825C06"] = {
+	},
+	["Pet-0-5211-230-11111-2070-01008B2813"] = {
+	},
+	["Player-5284-019D8BF2"] = {
+	},
+	["Player-5284-019495B4"] = {
+	},
+	["Player-5284-016F521C"] = {
+	},
+	["Pet-0-5210-1-87-7434-17008B03B3"] = {
+	},
+	["Pet-0-5253-0-25-1860-0C0082FDF8"] = {
+	},
+	["Player-5284-0199B1B7"] = {
+	},
+	["Player-5284-016F4A36"] = {
+	},
+	["Player-5284-019AC4AC"] = {
+	},
+	["Player-5284-019CA486"] = {
+	},
+	["Player-5284-019A41A6"] = {
+	},
+	["Player-5284-01BC944C"] = {
+	},
+	["Player-5284-01BFD350"] = {
+	},
+	["Player-5284-01126D59"] = {
+	},
+	["Player-5284-01652013"] = {
+	},
+	["Player-5284-019B04E3"] = {
+	},
+	["Player-5284-0199E8D4"] = {
+	},
+	["Player-5284-019CA3F2"] = {
+	},
+	["Player-5284-00F10FCE"] = {
+	},
+	["Pet-0-5253-533-8739-7434-08008CC652"] = {
+	},
+	["Player-5284-018EF8C9"] = {
+	},
+	["Creature-0-5253-0-25-428-00005D4BCF"] = {
+	},
+	["Player-5825-02040EB3"] = {
+	},
+	["Pet-0-5211-249-20440-2034-02008491E6"] = {
+	},
+	["Player-5284-01A5A772"] = {
+	},
+	["Player-5284-0142DF03"] = {
+	},
+	["Creature-0-5251-0-18-454-00004D5290"] = {
+	},
+	["Player-5284-01B5722D"] = {
+	},
+	["Pet-0-5250-1-94-4696-010086A4A8"] = {
+	},
+	["Creature-0-5253-230-16209-8893-00001184A6"] = {
+	},
+	["Player-5284-01912AE6"] = {
+	},
+	["Player-5284-019496F4"] = {
+	},
+	["Pet-0-5253-1-45-2384-07008190B4"] = {
+	},
+	["Pet-0-5253-0-10-3825-03000188A7"] = {
+	},
+	["Player-5284-01C557A1"] = {
+	},
+	["Player-5825-02157CED"] = {
+	},
+	["Player-5284-019CE06C"] = {
+	},
+	["Player-5284-01736CED"] = {
+	},
+	["Player-5284-01C56A2D"] = {
+	},
+	["Player-5284-01C5E469"] = {
+	},
+	["Player-5284-0153CB2C"] = {
+	},
+	["Pet-0-5252-0-30-7456-02008C93CA"] = {
+	},
+	["Player-5284-026009B7"] = {
+	},
+	["Pet-0-5209-0-50-7434-01008CC652"] = {
+	},
+	["Pet-0-5253-0-11-1258-0800839EE8"] = {
+	},
+	["Player-5284-01C6DB22"] = {
+	},
+	["Pet-0-5208-1-61-1860-02007BC9A6"] = {
+	},
+	["Player-5284-0247A4F9"] = {
+	},
+	["Player-5284-019A1371"] = {
+	},
+	["Player-5284-01712D52"] = {
+	},
+	["Player-5284-01994B70"] = {
+	},
+	["Pet-0-5209-1-37-10200-010086C98B"] = {
+	},
+	["Pet-0-5252-1-59-2850-0300883420"] = {
+	},
+	["Player-5825-020E7C8B"] = {
+	},
+	["Player-5284-0188F2FF"] = {
+	},
+	["Player-5284-019D4817"] = {
+	},
+	["Creature-0-5211-429-16128-11448-000392C563"] = {
+	},
+	["Creature-0-5209-1-118-2177-0001706F65"] = {
+	},
+	["Player-5284-018DF186"] = {
+	},
+	["Pet-0-5210-0-17-2042-14008BC29A"] = {
+	},
+	["Player-5284-0198C43F"] = {
+	},
+	["Player-5284-017AC0D3"] = {
+	},
+	["Player-5284-0167E272"] = {
+		[19838] = {
+			300, -- [1]
+			472056.613, -- [2]
+			"BUFF", -- [3]
+		},
+		[23214] = {
+			nil --[[ inf ]], -- [1]
+			472061.597, -- [2]
+			"BUFF", -- [3]
+		},
+		[20218] = {
+			nil --[[ inf ]], -- [1]
+			472055.111, -- [2]
 			"BUFF", -- [3]
 		},
 	},
-	["Player-5284-01C30C37"] = {
+	["Pet-0-5211-409-28085-3241-050081535A"] = {
+	},
+	["Pet-0-5250-0-5-2850-06008C9AD8"] = {
+	},
+	["Player-5284-01AEE798"] = {
+	},
+	["Player-5284-019DD89B"] = {
+	},
+	["Pet-0-5253-0-7-2850-0400774EC6"] = {
+	},
+	["Player-5284-020099C9"] = {
+	},
+	["Player-5284-021406F2"] = {
+	},
+	["Player-5825-01FE3ED7"] = {
+	},
+	["Pet-0-5253-0-14-157-0300836C26"] = {
+	},
+	["Player-5284-01C59FD3"] = {
+	},
+	["Player-5284-000A3CAC"] = {
+	},
+	["Player-5825-020CC5F7"] = {
+	},
+	["Player-5284-01B4FB0D"] = {
+	},
+	["Player-5284-010A0BA7"] = {
+	},
+	["Player-5284-02336D9F"] = {
+	},
+	["Pet-0-5250-0-58-3619-0200863C25"] = {
+	},
+	["Player-5284-015FE662"] = {
+	},
+	["Player-5284-018DFDC3"] = {
+	},
+	["Pet-0-5251-0-15871-1127-0100907D03"] = {
+	},
+	["Player-5284-015EAC2F"] = {
+	},
+	["Player-5284-01C589BF"] = {
+	},
+	["Pet-0-5253-0-7-2163-010082C71B"] = {
+	},
+	["Player-5284-0199E06E"] = {
+	},
+	["Player-5284-017E5E83"] = {
+	},
+	["Pet-0-5250-1-13-3100-0F00854699"] = {
+	},
+	["Player-5284-01BA3CF1"] = {
+	},
+	["Player-5284-01907ABA"] = {
+	},
+	["Player-5284-0199A532"] = {
+	},
+	["Pet-0-5251-0-3-7456-0C008C93CA"] = {
+	},
+	["Player-5284-01884305"] = {
+	},
+	["Player-5284-019B860B"] = {
+	},
+	["Pet-0-5209-0-69-2850-0200042741"] = {
+	},
+	["Pet-0-5211-30-24297-2850-01007F63D2"] = {
+	},
+	["Player-5284-016D36A3"] = {
+	},
+	["Pet-0-5253-531-13596-9696-01009B9C13"] = {
+	},
+	["Player-5284-01BA9FA4"] = {
+	},
+	["Player-5284-0198A340"] = {
+	},
+	["Pet-0-5252-1-35-9696-0A008A4672"] = {
+	},
+	["Player-5825-020324CF"] = {
+	},
+	["Player-5284-01B97045"] = {
+	},
+	["Player-5825-02182910"] = {
+	},
+	["Player-5284-019BDCCD"] = {
+	},
+	["Player-5284-0176B955"] = {
+	},
+	["Pet-0-5253-0-23-7431-0300A0A394"] = {
+	},
+	["Player-5284-01969A59"] = {
+	},
+	["Player-5284-01BDA55D"] = {
+	},
+	["Player-5284-01976BDE"] = {
+	},
+	["Player-5284-01C696E4"] = {
+	},
+	["Player-5284-0197D3F7"] = {
+	},
+	["Player-5284-0141E480"] = {
+	},
+	["Player-5284-01B3C11A"] = {
+	},
+	["Pet-0-5251-0-6-2033-08008C93BD"] = {
+	},
+	["Player-5284-016FCFCF"] = {
+	},
+	["Pet-0-5250-0-1-923-07008584CC"] = {
+	},
+	["Player-5284-017FA8A2"] = {
+	},
+	["Pet-0-5253-533-10579-11357-0100A004E6"] = {
+	},
+	["Player-5284-019D8E0C"] = {
+	},
+	["Creature-0-5208-0-17125-1115-00006F41D9"] = {
+	},
+	["Pet-0-5253-533-30776-2850-12008D0062"] = {
+	},
+	["Player-5284-019D5D1C"] = {
+	},
+	["Player-5284-01B570DD"] = {
+	},
+	["Pet-0-5253-533-6179-7432-0F0085D35B"] = {
+	},
+	["Player-5284-0194D1CE"] = {
+	},
+	["Player-5284-025F356D"] = {
+	},
+	["Player-5284-019D46CC"] = {
+	},
+	["Player-5284-019DF63E"] = {
+	},
+	["Player-5284-01BFD365"] = {
+	},
+	["Pet-0-5253-30-2839-14343-02008BCD5A"] = {
+	},
+	["Player-5284-015FD337"] = {
+	},
+	["Player-5284-01C38902"] = {
+	},
+	["Player-5284-0164CF67"] = {
+	},
+	["Player-5284-016D4B6F"] = {
+	},
+	["Player-5284-019B09E7"] = {
+	},
+	["Player-5284-0134A900"] = {
+	},
+	["Player-5284-019BE967"] = {
+	},
+	["Player-5284-01C5F5AD"] = {
+	},
+	["Player-5284-019A374B"] = {
+	},
+	["Player-5284-0198DEAA"] = {
+	},
+	["Player-5284-019E85EE"] = {
+	},
+	["Creature-0-5251-0-11508-1125-00006F1F2A"] = {
+	},
+	["Creature-0-5253-0-25-1150-000061FF2D"] = {
+	},
+	["Player-5284-0147351E"] = {
+	},
+	["Player-5284-01BDFE8D"] = {
+	},
+	["Player-5825-020F3BAA"] = {
+	},
+	["Player-5284-019BC29B"] = {
+	},
+	["Player-5284-0145939C"] = {
+	},
+	["Player-5284-019553F3"] = {
+	},
+	["Pet-0-5253-30-24648-5291-02008B7CDA"] = {
+	},
+	["Player-5284-01896A09"] = {
+	},
+	["Player-5284-01C5D0F7"] = {
+	},
+	["Player-5284-019E8A25"] = {
+	},
+	["Player-5284-019B3191"] = {
+	},
+	["Player-5284-01C33D49"] = {
+	},
+	["Player-5284-018BB9B1"] = {
+	},
+	["Creature-0-5250-1-80-15545-00011DC753"] = {
+	},
+	["Player-5284-01C8D137"] = {
+	},
+	["Creature-0-5250-0-5-1432-00003739A2"] = {
+	},
+	["Player-5284-01B17B6A"] = {
+	},
+	["Player-5284-01675849"] = {
+	},
+	["Player-5284-01656E48"] = {
+	},
+	["Player-5284-01BD77D6"] = {
+	},
+	["Player-5284-018C2785"] = {
+	},
+	["Player-5284-017D7D45"] = {
+	},
+	["Player-5284-01974F5D"] = {
+	},
+	["Player-5284-018EF728"] = {
+	},
+	["Pet-0-5253-30-24648-9696-05008B3077"] = {
+	},
+	["Player-5284-01C72383"] = {
+	},
+	["Player-5284-01C077E9"] = {
+	},
+	["Player-5284-015F48D6"] = {
+	},
+	["Player-5284-0144D726"] = {
+	},
+	["Player-5284-018FBF63"] = {
+	},
+	["Player-5284-001B4ABE"] = {
+	},
+	["Pet-0-5250-0-5-10221-06008630F4"] = {
+	},
+	["Player-5284-019AE534"] = {
+	},
+	["Creature-0-5250-0-68-15659-000049AF2D"] = {
+	},
+	["Player-5284-018050EB"] = {
+	},
+	["Player-5284-017A0818"] = {
+	},
+	["Pet-0-5253-230-31707-1130-06007EE7C7"] = {
+	},
+	["Player-5284-0181F972"] = {
+	},
+	["Pet-0-5250-1-47-4119-0100862F51"] = {
+	},
+	["Player-5284-017A9050"] = {
+	},
+	["Player-5284-025FDFCB"] = {
+	},
+	["Pet-0-5250-0-51-1201-02008BEA2C"] = {
+	},
+	["Player-5284-017A7350"] = {
+	},
+	["Player-5284-0198DEA0"] = {
+	},
+	["Creature-0-5209-0-23-5840-000070AD88"] = {
+	},
+	["Player-5284-0247C952"] = {
+	},
+	["Player-5284-01970092"] = {
+	},
+	["Creature-0-5250-0-56-4475-000054ED0B"] = {
+	},
+	["Player-5284-019D542D"] = {
+	},
+	["Creature-0-5209-0-16-68-00016E992C"] = {
+	},
+	["Player-5284-01BC0CC3"] = {
+	},
+	["Creature-0-5253-0-25-428-00005E57F8"] = {
+	},
+	["Player-5284-01B47972"] = {
+	},
+	["Player-5284-01C33E16"] = {
+	},
+	["Player-5284-01C85CF8"] = {
 		[349981] = {
 			nil --[[ inf ]], -- [1]
-			635717.996, -- [2]
+			472047.754, -- [2]
 			"BUFF", -- [3]
 		},
 	},
-	["Player-5284-017F2AB4"] = {
+	["Player-5284-021C59BB"] = {
+	},
+	["Player-5284-01BD2457"] = {
+	},
+	["Player-5284-018C0201"] = {
+	},
+	["Pet-0-5253-189-7752-7434-0100801F1F"] = {
+	},
+	["Player-5284-0189418D"] = {
+	},
+	["Pet-0-5253-0-11-3619-0B00837043"] = {
+	},
+	["Player-5284-0199B171"] = {
+	},
+	["Player-5284-01C58ADF"] = {
+	},
+	["Player-5284-01C7CF53"] = {
+	},
+	["Creature-0-5250-1-35-7157-000011FE75"] = {
+	},
+	["Player-5284-01983ACB"] = {
+	},
+	["Player-5284-01887DDA"] = {
+	},
+	["Player-5284-01946A7F"] = {
+	},
+	["Pet-0-5250-0-59-8602-0100855161"] = {
+	},
+	["Player-5284-01C33CEA"] = {
+	},
+	["Pet-0-5253-533-12124-7456-18008639B7"] = {
+	},
+	["Player-5284-0197BA24"] = {
+	},
+	["Player-5284-01C1F446"] = {
+	},
+	["Player-5284-0194B8A1"] = {
+	},
+	["Player-5284-01730CC1"] = {
+	},
+	["Player-5284-01C0B214"] = {
+	},
+	["Player-5284-018BDDDF"] = {
+	},
+	["Player-5284-019D6E5C"] = {
+	},
+	["Player-5284-0026533C"] = {
+	},
+	["Player-5284-002B077A"] = {
+	},
+	["Player-5284-016C7C55"] = {
+	},
+	["Player-5284-01902635"] = {
+	},
+	["Player-5284-0183AB5E"] = {
+	},
+	["Player-5284-018A2CE4"] = {
+	},
+	["Creature-0-5253-30-6664-14773-000033083C"] = {
+	},
+	["Player-5284-01889FB8"] = {
+	},
+	["Player-5284-0145D3E1"] = {
+	},
+	["Player-5284-0190E920"] = {
+	},
+	["Player-5284-01C18CB9"] = {
+	},
+	["Creature-0-5250-0-18-5862-00004FC154"] = {
+	},
+	["Player-5284-01B9F9A2"] = {
+	},
+	["Pet-0-5211-531-21284-3825-0A000188A7"] = {
+	},
+	["Player-5284-018A2D49"] = {
+	},
+	["Player-5284-0176E147"] = {
+	},
+	["Player-5284-019839A3"] = {
+	},
+	["Pet-0-5253-1-39-4512-29007FB7E0"] = {
+	},
+	["Player-5284-020B6893"] = {
+	},
+	["Player-5284-019D4904"] = {
+	},
+	["Creature-0-5253-429-23848-11448-000147A725"] = {
+	},
+	["Pet-0-5211-30-18049-11368-0300A31BC1"] = {
+	},
+	["Player-5284-01C66F2A"] = {
+	},
+	["Player-5284-0184F54B"] = {
+	},
+	["Pet-0-5211-30-11014-2850-01008C3B6B"] = {
+	},
+	["Player-5284-019DE680"] = {
+	},
+	["Player-5284-019CF653"] = {
+	},
+	["Player-5284-01C4E84E"] = {
+	},
+	["Player-5825-02176D03"] = {
+	},
+	["Player-5284-000E5AED"] = {
+	},
+	["Player-5284-01864034"] = {
+	},
+	["Pet-0-5250-0-14-2850-2500806FDC"] = {
+	},
+	["Player-5284-019BC29E"] = {
+	},
+	["Player-5825-01FCBF1B"] = {
+	},
+	["Player-5284-017FAAFF"] = {
+	},
+	["Player-5284-0192C8D2"] = {
+	},
+	["Pet-0-5210-0-5-1817-02008AEE22"] = {
+	},
+	["Player-5284-01C2634D"] = {
+	},
+	["Player-5825-0214D37F"] = {
+	},
+	["Pet-0-5252-0-29-9696-010085985C"] = {
+	},
+	["Pet-0-5250-0-5-9696-04008581DB"] = {
+	},
+	["Player-5284-019D6407"] = {
+	},
+	["Player-5284-01B07E7C"] = {
+	},
+	["Player-5284-01BD4D02"] = {
+	},
+	["Player-5284-01ACC632"] = {
+	},
+	["Player-5284-019C606D"] = {
+	},
+	["Pet-0-5251-0-22-2070-0300824D14"] = {
+	},
+	["Player-5284-0199CF46"] = {
+	},
+	["Pet-0-5211-329-5746-2850-0200825BEB"] = {
+	},
+	["Player-5284-01E2B94D"] = {
+	},
+	["Player-5284-01967CF1"] = {
+	},
+	["Player-5284-019B684F"] = {
+	},
+	["Pet-0-5253-0-5-1997-0D007F032F"] = {
+	},
+	["Player-5284-013D49F9"] = {
+	},
+	["Player-5284-019C4754"] = {
+	},
+	["Player-5284-01A7BB20"] = {
+	},
+	["Creature-0-5250-0-6-1120-00003EDEF5"] = {
+	},
+	["Player-5284-018F23D5"] = {
+	},
+	["Player-5284-0024C6DE"] = {
+	},
+	["Creature-0-5250-1-88-8957-00001E6008"] = {
+	},
+	["Player-5284-01997D13"] = {
+	},
+	["Player-5284-019DC5F8"] = {
+	},
+	["Player-5284-01C82E47"] = {
+	},
+	["Player-5284-02623BE8"] = {
+	},
+	["Player-5284-016D80C9"] = {
+	},
+	["Pet-0-5251-1-45-9696-010086B2F8"] = {
+	},
+	["Player-5284-020B6396"] = {
+	},
+	["Player-5825-01FC6518"] = {
+	},
+	["Player-5284-021BC808"] = {
+	},
+	["Player-5284-01C7A4B4"] = {
+	},
+	["Pet-0-5252-0-23-9696-02008B425B"] = {
+	},
+	["Player-5284-01914FCB"] = {
+	},
+	["Player-5284-0188A090"] = {
+	},
+	["Pet-0-5209-0-22-521-02007736C1"] = {
+	},
+	["Pet-0-5253-0-5-9696-0500801621"] = {
+	},
+	["Player-5284-01B80821"] = {
+	},
+	["Player-5825-02033128"] = {
+	},
+	["Pet-0-5250-0-70-822-01007FCF98"] = {
+	},
+	["Pet-0-5253-1-44-2850-010081B08A"] = {
+	},
+	["Pet-0-5211-30-15009-729-0A0088C6A6"] = {
+	},
+	["Player-5825-02074717"] = {
+	},
+	["Creature-0-5211-230-10348-8893-0008B427FF"] = {
+	},
+	["Pet-0-5250-0-68-11357-020085FF9D"] = {
+	},
+	["Pet-0-5208-369-3-1961-01008C0913"] = {
+	},
+	["Creature-0-5252-1-72-15542-0001149A2F"] = {
+	},
+	["Pet-0-5252-0-24-7432-0500027544"] = {
+	},
+	["Pet-0-5252-0-2-2850-0A0081B08A"] = {
+	},
+	["Pet-0-5250-0-39-2850-020077191A"] = {
+	},
+	["Player-5284-01BBB4B0"] = {
+	},
+	["Player-5284-01990BCA"] = {
+	},
+	["Player-5284-0158EA9E"] = {
+	},
+	["Player-5284-019C3F94"] = {
+	},
+	["Player-5284-019C0385"] = {
+	},
+	["Player-5284-019DBD13"] = {
+	},
+	["Creature-0-5250-0-814-706-0004E99B3E"] = {
+	},
+	["Pet-0-5250-0-2-7432-05007EFC81"] = {
+	},
+	["Creature-0-5250-0-5-14423-00003739A3"] = {
+	},
+	["Player-5284-01B6BB27"] = {
+	},
+	["Player-5284-019B8574"] = {
+	},
+	["Player-5284-01987198"] = {
+	},
+	["Player-5284-01879827"] = {
+	},
+	["Player-5284-01881A32"] = {
+	},
+	["Player-5284-01BB18DE"] = {
+	},
+	["Player-5284-019B5896"] = {
+	},
+	["Player-5284-01AA3FC1"] = {
+	},
+	["Player-5284-0185BEA1"] = {
+	},
+	["Player-5284-019B4B73"] = {
+	},
+	["Player-5284-018027BA"] = {
+		[10293] = {
+			nil --[[ inf ]], -- [1]
+			472047.606, -- [2]
+			"BUFF", -- [3]
+		},
 		[349981] = {
 			nil --[[ inf ]], -- [1]
-			635727.8250000001, -- [2]
+			472047.606, -- [2]
 			"BUFF", -- [3]
 		},
-		[29235] = {
-			3600, -- [1]
-			635727.8250000001, -- [2]
+	},
+	["Player-5284-016EC6B6"] = {
+	},
+	["Player-5233-01961560"] = {
+	},
+	["Player-5284-019D0E73"] = {
+	},
+	["Player-5284-019C6DA2"] = {
+	},
+	["Pet-0-5253-529-32705-4512-02007FB7E0"] = {
+	},
+	["Player-5284-019CE15C"] = {
+	},
+	["Pet-0-5253-0-11-1126-01008ABD32"] = {
+	},
+	["Player-5284-01499783"] = {
+	},
+	["Player-5284-018A0B6E"] = {
+	},
+	["Player-5284-01B9C97B"] = {
+	},
+	["Player-5284-019D1B00"] = {
+	},
+	["Player-5284-0183874C"] = {
+	},
+	["Player-5284-019052FF"] = {
+	},
+	["Player-5284-0149A385"] = {
+	},
+	["Player-5284-0220A08A"] = {
+	},
+	["Player-5284-019DDF9A"] = {
+	},
+	["Player-5284-019B657A"] = {
+	},
+	["Pet-0-5253-533-7675-7456-0700867CF3"] = {
+	},
+	["Player-5284-01AD7A93"] = {
+	},
+	["Player-5284-01957659"] = {
+	},
+	["Creature-0-5251-0-18-589-00004E7A47"] = {
+	},
+	["Pet-0-5209-0-16-9696-040086ADD4"] = {
+	},
+	["Player-5284-025F5524"] = {
+	},
+	["Player-5284-0194B693"] = {
+	},
+	["Creature-0-5253-0-25-5840-0000857DAB"] = {
+	},
+	["Pet-0-5252-0-16-2850-07007FE3B0"] = {
+	},
+	["Player-5284-01C6A9E2"] = {
+	},
+	["Pet-0-5252-0-2-7434-03008660DC"] = {
+	},
+	["Player-5284-020980A0"] = {
+	},
+	["Pet-0-5250-0-12-9697-0100863DB0"] = {
+	},
+	["Pet-0-5250-0-55-5807-0200816A53"] = {
+	},
+	["Player-5284-019A94A9"] = {
+	},
+	["Player-5825-02034281"] = {
+	},
+	["Player-5284-01743785"] = {
+	},
+	["Player-5284-01973B80"] = {
+	},
+	["Creature-0-5250-1-89-11746-0000565050"] = {
+	},
+	["Player-5284-01C55807"] = {
+	},
+	["Player-5284-01ACA106"] = {
+	},
+	["Pet-0-5253-469-11999-7433-01009A5EE1"] = {
+	},
+	["Player-5284-01959B2E"] = {
+	},
+	["Player-5284-016C7A0B"] = {
+	},
+	["Pet-0-5211-0-58-2351-0200979477"] = {
+	},
+	["Pet-0-5250-0-68-2850-020085CB82"] = {
+	},
+	["Player-5284-0198DF93"] = {
+	},
+	["Creature-0-5211-230-21542-8896-00010DC1BC"] = {
+	},
+	["Player-5284-019AE679"] = {
+	},
+	["Player-5284-019E6CB4"] = {
+	},
+	["Pet-0-5253-34-18918-3425-010087EB49"] = {
+	},
+	["Player-5284-017FCEC2"] = {
+	},
+	["Player-5284-018A4E4C"] = {
+	},
+	["Pet-0-5211-1-59-10741-0300763F15"] = {
+	},
+	["Creature-0-5209-1-7-15542-0000BD667C"] = {
+	},
+	["Creature-0-5253-0-20-604-0000046EDF"] = {
+	},
+	["Player-5284-0199916A"] = {
+	},
+	["Player-5284-016E3368"] = {
+	},
+	["Player-5284-019788AD"] = {
+	},
+	["Pet-0-5250-0-2-3241-010081535A"] = {
+	},
+	["Player-5284-017A0736"] = {
+	},
+	["Player-5284-01B6EF22"] = {
+	},
+	["Player-5284-0197ED70"] = {
+	},
+	["Player-5284-019AC3E9"] = {
+	},
+	["Pet-0-5250-0-10-2727-020084C45F"] = {
+	},
+	["Player-5284-01ADB903"] = {
+	},
+	["Player-5284-019D459A"] = {
+	},
+	["Player-5284-01BACADC"] = {
+	},
+	["Player-5284-019BA731"] = {
+	},
+	["Creature-0-5211-30-4706-12053-0000BD7819"] = {
+	},
+	["Player-5284-019BBD4A"] = {
+	},
+	["Creature-0-5253-30-7834-12053-0004CE70A0"] = {
+	},
+	["Player-5284-017A963A"] = {
+	},
+	["Player-5284-016F188F"] = {
+	},
+	["Player-5284-01C41BF7"] = {
+	},
+	["Player-5284-01E48B75"] = {
+	},
+	["Pet-0-5253-30-3373-2734-01008B1CAB"] = {
+	},
+	["Creature-0-5211-30-13295-12051-0002B2D4F5"] = {
+	},
+	["Creature-0-5253-230-20072-8896-00080EE19D"] = {
+	},
+	["Player-5284-01784039"] = {
+	},
+	["Pet-0-5250-0-7-1258-09008CFB1D"] = {
+	},
+	["Player-5284-01954155"] = {
+	},
+	["Player-5284-0184F637"] = {
+	},
+	["Player-5284-017BA6AF"] = {
+	},
+	["Pet-0-5253-409-28277-2175-040083BD5C"] = {
+	},
+	["Pet-0-5252-0-41-1985-05008CE980"] = {
+	},
+	["Pet-0-5253-0-19-547-01008584D4"] = {
+	},
+	["Player-5284-01981EF4"] = {
+	},
+	["Player-5284-020B5517"] = {
+	},
+	["Creature-0-5253-0-12-681-000005BBFD"] = {
+	},
+	["Player-5284-0008BB43"] = {
+	},
+	["Player-5284-000DB442"] = {
+	},
+	["Player-5284-019C51EE"] = {
+	},
+	["Player-5284-0190537E"] = {
+	},
+	["Pet-0-5252-0-24-14343-0A008BCD5A"] = {
+	},
+	["Pet-0-5211-531-21177-9696-0B007FAC52"] = {
+	},
+	["Player-5284-0188C6FC"] = {
+	},
+	["Player-5284-01BE0239"] = {
+	},
+	["Player-5284-01B98D04"] = {
+	},
+	["Player-5284-01C80215"] = {
+	},
+	["Player-5284-01ABE0AA"] = {
+	},
+	["Pet-0-5253-30-2411-2850-010086C29C"] = {
+	},
+	["Pet-0-5211-30-6472-1125-05008123B6"] = {
+	},
+	["Player-5284-01B3430A"] = {
+	},
+	["Player-5825-020BBEBD"] = {
+	},
+	["Pet-0-5253-509-23103-9696-0200895469"] = {
+	},
+	["Player-5284-019CCE78"] = {
+	},
+	["Player-5284-017AE707"] = {
+	},
+	["Player-5284-01C7233E"] = {
+	},
+	["Player-5284-01C062CB"] = {
+	},
+	["Pet-0-5211-229-15133-9696-0300A130AF"] = {
+	},
+	["Player-5284-000FBE7B"] = {
+	},
+	["Player-5284-01752F4A"] = {
+	},
+	["Pet-0-5209-0-71-1131-0300862F73"] = {
+	},
+	["Creature-0-5209-0-23-5844-000070A3A9"] = {
+	},
+	["Player-5284-01C566D3"] = {
+	},
+	["Pet-0-5252-0-54-11368-01008CE17B"] = {
+	},
+	["Pet-0-5253-409-18197-9696-0300860B93"] = {
+	},
+	["Player-5284-01997D2D"] = {
+	},
+	["Player-5284-01983CA7"] = {
+	},
+	["Pet-0-5250-0-5-3825-05000188A7"] = {
+	},
+	["Player-5825-02177CB7"] = {
+	},
+	["Player-5825-02043A94"] = {
+	},
+	["Creature-0-5250-0-58-11355-0000552F3D"] = {
+	},
+	["Player-5284-019AE555"] = {
+	},
+	["Player-5284-01C46D94"] = {
+	},
+	["Player-5284-01A38A28"] = {
+	},
+	["Player-5825-0213B741"] = {
+	},
+	["Player-5284-01C62AAC"] = {
+	},
+	["Player-5284-01C0F6A7"] = {
+	},
+	["Player-5284-01BB4556"] = {
+	},
+	["Pet-0-5211-409-13835-2850-03008D0062"] = {
+	},
+	["Player-5284-01BC3E74"] = {
+	},
+	["Player-5284-0173BB15"] = {
+	},
+	["Player-5284-0170E8C0"] = {
+	},
+	["Player-5284-019B9537"] = {
+	},
+	["Player-5284-0019D561"] = {
+	},
+	["Player-5284-01832A95"] = {
+	},
+	["Player-5284-01B83385"] = {
+	},
+	["Pet-0-5211-469-26949-3825-05000188A7"] = {
+	},
+	["Creature-0-5208-1-15-4128-00076FDAB7"] = {
+	},
+	["Player-5284-0184A2BE"] = {
+	},
+	["Player-5284-01985448"] = {
+	},
+	["Player-5284-01C165B8"] = {
+	},
+	["Player-5825-021750E1"] = {
+	},
+	["Player-5284-019CE1DC"] = {
+	},
+	["Pet-0-5250-0-68-1186-0200867D00"] = {
+	},
+	["Player-5284-0199D10A"] = {
+	},
+	["Player-5284-019945C9"] = {
+	},
+	["Player-5284-01889E67"] = {
+	},
+	["Player-5233-019DAC44"] = {
+	},
+	["Player-5284-0197D5CD"] = {
+	},
+	["Player-5284-017E000D"] = {
+	},
+	["Player-5284-01987296"] = {
+	},
+	["Player-5284-02348959"] = {
+	},
+	["Player-5284-0186EEC6"] = {
+	},
+	["Player-5284-01C26455"] = {
+	},
+	["Player-5284-01C43F77"] = {
+	},
+	["Player-5284-01B8A768"] = {
+	},
+	["Player-5284-01BB93CF"] = {
+	},
+	["Player-5284-01C01D8C"] = {
+	},
+	["Pet-0-5211-48-16793-2175-02008CDBD6"] = {
+	},
+	["Pet-0-5251-0-13-1689-0300825BDE"] = {
+	},
+	["Player-5284-01C2F11C"] = {
+	},
+	["Player-5284-017AE620"] = {
+	},
+	["Creature-0-5253-230-16209-8902-00001184A5"] = {
+	},
+	["Player-5284-019882D9"] = {
+	},
+	["Player-5284-0148FCDD"] = {
+	},
+	["Player-5284-018B929D"] = {
+	},
+	["Player-5284-01C1547C"] = {
+	},
+	["Player-5284-0195D462"] = {
+	},
+	["Creature-0-5252-0-19-15659-0000791701"] = {
+	},
+	["Pet-0-5253-30-24648-5828-01008A9B4F"] = {
+	},
+	["Player-5284-019B87E9"] = {
+	},
+	["Player-5284-01B2F29E"] = {
+	},
+	["Player-5825-02080E82"] = {
+	},
+	["Player-5284-018A09F7"] = {
+	},
+	["Player-5284-01987352"] = {
+	},
+	["Creature-0-5211-230-8285-8895-0001909D37"] = {
+	},
+	["Creature-0-5253-30-12800-13359-00013D871E"] = {
+	},
+	["Player-5284-0198FC10"] = {
+	},
+	["Pet-0-5210-0-5-3619-0C008603FB"] = {
+	},
+	["Pet-0-5209-0-29-2033-0100860A8E"] = {
+	},
+	["Player-5284-019A57AD"] = {
+	},
+	["Player-5284-025D469F"] = {
+	},
+	["Player-5284-01844C19"] = {
+	},
+	["Player-5284-019C3DE6"] = {
+	},
+	["Player-5284-01C30C42"] = {
+	},
+	["Player-5284-017D1635"] = {
+	},
+	["Creature-0-5209-1-118-2178-0000706ECA"] = {
+	},
+	["Player-5284-019B315B"] = {
+	},
+	["Player-5284-01A716A6"] = {
+	},
+	["Player-5284-019E2768"] = {
+	},
+	["Player-5284-01C17497"] = {
+	},
+	["Player-5284-018F9A1A"] = {
+	},
+	["Pet-0-5253-30-24927-7445-06008CF199"] = {
+	},
+	["Player-5284-0159ADCC"] = {
+	},
+	["Player-5284-0167671F"] = {
+	},
+	["Pet-0-5250-0-51-9696-08008BD273"] = {
+	},
+	["Player-5284-01C622C9"] = {
+	},
+	["Pet-0-5209-0-71-682-0E00897044"] = {
+	},
+	["Player-5284-016D8816"] = {
+	},
+	["Player-5825-02033188"] = {
+	},
+	["Creature-0-5211-30-13295-13359-000732D4F5"] = {
+	},
+	["Player-5284-019B23F5"] = {
+	},
+	["Player-5284-01BC0DF0"] = {
+	},
+	["Player-5284-015F4ACB"] = {
+	},
+	["Pet-0-5251-1-45-1128-01007B10BA"] = {
+	},
+	["Player-5284-019D032D"] = {
+	},
+	["Player-5284-01AFC4BE"] = {
+	},
+	["Player-5284-025F1A30"] = {
+	},
+	["Player-5284-0201AA21"] = {
+	},
+	["Pet-0-5253-48-24668-7433-010075A676"] = {
+	},
+	["Player-5284-016FA488"] = {
+	},
+	["Player-5284-000D21E2"] = {
+	},
+	["Pet-0-5252-0-27-1985-06008CE980"] = {
+	},
+	["Player-5284-019D958A"] = {
+	},
+	["Pet-0-5250-0-5-11368-01008AFDBD"] = {
+	},
+	["Player-5284-018BBAE3"] = {
+	},
+	["Player-5284-01949545"] = {
+	},
+	["Player-5284-0171399D"] = {
+	},
+	["Player-5284-019598EF"] = {
+	},
+	["Creature-0-5209-1-118-2069-0000707070"] = {
+	},
+	["Player-5284-018968A1"] = {
+	},
+	["Player-5284-017E581A"] = {
+	},
+	["Player-5284-01891A5F"] = {
+	},
+	["Player-5284-01C175A1"] = {
+	},
+	["Player-5284-019B0679"] = {
+	},
+	["Player-5284-018479A9"] = {
+	},
+	["Player-5284-018614D1"] = {
+	},
+	["Player-5284-018FBE3D"] = {
+	},
+	["Player-5284-020B7968"] = {
+	},
+	["Player-5284-01C6E7C7"] = {
+	},
+	["Creature-0-5250-0-76-8671-000052EADB"] = {
+	},
+	["Player-5284-000B6E51"] = {
+	},
+	["Pet-0-5210-0-8-10357-02008C5BBF"] = {
+	},
+	["Player-5284-017B2550"] = {
+	},
+	["Player-5284-01B631B6"] = {
+	},
+	["Pet-0-5209-0-71-1860-02008665D1"] = {
+	},
+	["Player-5284-01752C59"] = {
+	},
+	["Pet-0-5209-0-10-7456-01008639B7"] = {
+	},
+	["Player-5284-01214EED"] = {
+	},
+	["Pet-0-5211-409-27307-2850-07008D0062"] = {
+	},
+	["Pet-0-5250-0-1-9696-01007E81D7"] = {
+	},
+	["Player-5284-019A3712"] = {
+	},
+	["Player-5284-015B9FDF"] = {
+	},
+	["Player-5284-019A9B4C"] = {
+	},
+	["Player-5284-019B66DC"] = {
+	},
+	["Player-5284-019B2612"] = {
+	},
+	["Player-5284-015B9F38"] = {
+	},
+	["Player-5284-01C31C85"] = {
+	},
+	["Creature-0-5250-1-35-7157-000091F979"] = {
+	},
+	["Player-5284-019C0F47"] = {
+	},
+	["Creature-0-5208-0-17125-1115-00006F417E"] = {
+	},
+	["Player-5284-016002AC"] = {
+	},
+	["Player-5284-01739AA8"] = {
+	},
+	["Player-5284-019C8C74"] = {
+	},
+	["Creature-0-5209-1-118-2189-0000706B81"] = {
+	},
+	["Pet-0-5211-0-21-9696-01009D5238"] = {
+	},
+	["Player-5284-0197D375"] = {
+	},
+	["Creature-0-5250-1-88-7107-00001F253A"] = {
+	},
+	["Player-5284-01797E4F"] = {
+	},
+	["Player-5284-0188F345"] = {
+	},
+	["Player-5284-017E868D"] = {
+	},
+	["Pet-0-5209-0-68-547-12008D4C3B"] = {
+	},
+	["Player-5284-0198FB18"] = {
+	},
+	["Pet-0-5211-0-76-5828-020082D5B6"] = {
+	},
+	["Player-5284-01B9F2B4"] = {
+	},
+	["Player-5284-019B4CB6"] = {
+	},
+	["Player-5284-01441B87"] = {
+	},
+	["Player-5825-02038003"] = {
+	},
+	["Player-5284-019980A5"] = {
+	},
+	["Pet-0-5253-230-25589-682-03008C820C"] = {
+	},
+	["Player-5284-019DC40A"] = {
+	},
+	["Creature-0-5251-0-14-1273-0000487D20"] = {
+	},
+	["Player-5284-019C2609"] = {
+	},
+	["Player-5233-01A2EE3A"] = {
+	},
+	["Player-5284-01A7FE5F"] = {
+	},
+	["Pet-0-5210-0-7-9696-060088884A"] = {
+	},
+	["Pet-0-5252-0-24-9416-01008CB2A8"] = {
+	},
+	["Pet-0-5250-1-13-7097-0A008CF8F2"] = {
+	},
+	["Player-5284-01802562"] = {
+	},
+	["Player-5284-015BB1F5"] = {
+	},
+	["Player-5284-01919019"] = {
+	},
+	["Player-5284-01988723"] = {
+	},
+	["Pet-0-5250-0-59-2850-010086207F"] = {
+	},
+	["Player-5284-0195353A"] = {
+	},
+	["Player-5284-019C627C"] = {
+	},
+	["Player-5284-01C5D002"] = {
+	},
+	["Player-5284-019E9385"] = {
+	},
+	["Player-5284-019BB461"] = {
+	},
+	["Pet-0-5250-0-9-1860-0300863AE3"] = {
+	},
+	["Player-5825-021484CB"] = {
+	},
+	["Player-5284-019A5437"] = {
+	},
+	["Player-5825-020A3795"] = {
+	},
+	["Player-5284-01770620"] = {
+	},
+	["Player-5284-01907970"] = {
+	},
+	["Player-5284-026052ED"] = {
+	},
+	["Pet-0-5250-1-71-7434-06008C0104"] = {
+	},
+	["Pet-0-5252-0-21-2033-010084AD85"] = {
+	},
+	["Player-5284-019A576D"] = {
+	},
+	["Player-5284-01C7004E"] = {
+	},
+	["Player-5284-01C5F590"] = {
+	},
+	["Player-5284-01BB5BD1"] = {
+	},
+	["Player-5284-025CA105"] = {
+	},
+	["Creature-0-5253-30-1377-13140-00004E0B73"] = {
+	},
+	["Player-5284-01980665"] = {
+	},
+	["Player-5284-01443BB6"] = {
+	},
+	["Player-5284-013F9E24"] = {
+	},
+	["Player-5284-01910936"] = {
+	},
+	["Player-5284-01C282FD"] = {
+	},
+	["Player-5284-019D82F1"] = {
+	},
+	["Player-5284-01C7A6C1"] = {
+	},
+	["Creature-0-5250-0-30-5846-00000F1645"] = {
+	},
+	["Player-5284-01AE53E3"] = {
+	},
+	["Player-5284-019E0C49"] = {
+	},
+	["Creature-0-5253-0-93-8719-000039B3E7"] = {
+	},
+	["Creature-0-5253-230-16209-8916-00009184A5"] = {
+	},
+	["Player-5284-0192652C"] = {
+	},
+	["Creature-0-5253-0-12-684-000008A2E3"] = {
+	},
+	["Player-5284-017376BD"] = {
+	},
+	["Pet-0-5252-0-36-1190-06008CEE30"] = {
+	},
+	["Player-5284-0199EED0"] = {
+	},
+	["Player-5284-01C4477C"] = {
+	},
+	["Player-5284-01B91602"] = {
+	},
+	["Player-5284-01C2D21D"] = {
+	},
+	["Pet-0-5250-0-10-2407-05008C6DBE"] = {
+	},
+	["Player-5284-01C6E947"] = {
+	},
+	["Creature-0-5250-0-53-14393-0000242FDB"] = {
+	},
+	["Player-5284-01C387E1"] = {
+	},
+	["Pet-0-5210-0-43-428-01008697FE"] = {
+	},
+	["Player-5284-018F3E6F"] = {
+	},
+	["Creature-0-5250-0-5-1976-0001124FDB"] = {
+	},
+	["Player-5284-019B245B"] = {
+	},
+	["Creature-0-5250-0-56-4475-000054F208"] = {
+	},
+	["Player-5284-01987272"] = {
+	},
+	["Player-5284-019CB04D"] = {
+	},
+	["Pet-0-5250-0-7-9696-010086950D"] = {
+	},
+	["Pet-0-5250-0-3-2729-010085A86C"] = {
+	},
+	["Player-5284-019A93CE"] = {
+	},
+	["Player-5284-01C3258B"] = {
+	},
+	["Pet-0-5253-0-17-2850-02007EF6B9"] = {
+	},
+	["Player-5284-019A43F3"] = {
+	},
+	["Player-5284-019B0623"] = {
+	},
+	["Pet-0-5253-230-29151-11357-010087CC35"] = {
+	},
+	["Player-5284-018E5B05"] = {
+	},
+	["Player-5284-01478965"] = {
+	},
+	["Player-5284-01C60852"] = {
+	},
+	["Player-5284-019CC2BC"] = {
+	},
+	["Player-5284-017FCCF4"] = {
+	},
+	["Player-5284-01AD9638"] = {
+	},
+	["Creature-0-5252-0-36-1432-00001CBD25"] = {
+	},
+	["Player-5284-00F76EFB"] = {
+	},
+	["Player-5284-01E582EB"] = {
+	},
+	["Player-5284-017C4D50"] = {
+	},
+	["Pet-0-5210-0-627-1860-0200908BEB"] = {
+	},
+	["Pet-0-5253-0-76-10741-01007C4E9E"] = {
+	},
+	["Creature-0-5250-0-5-15659-0000124FDC"] = {
+	},
+	["Player-5284-017F811D"] = {
+	},
+	["Player-5284-0197352E"] = {
+	},
+	["Player-5284-017CB5FF"] = {
+	},
+	["Player-5284-01814BB7"] = {
+	},
+	["Player-5284-01C64549"] = {
+	},
+	["Creature-0-5211-1-57-5419-000000925D"] = {
+	},
+	["Player-5284-01C52880"] = {
+	},
+	["Pet-0-5209-0-4-10200-01008687E2"] = {
+	},
+	["Creature-0-5251-0-87-4624-0003B199CE"] = {
+	},
+	["Player-5284-0180FCAF"] = {
+	},
+	["Player-5284-01C83060"] = {
+	},
+	["Creature-0-5252-0-19-1907-000011C30A"] = {
+	},
+	["Player-5284-01970350"] = {
+	},
+	["Player-5284-017AE592"] = {
+	},
+	["Player-5284-019CAE16"] = {
+	},
+	["Player-5284-014A1F79"] = {
+	},
+	["Player-5284-01BA6BCC"] = {
+	},
+	["Player-5284-019E7C33"] = {
+	},
+	["Pet-0-5253-0-34-9696-01005C5A20"] = {
+	},
+	["Pet-0-5208-0-6-1125-230086B78F"] = {
+	},
+	["Player-5284-017BFFAF"] = {
+	},
+	["Player-5284-019D7B89"] = {
+	},
+	["Player-5284-01C53214"] = {
+	},
+	["Player-5284-000C0B29"] = {
+	},
+	["Player-5284-019AF423"] = {
+	},
+	["Pet-0-5252-0-5-7456-0500994EAA"] = {
+	},
+	["Pet-0-5250-0-39-2850-07008D0062"] = {
+	},
+	["Player-5284-0142F373"] = {
+	},
+	["Player-5825-02141B08"] = {
+	},
+	["Player-5284-018A0B40"] = {
+	},
+	["Player-5825-02036904"] = {
+	},
+	["Player-5284-016574A0"] = {
+	},
+	["Player-5284-017D53E3"] = {
+	},
+	["Pet-0-5209-0-31-2850-0800042741"] = {
+	},
+	["Pet-0-5211-489-4788-2850-02009E16CC"] = {
+	},
+	["Player-5284-015BB8BD"] = {
+	},
+	["Player-5284-021BE9FA"] = {
+	},
+	["Player-5284-017E3B6E"] = {
+	},
+	["Player-5284-019DA843"] = {
+	},
+	["Creature-0-5250-0-5-14438-00003739A3"] = {
+	},
+	["Pet-0-5209-0-22-1860-010077182D"] = {
+	},
+	["Player-5284-02329592"] = {
+	},
+	["Player-5284-019DB1AE"] = {
+	},
+	["Player-5284-01997DF4"] = {
+	},
+	["Creature-0-5250-0-55-13843-00001B8ABB"] = {
+	},
+	["Pet-0-5211-409-20112-2850-07008945BC"] = {
+	},
+	["Player-5284-016E006C"] = {
+	},
+	["Player-5284-019CC4A2"] = {
+	},
+	["Player-5284-01C54679"] = {
+	},
+	["Player-5284-019A93EE"] = {
+	},
+	["Player-5284-0199F0BA"] = {
+	},
+	["Player-5284-01B4B12C"] = {
+	},
+	["Pet-0-5252-0-16-9696-0300833E8F"] = {
+	},
+	["Player-5284-01919627"] = {
+	},
+	["Player-5284-0149896B"] = {
+	},
+	["Pet-0-5253-0-25-1186-0200839715"] = {
+	},
+	["Player-5284-019629E8"] = {
+	},
+	["Creature-0-5252-0-20-5862-00007449C6"] = {
+	},
+	["Pet-0-5211-489-17468-10200-030085FA46"] = {
+	},
+	["Player-5284-01C0B063"] = {
+	},
+	["Player-5284-01C357D2"] = {
+	},
+	["Creature-0-5253-0-12-3518-00005C23BC"] = {
+	},
+	["Creature-0-5250-0-56-1785-000054F256"] = {
+	},
+	["Player-5284-019C508E"] = {
+	},
+	["Player-5284-01FE0A53"] = {
+	},
+	["Player-5284-01658C1A"] = {
+	},
+	["Player-5284-019D6DB3"] = {
+	},
+	["Player-5284-01993A54"] = {
+	},
+	["Player-5825-02073079"] = {
+	},
+	["Player-5284-019DAADB"] = {
+	},
+	["Pet-0-5211-469-25090-3241-050081535A"] = {
+	},
+	["Creature-0-5211-30-28771-13296-000046D79F"] = {
+	},
+	["Pet-0-5250-0-58-3241-010081535A"] = {
+	},
+	["Player-5284-02170B3F"] = {
+	},
+	["Pet-0-5211-469-7950-1996-0A00802CF3"] = {
+	},
+	["Player-5284-01967501"] = {
+	},
+	["Player-5284-025FF958"] = {
+	},
+	["Player-5284-01BEF076"] = {
+	},
+	["Player-5284-019B7658"] = {
+	},
+	["Pet-0-5252-0-24-7433-01007E7369"] = {
+	},
+	["Player-5284-019BC230"] = {
+	},
+	["Creature-0-5252-1-72-15542-0001949A2F"] = {
+	},
+	["Pet-0-5211-489-23522-9696-0500840056"] = {
+	},
+	["Player-5284-01C47868"] = {
+	},
+	["Player-5284-0158FF78"] = {
+	},
+	["Player-5284-01793241"] = {
+	},
+	["Player-5284-01FC108B"] = {
+	},
+	["Pet-0-5211-0-64-7433-040086BAC5"] = {
+	},
+	["Player-5284-01C685A5"] = {
+	},
+	["Player-5284-019D1AF0"] = {
+	},
+	["Pet-0-5251-0-18-1196-01008256C6"] = {
+	},
+	["Player-5284-0158EA2C"] = {
+	},
+	["Player-5284-01C0669C"] = {
+	},
+	["Player-5284-01BD226C"] = {
+	},
+	["Player-5284-015FD43B"] = {
+	},
+	["Player-5284-01BA3901"] = {
+	},
+	["Creature-0-5251-0-3-1287-000041B590"] = {
+	},
+	["Player-5284-0167FAB4"] = {
+	},
+	["Player-5284-019C026F"] = {
+	},
+	["Creature-0-5250-0-5-15766-00003739A3"] = {
+	},
+	["Player-5284-019A929B"] = {
+	},
+	["Player-5825-02127EC5"] = {
+	},
+	["Player-5284-014A9537"] = {
+	},
+	["Player-5284-025C5AD0"] = {
+	},
+	["Player-5284-02030697"] = {
+	},
+	["Player-5284-0196993E"] = {
+	},
+	["Player-5284-016F2E77"] = {
+	},
+	["Pet-0-5253-0-5-2406-05005F3FEF"] = {
+	},
+	["Player-5284-01838746"] = {
+	},
+	["Player-5284-019B3EA7"] = {
+	},
+	["Player-5284-018C5426"] = {
+	},
+	["Player-5284-01C8305A"] = {
+	},
+	["Creature-0-5210-0-23-5840-0000358041"] = {
+	},
+	["Player-5284-0180259F"] = {
+	},
+	["Player-5284-0196DFCC"] = {
+	},
+	["Player-5284-019CA236"] = {
+	},
+	["Player-5284-01C7A0C5"] = {
+	},
+	["Player-5284-018F2342"] = {
+	},
+	["Pet-0-5253-30-10286-1713-03008687E3"] = {
+	},
+	["Player-5284-01C1D727"] = {
+	},
+	["Creature-0-5253-230-16209-8916-00021184A5"] = {
+	},
+	["Player-5284-019B6735"] = {
+	},
+	["Player-5284-01C28174"] = {
+	},
+	["Player-5284-0158E420"] = {
+	},
+	["Player-5284-01879A3A"] = {
+	},
+	["Player-5284-01987155"] = {
+	},
+	["Player-5284-018EA5A2"] = {
+	},
+	["Player-5825-02033E80"] = {
+	},
+	["Player-5284-0188C5DF"] = {
+	},
+	["Player-5284-018FEEFE"] = {
+	},
+	["Player-5284-0177856F"] = {
+	},
+	["Player-5284-019C7EE9"] = {
+	},
+	["Player-5284-01C13ADE"] = {
+	},
+	["Player-5284-019B4CED"] = {
+	},
+	["Player-5284-019ED924"] = {
+	},
+	["Player-5284-01658D7F"] = {
+	},
+	["Player-5284-01C77284"] = {
+	},
+	["Player-5284-010C3307"] = {
+	},
+	["Pet-0-5252-0-27-2034-08008D257B"] = {
+	},
+	["Player-5284-01995A0F"] = {
+	},
+	["Pet-0-5209-0-71-428-03008A7697"] = {
+	},
+	["Player-5284-00AB8DDB"] = {
+	},
+	["Player-5284-019B75CB"] = {
+	},
+	["Player-5284-01798073"] = {
+	},
+	["Player-5284-01C64AD6"] = {
+	},
+	["Player-5284-01814BE5"] = {
+	},
+	["Player-5284-0196521C"] = {
+	},
+	["Player-5284-01C33D98"] = {
+	},
+	["Pet-0-5208-0-24-547-0400957C07"] = {
+	},
+	["Player-5284-019533C8"] = {
+	},
+	["Player-5284-01907AF5"] = {
+	},
+	["Player-5284-01A4538A"] = {
+	},
+	["Player-5825-020DED3E"] = {
+	},
+	["Player-5284-01B52B9E"] = {
+	},
+	["Player-5284-01BA33B0"] = {
+	},
+	["Player-5284-015D9911"] = {
+	},
+	["Player-5284-01C62D2F"] = {
+	},
+	["Pet-0-5251-0-18-1126-0100817867"] = {
+	},
+	["Pet-0-5253-309-19702-9696-0100895469"] = {
+	},
+	["Player-5284-01BE2DDC"] = {
+	},
+	["Player-5284-01A591C1"] = {
+	},
+	["Player-5284-019B30C4"] = {
+	},
+	["Pet-0-5251-1-44-1553-0100890D6A"] = {
+	},
+	["Creature-0-5253-30-6664-13359-0007B3083C"] = {
+	},
+	["Player-5284-019BCC60"] = {
+	},
+	["Player-5284-01994DAD"] = {
+	},
+	["Player-5284-019E58E1"] = {
+	},
+	["Creature-0-5250-0-7-7410-00004AEFAE"] = {
+	},
+	["Player-5284-01A5A7F1"] = {
+	},
+	["Player-5825-01FE96C1"] = {
+	},
+	["Player-5284-019E7E14"] = {
+	},
+	["Pet-0-5250-0-10-2850-040086C97D"] = {
+	},
+	["Player-5284-019B94E5"] = {
+	},
+	["Player-5284-0164C0A8"] = {
+	},
+	["Player-5284-019B3F97"] = {
+	},
+	["Creature-0-5211-230-21542-8895-00038DC1BD"] = {
+	},
+	["Player-5284-021A3DF2"] = {
+	},
+	["Pet-0-5250-0-59-1188-0100603A72"] = {
+	},
+	["Player-5284-01BF39E9"] = {
+	},
+	["Pet-0-5252-0-9-2070-0600953DA2"] = {
+	},
+	["Player-5284-0184780E"] = {
+	},
+	["Player-5284-0188C4AB"] = {
+	},
+	["Player-5284-01C1D535"] = {
+	},
+	["Player-5284-0186EE89"] = {
+	},
+	["Player-5284-0197D4E5"] = {
+	},
+	["Creature-0-5209-1-7-15545-0001BD6643"] = {
+	},
+	["Player-5284-0166127B"] = {
+	},
+	["Player-5284-01C24DB4"] = {
+	},
+	["Player-5284-016DA9C0"] = {
+	},
+	["Player-5284-0192C8C4"] = {
+	},
+	["Player-5284-017DECA5"] = {
+	},
+	["Creature-0-5253-0-12-681-000005BBB4"] = {
+	},
+	["Player-5284-0183C310"] = {
+	},
+	["Creature-0-5253-1-44-3235-00008241FE"] = {
+	},
+	["Player-5284-01954C1F"] = {
+	},
+	["Player-5284-01BCFA06"] = {
+	},
+	["Pet-0-5250-0-15-4158-0400843B9D"] = {
+	},
+	["Player-5284-01C47B97"] = {
+	},
+	["Player-5284-0189E255"] = {
+	},
+	["Player-5284-01C46B05"] = {
+	},
+	["Player-5284-0195BEB7"] = {
+	},
+	["Player-5284-01C45644"] = {
+	},
+	["Pet-0-5253-0-5-1997-05008276F0"] = {
+	},
+	["Player-5284-01C58A2C"] = {
+	},
+	["Player-5284-018DAC02"] = {
+	},
+	["Creature-0-5253-30-30924-10981-000732DF63"] = {
+	},
+	["Pet-0-5211-531-19408-10200-0A007F8EE9"] = {
+	},
+	["Player-5284-016536C6"] = {
+	},
+	["Player-5284-016F6945"] = {
+	},
+	["Player-5284-0199154C"] = {
+	},
+	["Player-5233-01917C08"] = {
+	},
+	["Player-5284-01C696BF"] = {
+	},
+	["Player-5284-0198C340"] = {
+	},
+	["Player-5284-019E19D1"] = {
+	},
+	["Creature-0-5253-0-20-604-0000046EEA"] = {
+	},
+	["Player-5284-0143200F"] = {
+	},
+	["Player-5284-0149A359"] = {
+	},
+	["Player-5284-01701FB0"] = {
+	},
+	["Player-5284-0159888F"] = {
+	},
+	["Player-5284-01AE9C3E"] = {
+	},
+	["Player-5284-019BA3DB"] = {
+	},
+	["Player-5284-01C5E5F9"] = {
+	},
+	["Pet-0-5211-309-15957-10200-01008687E2"] = {
+	},
+	["Pet-0-5253-0-5-2406-04005F3FEF"] = {
+	},
+	["Player-5284-019470FC"] = {
+	},
+	["Pet-0-5253-0-20-3241-010081535A"] = {
+	},
+	["Player-5284-0213D9EF"] = {
+	},
+	["Creature-0-5253-0-12-681-000005BC46"] = {
+	},
+	["Player-5284-017D35A2"] = {
+	},
+	["Player-5284-0192CA29"] = {
+	},
+	["Player-5284-01B82063"] = {
+	},
+	["Creature-0-5211-230-21542-8894-00010DC1BC"] = {
+	},
+	["Creature-0-5250-1-34-3255-000078FD92"] = {
+	},
+	["Creature-0-5211-230-20473-8893-00041B3B40"] = {
+	},
+	["Player-5825-021103D9"] = {
+	},
+	["Creature-0-5250-0-56-4474-0000D4F212"] = {
+	},
+	["Player-5284-01A35E67"] = {
+	},
+	["Player-5284-018771FC"] = {
+	},
+	["Player-5284-019D3CC1"] = {
+	},
+	["Pet-0-5251-1-43-1085-0100866395"] = {
+	},
+	["Player-5284-01C63B46"] = {
+	},
+	["Player-5284-01AD7BDF"] = {
+	},
+	["Creature-0-5250-0-59-68-00011B8ABC"] = {
+	},
+	["Player-5284-01BFFAE2"] = {
+	},
+	["Creature-0-5250-0-59-4969-00009BE78A"] = {
+	},
+	["Pet-0-5250-0-77-7434-01008CC652"] = {
+	},
+	["Player-5284-01995D6C"] = {
+	},
+	["Player-5284-019BDCCF"] = {
+	},
+	["Pet-0-5251-0-3-9416-02008CB2A8"] = {
+	},
+	["Pet-0-5252-0-24-2850-02008D0062"] = {
+	},
+	["Creature-0-5251-0-87-11355-00003240C4"] = {
+	},
+	["Player-5284-016E5D44"] = {
+	},
+	["Creature-0-5209-1-118-2202-0000705E0D"] = {
+	},
+	["Player-5825-01FE4160"] = {
+	},
+	["Player-5284-01C5C356"] = {
+	},
+	["Player-5284-017DB6FB"] = {
+	},
+	["Player-5284-019D2A54"] = {
+	},
+	["Player-5284-01B630BD"] = {
+	},
+	["Pet-0-5253-309-28786-2850-0100877BE6"] = {
+	},
+	["Player-5284-01C6B6DC"] = {
+	},
+	["Player-5284-01C0F57F"] = {
+	},
+	["Player-5284-019D5F02"] = {
+	},
+	["Player-5284-0197014E"] = {
+	},
+	["Pet-0-5251-0-22-2850-020077191A"] = {
+	},
+	["Player-5284-0177F5AB"] = {
+	},
+	["Player-5284-016D624C"] = {
+	},
+	["Player-5825-0211D817"] = {
+	},
+	["Player-5825-020F851E"] = {
+	},
+	["Player-5284-01A95552"] = {
+	},
+	["Player-5284-014A8A0D"] = {
+	},
+	["Pet-0-5252-0-24-2850-0300863DC7"] = {
+	},
+	["Player-5284-01AF5212"] = {
+	},
+	["Player-5284-01889FF5"] = {
+	},
+	["Player-5284-01C1F209"] = {
+	},
+	["Player-5284-019E2E4F"] = {
+	},
+	["Player-5284-01BD7A96"] = {
+	},
+	["Pet-0-5252-0-21-7434-01008CC652"] = {
+	},
+	["Player-5284-019DFFD6"] = {
+	},
+	["Player-5284-01737993"] = {
+	},
+	["Pet-0-5250-0-10-7434-0400814759"] = {
+	},
+	["Player-5284-019033F7"] = {
+	},
+	["Player-5284-019B1722"] = {
+	},
+	["Player-5284-01442D54"] = {
+	},
+	["Player-5284-019CEF8B"] = {
+	},
+	["Player-5284-0190A104"] = {
+	},
+	["Pet-0-5250-0-43-7432-030085D35B"] = {
+	},
+	["Pet-0-5210-0-19-729-060085D7E5"] = {
+	},
+	["Player-5284-016FBE3F"] = {
+	},
+	["Player-5284-019DA13A"] = {
+	},
+	["Player-5284-01C0D41C"] = {
+	},
+	["Player-5284-01BD248E"] = {
+	},
+	["Player-5284-01C6AA43"] = {
+	},
+	["Player-5284-01830451"] = {
+	},
+	["Pet-0-5250-0-5-7432-03007EFC81"] = {
+	},
+	["Pet-0-5210-0-7-2850-0B00773686"] = {
+	},
+	["Player-5284-018EC8B3"] = {
+	},
+	["Pet-0-5253-0-17-1997-0500896837"] = {
+	},
+	["Creature-0-5211-30-13295-12051-000232D4F5"] = {
+	},
+	["Pet-0-5253-0-7-9696-050082D5B9"] = {
+	},
+	["Player-5284-01835D4B"] = {
+	},
+	["Creature-0-5211-30-14356-13359-00073D967E"] = {
+	},
+	["Player-5284-01C639A5"] = {
+	},
+	["Player-5284-026373B8"] = {
+	},
+	["Pet-0-5253-409-17723-2850-05008D0062"] = {
+	},
+	["Player-5284-0197BAEB"] = {
+	},
+	["Player-5284-01B0BD1E"] = {
+	},
+	["Pet-0-5253-309-17575-10200-07009A99AC"] = {
+	},
+	["Player-5825-02034B75"] = {
+	},
+	["Player-5284-0181F65B"] = {
+	},
+	["Player-5284-0197CD00"] = {
+	},
+	["Player-5284-015FF156"] = {
+	},
+	["Player-5284-01B874C4"] = {
+	},
+	["Player-5284-016E018F"] = {
+	},
+	["Player-5284-019D3B9A"] = {
+	},
+	["Player-5284-018DF1FA"] = {
+	},
+	["Player-5284-019AAC8E"] = {
+	},
+	["Pet-0-5253-0-17-9696-0900855697"] = {
+	},
+	["Player-5284-016380EF"] = {
+	},
+	["Pet-0-5211-531-8554-9696-03008581DB"] = {
+	},
+	["Player-5284-019B23A7"] = {
+	},
+	["Player-5284-01869213"] = {
+	},
+	["Player-5284-019D1301"] = {
+	},
+	["Player-5284-01C607A3"] = {
+	},
+	["Pet-0-5253-30-10504-416-020083AAC4"] = {
+	},
+	["Player-5284-0147875C"] = {
+	},
+	["Player-5284-019D45EB"] = {
+	},
+	["Player-5825-020017E9"] = {
+	},
+	["Pet-0-5253-0-15-3100-3500854699"] = {
+	},
+	["Player-5284-018D0399"] = {
+	},
+	["Player-5284-01649AF0"] = {
+	},
+	["Creature-0-5211-230-8285-8895-0000909D36"] = {
+	},
+	["Pet-0-5211-249-8836-2034-010082DA1B"] = {
+	},
+	["Creature-0-5252-0-31-5840-000015DED8"] = {
+	},
+	["Pet-0-5253-533-5595-7432-050085D35B"] = {
+	},
+	["Pet-0-5250-1-45-9696-0B0085CF55"] = {
+	},
+	["Player-5284-02217722"] = {
+	},
+	["Player-5825-020FD636"] = {
+	},
+	["Player-5825-020CB9B1"] = {
+	},
+	["Player-5284-01C04250"] = {
+	},
+	["Player-5284-017F53A0"] = {
+	},
+	["Player-5284-018304C6"] = {
+	},
+	["Pet-0-5252-1-69-2850-02008745A2"] = {
+	},
+	["Player-5284-019109FF"] = {
+	},
+	["Creature-0-5253-230-16209-8902-00009184A5"] = {
+	},
+	["Pet-0-5250-1-91-2850-15008689A8"] = {
+	},
+	["Player-5825-02034116"] = {
+	},
+	["Player-5825-02163899"] = {
+	},
+	["Player-5284-018F9C46"] = {
+	},
+	["Player-5284-0189423A"] = {
+	},
+	["Pet-0-5253-0-5-1860-030085A20D"] = {
+	},
+	["Player-5284-01EA99B0"] = {
+	},
+	["Player-5284-0251B680"] = {
+	},
+	["Player-5825-02034AAF"] = {
+	},
+	["Pet-0-5250-0-75-3619-040086D9D5"] = {
+	},
+	["Player-5284-019A150C"] = {
+	},
+	["Player-5284-01B1628E"] = {
+	},
+	["Player-5284-01C4D778"] = {
+	},
+	["Player-5284-018A09BF"] = {
+	},
+	["Player-5284-0189B69D"] = {
+	},
+	["Pet-0-5253-1-692-833-0100910A28"] = {
+	},
+	["Creature-0-5253-0-20-604-0000046E87"] = {
+	},
+	["Pet-0-5209-0-71-1131-0400862F73"] = {
+	},
+	["Player-5284-01976AEE"] = {
+	},
+	["Player-5284-017F77C1"] = {
+	},
+	["Player-5284-01BA3C25"] = {
+	},
+	["Player-5284-019B68A3"] = {
+	},
+	["Player-5825-0216356D"] = {
+	},
+	["Player-5284-02092C74"] = {
+	},
+	["Player-5825-021588BE"] = {
+	},
+	["Player-5284-01A108CF"] = {
+	},
+	["Player-5284-021A241B"] = {
+	},
+	["Player-5284-019B0559"] = {
+	},
+	["Creature-0-5253-0-25-441-00005D4124"] = {
+	},
+	["Pet-0-5253-0-12-10077-08007FB098"] = {
+	},
+	["Player-5825-0215E403"] = {
+	},
+	["Player-5284-0143436D"] = {
+	},
+	["Player-5284-024A16B8"] = {
+	},
+	["Player-5284-01BC3CF3"] = {
+	},
+	["Pet-0-5253-30-16574-2850-03008D0062"] = {
+	},
+	["Pet-0-5253-0-17-1985-130085569B"] = {
+	},
+	["Player-5284-015C3B86"] = {
+	},
+	["Player-5284-019C3555"] = {
+	},
+	["Player-5284-021C5D1A"] = {
+	},
+	["Player-5825-01FBA5B2"] = {
+	},
+	["Player-5284-01C21A95"] = {
+	},
+	["Player-5284-01AD02C7"] = {
+	},
+	["Player-5284-0198887B"] = {
+	},
+	["Creature-0-5253-1-46-4694-000004719F"] = {
+	},
+	["Player-5284-01760822"] = {
+	},
+	["Player-5284-0192F182"] = {
+	},
+	["Player-5284-01DBB0DC"] = {
+	},
+	["Player-5284-01981EE8"] = {
+	},
+	["Player-5284-00F002F8"] = {
+	},
+	["Player-5284-01987225"] = {
+	},
+	["Player-5284-019A9362"] = {
+	},
+	["Pet-0-5252-0-24-682-0200863C35"] = {
+	},
+	["Player-5284-01AF8BF0"] = {
+	},
+	["Player-5284-019B56F3"] = {
+	},
+	["Pet-0-5250-0-30-7097-060085645F"] = {
+	},
+	["Player-5284-01BF8659"] = {
+	},
+	["Player-5284-01E45E74"] = {
+	},
+	["Player-5284-019A7369"] = {
+	},
+	["Pet-0-5211-30-2874-9696-04008AE0FB"] = {
+	},
+	["Player-5284-019CF50C"] = {
+	},
+	["Player-5284-018871A4"] = {
+	},
+	["Player-5284-01BDA54E"] = {
+	},
+	["Player-5284-018EA5E4"] = {
+	},
+	["Player-5284-019BE853"] = {
+	},
+	["Player-5284-01AFC5AC"] = {
+	},
+	["Player-5284-019CCF75"] = {
+	},
+	["Player-5825-0204F377"] = {
+	},
+	["Player-5284-01867AEA"] = {
+	},
+	["Pet-0-5211-429-23510-1553-0F00890D6A"] = {
+	},
+	["Player-5284-0182A25F"] = {
+	},
+	["Player-5284-0190E765"] = {
+	},
+	["Player-5284-01777F42"] = {
+	},
+	["Player-5284-0196737B"] = {
+	},
+	["Player-5284-019D522F"] = {
+	},
+	["Creature-0-5253-30-21832-13296-00003FB2C2"] = {
+	},
+	["Pet-0-5253-533-5147-7432-0E0085D35B"] = {
+	},
+	["Player-5284-01978897"] = {
+	},
+	["Player-5284-019CB892"] = {
+	},
+	["Player-5284-0198110F"] = {
+	},
+	["Player-5284-01C4E5F2"] = {
+	},
+	["Player-5284-01BF3BF9"] = {
+	},
+	["Player-5284-0190A359"] = {
+	},
+	["Pet-0-5209-0-71-2850-01007F6A08"] = {
+	},
+	["Player-5284-019AA4BE"] = {
+	},
+	["Player-5284-01C543EA"] = {
+	},
+	["Player-5284-0197EE5C"] = {
+	},
+	["Player-5284-01A86CFD"] = {
+	},
+	["Player-5284-019B49F7"] = {
+	},
+	["Creature-0-5250-0-61-940-00004E2DAA"] = {
+	},
+	["Player-5284-019C5029"] = {
+	},
+	["Pet-0-5211-409-14520-2033-02008C3B43"] = {
+	},
+	["Player-5284-018693BE"] = {
+	},
+	["Creature-0-5250-0-16-8524-000050D809"] = {
+	},
+	["Creature-0-5252-0-7-1286-00001382E3"] = {
+	},
+	["Player-5284-0187161F"] = {
+	},
+	["Player-5825-01FC2CE3"] = {
+	},
+	["Player-5284-019CF64D"] = {
+	},
+	["Player-5284-019C58EC"] = {
+	},
+	["Player-5284-019C4413"] = {
+	},
+	["Player-5284-017F5426"] = {
+	},
+	["Creature-0-5253-30-15202-13359-00073EE8B8"] = {
+	},
+	["Player-5284-01B7C038"] = {
+	},
+	["Player-5825-0209EE9F"] = {
+	},
+	["Player-5284-0198A45D"] = {
+	},
+	["Player-5284-019A43F5"] = {
+	},
+	["Pet-0-5253-289-8348-11357-02008664DC"] = {
+	},
+	["Player-5284-019B9DCC"] = {
+	},
+	["Player-5825-021781B8"] = {
+	},
+	["Pet-0-5252-0-24-14343-05008BCD5A"] = {
+	},
+	["Creature-0-5211-189-22319-4299-000004ACD6"] = {
+	},
+	["Player-5284-01C4F3E3"] = {
+	},
+	["Player-5284-01C3D59F"] = {
+	},
+	["Player-5284-01983C85"] = {
+	},
+	["Pet-0-5253-533-20875-1131-0D007E7EA8"] = {
+	},
+	["Player-5284-01B2F21F"] = {
+	},
+	["Player-5284-0199C177"] = {
+	},
+	["Player-5284-01A5F7E5"] = {
+	},
+	["Pet-0-5252-0-7-1114-01007E779A"] = {
+	},
+	["Player-5284-019E822F"] = {
+	},
+	["Creature-0-5253-0-93-8670-000039B3E7"] = {
+	},
+	["Player-5284-0168158E"] = {
+	},
+	["Player-5284-01E5902C"] = {
+	},
+	["Player-5284-01A9D08D"] = {
+	},
+	["Player-5284-01C4B23E"] = {
+	},
+	["Player-5284-01C14FC6"] = {
+	},
+	["Creature-0-5211-230-7994-8916-0005342097"] = {
+	},
+	["Player-5284-019CF4E2"] = {
+	},
+	["Creature-0-5250-1-37-11880-00003BAB1F"] = {
+	},
+	["Player-5284-01C45342"] = {
+	},
+	["Player-5284-01996ACD"] = {
+	},
+	["Player-5284-01987E33"] = {
+	},
+	["Pet-0-5250-0-14-1689-0300800D99"] = {
+	},
+	["Player-5284-019A54F7"] = {
+	},
+	["Player-5284-019735C0"] = {
+	},
+	["Player-5284-01C331F4"] = {
+	},
+	["Player-5284-019D326B"] = {
+	},
+	["Pet-0-5250-0-80-1085-01009717B0"] = {
+	},
+	["Player-5284-015FDEA7"] = {
+	},
+	["Player-5284-016FE802"] = {
+	},
+	["Player-5284-019811BE"] = {
+	},
+	["Pet-0-5211-229-28899-7434-0E008CFB4B"] = {
+	},
+	["Player-5284-01BD4DEF"] = {
+	},
+	["Player-5284-01973313"] = {
+	},
+	["Player-5284-0197EBA6"] = {
+	},
+	["Player-5284-019939DD"] = {
+	},
+	["Creature-0-5209-1-7-15545-00003D6643"] = {
+	},
+	["Player-5284-016A7C49"] = {
+	},
+	["Player-5284-01C0657F"] = {
+	},
+	["Pet-0-5253-229-1115-2850-010086C29C"] = {
+	},
+	["Player-5284-01BC6D3A"] = {
+	},
+	["Player-5284-01646C6D"] = {
+	},
+	["Player-5284-018FE633"] = {
+	},
+	["Player-5284-01C0F8B9"] = {
+	},
+	["Player-5284-020C5C2A"] = {
+	},
+	["Creature-0-5250-0-5-1402-00003739A2"] = {
+	},
+	["Player-5284-0195BEAF"] = {
+	},
+	["Player-5284-01BC0CE2"] = {
+	},
+	["Pet-0-5252-0-2-2850-020081B08A"] = {
+	},
+	["Pet-0-5250-0-68-7456-0100867CF3"] = {
+	},
+	["Player-5284-019DA22F"] = {
+	},
+	["Player-5284-0198C4BE"] = {
+	},
+	["Creature-0-5209-1-118-2163-0000F0649F"] = {
+	},
+	["Player-5284-01715190"] = {
+	},
+	["Player-5825-0207810B"] = {
+	},
+	["Player-5284-019A57A2"] = {
+	},
+	["Player-5284-0167EF13"] = {
+	},
+	["Pet-0-5253-0-5-9696-0300801621"] = {
+	},
+	["Player-5284-02642817"] = {
+	},
+	["Player-5284-01BBE481"] = {
+	},
+	["Player-5284-0199BFCA"] = {
+	},
+	["Player-5284-017BC293"] = {
+	},
+	["Creature-0-5250-0-2-8720-00003739A3"] = {
+	},
+	["Pet-0-5211-469-14922-7434-06008CC652"] = {
+	},
+	["Pet-0-5210-0-31159-10200-01009909CC"] = {
+	},
+	["Pet-0-5252-0-24-14343-04008BCD5A"] = {
+	},
+	["Player-5284-0181DCA6"] = {
+	},
+	["Player-5284-018FBDF3"] = {
+	},
+	["Player-5284-01A9D0C0"] = {
+	},
+	["Player-5284-019E137A"] = {
+	},
+	["Player-5284-01C5BE5C"] = {
+	},
+	["Creature-0-5211-230-9556-8893-000C8D632A"] = {
+	},
+	["Creature-0-5211-429-6364-11448-0006C3F058"] = {
+	},
+	["Pet-0-5253-529-676-417-0300778640"] = {
+	},
+	["Pet-0-5209-0-16-2033-020086B5D9"] = {
+	},
+	["Pet-0-5253-329-1572-7433-0100864AB8"] = {
+	},
+	["Player-5284-0234CA11"] = {
+	},
+	["Creature-0-5252-0-40-9044-00006E018E"] = {
+	},
+	["Player-5284-01C1163F"] = {
+	},
+	["Player-5284-01738DB8"] = {
+	},
+	["Player-5284-01C55756"] = {
+	},
+	["Pet-0-5250-0-5-1128-0100202113"] = {
+	},
+	["Pet-0-5250-0-54-416-020086A1AE"] = {
+	},
+	["Player-5825-0200B89D"] = {
+	},
+	["Player-5284-0197E03F"] = {
+	},
+	["Player-5284-019CC1CF"] = {
+	},
+	["Player-5825-02169D78"] = {
+	},
+	["Player-5284-014A8E56"] = {
+	},
+	["Player-5825-0203420E"] = {
+	},
+	["Creature-0-5251-0-18-589-0000CE8171"] = {
+	},
+	["Player-5284-0198A538"] = {
+	},
+	["Player-5284-01C4086B"] = {
+	},
+	["Player-5284-0181F615"] = {
+	},
+	["Player-5284-019A764A"] = {
+	},
+	["Player-5284-019D5480"] = {
+	},
+	["Player-5284-01BD4DDE"] = {
+	},
+	["Player-5284-01BEC661"] = {
+	},
+	["Player-5284-01C62A43"] = {
+	},
+	["Pet-0-5210-0-7-7456-05008B55C7"] = {
+	},
+	["Player-5284-019B3E43"] = {
+	},
+	["Player-5284-016553D8"] = {
+	},
+	["Player-5284-01B6304D"] = {
+	},
+	["Pet-0-5251-0-14-1196-0200892E10"] = {
+	},
+	["Player-5284-017D94B4"] = {
+	},
+	["Player-5284-01BDD4BF"] = {
+	},
+	["Creature-0-5250-0-56-6412-000054F2BF"] = {
+	},
+	["Player-5284-019C4456"] = {
+	},
+	["Player-5284-01A49E74"] = {
+	},
+	["Player-5284-01DE4A9C"] = {
+	},
+	["Pet-0-5211-409-13835-7434-0B008CC652"] = {
+	},
+	["Player-5284-01BE2E86"] = {
+	},
+	["Player-5284-018A7C3A"] = {
+	},
+	["Pet-0-5250-0-82-9696-01008B425B"] = {
+	},
+	["Player-5284-019A7341"] = {
+	},
+	["Player-5284-01BA9D5A"] = {
+	},
+	["Player-5284-019F1C1C"] = {
+	},
+	["Player-5284-0164E0A9"] = {
+	},
+	["Pet-0-5211-229-13459-7433-01009A5EE1"] = {
+	},
+	["Player-5284-019E62B3"] = {
+	},
+	["Player-5284-018A7BD3"] = {
+	},
+	["Creature-0-5250-0-26-1110-000079E39C"] = {
+	},
+	["Creature-0-5252-1-72-15542-0000949A2F"] = {
+	},
+	["Player-5284-018EC9D4"] = {
+	},
+	["Player-5284-01BF1C8C"] = {
+	},
+	["Player-5284-0194DE35"] = {
+	},
+	["Player-5284-01C649F4"] = {
+	},
+	["Player-5284-0142089B"] = {
+	},
+	["Player-5284-025F2B01"] = {
+	},
+	["Player-5284-016E798F"] = {
+	},
+	["Creature-0-5252-0-50-5840-000058E10F"] = {
+	},
+	["Pet-0-5253-30-16624-10741-0200763F15"] = {
+	},
+	["Creature-0-5211-30-20915-13437-00004173AC"] = {
+	},
+	["Pet-0-5253-0-12-7434-0700772A59"] = {
+	},
+	["Player-5284-0170A0BD"] = {
+	},
+	["Pet-0-5253-0-12-4511-1800855B8E"] = {
+	},
+	["Player-5284-019BE7F4"] = {
+	},
+	["Player-5284-017F298D"] = {
+	},
+	["Player-5284-019AD861"] = {
+	},
+	["Player-5284-01C7F576"] = {
+	},
+	["Player-5284-019DF81A"] = {
+	},
+	["Player-5284-01655D6E"] = {
+	},
+	["Pet-0-5252-1-43-7433-06008D7DB3"] = {
+	},
+	["Creature-0-5250-0-5-1287-0000124FDC"] = {
+	},
+	["Creature-0-5253-30-21832-13140-00003FB2C2"] = {
+	},
+	["Pet-0-5251-0-33-9696-020086A8F1"] = {
+	},
+	["Player-5284-0196B561"] = {
+	},
+	["Pet-0-5253-409-18094-2850-0200991403"] = {
+	},
+	["Player-5284-01976D8B"] = {
+	},
+	["Player-5825-02122B62"] = {
+	},
+	["Player-5284-019AADBD"] = {
+	},
+	["Player-5825-0215C550"] = {
+	},
+	["Pet-0-5250-1-55-2850-01008B4E2B"] = {
+	},
+	["Player-5284-019E19A0"] = {
+	},
+	["Player-5233-01CDCC78"] = {
+	},
+	["Player-5284-0144478E"] = {
+	},
+	["Player-5284-019BE8E1"] = {
+	},
+	["Player-5284-019C4DB9"] = {
+	},
+	["Player-5284-019BC0E5"] = {
+	},
+	["Pet-0-5210-1-36-7456-02008B9D98"] = {
+	},
+	["Player-5284-0198091A"] = {
+	},
+	["Player-5284-01BEC6CC"] = {
+	},
+	["Player-5284-016EA3B3"] = {
+	},
+	["Player-5284-019DEAE3"] = {
+	},
+	["Creature-0-5250-1-35-7157-000091FE1D"] = {
+	},
+	["Player-5284-019A34E5"] = {
+	},
+	["Player-5284-01993811"] = {
+	},
+	["Player-5284-019CF602"] = {
+	},
+	["Player-5284-0167B0C2"] = {
+	},
+	["Pet-0-5250-0-5-9696-020085CF55"] = {
+	},
+	["Pet-0-5252-0-47-2734-0100813333"] = {
+	},
+	["Player-5284-019BFDB6"] = {
+	},
+	["Creature-0-5251-0-13-1340-0000487D20"] = {
+	},
+	["Player-5284-0198878F"] = {
+	},
+	["Pet-0-5210-0-5-2850-01008C055C"] = {
+	},
+	["Player-5284-01970144"] = {
+	},
+	["Player-5284-01B52D05"] = {
+	},
+	["Player-5284-01C8EF36"] = {
+	},
+	["Pet-0-5252-0-38-11357-02008CBD94"] = {
+	},
+	["Pet-0-5211-329-17123-9696-0100755B2B"] = {
+	},
+	["Player-5284-01C59ADA"] = {
+	},
+	["Player-5284-025BDB82"] = {
+	},
+	["Player-5284-01C45867"] = {
+	},
+	["Player-5825-0217BAFB"] = {
+	},
+	["Player-5284-01990DA4"] = {
+	},
+	["Pet-0-5250-0-39-9696-060096E4AC"] = {
+	},
+	["Player-5284-01971BAC"] = {
+	},
+	["Player-5284-01A9A13A"] = {
+	},
+	["Player-5284-019A6521"] = {
+	},
+	["Player-5825-02118AAB"] = {
+	},
+	["Pet-0-5253-30-15202-3100-010080619D"] = {
+	},
+	["Player-5825-02033CC3"] = {
+	},
+	["Pet-0-5253-0-5-2850-010085DEE5"] = {
+	},
+	["Pet-0-5250-0-5-2850-04007D30D4"] = {
+	},
+	["Creature-0-5210-0-51-9690-00005617D4"] = {
+	},
+	["Player-5284-019C9777"] = {
+	},
+	["Player-5284-01FE4496"] = {
+	},
+	["Player-5284-01C71FCF"] = {
+	},
+	["Pet-0-5211-34-11658-416-0100892004"] = {
+	},
+	["Player-5284-01788A2A"] = {
+	},
+	["Player-5284-019CA453"] = {
+	},
+	["Player-5284-019A7EE3"] = {
+	},
+	["Player-5284-0193FD25"] = {
+	},
+	["Pet-0-5253-0-10-3619-0C0085E799"] = {
+	},
+	["Player-5284-018DD273"] = {
+	},
+	["Pet-0-5250-1-62-7099-100084E251"] = {
+	},
+	["Player-5284-015CC4F5"] = {
+	},
+	["Player-5284-0199DAFC"] = {
+	},
+	["Player-5284-02141A3C"] = {
+	},
+	["Player-5284-016CB665"] = {
+	},
+	["Player-5284-023A45C3"] = {
+	},
+	["Player-5284-0199243F"] = {
+	},
+	["Player-5284-01AA3F48"] = {
+	},
+	["Player-5284-020BEA0E"] = {
+	},
+	["Pet-0-5250-1-87-9691-010085D7E0"] = {
+	},
+	["Player-5284-01B7F980"] = {
+	},
+	["Player-5284-01ABA9BC"] = {
+	},
+	["Player-5284-016F47F6"] = {
+	},
+	["Player-5284-01B66A84"] = {
+	},
+	["Player-5825-0203D342"] = {
+	},
+	["Player-5284-0176B76C"] = {
+	},
+	["Pet-0-5250-0-51-1860-01008BD23D"] = {
+	},
+	["Player-5284-01BFAAFF"] = {
+	},
+	["Pet-0-5209-0-8-2850-03009AD608"] = {
+	},
+	["Player-5284-0164BE50"] = {
+	},
+	["Player-5284-0192C722"] = {
+	},
+	["Player-5284-0199EE99"] = {
+	},
+	["Creature-0-5252-1-72-15542-0002149A2F"] = {
+	},
+	["Player-5284-017A7354"] = {
+	},
+	["Player-5284-01961005"] = {
+	},
+	["Player-5284-01965123"] = {
+	},
+	["Player-5284-01BFD0B8"] = {
+	},
+	["Player-5284-01BE2C63"] = {
+	},
+	["Player-5284-014A5B00"] = {
+	},
+	["Player-5284-01C5E646"] = {
+	},
+	["Player-5284-014B3DD2"] = {
+	},
+	["Player-5284-01BF1AC9"] = {
+	},
+	["Pet-0-5211-0-21-2850-03008D47DA"] = {
+	},
+	["Player-5284-01829EDB"] = {
+	},
+	["Player-5284-01B2BA13"] = {
+	},
+	["Player-5284-01764C11"] = {
+	},
+	["Player-5284-01995D0E"] = {
+	},
+	["Player-5284-023122DD"] = {
+	},
+	["Player-5284-01811F3E"] = {
+	},
+	["Player-5284-01BD7A54"] = {
+	},
+	["Player-5284-0148DA6A"] = {
+	},
+	["Player-5284-01DAD34F"] = {
+	},
+	["Pet-0-5211-30-12438-2033-010089C3D3"] = {
+	},
+	["Player-5825-01FE6846"] = {
+	},
+	["Creature-0-5253-0-93-68-000139B3E7"] = {
+	},
+	["Pet-0-5208-0-22-4158-020097367F"] = {
+	},
+	["Player-5284-0158D8C3"] = {
+	},
+	["Player-5284-019AF45F"] = {
+	},
+	["Pet-0-5253-249-1367-2926-01008622F0"] = {
+	},
+	["Player-5284-01983B58"] = {
+	},
+	["Player-5233-018F8258"] = {
+	},
+	["Pet-0-5252-0-4726-1961-010090598A"] = {
+	},
+	["Player-5284-01C045A6"] = {
+	},
+	["Player-5284-018C9C5B"] = {
+	},
+	["Player-5284-01844C6D"] = {
+	},
+	["Pet-0-5250-0-16-2175-050083BD5C"] = {
+	},
+	["Creature-0-5251-0-39-68-00036D65AC"] = {
+	},
+	["Pet-0-5253-1-692-2033-01008F9B87"] = {
+	},
+	["Player-5284-01C5B88E"] = {
+	},
+	["Pet-0-5251-0-3-119-06008CB002"] = {
+	},
+	["Player-5284-019B4112"] = {
+	},
+	["Player-5284-01BB9F9D"] = {
+	},
+	["Player-5284-01988A2A"] = {
+	},
+	["Player-5284-01A95D61"] = {
+	},
+	["Pet-0-5252-0-33-1860-01008631DA"] = {
+	},
+	["Player-5284-01C25604"] = {
+	},
+	["Player-5284-01681F68"] = {
+	},
+	["Pet-0-5253-0-4-2163-02009F6A09"] = {
+	},
+	["Player-5284-0188F582"] = {
+	},
+	["Player-5284-01988A9F"] = {
+	},
+	["Pet-0-5211-30-1144-1996-070087C1BE"] = {
+	},
+	["Pet-0-5250-0-5-11368-0100864556"] = {
+	},
+	["Player-5284-019DD824"] = {
+	},
+	["Player-5284-019C5F9C"] = {
+	},
+	["Player-5284-000BED9E"] = {
+	},
+	["Player-5284-018E5ADF"] = {
+	},
+	["Player-5284-017930FC"] = {
+	},
+	["Player-5284-0185449A"] = {
+	},
+	["Player-5284-018DF070"] = {
+	},
+	["Pet-0-5251-0-5-118-030082425A"] = {
+	},
+	["Player-5284-018D100E"] = {
+	},
+	["Player-5284-019B3E65"] = {
+	},
+	["Pet-0-5253-229-6874-9696-010086ADD4"] = {
+	},
+	["Player-5284-019A6529"] = {
+	},
+	["Player-5284-0195536E"] = {
+	},
+	["Player-5284-018BE11C"] = {
+	},
+	["Pet-0-5250-0-2-2734-02008013C5"] = {
+	},
+	["Player-5284-021C241D"] = {
+	},
+	["Player-5284-01C2E8B7"] = {
+	},
+	["Player-5284-019E5739"] = {
+	},
+	["Player-5284-01C466AC"] = {
+	},
+	["Pet-0-5211-509-12754-11357-02000188A9"] = {
+	},
+	["Player-5284-0188C789"] = {
+	},
+	["Player-5284-019C03F4"] = {
+	},
+	["Player-5284-0008FC00"] = {
+	},
+	["Player-5284-01C1519B"] = {
+	},
+	["Player-5284-0198720F"] = {
+	},
+	["Player-5284-01A7BAE7"] = {
+	},
+	["Creature-0-5252-0-6-1557-0000440FDF"] = {
+	},
+	["Player-5284-01BFD0B5"] = {
+	},
+	["Player-5284-01BEAD98"] = {
+	},
+	["Player-5284-01817263"] = {
+	},
+	["Pet-0-5250-0-41-2727-020085881A"] = {
+	},
+	["Player-5284-01C242D9"] = {
+	},
+	["Player-5284-02387145"] = {
+	},
+	["Player-5284-017B4D50"] = {
+	},
+	["Pet-0-5253-429-2727-2850-0500855B7C"] = {
+	},
+	["Player-5284-0141CD23"] = {
+	},
+	["Player-5284-015F15F0"] = {
+	},
+	["Creature-0-5251-0-13-1379-00004C41D5"] = {
+	},
+	["Player-5284-01983A19"] = {
+	},
+	["Player-5284-01B7FBCB"] = {
+	},
+	["Player-5825-01FA3AF7"] = {
+	},
+	["Player-5284-019A5790"] = {
+	},
+	["Player-5284-01824D5E"] = {
+	},
+	["Pet-0-5250-1-89-7099-0D0084E251"] = {
+	},
+	["Player-5284-01A8A3BA"] = {
+	},
+	["Player-5284-0170E97E"] = {
+	},
+	["Player-5284-025D1958"] = {
+	},
+	["Player-5284-01988F2C"] = {
+	},
+	["Player-5825-02034B12"] = {
+	},
+	["Player-5284-01981E37"] = {
+	},
+	["Player-5284-019BA74E"] = {
+	},
+	["Player-5284-0185C18A"] = {
+	},
+	["Player-5284-01A3CDB6"] = {
+	},
+	["Pet-0-5209-0-76-4512-06008D310D"] = {
+	},
+	["Player-5284-0190C32B"] = {
+	},
+	["Player-5284-019D45FA"] = {
+	},
+	["Player-5284-02528D1F"] = {
+	},
+	["Player-5284-019AF524"] = {
+	},
+	["Player-5284-017DEDEB"] = {
+	},
+	["Pet-0-5252-1-31-3121-0100773B3D"] = {
+	},
+	["Pet-0-5252-0-57-345-16008CB4D9"] = {
+	},
+	["Player-5284-0141CFDB"] = {
+	},
+	["Pet-0-5250-0-54-11357-01005A43FE"] = {
+	},
+	["Player-5284-01C065D0"] = {
+	},
+	["Pet-0-5210-0-44-9696-01008D6A25"] = {
+	},
+	["Pet-0-5211-30-28771-2033-03001A6181"] = {
+	},
+	["Pet-0-5251-0-4-416-0100822D46"] = {
+	},
+	["Player-5284-019CFEBF"] = {
+	},
+	["Player-5284-021C7CE0"] = {
+	},
+	["Player-5284-019D001D"] = {
+	},
+	["Player-5284-017F274A"] = {
+	},
+	["Player-5284-019C620C"] = {
+	},
+	["Player-5284-01F3FB3B"] = {
+	},
+	["Player-5284-01891D73"] = {
+	},
+	["Player-5284-013427E0"] = {
+	},
+	["Player-5284-01C29A48"] = {
+	},
+	["Creature-0-5211-230-10364-8893-00001F2F6B"] = {
+	},
+	["Player-5284-01C0891C"] = {
+	},
+	["Player-5284-019C475A"] = {
+	},
+	["Creature-0-5253-0-6-727-0007A4C49F"] = {
+	},
+	["Pet-0-5250-0-54-1201-0300845910"] = {
+	},
+	["Player-5284-01C14111"] = {
+	},
+	["Player-5284-015BFD23"] = {
+	},
+	["Pet-0-5253-0-12-1860-020086982D"] = {
+	},
+	["Player-5284-01BCF850"] = {
+	},
+	["Player-5284-014A7CBD"] = {
+	},
+	["Pet-0-5252-0-24-5307-01008D329C"] = {
+	},
+	["Player-5284-01C0410B"] = {
+	},
+	["Pet-0-5250-0-54-119-09008692A4"] = {
+	},
+	["Player-5284-018770A4"] = {
+	},
+	["Player-5284-01B631B5"] = {
+	},
+	["Player-5284-019C6B2F"] = {
+	},
+	["Player-5284-00DC859D"] = {
+	},
+	["Player-5284-0199D593"] = {
+	},
+	["Creature-0-5211-230-4259-8892-000C907EFF"] = {
+	},
+	["Player-5284-01738DB6"] = {
+	},
+	["Player-5284-019CB087"] = {
+	},
+	["Creature-0-5250-0-35-727-000A124FDE"] = {
+	},
+	["Pet-0-5210-0-2-2850-02008C1A5B"] = {
+	},
+	["Player-5284-01C457C0"] = {
+	},
+	["Player-5825-02122C86"] = {
+	},
+	["Creature-0-5252-0-21-14390-0002F279CE"] = {
+	},
+	["Player-5284-019CF68B"] = {
+	},
+	["Pet-0-5209-0-71-7456-0700867CF3"] = {
+	},
+	["Player-5284-01B6EC0C"] = {
+	},
+	["Pet-0-5253-0-12-7434-070086B6EA"] = {
+	},
+	["Player-5284-015D1997"] = {
+	},
+	["Player-5284-01A95339"] = {
+	},
+	["Pet-0-5250-0-32-3475-05008630C3"] = {
+	},
+	["Player-5284-01997EED"] = {
+	},
+	["Pet-0-5250-0-41-1085-01008407EE"] = {
+	},
+	["Player-5284-019B972A"] = {
+	},
+	["Player-5284-020B5C74"] = {
+	},
+	["Pet-0-5253-230-12314-9696-06008563E8"] = {
+	},
+	["Pet-0-5253-0-5-7432-010083B250"] = {
+	},
+	["Pet-0-5253-30-18316-9696-01008AE0FB"] = {
+	},
+	["Player-5284-019A5480"] = {
+	},
+	["Player-5284-0180270D"] = {
+	},
+	["Player-5284-016EC455"] = {
+	},
+	["Pet-0-5253-30-3350-9696-010086950D"] = {
+	},
+	["Pet-0-5209-0-8-1961-01008D44D4"] = {
+	},
+	["Player-5284-0180A68C"] = {
+	},
+	["Player-5233-01A48C99"] = {
+	},
+	["Player-5284-0026CF93"] = {
+	},
+	["Player-5284-01B630CE"] = {
+	},
+	["Player-5284-018C7591"] = {
+	},
+	["Player-5284-02343C41"] = {
+	},
+	["Player-5284-0181A553"] = {
+	},
+	["Player-5284-0013B8D0"] = {
+	},
+	["Player-5284-021D1FAF"] = {
+	},
+	["Player-5284-01BCE43B"] = {
+	},
+	["Pet-0-5252-0-2-2931-04008A466D"] = {
+	},
+	["Player-5284-0196107E"] = {
+	},
+	["Player-5284-019B04DC"] = {
+	},
+	["Pet-0-5250-0-75-7432-03007E0F35"] = {
+	},
+	["Player-5284-016F8792"] = {
+	},
+	["Player-5284-017F41FA"] = {
+	},
+	["Player-5284-01B9C602"] = {
+	},
+	["Pet-0-5209-1-118-1860-0200911887"] = {
+	},
+	["Pet-0-5252-0-24-14343-02008BCD5A"] = {
+	},
+	["Pet-0-5211-30-2650-1860-06008A8D60"] = {
+	},
+	["Player-5284-0185450F"] = {
+	},
+	["Creature-0-5209-0-30-8566-00011C283D"] = {
+	},
+	["Player-5825-0200CFD1"] = {
+	},
+	["Pet-0-5253-429-14371-1996-03007A20B4"] = {
+	},
+	["Player-5284-01C46AAB"] = {
+	},
+	["Creature-0-5211-30-22121-13359-000732F94D"] = {
+	},
+	["Player-5284-00128925"] = {
+	},
+	["Player-5284-01BA9E04"] = {
+	},
+	["Player-5284-0237D90E"] = {
+	},
+	["Player-5284-017BB183"] = {
+	},
+	["Player-5284-017A35B8"] = {
+	},
+	["Player-5284-019AC3EC"] = {
+	},
+	["Player-5284-0183D2EE"] = {
+	},
+	["Player-5284-018F219F"] = {
+	},
+	["Player-5284-0197855E"] = {
+	},
+	["Player-5825-021771C8"] = {
+	},
+	["Creature-0-5252-0-25332-11355-0000B92E63"] = {
+	},
+	["Player-5284-01473442"] = {
+	},
+	["Player-5284-019C99CD"] = {
+	},
+	["Player-5284-016E9F70"] = {
+	},
+	["Player-5284-01181B93"] = {
+	},
+	["Player-5284-01C65DB6"] = {
+	},
+	["Player-5284-01B7FBA3"] = {
+	},
+	["Pet-0-5211-30-19187-11368-010088FCD9"] = {
+	},
+	["Player-5284-02130C32"] = {
+	},
+	["Player-5284-0188F371"] = {
+	},
+	["Player-5284-01C59B7F"] = {
+	},
+	["Player-5284-019E83A8"] = {
+	},
+	["Pet-0-5251-0-22-1860-01007F9D96"] = {
+	},
+	["Player-5284-017B8779"] = {
+	},
+	["Player-5284-017F2974"] = {
+	},
+	["Player-5284-01C1A0A4"] = {
+	},
+	["Player-5825-020A117E"] = {
+	},
+	["Player-5284-01BC9185"] = {
+	},
+	["Pet-0-5250-1-46-2579-0100863540"] = {
+	},
+	["Player-5284-01FE88E0"] = {
+	},
+	["Player-5284-018A7A7F"] = {
+	},
+	["Player-5284-01BE0039"] = {
+	},
+	["Player-5284-019BDE31"] = {
+	},
+	["Pet-0-5253-30-31635-2734-01008B1CAB"] = {
+	},
+	["Pet-0-5250-0-9-118-0100863C1C"] = {
+	},
+	["Player-5284-01A5C1EC"] = {
+	},
+	["Player-5284-016EF9B9"] = {
+	},
+	["Player-5284-01995663"] = {
+	},
+	["Player-5284-00093D2A"] = {
+	},
+	["Player-5284-0197510B"] = {
+	},
+	["Player-5284-01C45567"] = {
+	},
+	["Player-5284-019B0582"] = {
+	},
+	["Player-5284-0179D9EB"] = {
+	},
+	["Player-5284-01C2D851"] = {
+	},
+	["Player-5825-01FAB2EC"] = {
+	},
+	["Pet-0-5210-0-4-683-0100864DFF"] = {
+	},
+	["Player-5284-01C172D0"] = {
+	},
+	["Player-5284-017A3768"] = {
+	},
+	["Player-5284-016FAF3A"] = {
+	},
+	["Player-5284-0198FB76"] = {
+	},
+	["Player-5284-01C3D40C"] = {
+	},
+	["Creature-0-5250-0-5-68-00053739A2"] = {
+	},
+	["Creature-0-5211-230-4259-8892-0004907EFF"] = {
+	},
+	["Player-5284-0199E0C8"] = {
+	},
+	["Player-5284-019B55F9"] = {
+	},
+	["Player-5284-019B25D6"] = {
+	},
+	["Player-5284-01717C89"] = {
+	},
+	["Player-5825-02104D60"] = {
+	},
+	["Player-5284-01498BD0"] = {
+	},
+	["Player-5284-019E59D4"] = {
+	},
+	["Player-5284-0181209D"] = {
+	},
+	["Player-5284-019D8346"] = {
+	},
+	["Player-5284-01866B6A"] = {
+	},
+	["Player-5284-01AD0084"] = {
+	},
+	["Player-5284-01903330"] = {
+	},
+	["Player-5284-0195786F"] = {
+	},
+	["Player-5284-01C6B64B"] = {
+	},
+	["Player-5284-019B0779"] = {
+	},
+	["Player-5284-019E2584"] = {
+	},
+	["Player-5284-01A47867"] = {
+	},
+	["Player-5284-019CCDEF"] = {
+	},
+	["Player-5284-019B2EBA"] = {
+	},
+	["Player-5284-0180FF1B"] = {
+	},
+	["Player-5284-018B1FD8"] = {
+	},
+	["Creature-0-5250-0-55-5595-00001B8ABB"] = {
+	},
+	["Player-5284-0197A1EE"] = {
+	},
+	["Pet-0-5253-0-5-9696-05008C6B6F"] = {
+	},
+	["Pet-0-5253-1-46-2850-27008689A8"] = {
+	},
+	["Pet-0-5209-0-68-7456-07009D9CAC"] = {
+	},
+	["Player-5284-017E4D45"] = {
+	},
+	["Pet-0-5251-0-22-10200-06007F8EE9"] = {
+	},
+	["Pet-0-5250-0-5-9696-0200855697"] = {
+	},
+	["Player-5284-018B4A21"] = {
+	},
+	["Player-5284-01A8A695"] = {
+	},
+	["Player-5284-025FB780"] = {
+	},
+	["Pet-0-5209-0-16-5807-1200875CBE"] = {
+	},
+	["Player-5284-01981FAF"] = {
+	},
+	["Player-5284-019D3DE2"] = {
+	},
+	["Creature-0-5253-0-23-5840-0000280EF3"] = {
+	},
+	["Player-5284-019B25E0"] = {
+	},
+	["Pet-0-5253-0-696-1689-020090C545"] = {
+	},
+	["Player-5284-00DB189C"] = {
+	},
+	["Player-5284-015CEE15"] = {
+	},
+	["Player-5284-015C278E"] = {
+	},
+	["Player-5284-019C32B4"] = {
+	},
+	["Player-5284-01BFABF8"] = {
+	},
+	["Player-5284-0185C08D"] = {
+	},
+	["Player-5284-0198076F"] = {
+	},
+	["Pet-0-5253-229-5136-9696-08008D2920"] = {
+	},
+	["Pet-0-5252-0-19-9696-0C009E7680"] = {
+	},
+	["Player-5284-01994C07"] = {
+	},
+	["Player-5284-01C38690"] = {
+	},
+	["Player-5284-01BCF905"] = {
+	},
+	["Player-5284-017F5397"] = {
+	},
+	["Player-5284-019AB423"] = {
+	},
+	["Player-5284-01C2632E"] = {
+	},
+	["Player-5284-01C87EEA"] = {
+	},
+	["Player-5284-01B17B85"] = {
+	},
+	["Player-5284-01996F63"] = {
+	},
+	["Player-5284-019A14CC"] = {
+	},
+	["Pet-0-5252-0-24-5828-0200802918"] = {
+	},
+	["Player-5284-0164BDD7"] = {
+	},
+	["Creature-0-5250-1-33-8960-00001540B4"] = {
+	},
+	["Pet-0-5252-0-27-10200-02007F8EE9"] = {
+	},
+	["Pet-0-5253-533-13661-2850-07008D0062"] = {
+	},
+	["Player-5284-014A00BB"] = {
+	},
+	["Player-5284-0177828F"] = {
+	},
+	["Player-5284-019DF958"] = {
+	},
+	["Pet-0-5250-0-35-1125-010085CF76"] = {
+	},
+	["Player-5825-02119C5C"] = {
+	},
+	["Player-5284-01B66D69"] = {
+	},
+	["Player-5284-019DBB11"] = {
+	},
+	["Player-5284-01962A71"] = {
+	},
+	["Player-5284-0193FE8F"] = {
+	},
+	["Creature-0-5211-230-9556-8894-00018D632A"] = {
+	},
+	["Player-5284-017705B0"] = {
+	},
+	["Creature-0-5253-30-21832-13359-0000BFB2C2"] = {
+	},
+	["Pet-0-5250-0-7-2033-0F0089C3D3"] = {
+	},
+	["Player-5284-0179AD43"] = {
+	},
+	["Player-5284-016D046F"] = {
+	},
+	["Creature-0-5211-230-10364-8892-00051F2F69"] = {
+	},
+	["Player-5284-0195BFA8"] = {
+	},
+	["Player-5284-01B7FB7D"] = {
+	},
+	["Player-5284-01B5BB53"] = {
+	},
+	["Player-5284-01C5599A"] = {
+	},
+	["Player-5284-01C4A008"] = {
+	},
+	["Player-5284-01B30873"] = {
+	},
+	["Player-5284-020A71FD"] = {
+	},
+	["Player-5284-01BEA052"] = {
+	},
+	["Player-5284-01B94AC4"] = {
+	},
+	["Player-5284-0199EE81"] = {
+	},
+	["Player-5284-0144262F"] = {
+	},
+	["Player-5825-0202BBAA"] = {
+	},
+	["Pet-0-5252-0-7-185317-01008CCC4A"] = {
+	},
+	["Player-5284-01919603"] = {
+	},
+	["Player-5284-01B5EA60"] = {
+	},
+	["Player-5284-01C3EFCD"] = {
+	},
+	["Player-5284-019A43EA"] = {
+	},
+	["Player-5284-015EA479"] = {
+	},
+	["Pet-0-5250-0-7-8600-21008CB295"] = {
+	},
+	["Player-5284-0192C6BC"] = {
+	},
+	["Player-5284-01BF62C3"] = {
+	},
+	["Player-5284-01C433F3"] = {
+	},
+	["Player-5284-0197D5E3"] = {
+	},
+	["Player-5284-0183D3E1"] = {
+	},
+	["Player-5284-019E4232"] = {
+	},
+	["Player-5284-019E9756"] = {
+	},
+	["Player-5284-019B6798"] = {
+	},
+	["Player-5284-019CA493"] = {
+	},
+	["Player-5284-01C4B021"] = {
+	},
+	["Player-5284-019DA335"] = {
+	},
+	["Player-5284-018F4BC6"] = {
+	},
+	["Player-5284-0196E012"] = {
+	},
+	["Player-5284-019B661B"] = {
+	},
+	["Player-5284-019DB209"] = {
+	},
+	["Player-5284-019D34A1"] = {
+	},
+	["Player-5284-01C3EF53"] = {
+	},
+	["Player-5284-01B6EF0A"] = {
+	},
+	["Player-5284-0163E1EF"] = {
+	},
+	["Player-5284-01C170E1"] = {
+	},
+	["Player-5284-019C5FD3"] = {
+	},
+	["Player-5284-019B87BE"] = {
+	},
+	["Pet-0-5253-30-25443-2850-030087C1B8"] = {
+	},
+	["Player-5284-018BBC4E"] = {
+	},
+	["Player-5825-020B9CD7"] = {
+	},
+	["Pet-0-5252-0-2-2850-040087EB59"] = {
+	},
+	["Player-5825-01FD500A"] = {
+	},
+	["Player-5825-01FA224A"] = {
+	},
+	["Creature-0-5252-0-35-8543-000059C920"] = {
+	},
+	["Player-5284-000BFF6B"] = {
+	},
+	["Pet-0-5211-531-20548-7432-050085D35B"] = {
+	},
+	["Creature-0-5211-230-9556-8893-00040D632A"] = {
+	},
+	["Player-5284-019A2158"] = {
+	},
+	["Player-5284-019D62DE"] = {
+	},
+	["Player-5284-01C2A278"] = {
+	},
+	["Creature-0-5253-1-44-3236-0000032439"] = {
+	},
+	["Pet-0-5250-0-1-2850-04007CE419"] = {
+	},
+	["Player-5284-0219DE1D"] = {
+	},
+	["Player-5284-0197A0D0"] = {
+	},
+	["Player-5284-01C5FC67"] = {
+	},
+	["Player-5284-01C3E42D"] = {
+	},
+	["Player-5284-01B0EC4E"] = {
+	},
+	["Player-5825-020C02AF"] = {
+	},
+	["Player-5284-001317FE"] = {
+	},
+	["Player-5825-01FDE490"] = {
+	},
+	["Pet-0-5253-229-12641-9696-02008C76CC"] = {
+	},
+	["Player-5284-017AB83A"] = {
+	},
+	["Player-5284-01C44851"] = {
+	},
+	["Creature-0-5211-230-21542-8893-00060DC1BD"] = {
+	},
+	["Player-5284-0181A53A"] = {
+	},
+	["Player-5284-019A668A"] = {
+	},
+	["Player-5284-018C278B"] = {
+	},
+	["Player-5284-016783C0"] = {
+	},
+	["Player-5284-0187C22A"] = {
+	},
+	["Player-5284-0155C57D"] = {
+	},
+	["Player-5284-019936E7"] = {
+	},
+	["Player-5284-019E59F5"] = {
+	},
+	["Pet-0-5211-249-26378-1128-01007B10BA"] = {
+	},
+	["Player-5284-01739D9F"] = {
+	},
+	["Player-5284-01BAC79F"] = {
+	},
+	["Player-5284-019D518C"] = {
+	},
+	["Pet-0-5211-30-25672-9696-0100870FB8"] = {
+	},
+	["Player-5284-02385281"] = {
+	},
+	["Player-5284-019E1B6E"] = {
+	},
+	["Player-5284-01C433FA"] = {
+	},
+	["Player-5284-01568A83"] = {
+	},
+	["Player-5284-019CAF93"] = {
+	},
+	["Player-5825-020D6BD8"] = {
+	},
+	["Player-5825-020E1CA8"] = {
+	},
+	["Player-5284-019C26E4"] = {
+	},
+	["Pet-0-5253-30-17635-2850-130086BFA6"] = {
+	},
+	["Creature-0-5253-0-93-15659-000039B3E7"] = {
+	},
+	["Player-5284-019A387C"] = {
+	},
+	["Player-5284-01B8A80C"] = {
+	},
+	["Pet-0-5250-0-51-2850-06008B48EC"] = {
+	},
+	["Player-5284-019DF6E3"] = {
+	},
+	["Pet-0-5210-0-69-2172-0600A1B673"] = {
+	},
+	["Player-5284-019EBF47"] = {
+	},
+	["Player-5284-01BF60DC"] = {
+	},
+	["Player-5284-019DB037"] = {
+	},
+	["Player-5284-01996EC2"] = {
+	},
+	["Creature-0-5253-0-25-687-00006266C1"] = {
+	},
+	["Player-5284-018C00C2"] = {
+	},
+	["Player-5284-01C01AD6"] = {
+	},
+	["Player-5284-019EFF86"] = {
+	},
+	["Player-5284-01993717"] = {
+	},
+	["Pet-0-5253-0-23-1201-020084D231"] = {
+	},
+	["Player-5284-01C7FFB8"] = {
+	},
+	["Player-5284-0184C98D"] = {
+	},
+	["Pet-0-5250-0-51-2043-09009AD0E3"] = {
+	},
+	["Player-5825-02037F79"] = {
+	},
+	["Player-5284-01C60778"] = {
+	},
+	["Player-5284-018541F8"] = {
+	},
+	["Player-5284-01B7FA94"] = {
+	},
+	["Player-5284-01703756"] = {
+	},
+	["Player-5284-01C152D8"] = {
+	},
+	["Player-5284-01AD7C1D"] = {
+	},
+	["Pet-0-5211-30-31084-4512-04007FB7E0"] = {
+	},
+	["Player-5284-01C67087"] = {
+	},
+	["Player-5284-01BF38D8"] = {
+	},
+	["Player-5284-0185EABE"] = {
+	},
+	["Player-5284-019A926C"] = {
+	},
+	["Player-5284-016771B5"] = {
+	},
+	["Player-5284-0199DBC3"] = {
+	},
+	["Player-5284-01BB58D6"] = {
+	},
+	["Pet-0-5211-509-17382-2850-070081B08A"] = {
+	},
+	["Player-5284-020ECCDA"] = {
+	},
+	["Player-5284-01C01B22"] = {
+	},
+	["Creature-0-5250-0-6-5595-0003124FDC"] = {
+	},
+	["Creature-0-5253-30-7218-12051-0002C6EAE7"] = {
+	},
+	["Pet-0-5252-0-23-1190-010081393F"] = {
+	},
+	["Player-5284-0137E559"] = {
+	},
+	["Player-5284-01889DEF"] = {
+	},
+	["Player-5284-01861510"] = {
+	},
+	["Player-5284-021C4F18"] = {
+	},
+	["Player-5284-019977B9"] = {
+	},
+	["Pet-0-5252-0-31-7456-03008D8923"] = {
+	},
+	["Player-5284-0199A541"] = {
+	},
+	["Player-5284-01C49FD0"] = {
+	},
+	["Pet-0-5253-30-22127-10741-01007E83DF"] = {
+	},
+	["Player-5284-01C09467"] = {
+	},
+	["Pet-0-5250-0-51-4512-040086BB46"] = {
+	},
+	["Player-5284-019D6239"] = {
+	},
+	["Player-5284-0186EBF1"] = {
+	},
+	["Player-5284-0027451C"] = {
+	},
+	["Player-5284-019034D0"] = {
+	},
+	["Player-5284-018026EF"] = {
+	},
+	["Player-5284-017F7D67"] = {
+	},
+	["Player-5284-01825D3B"] = {
+	},
+	["Pet-0-5250-0-16-2850-040085FC76"] = {
+	},
+	["Player-5284-01981E1B"] = {
+	},
+	["Player-5284-01894283"] = {
+	},
+	["Pet-0-5251-0-6629-8213-0100A54585"] = {
+	},
+	["Creature-0-5252-0-16-14423-000041D967"] = {
+	},
+	["Player-5284-01C15D4D"] = {
+	},
+	["Creature-0-5208-0-13-11867-00006953B2"] = {
+	},
+	["Player-5284-017FFA85"] = {
+	},
+	["Player-5284-0164F89F"] = {
+	},
+	["Player-5284-01A20224"] = {
+	},
+	["Pet-0-5211-30-24263-2070-030086BBA6"] = {
+	},
+	["Pet-0-5211-509-27204-1961-140082E095"] = {
+	},
+	["Player-5284-0153088D"] = {
+	},
+	["Player-5284-01973673"] = {
+	},
+	["Player-5284-019B96C9"] = {
+	},
+	["Pet-0-5211-30-15779-3100-01007B4F1C"] = {
+	},
+	["Player-5284-0179115F"] = {
+	},
+	["Player-5284-014597DA"] = {
+	},
+	["Player-5284-019C5123"] = {
+	},
+	["Player-5825-01FF0815"] = {
+	},
+	["Player-5284-01B97F1C"] = {
+	},
+	["Player-5284-019CDA8F"] = {
+	},
+	["Player-5284-01C64A56"] = {
+	},
+	["Player-5284-016756C6"] = {
+	},
+	["Player-5284-019DF3D3"] = {
+	},
+	["Player-5284-01C0D2C4"] = {
+	},
+	["Player-5284-01980836"] = {
+	},
+	["Player-5284-01C49766"] = {
+	},
+	["Player-5284-01912BDB"] = {
+	},
+	["Creature-0-5211-230-10364-8893-00049F2F69"] = {
+	},
+	["Player-5284-01886EE9"] = {
+	},
+	["Player-5284-01B2B98E"] = {
+	},
+	["Creature-0-5250-0-5-6174-00003739A3"] = {
+	},
+	["Player-5284-01C567EF"] = {
+	},
+	["Player-5284-01C5CB21"] = {
+	},
+	["Player-5284-017C4645"] = {
+	},
+	["Player-5284-018AAF33"] = {
+	},
+	["Player-5284-01BA6AD0"] = {
+	},
+	["Player-5284-01786249"] = {
+	},
+	["Player-5284-017FFBE9"] = {
+	},
+	["Player-5284-018CEDDC"] = {
+	},
+	["Pet-0-5209-0-16-2043-01007EF7A0"] = {
+	},
+	["Player-5284-01824F5E"] = {
+	},
+	["Player-5284-017A9343"] = {
+	},
+	["Pet-0-5210-0-7-682-0500897044"] = {
+	},
+	["Player-5284-01B52C00"] = {
+	},
+	["Player-5284-01827888"] = {
+	},
+	["Player-5284-0191C9E8"] = {
+	},
+	["Player-5825-020A5429"] = {
+	},
+	["Pet-0-5208-0-13-7434-1200772A59"] = {
+	},
+	["Pet-0-5211-529-26508-2070-0E00775F25"] = {
+	},
+	["Player-5284-017EFDFE"] = {
+	},
+	["Player-5284-0178D7C5"] = {
+	},
+	["Pet-0-5250-0-54-1860-030085F99F"] = {
+	},
+	["Pet-0-5211-0-21-2033-01008C3B43"] = {
+	},
+	["Pet-0-5252-0-5-2850-0A00806FDC"] = {
+	},
+	["Creature-0-5253-0-20-604-0000046F38"] = {
+	},
+	["Player-5284-019CD9C9"] = {
+	},
+	["Player-5284-01B476EB"] = {
+	},
+	["Pet-0-5250-0-14-9696-010085A8CB"] = {
+	},
+	["Player-5284-017456A8"] = {
+	},
+	["Player-5284-019AAF2C"] = {
+	},
+	["Player-5284-0190A18C"] = {
+	},
+	["Player-5284-01B6B87A"] = {
+	},
+	["Player-5284-014423AE"] = {
+	},
+	["Pet-0-5250-0-5-822-010085F41E"] = {
+	},
+	["Creature-0-5251-1-33-11443-00004955E0"] = {
+	},
+	["Pet-0-5252-0-27-1860-03008D06C1"] = {
+	},
+	["Creature-0-5250-0-56-1785-000054F202"] = {
+	},
+	["Pet-0-5251-0-16-10200-02008687E2"] = {
+	},
+	["Player-5284-01AAB86B"] = {
+	},
+	["Player-5284-0190C188"] = {
+	},
+	["Player-5284-017AC00B"] = {
+	},
+	["Player-5284-019C6E35"] = {
+	},
+	["Player-5284-0167A175"] = {
+	},
+	["Pet-0-5250-0-78-9696-020071F8C5"] = {
+	},
+	["Player-5284-01990DDF"] = {
+	},
+	["Player-5284-016FD003"] = {
+	},
+	["Player-5284-019B7605"] = {
+	},
+	["Pet-0-5253-30-6422-2070-020086BBA6"] = {
+	},
+	["Player-5284-01C1406C"] = {
+	},
+	["Player-5284-017DA48B"] = {
+	},
+	["Pet-0-5252-0-16-5807-0100859FE5"] = {
+	},
+	["Player-5284-018B6D2B"] = {
+	},
+	["Player-5284-01C33DBC"] = {
+	},
+	["Pet-0-5250-0-55-1126-02007FAE54"] = {
+	},
+	["Player-5284-01C649CA"] = {
+	},
+	["Player-5284-000952D0"] = {
+	},
+	["Player-5284-016DAF14"] = {
+	},
+	["Player-5284-01BFE8E3"] = {
+	},
+	["Player-5284-019D1AFA"] = {
+	},
+	["Player-5284-019AE728"] = {
+	},
+	["Player-5284-019C37B3"] = {
+	},
+	["Player-5825-02036D17"] = {
+	},
+	["Player-5284-0234C5D7"] = {
+	},
+	["Player-5825-01FC5553"] = {
+	},
+	["Pet-0-5252-0-36-9696-050086ADD4"] = {
+	},
+	["Player-5284-0010486A"] = {
+	},
+	["Pet-0-5250-0-22-157-0B008630BE"] = {
+	},
+	["Pet-0-5250-0-68-1186-0300866117"] = {
+	},
+	["Player-5284-01C3D615"] = {
+	},
+	["Player-5284-017A94AE"] = {
+	},
+	["Player-5825-02122FBF"] = {
+	},
+	["Player-5284-01C33F20"] = {
+	},
+	["Player-5284-019BA6C7"] = {
+	},
+	["Creature-0-5252-0-14-1791-00004608F6"] = {
+	},
+	["Player-5284-016DFD90"] = {
+	},
+	["Player-5284-01C14F8A"] = {
+	},
+	["Player-5284-01879998"] = {
+	},
+	["Player-5284-0195997B"] = {
+	},
+	["Pet-0-5210-0-627-1860-010090CE8B"] = {
+	},
+	["Pet-0-5211-429-6394-7456-01008B55C7"] = {
+	},
+	["Player-5284-0196B62D"] = {
+	},
+	["Player-5284-002816C0"] = {
+	},
+	["Player-5284-0197ECA1"] = {
+	},
+	["Pet-0-5250-0-54-822-010081954B"] = {
+	},
+	["Player-5284-0186EB29"] = {
+	},
+	["Player-5284-01802881"] = {
+	},
+	["Player-5284-01BB5F47"] = {
+	},
+	["Player-5284-01C172B2"] = {
+	},
+	["Creature-0-5253-30-1377-13359-00074E0B73"] = {
+	},
+	["Player-5284-0188F435"] = {
+	},
+	["Creature-0-5253-230-20072-8896-00120EE19D"] = {
+	},
+	["Player-5284-017D6038"] = {
+	},
+	["Player-5284-017F73E2"] = {
+	},
+	["Player-5284-0198709A"] = {
+	},
+	["Player-5284-01FAC783"] = {
+	},
+	["Player-5284-014D4CDD"] = {
+	},
+	["Player-5284-019D6D1F"] = {
+	},
+	["Player-5284-01A2FBA3"] = {
+	},
+	["Creature-0-5251-0-87-4624-00063199CF"] = {
+	},
+	["Creature-0-5211-0-29892-704-0000699323"] = {
+	},
+	["Creature-0-5253-1-44-3256-000007931A"] = {
+	},
+	["Player-5284-019AD745"] = {
+	},
+	["Player-5284-01AFA725"] = {
+	},
+	["Player-5825-02027871"] = {
+	},
+	["Player-5284-019C65F7"] = {
+	},
+	["Player-5284-017A6B4D"] = {
+	},
+	["Player-5284-019C3568"] = {
+	},
+	["Player-5284-00938F59"] = {
+	},
+	["Pet-0-5211-249-29935-7432-010085DEF0"] = {
+	},
+	["Pet-0-5250-0-7-1201-04008A7031"] = {
+	},
+	["Player-5284-019B421F"] = {
+	},
+	["Player-5284-01657A25"] = {
+	},
+	["Player-5284-018DD77E"] = {
+	},
+	["Player-5284-0199CF76"] = {
+	},
+	["Pet-0-5211-209-27716-9696-050088F521"] = {
+	},
+	["Pet-0-5253-0-7-2850-06007E7F52"] = {
+	},
+	["Player-5284-019EE372"] = {
+	},
+	["Player-5284-01B4F7AF"] = {
+	},
+	["Player-5284-0194735F"] = {
+	},
+	["Player-5284-01C2EE26"] = {
+	},
+	["Pet-0-5252-1-74-7456-01008D252A"] = {
+	},
+	["Player-5284-0198FB4D"] = {
+	},
+	["Player-5284-01984A98"] = {
+	},
+	["Player-5284-01BCA09D"] = {
+	},
+	["Player-5284-0197EDF4"] = {
+	},
+	["Player-5284-01BCC6A1"] = {
+	},
+	["Pet-0-5250-0-7-9416-07008CB2A8"] = {
+	},
+	["Player-5284-0194B7F6"] = {
+	},
+	["Pet-0-5210-1-42-9696-17008164EB"] = {
+	},
+	["Pet-0-5252-0-2-9696-020085C389"] = {
+	},
+	["Player-5284-018AFD9C"] = {
+	},
+	["Player-5284-01C0662B"] = {
+	},
+	["Creature-0-5250-0-26-14393-00002AC953"] = {
+	},
+	["Player-5284-0199386A"] = {
+	},
+	["Pet-0-5209-0-23-10200-16009DA9B3"] = {
+	},
+	["Player-5284-019AF5A9"] = {
+	},
+	["Player-5284-019D5FDF"] = {
+	},
+	["Player-5284-01C77400"] = {
+	},
+	["Pet-0-5250-0-71-5807-0500848EAF"] = {
+	},
+	["Player-5284-020B01AD"] = {
+	},
+	["Player-5284-01DB03E9"] = {
+	},
+	["Player-5284-014A2419"] = {
+	},
+	["Pet-0-5253-429-17526-9696-0D0085AB30"] = {
+	},
+	["Player-5284-025DAE77"] = {
+	},
+	["Player-5284-01654C70"] = {
+	},
+	["Player-5284-01C672A2"] = {
+	},
+	["Player-5284-0190535C"] = {
+	},
+	["Player-5284-019DDBA5"] = {
+	},
+	["Player-5284-01ABE4AF"] = {
+	},
+	["Player-5284-019D9FFB"] = {
+	},
+	["Player-5284-01AEDF2A"] = {
+	},
+	["Player-5284-018A0BD4"] = {
+	},
+	["Pet-0-5250-0-34-7432-03008DA10E"] = {
+	},
+	["Pet-0-5211-30-23429-1689-01007F3639"] = {
+	},
+	["Player-5284-01912AC9"] = {
+	},
+	["Player-5284-01959C67"] = {
+	},
+	["Pet-0-5211-409-27307-7432-050085D35B"] = {
+	},
+	["Pet-0-5251-0-9-1860-1B00823AD4"] = {
+	},
+	["Creature-0-5209-0-71-1289-000056CA6C"] = {
+	},
+	["Player-5284-019A2383"] = {
+	},
+	["Player-5284-017E81F9"] = {
+	},
+	["Player-5284-017D1757"] = {
+	},
+	["Player-5284-015FD515"] = {
+	},
+	["Player-5284-018FE714"] = {
+	},
+	["Player-5284-01C36622"] = {
+	},
+	["Pet-0-5251-0-12-2850-04008C725F"] = {
+	},
+	["Player-5284-0185EBF2"] = {
+	},
+	["Player-5284-017BD6AF"] = {
+	},
+	["Player-5284-01992031"] = {
+	},
+	["Creature-0-5211-30-24387-14282-00003303C9"] = {
+	},
+	["Player-5284-0170BFAF"] = {
+	},
+	["Pet-0-5251-0-13-1189-0100825F5E"] = {
+	},
+	["Player-5284-01BEA07A"] = {
+	},
+	["Player-5284-019E11D5"] = {
+	},
+	["Creature-0-5250-1-31-5422-00000EE71A"] = {
+	},
+	["Player-5284-013E6FB7"] = {
+	},
+	["Player-5284-0199918E"] = {
+	},
+	["Player-5284-00171BA0"] = {
+	},
+	["Player-5284-01C012E0"] = {
+	},
+	["Player-5284-01960F1D"] = {
+	},
+	["Pet-0-5253-0-5-681-0500860F03"] = {
+	},
+	["Creature-0-5251-1-30-12418-00018650C5"] = {
+	},
+	["Player-5284-017D72A5"] = {
+	},
+	["Pet-0-5211-529-27343-2070-0100775F25"] = {
+	},
+	["Player-5284-01B77E1B"] = {
+	},
+	["Player-5284-01C262CE"] = {
+	},
+	["Player-5284-016F68BE"] = {
+	},
+	["Player-5284-019781DD"] = {
+	},
+	["Player-5284-013EFA44"] = {
+	},
+	["Player-5284-01BBE107"] = {
+	},
+	["Pet-0-5211-349-8937-1085-02008423F8"] = {
+	},
+	["Player-5284-0181A5D4"] = {
+	},
+	["Player-5284-01732DE0"] = {
+	},
+	["Creature-0-5252-0-6-11355-00004412D7"] = {
+	},
+	["Player-5284-01679E82"] = {
+	},
+	["Player-5284-015FC4AD"] = {
+	},
+	["Player-5284-019ED8C5"] = {
+	},
+	["Player-5284-01C29997"] = {
+	},
+	["Player-5284-01C28176"] = {
+	},
+	["Creature-0-5251-0-39-68-00056D65AC"] = {
+	},
+	["Player-5284-01823CBD"] = {
+	},
+	["Player-5284-01C28367"] = {
+	},
+	["Pet-0-5253-509-28226-7432-100085D35B"] = {
+	},
+	["Player-5284-016F6829"] = {
+	},
+	["Player-5284-0167EF92"] = {
+	},
+	["Player-5284-01975079"] = {
+	},
+	["Player-5284-01BE2D05"] = {
+	},
+	["Player-5284-019D3C17"] = {
+	},
+	["Player-5284-01C132B0"] = {
+	},
+	["Player-5284-013FB639"] = {
+	},
+	["Creature-0-5253-0-20-8598-00003C0F62"] = {
+	},
+	["Pet-0-5211-30-10386-1713-01008687E3"] = {
+	},
+	["Pet-0-5211-531-20548-7434-13008CC652"] = {
+	},
+	["Player-5284-01981EB5"] = {
+	},
+	["Player-5284-0185BED4"] = {
+	},
+	["Player-5284-01C68033"] = {
+	},
+	["Player-5284-01BECD80"] = {
+	},
+	["Player-5284-01C0D4C3"] = {
+	},
+	["Player-5284-01C568D4"] = {
+	},
+	["Player-5284-01967592"] = {
+	},
+	["Creature-0-5253-0-93-15766-000039B3E7"] = {
+	},
+	["Player-5284-021A3DF5"] = {
+	},
+	["Player-5284-019E2F43"] = {
+	},
+	["Player-5825-020331C3"] = {
+	},
+	["Player-5284-01814A70"] = {
+	},
+	["Player-5284-019AE5F1"] = {
+	},
+	["Creature-0-5211-230-21542-8902-00010DC1BC"] = {
+	},
+	["Pet-0-5253-0-5-9696-02007E81D7"] = {
+	},
+	["Player-5825-020CEA55"] = {
+	},
+	["Player-5284-019B24CD"] = {
+	},
+	["Pet-0-5250-0-64-5828-01008BA5B7"] = {
+	},
+	["Pet-0-5253-30-3365-3241-020081535A"] = {
+	},
+	["Pet-0-5251-0-22-2043-07007EFC74"] = {
+	},
+	["Player-5284-01C1D70C"] = {
+	},
+	["Creature-0-5211-30-24387-10981-0009B303C9"] = {
+	},
+	["Player-5284-016E0F5D"] = {
+	},
+	["Player-5284-0199923C"] = {
+	},
+	["Player-5284-019C5379"] = {
+	},
+	["Player-5284-01824E26"] = {
+	},
+	["Pet-0-5252-1-30-9696-0300801621"] = {
+	},
+	["Creature-0-5250-0-56-4475-000054F0BF"] = {
+	},
+	["Player-5233-019CA951"] = {
+	},
+	["Pet-0-5251-0-22-9696-0500801621"] = {
+	},
+	["Player-5284-01AEDEA8"] = {
+	},
+	["Pet-0-5211-349-9492-5428-0100858AB4"] = {
+	},
+	["Player-5284-01C2617A"] = {
+	},
+	["Player-5284-019857AD"] = {
+	},
+	["Player-5825-02174E37"] = {
+	},
+	["Pet-0-5251-0-3-5828-0400802918"] = {
+	},
+	["Player-5284-019D3CED"] = {
+	},
+	["Player-5284-0191521E"] = {
+	},
+	["Player-5284-01967620"] = {
+	},
+	["Player-5284-01C28E7C"] = {
+	},
+	["Player-5825-0207184F"] = {
+	},
+	["Player-5284-01294811"] = {
+	},
+	["Player-5825-01FB3721"] = {
+	},
+	["Player-5284-01C1F70B"] = {
+	},
+	["Player-5284-01652EF7"] = {
+	},
+	["Player-5284-0172EDA3"] = {
+	},
+	["Player-5284-018A086B"] = {
+	},
+	["Player-5284-01999247"] = {
+	},
+	["Player-5284-019B052F"] = {
+	},
+	["Player-5284-018C77A2"] = {
+	},
+	["Player-5284-019D153F"] = {
+	},
+	["Player-5284-0198655A"] = {
+	},
+	["Creature-0-5210-0-16-199-0000345947"] = {
+	},
+	["Player-5284-01894314"] = {
+	},
+	["Player-5284-0184A4F2"] = {
+	},
+	["Player-5284-01C2A247"] = {
+	},
+	["Creature-0-5211-0-64-352-000077D443"] = {
+	},
+	["Player-5284-014816B7"] = {
+	},
+	["Player-5284-015B83EA"] = {
+	},
+	["Player-5284-01B8A56C"] = {
+	},
+	["Player-5284-01656E04"] = {
+	},
+	["Pet-0-5250-0-23-416-01008BF905"] = {
+	},
+	["Player-5284-020CBEEF"] = {
+	},
+	["Player-5284-0188F50A"] = {
+	},
+	["Player-5284-01293DB8"] = {
+	},
+	["Player-5284-019B866E"] = {
+	},
+	["Player-5284-01C5C1DB"] = {
+	},
+	["Creature-0-5210-0-5-11355-0000303979"] = {
+	},
+	["Player-5284-019BBFAC"] = {
+	},
+	["Player-5284-01C606E0"] = {
+	},
+	["Player-5284-019DB281"] = {
+	},
+	["Player-5284-019C367A"] = {
+	},
+	["Pet-0-5250-0-6-767-01007F39A2"] = {
+	},
+	["Player-5284-01C13A51"] = {
+	},
+	["Player-5284-01C4D8D0"] = {
+	},
+	["Creature-0-5253-30-7834-12053-00054E70A0"] = {
+	},
+	["Pet-0-5209-0-68-2033-0C00A3CE17"] = {
+	},
+	["Pet-0-5252-1-48-9696-01007EF0FF"] = {
+	},
+	["Player-5284-01797DDE"] = {
+	},
+	["Player-5284-019C6076"] = {
+	},
+	["Player-5284-00107E4E"] = {
+	},
+	["Player-5284-01B57068"] = {
+	},
+	["Player-5284-01773CA6"] = {
+	},
+	["Player-5284-019AD6BE"] = {
+	},
+	["Player-5284-017C08C3"] = {
+	},
+	["Player-5284-019BB55D"] = {
+	},
+	["Player-5284-01C4AFA3"] = {
+	},
+	["Creature-0-5252-0-9-697-00002B7D42"] = {
+	},
+	["Creature-0-5211-230-21542-8894-00018DC1BC"] = {
+	},
+	["Creature-0-5250-0-5-11867-00003739A4"] = {
+	},
+	["Player-5284-01C51273"] = {
+	},
+	["Pet-0-5250-0-68-10741-0300743E5E"] = {
+	},
+	["Player-5825-01FCEB01"] = {
+	},
+	["Player-5284-01990128"] = {
+	},
+	["Player-5284-016D7B85"] = {
+	},
+	["Player-5284-01C4343C"] = {
+	},
+	["Creature-0-5209-1-7-15545-00013D6643"] = {
+	},
+	["Player-5284-0190A016"] = {
+	},
+	["Player-5284-016F8D0F"] = {
+	},
+	["Player-5284-01B8364A"] = {
+	},
+	["Player-5284-000F7E49"] = {
+	},
+	["Player-5284-0198093E"] = {
+	},
+	["Pet-0-5211-229-2782-822-020082174A"] = {
+	},
+	["Player-5284-021725EE"] = {
+	},
+	["Pet-0-5209-0-10-1860-080081F0AB"] = {
+	},
+	["Player-5284-01854441"] = {
+	},
+	["Player-5284-019DAE06"] = {
+	},
+	["Pet-0-5210-0-2-1997-010086C831"] = {
+	},
+	["Player-5284-019B84AC"] = {
+	},
+	["Pet-0-5209-0-57-2850-01008C7AC2"] = {
+	},
+	["Player-5284-019808E0"] = {
+	},
+	["Player-5825-0217B74A"] = {
+	},
+	["Player-5284-019B4019"] = {
+	},
+	["Pet-0-5252-0-3-2850-01008605A5"] = {
+	},
+	["Pet-0-5250-0-12-157-0A008630BE"] = {
+	},
+	["Player-5825-01FA32E1"] = {
+	},
+	["Player-5284-018EC970"] = {
+	},
+	["Pet-0-5252-0-11420-3250-0100909A7D"] = {
+	},
+	["Player-5825-02034A10"] = {
+	},
+	["Player-5284-019B76DD"] = {
+	},
+	["Player-5284-016E3320"] = {
+	},
+	["Player-5284-01962ACD"] = {
+	},
+	["Player-5284-013B8066"] = {
+	},
+	["Player-5284-01C1C1BB"] = {
+	},
+	["Pet-0-5250-0-32-1860-03008463DB"] = {
+	},
+	["Pet-0-5211-30-15779-3100-02007B4F1C"] = {
+	},
+	["Player-5284-0196DE12"] = {
+	},
+	["Pet-0-5252-0-24-3241-020081535A"] = {
+	},
+	["Creature-0-5209-0-71-2455-000056CA6B"] = {
+	},
+	["Player-5284-019A8866"] = {
+	},
+	["Player-5284-01C72303"] = {
+	},
+	["Player-5284-01AD7C4C"] = {
+	},
+	["Pet-0-5210-0-5-2042-0F008B2391"] = {
+	},
+	["Creature-0-5253-1-36-3425-0000A5DB46"] = {
+	},
+	["Pet-0-5253-30-31835-1860-01007F68E8"] = {
+	},
+	["Player-5284-01C73002"] = {
+	},
+	["Creature-0-5252-0-36-15659-00001CBD25"] = {
+	},
+	["Player-5284-01BECCA9"] = {
+	},
+	["Player-5825-02090DCF"] = {
+	},
+	["Player-5284-0009E2EE"] = {
+	},
+	["Pet-0-5252-0-14-2850-02007FE3B0"] = {
+	},
+	["Player-5284-0185151E"] = {
+	},
+	["Pet-0-5252-0-76-3475-0100285381"] = {
+	},
+	["Player-5284-02158C51"] = {
+	},
+	["Player-5284-01C532F2"] = {
+	},
+	["Player-5233-01A248BB"] = {
+	},
+	["Player-5233-01AFCD1F"] = {
+	},
+	["Player-5825-0217722C"] = {
+	},
+	["Player-5284-018027C2"] = {
+	},
+	["Player-5284-01C5EBED"] = {
+	},
+	["Player-5284-01970375"] = {
+	},
+	["Creature-0-5211-230-8285-8902-0000109D36"] = {
+	},
+	["Player-5284-017649B5"] = {
+	},
+	["Creature-0-5250-0-36-687-00000B1764"] = {
+	},
+	["Player-5284-019BB74B"] = {
+	},
+	["Player-5825-020266EC"] = {
+	},
+	["Player-5825-020317E4"] = {
+	},
+	["Player-5284-017DAFB8"] = {
+	},
+	["Player-5284-0137E925"] = {
+	},
+	["Player-5284-0194E0DA"] = {
+	},
+	["Player-5284-01C296C2"] = {
+	},
+	["Player-5284-00243982"] = {
+	},
+	["Pet-0-5209-0-71-11368-05008CE17B"] = {
+	},
+	["Creature-0-5253-230-16209-8916-00039184A5"] = {
+	},
+	["Player-5284-018B1F67"] = {
+	},
+	["Pet-0-5253-0-10-1961-03003A5E7D"] = {
+	},
+	["Player-5284-01C4E6C5"] = {
+	},
+	["Pet-0-5211-30-11411-2042-02008B2391"] = {
+	},
+	["Player-5284-01C4369D"] = {
+	},
+	["Player-5284-019C7839"] = {
+	},
+	["Player-5284-01AC903C"] = {
+	},
+	["Player-5825-02033A19"] = {
+	},
+	["Player-5284-01971F7A"] = {
+	},
+	["Player-5284-0185EBDF"] = {
+	},
+	["Player-5284-0202183E"] = {
+	},
+	["Player-5284-01732B50"] = {
+	},
+	["Creature-0-5252-1-72-15541-0000149A2F"] = {
+	},
+	["Player-5284-019B8579"] = {
+	},
+	["Creature-0-5253-429-9073-11448-0003131EAD"] = {
+	},
+	["Player-5284-01A86E17"] = {
+	},
+	["Pet-0-5209-1-67-9696-01008B425B"] = {
+	},
+	["Player-5284-019C7968"] = {
+	},
+	["Player-5284-01C46A16"] = {
+	},
+	["Player-5284-0199943B"] = {
+	},
+	["Player-5284-019DAB46"] = {
+	},
+	["Player-5284-01703710"] = {
+	},
+	["Player-5284-01650DE6"] = {
+	},
+	["Player-5284-01AD0219"] = {
+	},
+	["Player-5284-01C33C29"] = {
+	},
+	["Pet-0-5250-0-5-7456-0E008611F6"] = {
+	},
+	["Player-5284-01976B79"] = {
+	},
+	["Player-5284-019554DB"] = {
+	},
+	["Player-5284-019E7CDD"] = {
+	},
+	["Player-5284-01C6A90F"] = {
+	},
+	["Player-5284-01BAFE2B"] = {
+	},
+	["Creature-0-5251-0-87-11346-00003199CE"] = {
+	},
+	["Player-5284-01C3F1AA"] = {
+	},
+	["Pet-0-5250-1-48-1996-010083D434"] = {
+	},
+	["Player-5284-0197ED17"] = {
+	},
+	["Player-5284-01C38866"] = {
+	},
+	["Player-5284-01C6B7CA"] = {
+	},
+	["Player-5284-01428550"] = {
+	},
+	["Player-5284-018ECE25"] = {
+	},
+	["Pet-0-5211-30-23429-1860-03008AFF93"] = {
+	},
+	["Player-5284-01C41DC2"] = {
+	},
+	["Player-5284-0198896B"] = {
+	},
+	["Player-5284-0198C458"] = {
+	},
+	["Player-5284-018120D4"] = {
+	},
+	["Player-5284-01C92B74"] = {
+	},
+	["Player-5284-0188F459"] = {
+	},
+	["Creature-0-5210-0-5-11355-0000353E45"] = {
+	},
+	["Player-5284-01C33EC4"] = {
+	},
+	["Pet-0-5253-48-10105-2070-04008C8FC7"] = {
+	},
+	["Pet-0-5209-0-16-1127-0C00866B7C"] = {
+	},
+	["Player-5284-019D3A61"] = {
+	},
+	["Pet-0-5252-0-24-4512-02008B5BE5"] = {
+	},
+	["Player-5284-01835DA1"] = {
+	},
+	["Player-5284-019BC1D6"] = {
+	},
+	["Pet-0-5250-0-8-1127-0200859B2B"] = {
+	},
+	["Pet-0-5253-309-11223-2850-05008C3FA5"] = {
+	},
+	["Player-5284-019EA71E"] = {
+	},
+	["Player-5284-0171506B"] = {
+	},
+	["Player-5284-017E5E72"] = {
+	},
+	["Player-5284-01C70E7F"] = {
+	},
+	["Player-5284-0189B7E6"] = {
+	},
+	["Pet-0-5250-0-70-9694-01008054A8"] = {
+	},
+	["Player-5284-019D6201"] = {
+	},
+	["Player-5284-019B7858"] = {
+	},
+	["Player-5284-01BCC6F2"] = {
+	},
+	["Pet-0-5250-0-33-5828-010082305A"] = {
+	},
+	["Player-5284-01654C45"] = {
+	},
+	["Player-5284-019809B7"] = {
+	},
+	["Player-5825-0200B606"] = {
+	},
+	["Pet-0-5209-0-10-2850-0300877BE6"] = {
+	},
+	["Pet-0-5250-0-52-9696-03008581DB"] = {
+	},
+	["Player-5284-0170202F"] = {
+	},
+	["Player-5284-01A8A47D"] = {
+	},
+	["Player-5284-0165423F"] = {
+	},
+	["Player-5284-0190A09E"] = {
+	},
+	["Pet-0-5252-0-16-2042-0600866EE9"] = {
+	},
+	["Pet-0-5251-0-5-1961-0300887E7A"] = {
+	},
+	["Player-5284-01903508"] = {
+	},
+	["Player-5284-018E3C32"] = {
+	},
+	["Player-5825-02088B2E"] = {
+	},
+	["Player-5284-0198DE6A"] = {
+	},
+	["Player-5284-00FBC4C9"] = {
+	},
+	["Pet-0-5210-0-7-11357-03007B734F"] = {
+	},
+	["Player-5284-01AE2917"] = {
+	},
+	["Creature-0-5211-429-2323-11448-0002EDFAE3"] = {
+	},
+	["Player-5284-019517F9"] = {
+	},
+	["Player-5284-01C568AB"] = {
+	},
+	["Player-5284-019C795C"] = {
+	},
+	["Player-5284-016DAF71"] = {
+	},
+	["Player-5284-019E8320"] = {
+	},
+	["Player-5284-0196E056"] = {
+	},
+	["Player-5284-025332EF"] = {
+	},
+	["Pet-0-5251-0-3-1996-02008974F2"] = {
+	},
+	["Player-5284-019D3B37"] = {
+	},
+	["Player-5284-015FD953"] = {
+	},
+	["Player-5825-020B750F"] = {
+	},
+	["Pet-0-5209-0-4-5828-0100883E7F"] = {
+	},
+	["Player-5284-01654AF1"] = {
+	},
+	["Creature-0-5208-0-13-15659-00006953B2"] = {
+	},
+	["Pet-0-5253-469-3711-2850-0A008D0062"] = {
+	},
+	["Pet-0-5250-0-5-2926-06008622F0"] = {
+	},
+	["Creature-0-5252-0-14-1791-00004608A8"] = {
+	},
+	["Player-5825-0217AFD0"] = {
+	},
+	["Creature-0-5209-0-57-124-000066265D"] = {
+	},
+	["Pet-0-5250-0-71-1126-030076ECB8"] = {
+	},
+	["Player-5284-019E45DB"] = {
+	},
+	["Player-5284-015169D7"] = {
+	},
+	["Creature-0-5252-0-21-2351-00005E3B32"] = {
+	},
+	["Player-5284-019AC230"] = {
+	},
+	["Player-5284-0181A539"] = {
+	},
+	["Player-5284-01E37A12"] = {
+	},
+	["Creature-0-5211-230-21542-8893-00068DC1BD"] = {
+	},
+	["Player-5284-021744F7"] = {
+	},
+	["Pet-0-5252-0-24-1860-02008B6D19"] = {
+	},
+	["Creature-0-5209-0-23-14423-000003816E"] = {
+	},
+	["Player-5284-0196760F"] = {
+	},
+	["Creature-0-5209-0-29-68-0003FD060C"] = {
+	},
+	["Pet-0-5211-469-24669-7433-05009A5EE1"] = {
+	},
+	["Player-5284-01807C6B"] = {
+	},
+	["Player-5284-0197A326"] = {
+	},
+	["Player-5284-01C62AF0"] = {
+	},
+	["Player-5284-019BB3D1"] = {
+	},
+	["Player-5284-01BBB406"] = {
+	},
+	["Creature-0-5251-0-13-1163-00004D0FED"] = {
+	},
+	["Player-5284-01E74409"] = {
+	},
+	["Pet-0-5253-30-11662-9696-03008AE0FB"] = {
+	},
+	["Player-5284-01C5F438"] = {
+	},
+	["Player-5284-01C74679"] = {
+	},
+	["Player-5284-019D96E3"] = {
+	},
+	["Player-5825-0217CAF2"] = {
+	},
+	["Creature-0-5250-0-64-5858-0000513833"] = {
+	},
+	["Creature-0-5253-1-33-4411-00000577A4"] = {
+	},
+	["Pet-0-5253-0-60-7456-04008B55C7"] = {
+	},
+	["Player-5284-01C5C1F1"] = {
+	},
+	["Player-5284-019C1A98"] = {
+	},
+	["Player-5284-019B24BB"] = {
+	},
+	["Pet-0-5250-0-5-10221-04008630F4"] = {
+	},
+	["Pet-0-5250-0-5-2406-02005F3FEF"] = {
+	},
+	["Player-5284-01AA7DF0"] = {
+	},
+	["Player-5825-0219E861"] = {
+	},
+	["Creature-0-5253-30-26129-13448-000032CD34"] = {
+	},
+	["Player-5284-01C645A7"] = {
+	},
+	["Player-5284-0097DE8E"] = {
+	},
+	["Player-5284-01C29B1E"] = {
+	},
+	["Player-5284-009758A4"] = {
+	},
+	["Player-5825-02180868"] = {
+	},
+	["Player-5284-019CED57"] = {
+	},
+	["Player-5284-0195993B"] = {
+	},
+	["Player-5284-019D1E2F"] = {
+	},
+	["Player-5825-02033B75"] = {
+	},
+	["Player-5284-020953D5"] = {
+	},
+	["Player-5284-0180FCBE"] = {
+	},
+	["Player-5284-01496D84"] = {
+	},
+	["Player-5284-018ADA5C"] = {
+	},
+	["Player-5825-02151FAE"] = {
+	},
+	["Player-5284-01646C97"] = {
+	},
+	["Player-5284-01A5A5B6"] = {
+	},
+	["Player-5284-016F87A6"] = {
+	},
+	["Player-5284-017E013B"] = {
+	},
+	["Creature-0-5253-0-93-6174-000039B3E7"] = {
+	},
+	["Player-5284-0167FAA1"] = {
+	},
+	["Player-5284-01B186E3"] = {
+	},
+	["Player-5284-021499D4"] = {
+	},
+	["Player-5284-017BA8FB"] = {
+	},
+	["Player-5284-01C32466"] = {
+	},
+	["Player-5284-021A242E"] = {
+	},
+	["Player-5284-01C64C63"] = {
+	},
+	["Pet-0-5211-30-12228-10200-0E00867022"] = {
+	},
+	["Player-5284-01A2013E"] = {
+	},
+	["Player-5284-0180A708"] = {
+	},
+	["Player-5284-016515DD"] = {
+	},
+	["Pet-0-5250-0-13-1860-01008B0A02"] = {
+	},
+	["Player-5284-026114B0"] = {
+	},
+	["Pet-0-5251-0-3-1997-02008276F0"] = {
+	},
+	["Player-5284-019B24D1"] = {
+	},
+	["Player-5825-021771CF"] = {
+	},
+	["Player-5284-018FE4E4"] = {
+	},
+	["Pet-0-5250-0-37-9696-01008581DB"] = {
+	},
+	["Pet-0-5211-30-15779-3100-08007B4F1C"] = {
+	},
+	["Pet-0-5209-0-4-2729-070087B0AB"] = {
+	},
+	["Player-5284-01B161B2"] = {
+	},
+	["Creature-0-5208-0-13-68-00006B7CB5"] = {
+	},
+	["Player-5284-019CC10C"] = {
+	},
+	["Player-5284-018E81A5"] = {
+	},
+	["Player-5284-01B37BC6"] = {
+	},
+	["Creature-0-5250-0-14-1573-0000091567"] = {
+	},
+	["Pet-0-5253-0-11-9696-0100860F78"] = {
+	},
+	["Pet-0-5251-0-15-1860-03008A2244"] = {
+	},
+	["Player-5284-017FA92B"] = {
+	},
+	["Player-5284-016F1804"] = {
+	},
+	["Pet-0-5253-369-3-2043-01007EFC74"] = {
+	},
+	["Pet-0-5210-0-44-1128-02007B10BA"] = {
+	},
+	["Player-5284-0164CE30"] = {
+	},
+	["Player-5284-019E8C5E"] = {
+	},
+	["Player-5284-01C06741"] = {
+	},
+	["Player-5284-019AAE70"] = {
+	},
+	["Player-5284-019E6E88"] = {
+	},
+	["Player-5284-01994CAC"] = {
+	},
+	["Pet-0-5209-1-118-1997-09009117DC"] = {
+	},
+	["Pet-0-5253-30-3573-1860-040082649A"] = {
+	},
+	["Player-5284-019E1C74"] = {
+	},
+	["Pet-0-5211-533-27975-8602-09008B66AB"] = {
+	},
+	["Player-5284-019C034E"] = {
+	},
+	["Pet-0-5253-533-30253-2850-07008D0062"] = {
+	},
+	["Player-5284-01838692"] = {
+	},
+	["Creature-0-5252-0-14-1791-0000460889"] = {
+	},
+	["Creature-0-5252-0-2-3518-00000CEB8B"] = {
+	},
+	["Player-5284-014A5778"] = {
+	},
+	["Player-5284-017AC0FE"] = {
+	},
+	["Pet-0-5252-0-24-7432-0800027544"] = {
+	},
+	["Player-5284-01913C9D"] = {
+	},
+	["Player-5284-018691D3"] = {
+	},
+	["Pet-0-5250-0-7-772-010086A8B3"] = {
+	},
+	["Player-5284-019976CE"] = {
+	},
+	["Creature-0-5250-0-5-14722-0000124FDC"] = {
+	},
+	["Player-5284-019E4826"] = {
+	},
+	["Player-5284-015A8D00"] = {
+	},
+	["Player-5284-01C6B676"] = {
+	},
+	["Player-5284-015DB8EF"] = {
+	},
+	["Player-5284-0147AA68"] = {
+	},
+	["Player-5284-01A3CE36"] = {
+	},
+	["Player-5284-0191C9AC"] = {
+	},
+	["Player-5284-016752D3"] = {
+	},
+	["Player-5284-019BDC19"] = {
+	},
+	["Creature-0-5211-209-17452-5648-00000DA288"] = {
+	},
+	["Player-5284-0184A28E"] = {
+	},
+	["Player-5825-02009B98"] = {
+	},
+	["Player-5284-019C44EE"] = {
+	},
+	["Player-5284-018DD46D"] = {
+	},
+	["Player-5284-019C8D80"] = {
+	},
+	["Pet-0-5253-0-7-3825-0300834C09"] = {
+	},
+	["Pet-0-5250-0-68-9696-010085AB30"] = {
+	},
+	["Player-5284-01A82844"] = {
+	},
+	["Pet-0-5209-0-16-9696-01008B425B"] = {
+	},
+	["Player-5284-019A2355"] = {
+	},
+	["Pet-0-5250-0-37-4512-04007FB7E0"] = {
+	},
+	["Player-5284-01C30AF4"] = {
+	},
+	["Player-5825-020A9711"] = {
+	},
+	["Player-5284-0184C936"] = {
+	},
+	["Player-5284-019CAE54"] = {
+	},
+	["Player-5284-01980915"] = {
+	},
+	["Player-5284-016F7992"] = {
+	},
+	["Player-5284-018DACD1"] = {
+	},
+	["Pet-0-5250-0-44-2850-0F007FE3B0"] = {
+	},
+	["Player-5284-01BA9CFE"] = {
+	},
+	["Pet-0-5208-0-15-9696-01008A5709"] = {
+	},
+	["Player-5284-01C1949E"] = {
+	},
+	["Creature-0-5252-0-10-589-0000466C9B"] = {
+	},
+	["Pet-0-5252-0-13-2850-010087EB59"] = {
+	},
+	["Player-5284-002787B3"] = {
+	},
+	["Player-5284-0194711D"] = {
+	},
+	["Pet-0-5209-0-8-10200-02009A99AC"] = {
+	},
+	["Player-5825-021617CB"] = {
+	},
+	["Player-5284-0182D9BA"] = {
+	},
+	["Pet-0-5250-0-51-1085-02008423F8"] = {
+	},
+	["Pet-0-5211-229-7502-5828-0A00A36B1D"] = {
+	},
+	["Player-5284-01C7F4F9"] = {
+	},
+	["Player-5284-0147225D"] = {
+	},
+	["Player-5284-01F10569"] = {
+	},
+	["Player-5284-019DA304"] = {
+	},
+	["Pet-0-5250-0-68-1961-01008674D1"] = {
+	},
+	["Player-5284-019AA5DE"] = {
+	},
+	["Player-5284-0158DE08"] = {
+	},
+	["Player-5284-019B259B"] = {
+	},
+	["Player-5284-01A86E1A"] = {
+	},
+	["Creature-0-5250-0-5-8719-00003739A3"] = {
+	},
+	["Player-5284-019DCEDF"] = {
+	},
+	["Pet-0-5211-409-4146-7433-04009A5EE1"] = {
+	},
+	["Pet-0-5209-1-51-10200-010086C98B"] = {
+	},
+	["Player-5284-0148D610"] = {
+	},
+	["Player-5284-024A0513"] = {
+	},
+	["Player-5284-0180256B"] = {
+	},
+	["Pet-0-5250-0-54-7434-0700772A59"] = {
+	},
+	["Creature-0-5250-1-31-5425-00000DFF6C"] = {
+	},
+	["Player-5284-0194FD53"] = {
+	},
+	["Player-5284-01C6E9FC"] = {
+	},
+	["Player-5284-016C8563"] = {
+	},
+	["Player-5284-019DB053"] = {
+	},
+	["Player-5284-019DD75C"] = {
+	},
+	["Player-5284-019736EA"] = {
+	},
+	["Player-5284-01907964"] = {
+	},
+	["Player-5284-01C434A8"] = {
+	},
+	["Player-5284-019AD689"] = {
+	},
+	["Player-5284-01C46901"] = {
+	},
+	["Creature-0-5250-0-62-1025-0000507680"] = {
+	},
+	["Player-5284-02647979"] = {
+	},
+	["Player-5284-018EF5E8"] = {
+	},
+	["Pet-0-5252-0-8-1860-09008A5711"] = {
+	},
+	["Player-5284-018A2E76"] = {
+	},
+	["Pet-0-5211-230-1797-5828-06007E8644"] = {
+	},
+	["Player-5284-019AD875"] = {
+	},
+	["Player-5284-01C243E3"] = {
+	},
+	["Player-5284-0199FB67"] = {
+	},
+	["Player-5284-019C5204"] = {
+	},
+	["Player-5284-0187717C"] = {
+	},
+	["Pet-0-5253-30-27050-10077-01007BC2AC"] = {
+	},
+	["Creature-0-5253-0-11-2457-000065628E"] = {
+	},
+	["Player-5284-01C62B80"] = {
+	},
+	["Player-5284-01BA6B5F"] = {
+	},
+	["Player-5284-021C4A8A"] = {
+	},
+	["Player-5284-0186BB83"] = {
+	},
+	["Player-5284-019D00BB"] = {
+	},
+	["Player-5284-01B8E380"] = {
+	},
+	["Pet-0-5253-0-2-1996-0B008B426B"] = {
+	},
+	["Player-5284-01C3D430"] = {
+	},
+	["Player-5284-019BE9C8"] = {
+	},
+	["Player-5284-017EAB2B"] = {
+	},
+	["Creature-0-5253-0-93-1432-000039B3E7"] = {
+	},
+	["Player-5284-019B55DD"] = {
+	},
+	["Player-5284-0180519F"] = {
+	},
+	["Player-5284-0199B221"] = {
+	},
+	["Player-5284-0191CB6C"] = {
+	},
+	["Player-5284-01C6FCCF"] = {
+	},
+	["Player-5284-0199B32F"] = {
+	},
+	["Creature-0-5250-0-5-8670-00003739A3"] = {
+	},
+	["Player-5284-019BDD07"] = {
+	},
+	["Player-5284-01C608E9"] = {
+	},
+	["Player-5284-00146A02"] = {
+	},
+	["Player-5284-01A715D2"] = {
+	},
+	["Player-5284-01C6DA15"] = {
+	},
+	["Player-5284-019734DF"] = {
+	},
+	["Player-5284-01C262E4"] = {
+	},
+	["Pet-0-5253-0-58-2042-08008C43FF"] = {
+	},
+	["Player-5284-016501F4"] = {
+	},
+	["Player-5284-01781D85"] = {
+	},
+	["Player-5284-01C48BF7"] = {
+	},
+	["Player-5284-019E4C8E"] = {
+	},
+	["Pet-0-5250-0-29-9696-01007F69C8"] = {
+	},
+	["Pet-0-5209-0-8-1188-0100864ADB"] = {
+	},
+	["Player-5284-01C62D28"] = {
+	},
+	["Player-5284-01C24509"] = {
+	},
+	["Player-5284-0199C197"] = {
+	},
+	["Pet-0-5208-0-15-9696-0300800D7E"] = {
+	},
+	["Player-5284-019C79C1"] = {
+	},
+	["Player-5284-019EA063"] = {
+	},
+	["Player-5284-0194FCB2"] = {
+	},
+	["Pet-0-5251-0-3-9696-0100755B2B"] = {
+	},
+	["Player-5284-016D9746"] = {
+	},
+	["Player-5284-017FA8BE"] = {
+	},
+	["Player-5284-015D4D6B"] = {
+	},
+	["Player-5284-0196DD2F"] = {
+	},
+	["Player-5284-0199FE1E"] = {
+	},
+	["Player-5284-0197A149"] = {
+	},
+	["Pet-0-5251-0-33-2850-0600877BE6"] = {
+	},
+	["Creature-0-5253-230-16209-8916-00029184A5"] = {
+	},
+	["Creature-0-5253-230-16209-8916-00031184A5"] = {
+	},
+	["Player-5284-018BE332"] = {
+	},
+	["Player-5284-019701D1"] = {
+	},
+	["Player-5284-019889B6"] = {
+	},
+	["Player-5284-021A64F6"] = {
+	},
+	["Player-5284-0177CCC8"] = {
+	},
+	["Creature-0-5250-0-6-5595-0001924FDD"] = {
+	},
+	["Pet-0-5250-0-51-7098-01008BCD26"] = {
+	},
+	["Pet-0-5211-429-5609-521-01007736C1"] = {
+	},
+	["Player-5284-01917921"] = {
+	},
+	["Player-5284-019B5975"] = {
+	},
+	["Pet-0-5250-0-10-7434-0200772AF9"] = {
+	},
+	["Player-5284-002A700D"] = {
+	},
+	["Pet-0-5209-0-71-14343-15008BCD5A"] = {
+	},
+	["Player-5284-019C8B14"] = {
+	},
+	["Player-5825-0200A397"] = {
+	},
+	["Player-5825-021835D0"] = {
+	},
+	["Player-5284-019DF617"] = {
+	},
+	["Player-5284-017D4484"] = {
+	},
+	["Player-5284-00F11CB7"] = {
+	},
+	["Player-5284-019BB740"] = {
+	},
+	["Player-5284-019CC0F5"] = {
+	},
+	["Player-5284-01BDA2B0"] = {
+	},
+	["Player-5284-019495E6"] = {
+	},
+	["Player-5284-017E868A"] = {
+	},
+	["Pet-0-5253-30-10404-2850-030086BFA6"] = {
+	},
+	["Player-5284-018744D3"] = {
+	},
+	["Player-5284-017309F4"] = {
+	},
+	["Player-5284-019C03E7"] = {
+	},
+	["Player-5284-019B9442"] = {
+	},
+	["Pet-0-5211-529-4096-417-070084CFB9"] = {
+	},
+	["Player-5284-01A7BC3C"] = {
+	},
+	["Player-5284-019B957E"] = {
+	},
+	["Player-5284-01C65F44"] = {
+	},
+	["Player-5284-019C519A"] = {
+	},
+	["Player-5284-017AB844"] = {
+	},
+	["Creature-0-5209-0-23-68-000283816F"] = {
+	},
+	["Pet-0-5253-533-9121-11357-1000A4D468"] = {
+	},
+	["Player-5284-01877082"] = {
+	},
+	["Player-5284-019AC4EE"] = {
+	},
+	["Player-5284-013C34D6"] = {
+	},
+	["Creature-0-5253-0-5-6740-000024C49D"] = {
+	},
+	["Pet-0-5250-0-5-3825-04000188A7"] = {
+	},
+	["Player-5284-01473775"] = {
+	},
+	["Player-5284-01C75441"] = {
+	},
+	["Player-5284-019E6D57"] = {
+	},
+	["Pet-0-5252-0-70-7456-02008D8923"] = {
+	},
+	["Player-5284-01712C80"] = {
+	},
+	["Player-5284-0181D115"] = {
+	},
+	["Player-5284-01732EB3"] = {
+	},
+	["Pet-0-5211-509-27351-7434-0600861230"] = {
+	},
+	["Pet-0-5209-0-31-7434-0800772A59"] = {
+	},
+	["Creature-0-5253-0-27-92-000008C835"] = {
+	},
+	["Player-5284-01824F34"] = {
+	},
+	["Player-5284-015BEDA2"] = {
+	},
+	["Player-5284-01822854"] = {
+	},
+	["Player-5284-01427083"] = {
+	},
+	["Player-5284-019471DB"] = {
+	},
+	["Pet-0-5250-0-5-5828-0100865B50"] = {
+	},
+	["Player-5284-01554D74"] = {
+	},
+	["Player-5233-01D320D9"] = {
+	},
+	["Player-5284-0190FAE3"] = {
+	},
+	["Pet-0-5209-0-29-7432-0400848BDB"] = {
+	},
+	["Player-5284-00CA20CB"] = {
+	},
+	["Player-5825-0211C706"] = {
+	},
+	["Pet-0-5211-30-28625-2850-01008C3B6B"] = {
+	},
+	["Pet-0-5253-533-6179-7432-100085D35B"] = {
+	},
+	["Pet-0-5253-369-3-454-0100854677"] = {
+	},
+	["Creature-0-5250-0-4-14393-00003C2FE2"] = {
+	},
+	["Player-5284-01C59925"] = {
+	},
+	["Player-5284-01C6073E"] = {
+	},
+	["Player-5284-019B9803"] = {
+	},
+	["Player-5284-01D4DD6F"] = {
+	},
+	["Player-5284-019CB595"] = {
+	},
+	["Pet-0-5250-0-10-7434-0600814759"] = {
+	},
+	["Creature-0-5250-0-24-16135-0000669EFF"] = {
+	},
+	["Player-5284-019B1525"] = {
+	},
+	["Player-5284-01A3870E"] = {
+	},
+	["Pet-0-5252-0-19-2850-09008D0062"] = {
+	},
+	["Player-5284-01C51D80"] = {
+	},
+	["Player-5284-01B7FB62"] = {
+	},
+	["Player-5284-016566CE"] = {
+	},
+	["Player-5284-019E6CAC"] = {
+	},
+	["Creature-0-5250-1-37-11880-00003BBC56"] = {
+	},
+	["Player-5284-01784007"] = {
+	},
+	["Player-5284-0198A449"] = {
+	},
+	["Player-5284-019AA4DF"] = {
+	},
+	["Player-5284-019653E4"] = {
+	},
+	["Pet-0-5209-0-31-7434-0100772A59"] = {
+	},
+	["Player-5284-01BAFDBF"] = {
+	},
+	["Player-5284-0198C428"] = {
+	},
+	["Player-5284-019837C1"] = {
+	},
+	["Player-5284-01C3700E"] = {
+	},
+	["Player-5284-019B6960"] = {
+	},
+	["Pet-0-5253-0-17-10200-03008687E2"] = {
+	},
+	["Player-5284-0187739F"] = {
+	},
+	["Pet-0-5250-0-54-1995-0100868D8E"] = {
+	},
+	["Creature-0-5252-0-36-6174-00001CBD25"] = {
+	},
+	["Player-5284-01C67203"] = {
+	},
+	["Player-5284-01802895"] = {
+	},
+	["Pet-0-5211-30-26783-731-0400802D10"] = {
+	},
+	["Player-5284-01C3A251"] = {
+	},
+	["Player-5284-019E8D98"] = {
+	},
+	["Player-5284-01BE2BD9"] = {
+	},
+	["Player-5284-01C19510"] = {
+	},
+	["Player-5284-01951631"] = {
+	},
+	["Player-5284-017705E8"] = {
+	},
+	["Player-5284-01C2439D"] = {
+	},
+	["Pet-0-5211-230-21702-2850-05008CB00D"] = {
+	},
+	["Creature-0-5252-0-31-5840-000015DF0C"] = {
+	},
+	["Player-5284-019DD67C"] = {
+	},
+	["Player-5284-019C3572"] = {
+	},
+	["Player-5284-018E5BC4"] = {
+	},
+	["Player-5284-0149BB33"] = {
+	},
+	["Player-5825-01FD1F56"] = {
+	},
+	["Player-5284-0141C184"] = {
+	},
+	["Player-5284-01C4F5DC"] = {
+	},
+	["Pet-0-5210-0-7-2070-04008B7895"] = {
+	},
+	["Player-5284-019E831F"] = {
+	},
+	["Player-5284-018E7005"] = {
+	},
+	["Player-5284-016820A1"] = {
+	},
+	["Player-5284-01654EC1"] = {
+	},
+	["Player-5284-018B6EB0"] = {
+	},
+	["Player-5284-019C03CE"] = {
+	},
+	["Player-5284-016E65DD"] = {
+	},
+	["Player-5284-016D815B"] = {
+	},
+	["Player-5284-01B1AFA6"] = {
+	},
+	["Player-5284-019B55B5"] = {
+	},
+	["Player-5284-018EA749"] = {
+	},
+	["Player-5284-01962B84"] = {
+	},
+	["Player-5284-0183ACB1"] = {
+	},
+	["Player-5284-018EF991"] = {
+	},
+	["Creature-0-5253-0-22-1783-00006DDA0C"] = {
+	},
+	["Pet-0-5250-0-59-7432-010085D35B"] = {
+	},
+	["Player-5284-019886F9"] = {
+	},
+	["Player-5284-001553B5"] = {
+	},
+	["Player-5284-019B859D"] = {
+	},
+	["Pet-0-5250-0-25-2850-01009027BA"] = {
+	},
+	["Pet-0-5252-0-27-1860-01008AFDB0"] = {
+	},
+	["Player-5284-01C54528"] = {
+	},
+	["Player-5284-0158E40E"] = {
+	},
+	["Creature-0-5208-0-17125-1117-0001EF3E7A"] = {
+	},
+	["Player-5284-01BD4F45"] = {
+	},
+	["Pet-0-5211-509-26507-9696-020097068B"] = {
+	},
+	["Pet-0-5250-0-5-5828-0200810DCC"] = {
+	},
+	["Pet-0-5209-0-75-521-01008AD388"] = {
+	},
+	["Player-5284-0190C337"] = {
+	},
+	["Player-5284-019AA534"] = {
+	},
+	["Pet-0-5211-469-9179-416-030088A6B8"] = {
+	},
+	["Player-5284-015C1656"] = {
+	},
+	["Player-5284-0195E9E6"] = {
+	},
+	["Pet-0-5253-30-18200-2850-01008945BC"] = {
+	},
+	["Player-5284-01C6ECB7"] = {
+	},
+	["Player-5284-01C19335"] = {
+	},
+	["Player-5284-016082A7"] = {
+	},
+	["Creature-0-5211-30-19187-10367-000032EB8C"] = {
+	},
+	["Pet-0-5209-0-68-1130-0A0085CA1C"] = {
+	},
+	["Player-5284-018A2CB7"] = {
+	},
+	["Pet-0-5209-0-57-416-01009AD2A0"] = {
+	},
+	["Player-5284-019D834F"] = {
+	},
+	["Player-5284-018B3EA4"] = {
+	},
+	["Player-5284-019A4CAB"] = {
+	},
+	["Player-5284-01C40836"] = {
+	},
+	["Creature-0-5253-30-17225-13153-00004E8BB0"] = {
+	},
+	["Player-5284-000726F5"] = {
+	},
+	["Player-5284-016CE42E"] = {
+	},
+	["Player-5284-018EC712"] = {
+	},
+	["Player-5284-019DD680"] = {
+	},
+	["Pet-0-5253-34-19453-1131-010085B284"] = {
+	},
+	["Player-5284-012AF9EF"] = {
+	},
+	["Player-5284-020B1030"] = {
+	},
+	["Pet-0-5252-0-24-1996-0300861D42"] = {
+	},
+	["Player-5284-018B1E27"] = {
+	},
+	["Pet-0-5211-30-22177-7434-0700814759"] = {
+	},
+	["Player-5825-0206B409"] = {
+	},
+	["Player-5284-017E089E"] = {
+	},
+	["Pet-0-5211-30-15779-3100-07007B4F1C"] = {
+	},
+	["Player-5284-017EFF12"] = {
+	},
+	["Player-5284-018D0EC8"] = {
+	},
+	["Player-5825-0213A8C9"] = {
+	},
+	["Player-5284-01997E67"] = {
+	},
+	["Player-5825-01FDE616"] = {
+	},
+	["Player-5284-017376E7"] = {
+	},
+	["Pet-0-5253-0-20-3823-0600860AA1"] = {
+	},
+	["Player-5284-01C01D66"] = {
+	},
+	["Pet-0-5211-0-64-2850-020085968A"] = {
+	},
+	["Player-5284-0195772D"] = {
+	},
+	["Player-5825-020479B0"] = {
+	},
+	["Player-5284-0165585F"] = {
+	},
+	["Player-5284-0185CD59"] = {
+	},
+	["Player-5284-01C6A997"] = {
+	},
+	["Player-5284-01C41DD8"] = {
+	},
+	["Player-5284-01C3711C"] = {
+	},
+	["Player-5284-01C0D47D"] = {
+	},
+	["Player-5284-01983BFD"] = {
+	},
+	["Player-5825-0216210D"] = {
+	},
+	["Player-5284-01AAF789"] = {
+	},
+	["Pet-0-5253-0-12-9696-080085C389"] = {
+	},
+	["Pet-0-5208-0-24-7434-0400772AF9"] = {
+	},
+	["Pet-0-5250-0-55-521-0600770D28"] = {
+	},
+	["Player-5284-018CC37F"] = {
+	},
+	["Player-5284-01BE2C10"] = {
+	},
+	["Player-5284-01990F67"] = {
+	},
+	["Player-5284-01C10EB7"] = {
+	},
+	["Player-5284-01B37C1E"] = {
+	},
+	["Player-5284-02428328"] = {
+	},
+	["Player-5284-019B6E8E"] = {
+	},
+	["Pet-0-5252-0-11-833-0300866B8D"] = {
+	},
+	["Player-5284-0196CBEC"] = {
+	},
+	["Player-5284-019CE099"] = {
+	},
+	["Player-5284-01AE6A08"] = {
+		[783] = {
+			nil --[[ inf ]], -- [1]
+			472070.351, -- [2]
 			"BUFF", -- [3]
 		},
-		[17538] = {
-			3600, -- [1]
-			635728.042, -- [2]
-			"BUFF", -- [3]
-		},
+	},
+	["Player-5284-01C47BC8"] = {
+	},
+	["Player-5284-01C40A11"] = {
+	},
+	["Player-5825-020AC5C2"] = {
+	},
+	["Player-5284-0183D380"] = {
+	},
+	["Player-5284-01B93485"] = {
+	},
+	["Player-5284-019D8095"] = {
+	},
+	["Pet-0-5211-533-8460-7434-0B008CC652"] = {
+	},
+	["Pet-0-5209-0-2-2034-0200869659"] = {
+	},
+	["Player-5284-025D8AA5"] = {
+	},
+	["Player-5284-019B0727"] = {
+	},
+	["Player-5284-019E82D8"] = {
+	},
+	["Creature-0-5251-0-11508-1211-00006F1901"] = {
+	},
+	["Player-5284-01026FFF"] = {
+	},
+	["Pet-0-5251-0-5-2070-0300852E27"] = {
+	},
+	["Player-5284-01B44263"] = {
+	},
+	["Creature-0-5210-0-627-1202-00006F9FE3"] = {
+	},
+	["Pet-0-5252-0-16-1127-02007D96A2"] = {
+	},
+	["Player-5284-0198A386"] = {
+	},
+	["Pet-0-5209-0-10-682-02008D90E0"] = {
+	},
+	["Player-5284-019D5B9B"] = {
+	},
+	["Player-5284-025B9DE4"] = {
+	},
+	["Pet-0-5211-229-12693-2850-03009AB228"] = {
+	},
+	["Creature-0-5251-0-15-9043-0000469AA6"] = {
+	},
+	["Player-5284-01917869"] = {
+	},
+	["Creature-0-5253-30-17225-12053-00004E8BB0"] = {
+	},
+	["Player-5284-01947122"] = {
+	},
+	["Player-5284-01AF18A7"] = {
+	},
+	["Player-5825-02035AD0"] = {
+	},
+	["Player-5284-0190A1AD"] = {
+	},
+	["Player-5284-01BAFDD6"] = {
+	},
+	["Pet-0-5250-0-61-3619-0F00865ECC"] = {
+	},
+	["Player-5284-01994BF5"] = {
+	},
+	["Player-5284-019B669D"] = {
+	},
+	["Player-5284-0164E47D"] = {
+	},
+	["Pet-0-5253-469-6723-9696-07008AE0FB"] = {
+	},
+	["Pet-0-5250-0-7-731-010084CE9E"] = {
+	},
+	["Pet-0-5250-0-5-3243-0100833834"] = {
+	},
+	["Player-5284-01C4BC7B"] = {
+	},
+	["Creature-0-5253-30-7834-12053-0005CE70A0"] = {
+	},
+	["Pet-0-5209-1-15993-1860-02008F4EE1"] = {
+	},
+	["Pet-0-5250-0-7-1196-0400858846"] = {
+	},
+	["Player-5284-01C577DD"] = {
+	},
+	["Pet-0-5211-309-22501-9696-0300870FB8"] = {
+	},
+	["Player-5284-01B73FFB"] = {
+	},
+	["Player-5284-01BBE46B"] = {
+	},
+	["Pet-0-5250-1-35-1860-0700836487"] = {
+	},
+	["Player-5284-01D98DBD"] = {
+	},
+	["Player-5284-019B0660"] = {
+	},
+	["Player-5284-019D6E4F"] = {
+	},
+	["Player-5284-01C3BB53"] = {
+	},
+	["Player-5284-014A39CF"] = {
+	},
+	["Player-5284-01A55FEF"] = {
+	},
+	["Player-5284-01DC24E3"] = {
+	},
+	["Player-5284-019D3D50"] = {
+	},
+	["Player-5284-01961053"] = {
+	},
+	["Pet-0-5253-30-30954-2850-010086C29C"] = {
+	},
+	["Creature-0-5250-0-7-1289-00004AEFAF"] = {
+	},
+	["Player-5284-0180E825"] = {
+	},
+	["Player-5284-018D0DC6"] = {
+	},
+	["Player-5284-01C8B8C2"] = {
+	},
+	["Player-5284-01675C22"] = {
+	},
+	["Player-5284-019AC2AA"] = {
+	},
+	["Player-5284-019B0627"] = {
+	},
+	["Player-5284-01C0B113"] = {
+	},
+	["Player-5284-014612F3"] = {
+	},
+	["Player-5284-00AC50D5"] = {
+	},
+	["Creature-0-5253-0-17-8670-00003B25DC"] = {
+	},
+	["Player-5284-01B7B7D6"] = {
+	},
+	["Pet-0-5250-0-63-2043-01007F6985"] = {
+	},
+	["Player-5284-015EC300"] = {
+	},
+	["Player-5284-0198DFD3"] = {
+	},
+	["Player-5284-013BD938"] = {
+	},
+	["Player-5284-019A237C"] = {
+	},
+	["Player-5284-019BB5F2"] = {
+	},
+	["Pet-0-5253-0-5-9696-0100825C17"] = {
+	},
+	["Player-5284-02008DA2"] = {
+	},
+	["Player-5284-01B0ECD9"] = {
+	},
+	["Player-5284-01BFD415"] = {
+	},
+	["Player-5825-02040651"] = {
+	},
+	["Player-5284-01981E62"] = {
+	},
+	["Player-5284-019D969C"] = {
+	},
+	["Player-5284-01A71642"] = {
+	},
+	["Player-5284-0185BFA2"] = {
+	},
+	["Player-5284-01C4553D"] = {
+	},
+	["Player-5284-01A7FBC2"] = {
+	},
+	["Player-5284-01F8C2DF"] = {
+	},
+	["Player-5284-01C325F1"] = {
+	},
+	["Player-5284-0182A370"] = {
+	},
+	["Creature-0-5253-230-15697-8895-0002BD4457"] = {
+	},
+	["Player-5284-019CA4B4"] = {
+	},
+	["Player-5284-01C3A197"] = {
+	},
+	["Player-5284-017D4386"] = {
+	},
+	["Player-5284-02261647"] = {
+	},
+	["Player-5284-018B3648"] = {
+	},
+	["Player-5284-0145937F"] = {
+	},
+	["Player-5284-0262F969"] = {
+	},
+	["Player-5284-0191C9EF"] = {
+	},
+	["Pet-0-5250-0-32-9696-0C008617A1"] = {
+	},
+	["Creature-0-5250-1-37-11880-00003BA023"] = {
+	},
+	["Player-5825-01FB67AA"] = {
+	},
+	["Creature-0-5253-0-18-454-00006DD688"] = {
+	},
+	["Pet-0-5253-30-15754-7432-0200A1F7EC"] = {
+	},
+	["Player-5284-0181229A"] = {
+	},
+	["Player-5284-019938B2"] = {
+	},
+	["Creature-0-5253-30-7834-12053-00004E70A0"] = {
+	},
+	["Player-5284-0181CFDB"] = {
+	},
+	["Player-5284-01C432B8"] = {
+	},
+	["Creature-0-5250-0-7-2456-00004AEFAE"] = {
+	},
+	["Player-5284-014521B6"] = {
+	},
+	["Pet-0-5209-0-31-7434-0200772A59"] = {
+	},
+	["Player-5284-01864272"] = {
+	},
+	["Player-5284-019D46B3"] = {
+	},
+	["Creature-0-5250-0-5-15659-00003739A3"] = {
+	},
+	["Player-5284-0158D6B5"] = {
+	},
+	["Player-5284-01998032"] = {
+	},
+	["Player-5284-01BCC720"] = {
+	},
+	["Player-5284-0177CDA8"] = {
+	},
+	["Player-5284-01C593CB"] = {
+	},
+	["Player-5284-0170E934"] = {
+	},
+	["Player-5284-016FE738"] = {
+	},
+	["Player-5284-0191792C"] = {
+	},
+	["Pet-0-5252-0-77-9696-010086A8F1"] = {
+	},
+	["Player-5284-01C4B10F"] = {
+	},
+	["Player-5284-0214F041"] = {
+	},
+	["Player-5284-016751CD"] = {
+	},
+	["Player-5284-01B0410A"] = {
+	},
+	["Player-5284-0170C061"] = {
+	},
+	["Player-5284-001A6C66"] = {
+	},
+	["Player-5284-019C7F70"] = {
+	},
+	["Player-5284-019C472B"] = {
+	},
+	["Player-5284-01AD7991"] = {
+	},
+	["Pet-0-5209-0-64-5349-010099AC4D"] = {
+	},
+	["Player-5284-0171520C"] = {
+	},
+	["Player-5825-0206B963"] = {
+	},
+	["Player-5284-019AD6CD"] = {
+	},
+	["Player-5284-019DEB68"] = {
+	},
+	["Player-5284-0199DFBA"] = {
+	},
+	["Pet-0-5250-0-59-1996-030080FEFE"] = {
+	},
+	["Player-5284-019BD8EC"] = {
+	},
+	["Pet-0-5252-0-2-5828-0300855E2E"] = {
+	},
+	["Player-5284-018616EF"] = {
+	},
+	["Player-5284-019AA1DB"] = {
+	},
+	["Pet-0-5252-0-27-5807-0200859FE5"] = {
+	},
+	["Creature-0-5252-1-124-3602-00006FDB19"] = {
+	},
+	["Player-5284-01C15066"] = {
+	},
+	["Player-5284-019C049D"] = {
+	},
+	["Player-5284-01C7220C"] = {
+	},
+	["Creature-0-5251-0-11508-1211-0000EF2378"] = {
+	},
+	["Player-5284-019BB3F1"] = {
+	},
+	["Pet-0-5251-0-14-1128-0400824D6D"] = {
+	},
+	["Player-5284-019009E3"] = {
+	},
+	["Player-5825-02172762"] = {
+	},
+	["Creature-0-5251-0-13-1163-0000CD1882"] = {
+	},
+	["Player-5284-0164AAC4"] = {
+	},
+	["Creature-0-5209-0-71-14439-000056CA6B"] = {
+	},
+	["Player-5284-01675851"] = {
+	},
+	["Player-5284-01C2DB04"] = {
+	},
+	["Player-5284-01D52CA9"] = {
+	},
+	["Pet-0-5209-0-74-416-08008D3F03"] = {
+	},
+	["Creature-0-5208-0-13-1432-00006953B2"] = {
+	},
+	["Pet-0-5250-0-13-1130-08007EE7C7"] = {
+	},
+	["Player-5284-01832DBC"] = {
+	},
+	["Pet-0-5210-1-36-2850-01008621BE"] = {
+	},
+	["Pet-0-5210-0-21-1860-02007FA3DA"] = {
+	},
+	["Player-5284-016E3328"] = {
+	},
+	["Pet-0-5250-0-66-1186-0100867B60"] = {
+	},
+	["Player-5284-016D4B48"] = {
+	},
+	["Player-5284-01C8F459"] = {
+	},
+	["Player-5284-01999239"] = {
+	},
+	["Player-5284-0181F872"] = {
+	},
+	["Player-5284-019BE6E1"] = {
+	},
+	["Player-5284-01C13B77"] = {
+	},
+	["Player-5284-019E4D75"] = {
+	},
+	["Pet-0-5211-0-64-1860-01008929E6"] = {
+	},
+	["Player-5284-018E1563"] = {
+	},
+	["Pet-0-5250-0-34-7432-04008DA10E"] = {
+	},
+	["Player-5284-01838752"] = {
+	},
+	["Player-5284-01B9FC23"] = {
+	},
+	["Pet-0-5209-0-62-1863-02009B836E"] = {
+	},
+	["Player-5825-020431A4"] = {
+	},
+	["Player-5284-019697A7"] = {
+	},
+	["Player-5284-016F4943"] = {
+	},
+	["Player-5284-01BA9FC0"] = {
+	},
+	["Player-5284-0234950B"] = {
+	},
+	["Creature-0-5211-230-10364-8893-00009F2F6B"] = {
+	},
+	["Creature-0-5252-0-36-68-00001CBD26"] = {
+	},
+	["Player-5284-01F9D357"] = {
+	},
+	["Player-5284-01C456B4"] = {
+	},
+	["Player-5284-0199F114"] = {
+	},
+	["Player-5284-018E3B1D"] = {
+	},
+	["Player-5284-01C458BE"] = {
+	},
+	["Player-5825-02159DBF"] = {
+	},
+	["Player-5284-01802580"] = {
+	},
+	["Player-5284-01495EE0"] = {
+	},
+	["Player-5284-01C1756D"] = {
+	},
+	["Pet-0-5252-1-31-5422-030092E1CD"] = {
+	},
+	["Player-5284-0197EC5F"] = {
+	},
+	["Player-5284-019CB833"] = {
+	},
+	["Pet-0-5250-0-59-1114-020085585B"] = {
+	},
+	["Player-5284-01C6B7A3"] = {
+	},
+	["Player-5284-01C1A8AE"] = {
+	},
+	["Pet-0-5250-1-66-4511-0200A12D4C"] = {
+	},
+	["Player-5284-00099F8F"] = {
+	},
+	["Player-5284-01AA3F18"] = {
+	},
+	["Player-5284-019DCF13"] = {
+	},
+	["Player-5284-01A69D3E"] = {
+	},
+	["Player-5284-017DFFEC"] = {
+	},
+	["Pet-0-5250-1-94-2043-02007DB82A"] = {
+	},
+	["Player-5284-019575D9"] = {
+	},
+	["Player-5284-019651E9"] = {
+	},
+	["Player-5825-01F99D71"] = {
+	},
+	["Pet-0-5251-0-54-833-0300895438"] = {
+	},
+	["Pet-0-5250-0-68-2850-010085CB82"] = {
+	},
+	["Player-5825-01F9CF64"] = {
+	},
+	["Pet-0-5211-189-1912-1863-020085AFC2"] = {
+	},
+	["Player-5284-01A99389"] = {
+	},
+	["Pet-0-5208-0-40-4512-04009525F3"] = {
+	},
+	["Player-5284-01886F40"] = {
+	},
+	["Player-5284-0180285B"] = {
+	},
+	["Creature-0-5252-0-9-11355-0000A85D3E"] = {
+	},
+	["Creature-0-5250-0-5-1976-00013739A4"] = {
+	},
+	["Pet-0-5211-0-43-7432-010085D35B"] = {
+	},
+	["Player-5284-01973398"] = {
+	},
+	["Pet-0-5253-533-8739-7434-01008CC652"] = {
+	},
+	["Player-5284-014A765C"] = {
+	},
+	["Player-5284-01C243C3"] = {
+	},
+	["Creature-0-5211-230-11417-8916-000010B687"] = {
+	},
+	["Player-5284-026287DB"] = {
+	},
+	["Player-5284-00FAC4AF"] = {
+	},
+	["Player-5284-01BEC69B"] = {
+	},
+	["Pet-0-5210-0-7-454-02008C0D60"] = {
+	},
+	["Player-5284-01C2BE38"] = {
+	},
+	["Player-5284-019C6D04"] = {
+	},
+	["Player-5284-01C62D53"] = {
+	},
+	["Player-5284-0196B718"] = {
+	},
+	["Player-5284-019DAF8F"] = {
+	},
+	["Player-5284-018B32C6"] = {
+	},
+	["Player-5284-019E38EF"] = {
+	},
+	["Player-5284-019DBC24"] = {
+	},
+	["Player-5284-0199E15C"] = {
+	},
+	["Player-5284-015F8355"] = {
+	},
+	["Pet-0-5250-0-44-1199-180082FA3F"] = {
+	},
+	["Player-5284-01AD0FB6"] = {
+	},
+	["Creature-0-5252-1-72-15542-0002949A2F"] = {
+	},
+	["Player-5284-018026AB"] = {
+	},
+	["Player-5284-012BA9EA"] = {
+	},
+	["Pet-0-5211-30-31864-345-050089C6A2"] = {
+	},
+	["Player-5284-018334F9"] = {
+	},
+	["Pet-0-5208-0-17-3121-03008196EC"] = {
+	},
+	["Pet-0-5211-70-15237-2850-0100866378"] = {
+	},
+	["Player-5284-0170C280"] = {
+	},
+	["Player-5284-018CC3FE"] = {
+	},
+	["Player-5284-017B07D8"] = {
+	},
+	["Player-5284-0029C41C"] = {
+	},
+	["Creature-0-5253-30-5038-13152-000032FF0B"] = {
+	},
+	["Player-5284-019A9282"] = {
+	},
+	["Player-5284-01A5F92D"] = {
+	},
+	["Player-5284-019C8144"] = {
+	},
+	["Player-5284-01C6B720"] = {
+	},
+	["Pet-0-5250-0-13-3475-090086B775"] = {
+	},
+	["Player-5284-018C00E6"] = {
+	},
+	["Player-5284-01C21C45"] = {
+	},
+	["Player-5284-013031ED"] = {
+	},
+	["Player-5284-016F2E0A"] = {
+	},
+	["Player-5284-019B5961"] = {
+	},
+	["Player-5284-01788AA8"] = {
+	},
+	["Player-5284-01925187"] = {
+	},
+	["Player-5284-017ABE63"] = {
+	},
+	["Player-5284-0160B56D"] = {
+	},
+	["Player-5284-01C56669"] = {
+	},
+	["Player-5284-01955523"] = {
+	},
+	["Player-5284-01C4079F"] = {
+	},
+	["Player-5825-01FABB1E"] = {
+	},
+	["Player-5284-01C32799"] = {
+	},
+	["Player-5284-01C7745B"] = {
+	},
+	["Player-5284-01B9FA0A"] = {
+	},
+	["Player-5284-01C62ECB"] = {
+	},
+	["Player-5284-016E3516"] = {
+	},
+	["Creature-0-5208-0-13-6174-00006953B2"] = {
+	},
+	["Player-5284-01D348FA"] = {
+	},
+	["Pet-0-5252-1-37-9696-0A0086C991"] = {
+	},
+	["Player-5284-01A86D8F"] = {
+	},
+	["Creature-0-5209-1-118-2324-0000F0793B"] = {
+	},
+	["Player-5233-0192C754"] = {
+	},
+	["Player-5284-01657A19"] = {
+	},
+	["Pet-0-5251-0-21-728-1400822588"] = {
+	},
+	["Player-5284-01B9C654"] = {
+	},
+	["Pet-0-5250-0-29-7456-0100805471"] = {
+	},
+	["Player-5284-019B24AB"] = {
+	},
+	["Pet-0-5250-0-5-9696-05008581DB"] = {
+	},
+	["Pet-0-5209-0-16-11357-060086F60C"] = {
+	},
+	["Player-5284-0185171D"] = {
+	},
+	["Player-5284-018F9D49"] = {
+	},
+	["Player-5284-019AF596"] = {
+	},
+	["Pet-0-5252-0-19-1201-040086C3DA"] = {
+	},
+	["Pet-0-5209-0-8-7432-0B00A1F7EC"] = {
+	},
+	["Player-5284-01C4C2C3"] = {
+	},
+	["Player-5284-01B57136"] = {
+	},
+	["Player-5284-01C5C046"] = {
+	},
+	["Player-5284-019C6064"] = {
+	},
+	["Creature-0-5210-0-627-1195-00006F8ED7"] = {
+	},
+	["Pet-0-5250-0-45-1863-1300863888"] = {
+	},
+	["Player-5284-02408BB1"] = {
+	},
+	["Player-5284-01654A85"] = {
+	},
+	["Player-5284-01985465"] = {
+	},
+	["Player-5284-0191786B"] = {
+	},
+	["Player-5825-0207508D"] = {
+	},
+	["Player-5284-0197865E"] = {
+	},
+	["Player-5284-01B52A0C"] = {
+	},
+	["Player-5284-01C13A1B"] = {
+	},
+	["Player-5284-026228E1"] = {
+	},
+	["Pet-0-5251-0-33-2850-0500877BE6"] = {
+	},
+	["Player-5284-01770821"] = {
+	},
+	["Player-5284-01806608"] = {
+	},
+	["Pet-0-5250-0-10-9696-0100849208"] = {
+	},
+	["Pet-0-5253-30-24912-9696-05008AE0FB"] = {
+	},
+	["Player-5284-019CFFE7"] = {
+	},
+	["Pet-0-5250-0-82-9696-0100800D7E"] = {
+	},
+	["Player-5284-0141D878"] = {
+	},
+	["Player-5284-019D2834"] = {
+	},
+	["Player-5284-019C2556"] = {
+	},
+	["Pet-0-5253-1-692-2042-0100904E54"] = {
+	},
+	["Player-5284-01A69237"] = {
+	},
+	["Player-5284-019989AB"] = {
+	},
+	["Player-5284-01866B89"] = {
+	},
+	["Creature-0-5250-0-57-12128-0000D1417B"] = {
+	},
+	["Player-5284-019D3C5A"] = {
+	},
+	["Pet-0-5211-409-20809-2850-040080D25A"] = {
+	},
+	["Creature-0-5251-1-50-15545-000090303E"] = {
+	},
+	["Pet-0-5250-0-10-7434-0500814759"] = {
+	},
+	["Pet-0-5253-533-11322-7432-0E0085D35B"] = {
+	},
+	["Player-5284-01C569B8"] = {
+	},
+	["Player-5284-015CC1B4"] = {
+	},
+	["Player-5284-019D611A"] = {
+	},
+	["Player-5284-01804FEF"] = {
+	},
+	["Player-5284-019DA8F4"] = {
+	},
+	["Player-5284-01891BFD"] = {
+	},
+	["Creature-0-5250-0-55-5595-000D1B8ABC"] = {
+	},
+	["Player-5284-018797E7"] = {
+	},
+	["Player-5284-019EBF53"] = {
+	},
+	["Player-5284-01C1B181"] = {
+	},
+	["Pet-0-5252-0-35-2850-010080D25A"] = {
+	},
+	["Player-5284-01C261DE"] = {
+	},
+	["Creature-0-5252-0-14-1791-00004608F1"] = {
+	},
+	["Pet-0-5211-309-22501-1997-03008B9F5C"] = {
+	},
+	["Player-5284-018224E4"] = {
+	},
+	["Player-5284-01C51D53"] = {
+	},
+	["Pet-0-5253-509-12118-3121-08008196EC"] = {
+	},
+	["Player-5284-019D29BD"] = {
+	},
+	["Player-5284-019651D6"] = {
+	},
+	["Player-5284-0199A560"] = {
+	},
+	["Player-5284-019C06A6"] = {
+	},
+	["Player-5284-019DA8BD"] = {
+	},
+	["Creature-0-5250-1-95-4120-000020965F"] = {
+	},
+	["Creature-0-5253-30-10217-13180-00003D7E81"] = {
+	},
+	["Pet-0-5211-30-15779-3100-09007B4F1C"] = {
+	},
+	["Player-5284-01AEDE20"] = {
+	},
+	["Pet-0-5209-0-52-7456-03008C93CA"] = {
+	},
+	["Pet-0-5250-1-92-2850-020082F1F4"] = {
+	},
+	["Player-5284-0180A7EB"] = {
+	},
+	["Player-5284-0202F2E6"] = {
+	},
+	["Player-5284-01C33C3F"] = {
+	},
+	["Player-5284-019C4FD1"] = {
+	},
+	["Pet-0-5211-531-12626-1188-1000864ADB"] = {
+	},
+	["Player-5284-019EA120"] = {
+	},
+	["Player-5284-019530E6"] = {
+	},
+	["Player-5284-0197FF53"] = {
+	},
+	["Creature-0-5253-30-28931-13437-000032D7CE"] = {
+	},
+	["Pet-0-5210-369-3-1196-0100A3D9B0"] = {
+	},
+	["Player-5284-019B0787"] = {
+	},
+	["Creature-0-5250-0-5-3518-00003739A2"] = {
+	},
+	["Player-5284-01AA068A"] = {
+	},
+	["Pet-0-5253-0-10-416-0100852E74"] = {
+	},
+	["Creature-0-5250-1-35-7153-000011F77B"] = {
+	},
+	["Pet-0-5211-533-24186-7434-07007E8303"] = {
+	},
+	["Player-5284-019DF914"] = {
+	},
+	["Player-5284-019B7556"] = {
+	},
+	["Player-5284-019A79B4"] = {
+	},
+	["Pet-0-5250-1-89-11357-060086985A"] = {
+	},
+	["Creature-0-5250-0-6-5595-0003924FDC"] = {
+	},
+	["Player-5284-0148A6D1"] = {
+	},
+	["Player-5284-0175AA4E"] = {
+	},
+	["Player-5284-01A7FC64"] = {
+	},
+	["Creature-0-5211-230-18304-8893-000C120DE3"] = {
+	},
+	["Creature-0-5252-0-54-4624-001056CA6D"] = {
+	},
+	["Player-5284-01BE009E"] = {
+	},
+	["Pet-0-5252-1-124-2043-02008FC077"] = {
+	},
+	["Creature-0-5210-0-7-1275-00002F32F6"] = {
+	},
+	["Player-5284-017FFA28"] = {
+	},
+	["Player-5284-01A95699"] = {
+	},
+	["Pet-0-5251-0-33-7434-0100814759"] = {
+	},
+	["Player-5284-02637089"] = {
+	},
+	["Player-5284-019D96A1"] = {
+	},
+	["Player-5284-01C455E7"] = {
+	},
+	["Pet-0-5209-0-68-2033-0600A01704"] = {
+	},
+	["Player-5284-01A95628"] = {
+	},
+	["Player-5284-01C6EBF0"] = {
+	},
+	["Player-5284-018FC233"] = {
+	},
+	["Player-5284-019B9689"] = {
+	},
+	["Player-5284-0195F0CC"] = {
+	},
+	["Pet-0-5253-533-30776-7432-120085D35B"] = {
+	},
+	["Player-5284-01996F81"] = {
+	},
+	["Player-5233-01A0877B"] = {
+	},
+	["Player-5284-019C7A48"] = {
+	},
+	["Pet-0-5253-533-13661-2850-0A008D0062"] = {
+	},
+	["Player-5284-017D055A"] = {
+	},
+	["Creature-0-5209-1-118-2337-0000707DAA"] = {
+	},
+	["Creature-0-5250-0-36-854-00000F9613"] = {
+	},
+	["Creature-0-5253-30-6664-13448-000033083C"] = {
+	},
+	["Player-5284-01C76240"] = {
+	},
+	["Player-5284-01854259"] = {
+	},
+	["Pet-0-5250-0-22-1860-0100836487"] = {
+	},
+	["Pet-0-5253-0-696-1996-01008F87AC"] = {
+	},
+	["Pet-0-5252-0-61-2850-01008C7AC2"] = {
+	},
+	["Pet-0-5250-1-26-9696-010086950D"] = {
+	},
+	["Player-5284-0180FE40"] = {
+	},
+	["Pet-0-5253-209-24384-2406-01009783D1"] = {
+	},
+	["Pet-0-5252-0-24-4512-03008B5BE5"] = {
+	},
+	["Player-5284-021D1BCD"] = {
+	},
+	["Player-5284-019D3F50"] = {
+	},
+	["Player-5284-01B13B73"] = {
+	},
+	["Player-5284-020AE917"] = {
+	},
+	["Player-5284-016DD67E"] = {
+	},
+	["Player-5284-0197A10A"] = {
+	},
+	["Player-5284-019BE756"] = {
+	},
+	["Pet-0-5253-0-5-3619-100084603A"] = {
+	},
+	["Pet-0-5253-0-25-1125-210086AF7C"] = {
+	},
+	["Player-5284-0186B8B1"] = {
+	},
+	["Player-5284-016478A3"] = {
+	},
+	["Creature-0-5252-0-38-16135-0000542AD6"] = {
+	},
+	["Creature-0-5211-230-21542-8896-00018DC1BC"] = {
+	},
+	["Pet-0-5250-0-70-7432-020083B250"] = {
+	},
+	["Player-5284-018BE160"] = {
+	},
+	["Player-5284-0178D6C3"] = {
+	},
+	["Pet-0-5253-0-6-10077-01007FB098"] = {
+	},
+	["Creature-0-5250-0-5-3627-0000124FDB"] = {
+	},
+	["Player-5284-018CC402"] = {
+	},
+	["Player-5284-01799F18"] = {
+	},
+	["Player-5284-01859577"] = {
+	},
+	["Player-5284-019DD243"] = {
+	},
+	["Player-5284-017F2936"] = {
+	},
+	["Player-5284-01C48D30"] = {
+	},
+	["Pet-0-5211-34-32584-2034-0300869046"] = {
+	},
+	["Player-5284-018A7B0C"] = {
+	},
+	["Player-5284-0183ADE1"] = {
+	},
+	["Player-5284-00139FCC"] = {
+	},
+	["Pet-0-5252-0-24-1997-01008B9F5C"] = {
+	},
+	["Player-5284-01AEDF8A"] = {
+	},
+	["Pet-0-5250-0-21-2043-04007CD03A"] = {
+	},
+	["Player-5284-01C4DAE3"] = {
+	},
+	["Player-5825-01FF3CD0"] = {
+	},
+	["Player-5284-018F9BE1"] = {
+	},
+	["Player-5284-01B7C009"] = {
+	},
+	["Player-5284-01B9C880"] = {
+	},
+	["Player-5284-01844E90"] = {
+	},
+	["Player-5284-02636ABC"] = {
+	},
+	["Player-5284-025264B9"] = {
+	},
+	["Pet-0-5253-533-16538-2850-0F008D0062"] = {
+	},
+	["Creature-0-5252-1-72-15542-0000149A2F"] = {
+	},
+	["Player-5284-02329C80"] = {
+	},
+	["Player-5284-019A5609"] = {
+	},
+	["Player-5284-017EFEBF"] = {
+	},
+	["Player-5284-019D8E29"] = {
+	},
+	["Pet-0-5252-0-24-10200-010086B30E"] = {
+	},
+	["Player-5284-0145941D"] = {
+	},
+	["Player-5284-01811FE7"] = {
+	},
+	["Player-5284-01433665"] = {
+	},
+	["Player-5284-0188C588"] = {
+	},
+	["Player-5284-019CF4CB"] = {
+	},
+	["Player-5284-0141F066"] = {
+	},
+	["Player-5284-019C3567"] = {
+	},
+	["Creature-0-5210-0-4-8607-00003662E6"] = {
+	},
+	["Player-5284-00173228"] = {
+	},
+	["Player-5284-019A13DC"] = {
+	},
+	["Player-5284-019CB69B"] = {
+	},
+	["Player-5284-019C4FF7"] = {
+	},
+	["Player-5284-01910ABC"] = {
+	},
+	["Pet-0-5211-30-17663-454-02009A5E4D"] = {
+	},
+	["Pet-0-5211-1-45-3823-0400842E52"] = {
+	},
+	["Player-5284-0164BEF8"] = {
+	},
+	["Player-5284-019CD877"] = {
+	},
+	["Player-5284-01FECD94"] = {
+	},
+	["Creature-0-5250-0-6-14365-0000124FDB"] = {
+	},
+	["Player-5284-01F10A38"] = {
+	},
+	["Player-5284-01910A84"] = {
+	},
+	["Player-5284-01C08ACF"] = {
+	},
+	["Player-5284-024C84D3"] = {
+	},
+	["Player-5284-01C0AFC9"] = {
+	},
+	["Player-5284-000A7096"] = {
+	},
+	["Player-5284-01C47CF7"] = {
+	},
+	["Pet-0-5209-1-118-2163-0500910543"] = {
+	},
+	["Player-5284-02485175"] = {
+	},
+	["Player-5284-019B3055"] = {
+	},
+	["Pet-0-5211-90-4326-1997-01008A93FB"] = {
+	},
+	["Pet-0-5252-0-16-11357-050085FF9D"] = {
+	},
+	["Player-5284-0199D08F"] = {
+	},
+	["Player-5284-018E818A"] = {
+	},
+	["Player-5284-017E011C"] = {
+	},
+	["Player-5284-01B021FD"] = {
+	},
+	["Player-5284-0177F5BF"] = {
+	},
+	["Player-5284-017EAB82"] = {
+	},
+	["Player-5284-0197522C"] = {
+	},
+	["Player-5284-01C5C1E7"] = {
+	},
+	["Player-5284-018B46A7"] = {
+	},
+	["Player-5284-01B9FB4E"] = {
+	},
+	["Player-5284-019B8767"] = {
+	},
+	["Player-5284-0198707E"] = {
+	},
+	["Player-5284-019EBF8E"] = {
+	},
+	["Player-5284-0197B687"] = {
+	},
+	["Player-5284-01B5B5E9"] = {
+	},
+	["Player-5284-01774BA8"] = {
+	},
+	["Creature-0-5209-0-64-16226-000064ABAC"] = {
+	},
+	["Player-5284-019C1AE9"] = {
+	},
+	["Pet-0-5211-329-4756-2850-07008D0062"] = {
+	},
+	["Player-5284-0231417A"] = {
+	},
+	["Player-5284-0158E437"] = {
+	},
+	["Player-5284-01B1B039"] = {
+	},
+	["Player-5284-01C34B44"] = {
+	},
+	["Player-5284-01BA6CA6"] = {
+	},
+	["Player-5284-0185E966"] = {
+	},
+	["Player-5284-01BEA11E"] = {
+	},
+	["Player-5284-018B4584"] = {
+	},
+	["Player-5284-01A2FD8C"] = {
+	},
+	["Player-5284-019BF659"] = {
+	},
+	["Player-5284-01996DD5"] = {
+	},
+	["Player-5284-01773673"] = {
+	},
+	["Creature-0-5252-0-7-4962-000012AA5C"] = {
+	},
+	["Player-5284-0181A440"] = {
+	},
+	["Player-5284-01802664"] = {
+	},
+	["Player-5284-0194FD9E"] = {
+	},
+	["Player-5284-019CF536"] = {
+	},
+	["Player-5284-025EA993"] = {
+	},
+	["Pet-0-5250-0-14-3619-01007FEA47"] = {
+	},
+	["Player-5284-01B557AD"] = {
+	},
+	["Player-5233-019C6378"] = {
+	},
+	["Player-5284-01655EE0"] = {
+	},
+	["Player-5825-02166743"] = {
+	},
+	["Player-5284-017DA318"] = {
+	},
+	["Player-5284-019BDE58"] = {
+	},
+	["Player-5284-00177EC1"] = {
+	},
+	["Pet-0-5210-0-7-7456-03008B55C7"] = {
+	},
+	["Player-5284-026352FD"] = {
+	},
+	["Player-5284-01AA3A10"] = {
+	},
+	["Player-5284-0248AF6C"] = {
+	},
+	["Player-5284-0144F27C"] = {
+	},
+	["Creature-0-5250-0-53-14390-00001C8BCF"] = {
+	},
+	["Player-5284-01C65DEC"] = {
+	},
+	["Player-5284-01C15F63"] = {
+	},
+	["Player-5284-019D94EC"] = {
+	},
+	["Player-5284-0260D7E2"] = {
+	},
+	["Player-5284-019DA039"] = {
+	},
+	["Pet-0-5253-0-17-1863-0200821B7B"] = {
+	},
+	["Player-5284-019B9682"] = {
+	},
+	["Player-5284-01B83465"] = {
+	},
+	["Player-5284-019CB12C"] = {
+	},
+	["Player-5284-019787B9"] = {
+	},
+	["Player-5284-016FDA6F"] = {
+	},
+	["Pet-0-5250-0-41-731-0100846738"] = {
+	},
+	["Pet-0-5209-1-27-1192-0700868D6F"] = {
+	},
+	["Creature-0-5250-0-68-5855-00001C5B94"] = {
+	},
+	["Player-5284-019129E4"] = {
+	},
+	["Player-5284-02220AD6"] = {
+	},
+	["Creature-0-5211-30-13295-13359-000432D4F5"] = {
+	},
+	["Pet-0-5210-0-7-7456-04008B55C7"] = {
+	},
+	["Player-5284-0191C92C"] = {
+	},
+	["Player-5284-019E2FCB"] = {
+	},
+	["Player-5284-019B3FFA"] = {
+	},
+	["Player-5284-025D98E5"] = {
+	},
+	["Player-5284-01A9B5D0"] = {
+	},
+	["Player-5284-00EA625E"] = {
+	},
+	["Creature-0-5253-30-24648-13358-00034EA1EA"] = {
+	},
+	["Player-5284-01B6BA57"] = {
+	},
+	["Player-5284-01B479E1"] = {
+	},
+	["Pet-0-5251-0-3-5828-040076967D"] = {
+	},
+	["Pet-0-5252-0-2-1689-01008A7692"] = {
+	},
+	["Player-5284-019AE625"] = {
+	},
+	["Player-5825-0214CED4"] = {
+	},
+	["Player-5284-019E2F3C"] = {
+	},
+	["Player-5284-01864178"] = {
+	},
+	["Pet-0-5253-533-12124-7456-11008639B7"] = {
+	},
+	["Player-5284-019CC3BE"] = {
+	},
+	["Player-5284-019A0039"] = {
+	},
+	["Player-5284-01983B71"] = {
+	},
+	["Player-5284-01BC86A2"] = {
+	},
+	["Player-5284-01BE3777"] = {
+	},
+	["Pet-0-5253-0-20-14430-130081D83B"] = {
+	},
+	["Player-5284-019DA99D"] = {
+	},
+	["Player-5284-019A41B9"] = {
+	},
+	["Pet-0-5250-0-7-7434-01008660DC"] = {
+	},
+	["Player-5284-019A1BF3"] = {
+	},
+	["Creature-0-5252-0-2-12481-00000CEB8A"] = {
+	},
+	["Player-5284-019E1B21"] = {
+	},
+	["Player-5284-01C0A8D3"] = {
+	},
+	["Player-5284-019A6018"] = {
+	},
+	["Pet-0-5251-0-3-822-14007FCF98"] = {
+	},
+	["Player-5284-01B3FCB7"] = {
+	},
+	["Player-5284-01BE7BCC"] = {
+	},
+	["Player-5284-019D7027"] = {
+	},
+	["Player-5284-019D1C00"] = {
+	},
+	["Player-5284-01C6C58D"] = {
+	},
+	["Player-5284-019E0C99"] = {
+	},
+	["Pet-0-5253-329-29703-7445-03008CF199"] = {
+	},
+	["Pet-0-5250-0-35-1196-010085D352"] = {
+	},
+	["Player-5284-019C7848"] = {
+	},
+	["Pet-0-5210-0-44-9696-0100861E4D"] = {
+	},
+	["Player-5284-01535786"] = {
+	},
+	["Player-5825-0210B517"] = {
+	},
+	["Creature-0-5251-0-13-1163-00004D05BC"] = {
+	},
+	["Pet-0-5211-34-6098-1190-0200866B41"] = {
+	},
+	["Pet-0-5250-0-14-2850-2000806FDC"] = {
+	},
+	["Creature-0-5252-0-14-11056-000041D966"] = {
+	},
+	["Player-5825-0210CCD0"] = {
+	},
+	["Player-5284-021CA5A2"] = {
+	},
+	["Player-5284-019C7ECC"] = {
+	},
+	["Player-5284-023389B8"] = {
+	},
+	["Creature-0-5251-1-50-15545-000110303E"] = {
+	},
+	["Pet-0-5208-0-13-5828-0300855E2E"] = {
+	},
+	["Player-5284-0185BFD0"] = {
+	},
+	["Player-5284-01B800A8"] = {
+	},
+	["Creature-0-5253-30-28931-13448-000032D7CE"] = {
+	},
+	["Player-5284-01BAFD63"] = {
+	},
+	["Player-5284-01BC925D"] = {
+	},
+	["Player-5284-017B8E48"] = {
+	},
+	["Player-5284-017DE79C"] = {
+	},
+	["Creature-0-5250-0-26-3-00007A16E2"] = {
+	},
+	["Player-5284-019B6E31"] = {
+	},
+	["Player-5284-0196297F"] = {
+	},
+	["Player-5284-016E432D"] = {
+	},
+	["Player-5284-0198F882"] = {
+	},
+	["Player-5284-019A7DCC"] = {
+	},
+	["Pet-0-5252-0-40-7433-05008D7DB3"] = {
+	},
+	["Pet-0-5252-0-16-3241-090081535A"] = {
+	},
+	["Pet-0-5253-1-13-2850-060080D25A"] = {
+	},
+	["Pet-0-5210-0-17-1190-040084B6E1"] = {
+	},
+	["Player-5284-01C4168C"] = {
+	},
+	["Player-5284-017E0D6A"] = {
+	},
+	["Pet-0-5250-0-59-9696-050085C389"] = {
+	},
+	["Creature-0-5250-0-36-1152-00000E1A9E"] = {
+	},
+	["Player-5284-01824D14"] = {
+	},
+	["Player-5284-01995C02"] = {
+	},
+	["Player-5284-021FFAD5"] = {
+	},
+	["Player-5284-01BCC51D"] = {
+	},
+	["Player-5284-01C5FF83"] = {
+	},
+	["Creature-0-5253-30-5038-13154-000032FF0B"] = {
+	},
+	["Player-5284-015E87CB"] = {
+	},
+	["Pet-0-5250-0-5-5828-020082305A"] = {
+	},
+	["Pet-0-5211-429-11900-2850-030083935E"] = {
+	},
+	["Player-5284-016E4236"] = {
+	},
+	["Player-5284-016815AE"] = {
+	},
+	["Creature-0-5252-0-14-1783-0000460899"] = {
+	},
+	["Creature-0-5251-0-18-234-0000487D1F"] = {
+	},
+	["Player-5284-01C55A7F"] = {
+	},
+	["Creature-0-5253-0-32-8525-00002546AD"] = {
+	},
+	["Pet-0-5210-0-7-9696-020086ADD4"] = {
+	},
+	["Player-5284-019BC25B"] = {
+	},
+	["Player-5284-01656F6D"] = {
+	},
+	["Creature-0-5252-0-13-1027-000095D0D8"] = {
+	},
+	["Player-5284-018026AD"] = {
+	},
+	["Player-5284-0198FA7C"] = {
+	},
+	["Player-5284-019BA645"] = {
+	},
+	["Player-5284-01BE0234"] = {
+	},
+	["Player-5825-01FB5D0F"] = {
+	},
+	["Player-5284-01712C64"] = {
+	},
+	["Player-5284-0164A141"] = {
+	},
+	["Pet-0-5252-1-20-2850-0A0083F755"] = {
+	},
+	["Player-5284-019B979F"] = {
+	},
+	["Player-5284-01E567FA"] = {
+	},
+	["Player-5284-019C26FE"] = {
+	},
+	["Player-5284-01766DED"] = {
+	},
+	["Player-5284-017FCD99"] = {
+	},
+	["Player-5284-01C5AD96"] = {
+	},
+	["Player-5284-0195BE51"] = {
+	},
+	["Player-5284-01997EBA"] = {
+	},
+	["Player-5284-0194DF5B"] = {
+	},
+	["Player-5825-0203CF2A"] = {
+	},
+	["Player-5284-017E27D9"] = {
+	},
+	["Player-5284-016F9923"] = {
 	},
 }
 LCD_GUIDAccess = {
-	["Player-5284-01C52AA9"] = 1719999399,
-	["Player-5284-01D9744D"] = 1719999399,
-	["Player-5284-01C30C37"] = 1719999425,
-	["Player-5284-017F2AB4"] = 1719999435,
+	["Player-5284-01C85CF8"] = 1719835749,
+	["Player-5284-01AE6A08"] = 1719835772,
+	["Player-5284-0167E272"] = 1719835763,
+	["Player-5284-018027BA"] = 1719835749,
 }

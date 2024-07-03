@@ -1,0 +1,16 @@
+VER 3 0000000001000003 "Bers" "134400"
+#showtooltip Berserker Stance
+/cast [stance:1/2] Berserker Stance
+/click ElvUI_Bar15Button11
+END
+VER 3 0000000001000001 "BS" "134400"
+#showtooltip Battle Stance
+/cast [stance:2/3] Battle Stance
+/click ElvUI_Bar15Button11
+END
+VER 3 0000000001000002 "Def" "134400"
+#showtooltip Defensive Stance
+/cast [stance:1/3] Defensive Stance
+/click ElvUI_Bar15Button5
+/click ElvUI_Bar15Button6
+END

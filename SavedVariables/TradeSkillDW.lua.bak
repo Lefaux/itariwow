@@ -1,0 +1,33 @@
+
+TradeSkillDW = {
+	["ddfh"] = 177,
+	["expanded"] = true,
+	["ddfw"] = 250,
+	["useUber"] = false,
+	["movable"] = false,
+	["frameStrata"] = "MEDIUM",
+	["uTime"] = 20441,
+	["useQueue"] = true,
+	["banner"] = true,
+	["version"] = "2",
+	["bug"] = {
+		["state"] = false,
+		["dTable"] = {
+		},
+		["id"] = 1,
+	},
+	["dhfh"] = 118,
+	["client"] = 2,
+	["numButtons"] = 19,
+	["stratas"] = {
+		"PARENT", -- [1]
+		"BACKGROUND", -- [2]
+		"LOW", -- [3]
+		"MEDIUM", -- [4]
+		"HIGH", -- [5]
+		"DIALOG", -- [6]
+		"FULLSCREEN", -- [7]
+		"FULLSCREEN_DIALOG", -- [8]
+		"TOOLTIP", -- [9]
+	},
+}

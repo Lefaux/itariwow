@@ -1,78 +1,247 @@
 
 MonkeyQuestConfig = {
-	["Pyrewood Village|Naediin"] = {
+	["Nethergarde Keep|Lefaux"] = {
 		["m_aQuestList"] = {
-			["A Taste of Flame - false"] = {
+			["Dustwallow Marsh - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Desolace - true"] = {
 				["m_bChecked"] = true,
 			},
-			["What Tomorrow Brings - false"] = {
+			["Thousand Needles - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Arathi Highlands - true"] = {
+				["m_bChecked"] = true,
+			},
+			["The Hinterlands - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Mudrock Soup and Bugs - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Stranglethorn Vale - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Razorfen Kraul - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Rhapsody's Kalimdor Kocktail - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Sunken Treasure - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Crone of the Kraul - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Raptor Mastery - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Ansirem's Key - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Razzeric's Tweaking - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Rumors for Kravel - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Hungry! - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Ongeku - false"] = {
+				["m_bChecked"] = true,
+			},
+		},
+	},
+	["Wild Growth|Lefaux"] = {
+		["m_aQuestList"] = {
+			["Coldridge Valley Mail Delivery - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Paladin - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Coldridge Valley - true"] = {
+				["m_bChecked"] = true,
+			},
+			["The Boar Hunter - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Relics of the Light - false"] = {
+				["m_bChecked"] = true,
+			},
+		},
+	},
+	["Nethergarde Keep|Bubblehearth"] = {
+		["m_aQuestList"] = {
+			["The Twilight Lexicon - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Elven Legends - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Seal of Ascension - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Silithus - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Redemption Legguards - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Urok Doomhowl - false"] = {
 				["m_bChecked"] = true,
 			},
 			["Naxxramas - true"] = {
 				["m_bChecked"] = true,
 			},
-			["Zaeldarr the Outcast - false"] = {
-				["m_bChecked"] = true,
-			},
-			["Eastern Plaguelands - true"] = {
-				["m_bChecked"] = true,
-			},
-			["Scholomance - true"] = {
-				["m_bChecked"] = true,
-			},
-			["Mantles of the Dawn - false"] = {
+			["Midsummer - true"] = {
 				["m_bChecked"] = true,
 			},
 			["Blackrock Spire - true"] = {
 				["m_bChecked"] = true,
 			},
-			["Doomrigger's Clasp - false"] = {
+			["Eastern Plaguelands - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Lethtendris's Web - false"] = {
+				["m_bChecked"] = true,
+			},
+			["A Light in Dark Places - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Ice Guard - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Dire Maul - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Unfinished Gordok Business - false"] = {
+				["m_bChecked"] = true,
+			},
+		},
+	},
+	["Nethergarde Keep|Mattihunto"] = {
+		["m_aQuestList"] = {
+			["Scythe of the Unseen Path - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Kitchen Assistance - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Scholomance - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Scouring the Desert - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Abyssal Contacts - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Dwarven Justice - false"] = {
+				["m_bChecked"] = true,
+			},
+			["A Humble Offering - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Stratholme - true"] = {
+				["m_bChecked"] = false,
+			},
+			["The Fate of the Kingdom - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Dire Maul - true"] = {
 				["m_bChecked"] = true,
 			},
 			["Ahn'Qiraj - true"] = {
 				["m_bChecked"] = true,
 			},
+			["The Madness Within - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Cloak of the Unseen Path - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Twilight Mystery - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Maxwell's Mission - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Blackrock Spire - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Ironforge - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Cooking - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Noggle's Lost Satchel - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Ectoplasmic Distiller - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Tanaris - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Fire Plume Forged - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Above and Beyond - false"] = {
+				["m_bChecked"] = true,
+			},
 			["Silithus - true"] = {
+				["m_bChecked"] = false,
+			},
+			["Into The Maw of Madness - false"] = {
 				["m_bChecked"] = true,
 			},
-			["Conqueror's Breastplate - false"] = {
+			["Doctor Theolen Krastinov, the Butcher - false"] = {
 				["m_bChecked"] = true,
 			},
-			["Ramaladni's Icy Grasp - false"] = {
-				["m_bChecked"] = true,
-			},
-			["Alas, Andorhal - false"] = {
-				["m_bChecked"] = true,
-			},
-			["The Only Song I Know... - false"] = {
-				["m_bChecked"] = true,
-			},
-			["Barov Family Fortune - false"] = {
-				["m_bChecked"] = true,
-			},
-			["Lunar Festival - true"] = {
-				["m_bChecked"] = true,
-			},
-			["Western Plaguelands - true"] = {
-				["m_bChecked"] = true,
-			},
-			["The Restless Souls - false"] = {
+			["Signet of the Unseen Path - false"] = {
 				["m_bChecked"] = true,
 			},
 			["Vyral the Vile - false"] = {
 				["m_bChecked"] = true,
 			},
 			["Blackrock Depths - true"] = {
+				["m_bChecked"] = false,
+			},
+			["The Treasure of the Shen'dralar - false"] = {
 				["m_bChecked"] = true,
 			},
-			["Valadar Starsong - false"] = {
+		},
+	},
+	["Razorfen|Muisnipe"] = {
+		["m_aQuestList"] = {
+			["Teldrassil - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Ferocitas the Dream Eater - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Road to Darnassus - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Crown of the Earth - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Relics of Wakening - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Rellian Greenspyre - false"] = {
 				["m_bChecked"] = true,
 			},
 		},
 	},
 	["Global"] = {
 		["m_bItemsEnabled"] = false,
-		["m_iFont"] = 0,
+		["m_iFont"] = 1,
 		["m_strHeaderClosedColour"] = "|cFF9F9FFF",
 		["m_strSpecialObjectiveColour"] = "|cFFFFFF00",
 		["m_iFrameAlpha"] = 1,
@@ -84,43 +253,153 @@ MonkeyQuestConfig = {
 		["m_bShowHidden"] = false,
 		["m_bItemsOnLeft"] = true,
 		["m_bShowNoobTips"] = true,
-		["m_bHideCompletedObjectives"] = false,
+		["m_bHideCompletedObjectives"] = true,
 		["m_bShowZoneHighlight"] = true,
 		["m_strCompleteObjectiveColour"] = "|cFF00FF19",
-		["m_bAlwaysHeaders"] = false,
+		["m_bAlwaysHeaders"] = true,
 		["m_bDisplay"] = true,
 		["m_bMinimized"] = false,
 		["m_strInitialObjectiveColour"] = "|cFFD82619",
 		["m_iHighlightAlpha"] = 1,
 		["m_bShowQuestLevel"] = true,
 		["m_bShowDailyNumQuests"] = false,
-		["m_iFrameBottom"] = -449.1666564941406,
+		["m_iFrameBottom"] = 514.8345947265625,
 		["m_bHideCompletedQuests"] = false,
-		["m_iFrameLeft"] = 500.0001831054688,
+		["m_iFrameLeft"] = 2337.71728515625,
 		["m_bColourDoneOrFailed"] = false,
 		["m_bLocked"] = false,
-		["m_bNoBorder"] = false,
+		["m_bNoBorder"] = true,
 		["m_bNoHeaders"] = false,
-		["m_strMidObjectiveColour"] = "|cFFFFFF00",
+		["m_iAlpha"] = 0.5,
 		["m_strOverviewColour"] = "|cFF7F7F7F",
 		["m_bShowNumQuests"] = true,
-		["m_iAlpha"] = 0.5,
 		["m_bColourSubObjectivesByProgress"] = true,
-		["m_iFontHeight"] = 12,
+		["m_strMidObjectiveColour"] = "|cFFFFFF00",
+		["m_iFontHeight"] = 11.5,
 		["m_strQuestTitleColour"] = "|cFFFFFFFF",
 		["m_bWorkComplete"] = true,
 		["m_bHideQuestsEnabled"] = true,
-		["m_iFrameWidth"] = 255,
+		["m_iFrameWidth"] = 284,
 		["m_bCrashBorder"] = false,
 		["m_strHeaderOpenColour"] = "|cFFBFBFFF",
-		["m_iFrameTop"] = 500.0001831054688,
+		["m_iFrameTop"] = 804.7630615234375,
 		["m_bObjectives"] = true,
 		["m_bHideHeader"] = false,
 		["m_bShowTooltipObjectives"] = true,
 		["m_iQuestPadding"] = 0,
 		["m_bShowQuestTextTooltip"] = false,
-		["m_bHideTitle"] = false,
+		["m_bHideTitle"] = true,
 		["m_bHideTitleButtons"] = false,
 		["m_bGrowUp"] = false,
+	},
+	["Nethergarde Keep|Hellocritty"] = {
+		["m_aQuestList"] = {
+			["Teldrassil - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Twisted Hatred - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Crown of the Earth - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Relics of Wakening - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Rellian Greenspyre - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Ferocitas the Dream Eater - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Cooking - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Recipe of the Kaldorei - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Seek Redemption! - false"] = {
+				["m_bChecked"] = true,
+			},
+		},
+	},
+	["Nethergarde Keep|Muilocko"] = {
+		["m_aQuestList"] = {
+			["Uniting the Shattered Amulet - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Armor Scraps - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Towers and Bunkers - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Flawless Fel Essence - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Stormers and Rumblers - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Stratholme - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Eastern Plaguelands - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Capture a Mine - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Warlock - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Poisoned Water - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Great Ezra Grimm - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Araj's Scarab - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Blasted Lands - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Glyph Chasing - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Archivist - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Azshara - true"] = {
+				["m_bChecked"] = true,
+			},
+			["In Search of Anthion - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Alterac Valley - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Into The Maw of Madness - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Silithus - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Western Plaguelands - true"] = {
+				["m_bChecked"] = true,
+			},
+			["Alterac Valley Graveyards - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Dreadsteed of Xoroth - false"] = {
+				["m_bChecked"] = true,
+			},
+			["Fallen Sky Lords - false"] = {
+				["m_bChecked"] = true,
+			},
+			["The Active Agent - false"] = {
+				["m_bChecked"] = true,
+			},
+		},
 	},
 }

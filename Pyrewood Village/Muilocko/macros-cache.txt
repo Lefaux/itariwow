@@ -1,0 +1,46 @@
+VER 3 0000000001000005 "Agony" "134400"
+#showtooltip
+/startattack
+/cast Curse Of Agony
+END
+VER 3 0000000001000004 "Corruption" "134400"
+#showtooltip
+/startattack
+/petattack
+/cast Corruption
+END
+VER 3 0000000001000008 "Drain Life" "134400"
+#showtooltip
+/startattack
+/cast [nochanneling] Drain Life
+END
+VER 3 0000000001000001 "Eat" "134400"
+#showtooltip
+/use Conjured Sparkling Water
+/use Conjured Sweet Roll
+END
+VER 3 0000000001000006 "Immolate" "134400"
+#showtooltip
+/startattack
+/cast Immolate
+END
+VER 3 0000000001000007 "Pet" "132091"
+/petattack [@pettarget,noexists]
+/petfollow [@pettarget,exists]
+END
+VER 3 0000000001000009 "Petsac" "134400"
+#showtooltip
+/cast Sacrifice
+END
+VER 3 0000000001000002 "Sbolt" "134400"
+#showtooltip Shadow Bolt
+/startattack
+/cast Firebolt
+/cast Shadow Bolt
+END
+VER 3 0000000001000003 "Searing" "134400"
+#showtooltip Searing Pain
+/startattack
+/cast Firebolt
+/cast Searing Pain
+END

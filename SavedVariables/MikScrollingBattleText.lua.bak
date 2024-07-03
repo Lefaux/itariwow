@@ -2,7 +2,29 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
-			["creationVersion"] = "5.9.1",
+			["critFontName"] = "MSBT Transformers",
+			["enableBlizzardDamage"] = false,
+			["scrollAreas"] = {
+				["Static"] = {
+					["stickyDirection"] = "Down",
+					["offsetY"] = -480,
+					["offsetX"] = -16,
+				},
+				["Incoming"] = {
+					["offsetX"] = -334,
+					["offsetY"] = -156,
+				},
+				["Notification"] = {
+					["offsetX"] = -174,
+					["offsetY"] = 172,
+				},
+				["Outgoing"] = {
+					["offsetX"] = 367,
+					["offsetY"] = -165,
+				},
+			},
+			["normalFontName"] = "PT Sans Narrow",
+			["creationVersion"] = "5.8.1",
 		},
 	},
 }

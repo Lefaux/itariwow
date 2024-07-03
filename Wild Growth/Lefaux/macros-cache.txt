@@ -1,0 +1,19 @@
+VER 3 0000000001000006 "BoP" "134400"
+#showtooltip
+/stopcasting
+/cast [@mouseover, nodead, help][] Blessing of Protection
+END
+VER 3 0000000001000004 "Cleanse" "134400"
+#showtooltip
+/stopcasting
+/cast [@mouseover, nodead, help][]  Purify
+END
+VER 3 0000000001000003 "HL" "134400"
+#showtooltip
+/cast [@mouseover, nodead, help][]  Holy Light
+END
+VER 3 0000000001000005 "LoH" "134400"
+#showtooltip
+/stopcasting
+/cast [@mouseover, nodead, help][] Lay on Hands
+END

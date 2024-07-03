@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 2084,
 	["lastSanitation"] = 3,
+	["session"] = 2087,
 	["errors"] = {
 		{
 			["message"] = "Interface/AddOns/AllTheThings/src/Cache.lua:47: attempt to get length of local 'c' (a nil value)",
@@ -68,44 +68,112 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [8]
 		{
+			["message"] = "Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua:1 Error loading Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua",
+			["time"] = "2024/07/02 19:55:13",
+			["session"] = 2084,
+			["counter"] = 2,
+		}, -- [9]
+		{
+			["message"] = "Interface/AddOns/Necrosis/Necrosis-Vanilla.toc:115 Couldn't open Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.xml",
+			["time"] = "2024/07/02 19:55:13",
+			["session"] = 2084,
+			["counter"] = 2,
+		}, -- [10]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua:1 Error loading Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua",
+			["time"] = "2024/07/02 19:55:13",
+			["session"] = 2084,
+			["counter"] = 2,
+		}, -- [11]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Interface/AddOns/Necrosis/Necrosis-Vanilla.toc:115 Couldn't open Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.xml",
+			["time"] = "2024/07/02 19:55:13",
+			["session"] = 2084,
+			["counter"] = 2,
+		}, -- [12]
+		{
 			["message"] = "Lua error in aura 'Lefs Stats': Name Function\nWeakAuras Version: 5.14.1\n[string \"return function()\"]:11: bad argument #1 to 'gsub' (string expected, got nil)",
 			["time"] = "2024/07/02 13:08:29",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"One%-Handed \"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"return function()\"]:11: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:503: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:499>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:611: in function `ActivateEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:725: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:629>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1089: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1443: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2018: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1800: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1644>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1995: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1268: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1227>",
-			["session"] = 2083,
-			["counter"] = 16,
-		}, -- [9]
+			["session"] = 2086,
+			["counter"] = 18,
+		}, -- [13]
+		{
+			["message"] = "Interface/AddOns/ATT-Classic/src/base.lua:133: Interface/AddOns/ATT-Classic/ATT-Classic.lua:3913: attempt to concatenate local 'achievementID' (a table value)",
+			["time"] = "2024/07/03 11:43:20",
+			["locals"] = "(*temporary) = \"Interface/AddOns/ATT-Classic/ATT-Classic.lua:3913: attempt to concatenate local 'achievementID' (a table value)\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface/AddOns/ATT-Classic/src/base.lua\"]:169: in function `?'\n[string \"@Interface/AddOns/ATT-Classic/src/base.lua\"]:133: in function <Interface/AddOns/ATT-Classic/src/base.lua:131>",
+			["session"] = 2086,
+			["counter"] = 1,
+		}, -- [14]
 		{
 			["message"] = "...dOns/Necrosis/SpellActivations/options/variables.lua:15: attempt to index global 'NecrosisSpellActivationOverlayContainerFrame' (a nil value)",
 			["time"] = "2024/07/02 19:55:10",
 			["locals"] = "self = <table> {\n StopSpellAlertSound = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/sound.lua:39\n SpellIDsByName = <table> {\n }\n TraceThrottled = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:60\n CooldownVariantValue = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/variants.lua:166\n ConditionBuilder = <table> {\n }\n ActivatedCounters = <table> {\n }\n SpellVariantValue = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/variants.lua:113\n LearnNewSpell = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/spell.lua:53\n ActivateOverlay = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/overlay.lua:35\n StringVariantValue = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/variants.lua:79\n TBC = 1024\n CreateStringVariants = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/variants.lua:60\n RegisterGlowIDs = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/glow.lua:58\n TextureVariantValue = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/variants.lua:36\n AwakeButtonsBySpellID = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/glow.lua:221\n ApplySpellAlertGeometry = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/variables.lua:20\n TexName = <table> {\n }\n GetGlowingOptions = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/glowoptions.lua:98\n RegisterAuraSoulPreserver = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/item.lua:16\n GetPlayerAuraDurationExpirationTimBySpellIdOrName = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:250\n GlowingSpells = <table> {\n }\n AddGlow = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/glow.lua:288\n GetOverlayOptions = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/overlayoptions.lua:135\n AddEffectOptions = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/effect.lua:705\n AddOverlayLink = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/overlayoptions.lua:131\n HashNameFromStacks = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:360\n GetTalentByName = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:298\n GetRuneFromSpell = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/rune.lua:34\n AddGlowingLink = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/glowoptions.lua:94\n AddGlowingOption = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/glowoptions.lua:15\n Info = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:35\n CATA = 4096\n ADDON_LOADED = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/events.lua:155\n AddOptionLink = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/classoptions.lua:185\n TextureFilenameFromFullname = <table> {\n }\n IsResponsiveMode = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:171\n SetCounterStatus = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/counter.lua:74\n responsiveMode = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:152\n AddOption = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/classoptions.lua:95\n RefreshOverlayTimer = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/overlay.lua:79\n GetGCD = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:73\n OptionsPanel = NecrosisSpellActivationOverlayOptionsPanel {\n }\n LoadDB = <function> defined @Interface/AddOns/Necrosis/SpellActivations/options/db.lua:101\n Trace = <function> defined @Interface/AddOns/Necrosis/SpellActivations/components/util.lua:53\n ApplySpellAlertS",
 			["stack"] = "[string \"@Interface/AddOns/Necrosis/SpellActivations/options/variables.lua\"]:15: in function `ApplySpellAlertOpacity'\n[string \"@Interface/AddOns/Necrosis/SpellActivations/options/variables.lua\"]:5: in function `ApplyAllVariables'\n[string \"@Interface/AddOns/Necrosis/SpellActivations/options/db.lua\"]:209: in function <...face/AddOns/Necrosis/SpellActivations/options/db.lua:207>",
-			["session"] = 2084,
-			["counter"] = 2,
-		}, -- [10]
+			["session"] = 2087,
+			["counter"] = 4,
+		}, -- [15]
 		{
-			["message"] = "Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua:1 Error loading Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua",
-			["session"] = 2084,
-			["time"] = "2024/07/02 19:55:13",
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLEACCOUNTMODE is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
 			["counter"] = 2,
-		}, -- [11]
+		}, -- [16]
 		{
-			["message"] = "Interface/AddOns/Necrosis/Necrosis-Vanilla.toc:115 Couldn't open Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.xml",
-			["session"] = 2084,
-			["time"] = "2024/07/02 19:55:13",
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLEDEBUGMODE is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
 			["counter"] = 2,
-		}, -- [12]
+		}, -- [17]
 		{
-			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua:1 Error loading Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.lua",
-			["session"] = 2084,
-			["time"] = "2024/07/02 19:55:13",
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLEFACTIONMODE is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
 			["counter"] = 2,
-		}, -- [13]
+		}, -- [18]
 		{
-			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Interface/AddOns/Necrosis/Necrosis-Vanilla.toc:115 Couldn't open Interface/AddOns/Necrosis/SpellActivations/SpellActivationOverlay.xml",
-			["session"] = 2084,
-			["time"] = "2024/07/02 19:55:13",
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLECOMPLETEDTHINGS is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
 			["counter"] = 2,
-		}, -- [14]
+		}, -- [19]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLECOMPLETEDGROUPS is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
+			["counter"] = 2,
+		}, -- [20]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLECOLLECTEDTHINGS is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
+			["counter"] = 2,
+		}, -- [21]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLEBOEITEMS is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
+			["counter"] = 2,
+		}, -- [22]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLESOURCETEXT is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["session"] = 2087,
+			["time"] = "2024/07/03 11:43:19",
+			["counter"] = 2,
+		}, -- [23]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLEMAINLIST is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["time"] = "2024/07/03 11:43:42",
+			["session"] = 2087,
+			["counter"] = 1,
+		}, -- [24]
+		{
+			["message"] = "Interface\\FrameXML\\FrameXML_Vanilla.toc:1 Binding ALLTHETHINGS_TOGGLEMINILIST is defined more than once in Interface/AddOns/ATT-Classic/Bindings.xml",
+			["time"] = "2024/07/03 11:43:42",
+			["session"] = 2087,
+			["counter"] = 1,
+		}, -- [25]
 	},
 }

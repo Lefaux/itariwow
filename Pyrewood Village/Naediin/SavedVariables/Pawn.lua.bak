@@ -95,8 +95,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:22811::::::::60:::::::::|h[Soulstring]|h|r",
 		}, -- [18]
 	},
-	["LastPlayerFullName"] = "Naediin-Pyrewood Village",
 	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Naediin-Pyrewood Village",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

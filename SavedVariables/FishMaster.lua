@@ -264,6 +264,9 @@ FishMasterSettings = {
 			},
 			["firstRun"] = false,
 		},
+		["Naediin - Pyrewood Village"] = {
+			["firstRun"] = false,
+		},
 		["Mattihunto - Nethergarde Keep"] = {
 			["loot"] = {
 				{
@@ -748,6 +751,7 @@ FishMasterSettings = {
 	["profileKeys"] = {
 		["Lefaux - Nethergarde Keep"] = "Default",
 		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Naediin - Pyrewood Village"] = "Default",
 		["Mattihunto - Nethergarde Keep"] = "Default",
 		["Priestcoast - Nethergarde Keep"] = "Default",
 		["Hellocritty - Nethergarde Keep"] = "Default",

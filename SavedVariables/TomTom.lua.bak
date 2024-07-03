@@ -3,6 +3,7 @@ TomTomDB = {
 	["profileKeys"] = {
 		["Lefaux - Nethergarde Keep"] = "Default",
 		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Naediin - Pyrewood Village"] = "Default",
 		["Mattihunto - Nethergarde Keep"] = "Default",
 		["Priestcoast - Nethergarde Keep"] = "Default",
 		["Hellocritty - Nethergarde Keep"] = "Default",
@@ -47,6 +48,7 @@ TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Lefaux - Nethergarde Keep"] = "Lefaux - Nethergarde Keep",
 		["Bubblehearth - Nethergarde Keep"] = "Bubblehearth - Nethergarde Keep",
+		["Naediin - Pyrewood Village"] = "Naediin - Pyrewood Village",
 		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
 		["Priestcoast - Nethergarde Keep"] = "Priestcoast - Nethergarde Keep",
 		["Hellocritty - Nethergarde Keep"] = "Hellocritty - Nethergarde Keep",
@@ -61,6 +63,8 @@ TomTomWaypointsM = {
 		["Lefaux - Nethergarde Keep"] = {
 		},
 		["Bubblehearth - Nethergarde Keep"] = {
+		},
+		["Naediin - Pyrewood Village"] = {
 		},
 		["Mattihunto - Nethergarde Keep"] = {
 		},

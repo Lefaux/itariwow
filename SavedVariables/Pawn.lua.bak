@@ -8,16 +8,11 @@ PawnCommon = {
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = false,
 	["ShownGettingStarted"] = true,
-	["IgnoreGemsWhileLeveling"] = true,
+	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["Digits"] = 1,
 	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0912,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["Color"] = "c69b6d",
@@ -123,17 +118,17 @@ PawnCommon = {
 				["IsWarglaive"] = -1000000,
 				["FireResist"] = 0.04,
 				["HasteRating"] = 3.212,
-				["DefenseRating"] = 0.07500000000000001,
+				["Armor"] = 0.005,
 				["MetaSocketEffect"] = 36,
 				["Agility"] = 2.5,
 				["ArcaneResist"] = 0.04,
 				["IsPlate"] = -1000000,
-				["HitRating"] = 32,
 				["DodgeRating"] = 0.472,
+				["HitRating"] = 32,
 				["Stamina"] = 0.1,
 				["Rap"] = 0.55,
 				["IsShield"] = -1000000,
-				["Armor"] = 0.005,
+				["DefenseRating"] = 0.07500000000000001,
 			},
 			["Color"] = "aad372",
 			["SpecID"] = 2,
@@ -150,21 +145,18 @@ PawnCommon = {
 				},
 			},
 		},
-		["\"Classic\":PRIEST3"] = {
-			["Color"] = "ffffff",
-			["ClassID"] = 5,
-			["LocalizedName"] = "Priest: Shadow",
+		["\"Classic\":SHAMAN1"] = {
+			["Color"] = "f48cba",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Shaman: Elemental",
 			["PerCharacterOptions"] = {
-				["Priestcoast-Nethergarde Keep"] = {
-					["Visible"] = true,
-				},
 			},
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["Provider"] = "Classic",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "bfbfbf",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "b7698b",
 		},
 		["\"Classic\":PALADIN2"] = {
 			["Color"] = "f48cba",
@@ -238,10 +230,10 @@ PawnCommon = {
 			["ClassID"] = 9,
 			["LocalizedName"] = "Warlock: Destruction",
 			["PerCharacterOptions"] = {
-				["Locknroll-Nethergarde Keep"] = {
+				["Muilocko-Nethergarde Keep"] = {
 					["Visible"] = true,
 				},
-				["Muilocko-Nethergarde Keep"] = {
+				["Locknroll-Nethergarde Keep"] = {
 					["Visible"] = true,
 				},
 			},
@@ -271,18 +263,21 @@ PawnCommon = {
 			["SpecID"] = 3,
 			["UnenchantedColor"] = "b7698b",
 		},
-		["\"Classic\":SHAMAN1"] = {
-			["Color"] = "f48cba",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Shaman: Elemental",
+		["\"Classic\":PRIEST3"] = {
+			["Color"] = "ffffff",
+			["ClassID"] = 5,
+			["LocalizedName"] = "Priest: Shadow",
 			["PerCharacterOptions"] = {
+				["Priestcoast-Nethergarde Keep"] = {
+					["Visible"] = true,
+				},
 			},
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["Provider"] = "Classic",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "bfbfbf",
 		},
 		["\"Classic\":SHAMAN2"] = {
 			["Color"] = "f48cba",
@@ -585,5 +580,10 @@ PawnCommon = {
 			["UnenchantedColor"] = "bfbfbf",
 		},
 	},
-	["Debug"] = false,
+	["LastVersion"] = 2.0912,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
 }

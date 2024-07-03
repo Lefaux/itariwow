@@ -50,19 +50,26 @@ GearMenuConfiguration = {
 			["isLocked"] = false,
 			["showCooldowns"] = true,
 			["position"] = {
-				["posY"] = 0,
-				["point"] = "CENTER",
-				["posX"] = 0,
+				["relativePoint"] = "LEFT",
+				["point"] = "LEFT",
+				["posY"] = -122.666862487793,
+				["posX"] = 213.8572540283203,
 			},
 			["changeSlotSize"] = 40,
 			["gearSlotSize"] = 40,
 		}, -- [1]
 	},
-	["addonVersion"] = "v2.3.8",
+	["quickChangeRules"] = {
+	},
 	["uiTheme"] = 2,
 	["trinketMenuColumns"] = 4,
 	["frames"] = {
+		["GM_TrinketMenuFrame"] = {
+			["relativePoint"] = "LEFT",
+			["point"] = "LEFT",
+			["posY"] = -50.28565979003906,
+			["posX"] = 210.6189727783203,
+		},
 	},
-	["quickChangeRules"] = {
-	},
+	["addonVersion"] = "v2.3.8",
 }

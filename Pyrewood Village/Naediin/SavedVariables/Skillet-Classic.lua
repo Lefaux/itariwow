@@ -16,6 +16,7 @@ SkilletDBPC = {
 	"Wed Jul  3 11:36:33 2024(D0): FlushCustomData()", -- [2]
 	"Wed Jul  3 11:36:33 2024(M): InitializeProfile(OnNewProfile, Naediin - Pyrewood Village)", -- [3]
 	"Wed Jul  3 11:37:01 2024(D0): FlushCustomData()", -- [4]
+	"Wed Jul  3 11:43:14 2024(M): InitializeProfile(OnNewProfile, Naediin - Pyrewood Village)", -- [5]
 }
 SkilletMemory = {
 }

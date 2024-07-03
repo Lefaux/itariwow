@@ -28,6 +28,13 @@ GoldSave = {
 		["faction"] = "Alliance",
 		["realm"] = "Nethergarde Keep",
 	},
+	["Locknroll_Nethergarde Keep::Alliance"] = {
+		["show"] = true,
+		["name"] = "Locknroll",
+		["gold"] = 0,
+		["faction"] = "Alliance",
+		["realm"] = "Nethergarde Keep",
+	},
 	["Lefaux_Nethergarde Keep::Alliance"] = {
 		["show"] = true,
 		["name"] = "Lefaux",
@@ -42,11 +49,11 @@ GoldSave = {
 		["faction"] = "Alliance",
 		["realm"] = "Nethergarde Keep",
 	},
-	["Locknroll_Nethergarde Keep::Alliance"] = {
+	["Naediin_Pyrewood Village::Alliance"] = {
 		["show"] = true,
-		["name"] = "Locknroll",
-		["gold"] = 0,
+		["name"] = "Naediin",
+		["gold"] = 4143867,
 		["faction"] = "Alliance",
-		["realm"] = "Nethergarde Keep",
+		["realm"] = "Pyrewood Village",
 	},
 }

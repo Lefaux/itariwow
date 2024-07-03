@@ -3,6 +3,7 @@ ThreatClassic2DB = {
 	["profileKeys"] = {
 		["Lefaux - Nethergarde Keep"] = "Default",
 		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Naediin - Pyrewood Village"] = "Default",
 		["Mattihunto - Nethergarde Keep"] = "Default",
 		["Priestcoast - Nethergarde Keep"] = "Default",
 		["Hellocritty - Nethergarde Keep"] = "Default",
@@ -15,20 +16,15 @@ ThreatClassic2DB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["general"] = {
-				["updateFreq"] = 0.1,
+			["customBarColors"] = {
+				["playerEnabled"] = true,
 			},
 			["font"] = {
 				["style"] = "",
 				["name"] = "PT Sans Narrow",
 			},
 			["frame"] = {
-				["color"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					0, -- [4]
-				},
+				["scale"] = 0.85,
 				["width"] = 180,
 				["position"] = {
 					nil, -- [1]
@@ -38,11 +34,16 @@ ThreatClassic2DB = {
 					-1007.921813964844, -- [5]
 				},
 				["locked"] = true,
+				["color"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					0, -- [4]
+				},
 				["height"] = 197.207275390625,
-				["scale"] = 0.85,
 			},
-			["customBarColors"] = {
-				["playerEnabled"] = true,
+			["general"] = {
+				["updateFreq"] = 0.1,
 			},
 			["bar"] = {
 				["count"] = 7,

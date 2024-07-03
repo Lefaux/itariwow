@@ -3,27 +3,30 @@ DevToolDatabase = {
 	["profileKeys"] = {
 		["Aimalot - Wild Growth"] = "Aimalot - Wild Growth",
 		["Hellocritty - Nethergarde Keep"] = "Hellocritty - Nethergarde Keep",
-		["Bubblehearth - Nethergarde Keep"] = "Bubblehearth - Nethergarde Keep",
-		["Lefaux - Wild Growth"] = "Lefaux - Wild Growth",
-		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
-		["Muilocko - Nethergarde Keep"] = "Muilocko - Nethergarde Keep",
 		["Muisnipe - Razorfen"] = "Muisnipe - Razorfen",
+		["Bubblehearth - Nethergarde Keep"] = "Bubblehearth - Nethergarde Keep",
+		["Naediin - Pyrewood Village"] = "Naediin - Pyrewood Village",
+		["Muilocko - Nethergarde Keep"] = "Muilocko - Nethergarde Keep",
+		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
+		["Lefaux - Wild Growth"] = "Lefaux - Wild Growth",
 	},
 	["profiles"] = {
 		["Aimalot - Wild Growth"] = {
 		},
 		["Hellocritty - Nethergarde Keep"] = {
 		},
+		["Muisnipe - Razorfen"] = {
+		},
 		["Bubblehearth - Nethergarde Keep"] = {
 			["collResizeWidth"] = 250.0001220703125,
 		},
-		["Lefaux - Wild Growth"] = {
-		},
-		["Mattihunto - Nethergarde Keep"] = {
+		["Naediin - Pyrewood Village"] = {
 		},
 		["Muilocko - Nethergarde Keep"] = {
 		},
-		["Muisnipe - Razorfen"] = {
+		["Mattihunto - Nethergarde Keep"] = {
+		},
+		["Lefaux - Wild Growth"] = {
 		},
 	},
 }

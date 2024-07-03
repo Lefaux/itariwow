@@ -7,6 +7,9 @@ ThreatPlatesDB = {
 		["Bubblehearth - Nethergarde Keep"] = {
 			["welcome"] = true,
 		},
+		["Naediin - Pyrewood Village"] = {
+			["welcome"] = true,
+		},
 		["Mattihunto - Nethergarde Keep"] = {
 			["welcome"] = true,
 		},
@@ -32,12 +35,10 @@ ThreatPlatesDB = {
 			["welcome"] = true,
 		},
 	},
-	["global"] = {
-		["version"] = "11.2.13",
-	},
 	["profileKeys"] = {
 		["Aimalot - Wild Growth"] = "Default",
 		["Bubblehearth - Nethergarde Keep"] = "Default",
+		["Naediin - Pyrewood Village"] = "Default",
 		["Mattihunto - Nethergarde Keep"] = "Default",
 		["Priestcoast - Nethergarde Keep"] = "Default",
 		["Hellocritty - Nethergarde Keep"] = "Default",
@@ -46,6 +47,9 @@ ThreatPlatesDB = {
 		["Lefaux - Wild Growth"] = "Default",
 		["Muilocko - Nethergarde Keep"] = "Default",
 		["Muisnipe - Razorfen"] = "Default",
+	},
+	["global"] = {
+		["version"] = "11.2.13",
 	},
 	["profiles"] = {
 		["Default"] = {

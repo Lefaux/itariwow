@@ -90,8 +90,6 @@ LootReserveGlobalSave = {
 		},
 	},
 	["Client"] = {
-		["GlobalFavorites"] = {
-		},
 		["Settings"] = {
 			["RollRequestGlowOnlyReserved"] = true,
 			["AllowPreCache"] = false,
@@ -115,5 +113,7 @@ LootReserveGlobalSave = {
 			["RollRequestLoserReaction"] = true,
 		},
 		["Version"] = "2024-06-23",
+		["GlobalFavorites"] = {
+		},
 	},
 }

@@ -6,6 +6,7 @@ AtlasLootClassicDB = {
 	["profileKeys"] = {
 		["Lefaux - Nethergarde Keep"] = "Lefaux - Nethergarde Keep",
 		["Bubblehearth - Nethergarde Keep"] = "Bubblehearth - Nethergarde Keep",
+		["Naediin - Pyrewood Village"] = "Naediin - Pyrewood Village",
 		["Mattihunto - Nethergarde Keep"] = "Mattihunto - Nethergarde Keep",
 		["Priestcoast - Nethergarde Keep"] = "Priestcoast - Nethergarde Keep",
 		["Hellocritty - Nethergarde Keep"] = "Hellocritty - Nethergarde Keep",
@@ -62,6 +63,8 @@ AtlasLootClassicDB = {
 				["minimapPos"] = 196.1992419575529,
 				["hide"] = true,
 			},
+		},
+		["Naediin - Pyrewood Village"] = {
 		},
 		["Mattihunto - Nethergarde Keep"] = {
 			["GUI"] = {

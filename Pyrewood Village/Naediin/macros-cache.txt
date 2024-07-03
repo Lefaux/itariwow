@@ -1,0 +1,40 @@
+VER 3 0000000001000013 "Assist Party1" "134247"
+/assist Party1
+/script SetRaidTarget("target",1);
+END
+VER 3 0000000001000035 "Charge" "132337"
+#showtooltip Charge
+/cast Charge(Rank 3)
+/cast Hamstring(Rank 3)
+END
+VER 3 0000000001000033 "Dead Color" "132178"
+/console ffxDeath 0
+END
+VER 3 0000000001000034 "Follow" "237510"
+/Follow Faea
+END
+VER 3 0000000001000036 "Intercept" "132307"
+#showtooltip Intercept
+/cast Intercept(Rank 3)
+/cast Hamstring(Rank 3)
+END
+VER 3 0000000001000038 "JK" "236444"
+/reload
+END
+VER 3 0000000001000039 "JK2" "236444"
+END
+VER 3 0000000001000037 "Pummel" "132938"
+#showtooltip [equipped:Shields] Shield Bash; Pummel
+/cast [equipped:Shields, stance:1/2] Shield Bash; [noequipped:Shields, stance:1/2] Berserker Stance; Pummel
+END
+VER 3 0000000001000006 "Raid" "132093"
+#showtooltip Presence of Mind
+/use 13
+/use 14
+/use Mana Emerald
+/cast Icy Veins
+/cast Arcane Power
+/cast Presence of Mind
+/cast Combustion
+/cast Arcane Blast
+END

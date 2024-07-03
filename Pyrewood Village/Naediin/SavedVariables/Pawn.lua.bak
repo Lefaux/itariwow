@@ -1,0 +1,105 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0912,
+	["ItemLevels"] = {
+		{
+			["ID"] = 22418,
+			["Level"] = 88,
+			["Link"] = "|cffa335ee|Hitem:22418:2583:::::::60:::::::::|h[Dreadnaught Helmet]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 23023,
+			["Level"] = 83,
+			["Link"] = "|cffa335ee|Hitem:23023::::::::60:::::::::|h[Sadist's Collar]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 22419,
+			["Level"] = 86,
+			["Link"] = "|cffa335ee|Hitem:22419:2716:::::::60:::::::::|h[Dreadnaught Pauldrons]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 22416,
+			["Level"] = 92,
+			["Link"] = "|cffa335ee|Hitem:22416:1891:::::::60:::::::::|h[Dreadnaught Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 23219,
+			["Level"] = 85,
+			["Link"] = "|cffa335ee|Hitem:23219::::::::60:::::::::|h[Girdle of the Mentor]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 22417,
+			["Level"] = 88,
+			["Link"] = "|cffa335ee|Hitem:22417:2583:::::::60:::::::::|h[Dreadnaught Legplates]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 22420,
+			["Level"] = 86,
+			["Link"] = "|cffa335ee|Hitem:22420:929:::::::60:::::::::|h[Dreadnaught Sabatons]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 22423,
+			["Level"] = 88,
+			["Link"] = "|cffa335ee|Hitem:22423:1886:::::::60:::::::::|h[Dreadnaught Bracers]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 22421,
+			["Level"] = 88,
+			["Link"] = "|cffa335ee|Hitem:22421:2564:::::::60:::::::::|h[Dreadnaught Gauntlets]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 19376,
+			["Level"] = 83,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cffa335ee|Hitem:19376::::::::60:::::::::|h[Archimtiros' Ring of Reckoning]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 21601,
+			["Level"] = 81,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cffa335ee|Hitem:21601::::::::60:::::::::|h[Ring of Emperor Vek'lor]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 22954,
+			["Level"] = 85,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cffa335ee|Hitem:22954::::::::60:::::::::|h[Kiss of the Spider]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 19431,
+			["Level"] = 75,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cffa335ee|Hitem:19431::::::::60:::::::::|h[Styleen's Impeding Scarab]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 23030,
+			["Level"] = 83,
+			["Link"] = "|cffa335ee|Hitem:23030:849:::::::60:::::::::|h[Cloak of the Scourge]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 22806,
+			["Level"] = 81,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:22806:1900:::::::60:::::::::|h[Widow's Remorse]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 19019,
+			["Level"] = 80,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffff8000|Hitem:19019:1900:::::::60:::::::::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r",
+		}, -- [17]
+		{
+			["ID"] = 22811,
+			["Level"] = 83,
+			["Link"] = "|cffa335ee|Hitem:22811::::::::60:::::::::|h[Soulstring]|h|r",
+		}, -- [18]
+	},
+	["LastPlayerFullName"] = "Naediin-Pyrewood Village",
+	["AutoSelectScales"] = false,
+}
+PawnMrRobotScaleProviderOptions = nil
+PawnClassicScaleProviderOptions = {
+	["LastClass"] = "WARRIOR",
+	["LastAdded"] = 3,
+}

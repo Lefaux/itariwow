@@ -1,0 +1,13 @@
+
+AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 3020000,
+	},
+	["profileKeys"] = {
+		["Naediin - Pyrewood Village"] = "Naediin - Pyrewood Village",
+	},
+	["profiles"] = {
+		["Naediin - Pyrewood Village"] = {
+		},
+	},
+}

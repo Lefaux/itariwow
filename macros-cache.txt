@@ -1,0 +1,242 @@
+VER 3 000000000000005A " Camera" "135757"
+/console camerafov 90
+END
+VER 3 0000000000000067 " Ema config" "4352493"
+/Ema config
+END
+VER 3 0000000000000022 " Monitor" "135757"
+/run SetCVar("gxMonitor",GetCVar("gxMonitor")=="2" and 3 or 2)
+/run RestartGx()
+END
+VER 3 000000000000002F " Reload UI" "132327"
+/Reload UI
+END
+VER 3 000000000000000B " Reset" "132097"
+/script ResetInstances();
+END
+VER 3 0000000000000065 " SaveView 3" "135755"
+/run SaveView(3)
+END
+VER 3 0000000000000066 " SetView 3" "135755"
+/run SetView(3)
+END
+VER 3 0000000000000059 " Sound" "135755"
+/run Sound_ToggleMusic(1);
+/run Sound_ToggleSound(1);
+/run SetCVar("Sound_MasterVolume", 0.1)
+END
+VER 3 000000000000000C "13" "136010"
+#showtooltip
+/use 13
+END
+VER 3 000000000000000D "14" "136021"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000005 "AD Bartender" "132154"
+/bt
+END
+VER 3 000000000000000A "AD DCR" "136008"
+/dcrshow
+END
+VER 3 0000000000000016 "AD Details" "132152"
+/details toggle
+END
+VER 3 0000000000000001 "AD SUF" "132149"
+/SUF
+END
+VER 3 0000000000000033 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('No spell available')
+END
+VER 3 0000000000000064 "Druid P1 Hurica" "136018"
+#showtooltip Blizzard
+/cast [mod:alt,nochanneling,@player][nomod] Hurricane
+END
+VER 3 0000000000000053 "Druid P1 I Heal" "136048"
+/cast [mod:alt] Tranquility; Innervate
+END
+VER 3 000000000000003E "Druid P1 IS" "136045"
+/assist Party1
+/cast Insect Swarm
+END
+VER 3 0000000000000038 "Druid P1 MF" "136096"
+/assist Party1
+/cast [mod:alt] Insect Swarm; Moonfire
+END
+VER 3 0000000000000036 "Druid P1 SF" "135753"
+/assist Party1
+/cast Starfire
+END
+VER 3 0000000000000037 "Druid P1 Wrath" "136006"
+/assist Party1
+/cast Wrath
+END
+VER 3 0000000000000076 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+/run GRM.Report("Reserved for GRM Macro Tool Usage. Please do not delete.")
+END
+VER 3 0000000000000017 "HC" "135819"
+/hc show
+END
+VER 3 000000000000006B "Hu Feign Death" "132094"
+#showtooltip
+/cast Feign Death
+END
+VER 3 000000000000006F "Hu P1 Aimed Shot" "135130"
+#showtooltip
+/assist Party1
+/cast Aimed Shot
+END
+VER 3 0000000000000068 "Hu P1 AS" "132218"
+#showtooltip
+/assist Party1
+/cast Arcane Shot
+END
+VER 3 0000000000000069 "Hu P1 Auto" "135489"
+#showtooltip
+/assist Party1
+/cast Auto Shot
+END
+VER 3 000000000000006A "Hu P1 CS" "135860"
+#showtooltip
+/assist Party1
+/cast Concussive Shot
+END
+VER 3 000000000000006C "Hu P1 MS" "132330"
+#showtooltip
+/assist Party1
+/cast Multi-Shot
+END
+VER 3 000000000000006D "Hu P1 Pet Attack" "132152"
+#showtooltip
+/assist Party1
+/petattack
+END
+VER 3 0000000000000070 "Hu P1 Serpent St" "132204"
+#showtooltip
+/assist Party1
+/cast Serpent Sting
+END
+VER 3 000000000000006E "Hu Pet Follow" "132328"
+#showtooltip
+/petfollow
+END
+VER 3 0000000000000071 "Invite 3 Hunter" "135898"
+/invite Laem
+/invite Faem
+/invite Kaem
+END
+VER 3 0000000000000072 "Invite Tria I" "135898"
+/invite Faen
+/invite Faev
+/invite Faew
+/invite Faea
+END
+VER 3 0000000000000057 "Invite Tria II" "135898"
+/invite Faen
+/invite Faev
+/invite Faew
+/invite Itari
+END
+VER 3 0000000000000003 "Mage Blink" "135736"
+#showtooltip
+/stopcasting
+/cast Blink
+END
+VER 3 0000000000000062 "Mage Bliz" "135857"
+#showtooltip Blizzard
+/cast [mod:alt,@player][nomod,@cursor] Blizzard
+END
+VER 3 0000000000000004 "Mage Counter" "135856"
+#showtooltip
+/stopcasting
+/cast Counterspell
+END
+VER 3 0000000000000063 "Mage P1 Bliz AE" "136116"
+#showtooltip Blizzard
+/cast [mod:alt,nochanneling,@player] Blizzard;[nomod] Arcane Explosion
+END
+VER 3 0000000000000060 "Mage P1 Counter" "135856"
+#showtooltip
+/stopcasting
+/assist Party1
+/cast [mod:alt] Spellsteal; Counterspell
+END
+VER 3 0000000000000061 "Mage P1 drink" "132793"
+#showtooltip
+/use [mod:alt,nochanneling] Conjured Sweet Roll; Conjured Crystal Water
+END
+VER 3 0000000000000024 "Mage P1 FB" "135846"
+/assist Party1
+/cast [mod:alt,nochanneling] Arcane Missiles; Frostbolt
+END
+VER 3 000000000000003B "Mage P1 FBla" "135807"
+/assist Party1
+/cast [mod:alt,nochanneling] Arcane Barrage;[nomod,nochanneling] Fire Blast
+END
+VER 3 0000000000000047 "Mage P1 IL" "135844"
+/assist Party1
+/cast [mod:alt,nochanneling] Cone of Cold;[nomod,nochanneling] Ice Lance
+END
+VER 3 0000000000000026 "Mage Sheep" "136071"
+#showtooltip Polymorph
+/cast [mod:alt] Evocation; Polymorph
+END
+VER 3 0000000000000015 "P1" "135828"
+/assist Party1
+END
+VER 3 000000000000001B "P1 Follow" "132569"
+/follow [modifier:alt] Party2; Party1
+/run SetView(3)
+END
+VER 3 0000000000000035 "P1 Mount" "132267"
+#showtooltip
+/use [mod:alt] Reawakened Phase-Hunter; [flyable] Kalu'ak Whalebone Glider; Reawakened Phase-Hunter
+END
+VER 3 0000000000000025 "P1 PVP" "135349"
+/pvp
+END
+VER 3 0000000000000040 "Priest P1 HF" "135972"
+/assist Party1
+/cast Holy Fire
+END
+VER 3 0000000000000046 "Priest P1 MB" "136224"
+/assist Party1
+/cast Mind Blast
+END
+VER 3 0000000000000045 "Priest P1 Shack" "136091"
+/assist Party1
+/cast Shackle Undead
+END
+VER 3 0000000000000041 "Priest P1 Shield" "135940"
+/target Party1
+/cast Power Word: Shield
+END
+VER 3 000000000000003F "Priest P1 Smite" "135924"
+/assist Party1
+/cast Smite
+END
+VER 3 0000000000000042 "Priest P1 SWP" "136207"
+/assist Party1
+/cast Shadow Word: Pain
+END
+VER 3 0000000000000073 "WL Drain Soul" "136163"
+/assist Party1
+/cast Drain Soul
+END
+VER 3 0000000000000075 "WL P1 CO" "136118"
+/assist Party1
+/cast Corruption
+END
+VER 3 0000000000000074 "WL P1 SB" "136197"
+/assist Party1
+/cast Shadow Bolt
+END
+VER 3 0000000000000077 "ZygorAction1" "134327"
+#showtooltip Talk to Layo Starstrike
+/run ZGV:MCM(4)
+/cleartarget
+/target Layo Starstrike
+/run ZGV:MRM()
+END
+VER 3 0000000000000078 "ZygorAction2" "134400"
+END

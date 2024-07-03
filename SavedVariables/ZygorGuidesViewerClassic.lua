@@ -1,0 +1,2290 @@
+
+ZygorGuidesViewerClassicSettings = {
+	["char"] = {
+		["Naediin - Pyrewood Village"] = {
+			["telemetry"] = {
+				{
+					["time"] = 1719999399,
+					["event"] = "STARTUP",
+				}, -- [1]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1719999399,
+				}, -- [2]
+				{
+					["uiscale"] = "off",
+					["event"] = "OPTIONS",
+					["time"] = 1719999399,
+				}, -- [3]
+				{
+					["state"] = true,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1719999402,
+				}, -- [4]
+				{
+					["time"] = 1719999402,
+					["current"] = {
+						["title"] = "LEVELING\\Silithus (59-60)",
+						["step"] = 1,
+					},
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Silithus (59-60)",
+							["step"] = 1,
+						}, -- [1]
+					},
+					["event"] = "GUIDES_LOADED",
+				}, -- [5]
+				{
+					["time"] = 1719999417,
+					["event"] = "SHUTDOWN",
+				}, -- [6]
+				{
+					["time"] = 1719999425,
+					["event"] = "STARTUP",
+				}, -- [7]
+				{
+					["state"] = "solo",
+					["event"] = "SHARE_STATE",
+					["time"] = 1719999425,
+				}, -- [8]
+				{
+					["uiscale"] = "off",
+					["event"] = "OPTIONS",
+					["time"] = 1719999425,
+				}, -- [9]
+				{
+					["state"] = true,
+					["event"] = "WINDOW_STATE",
+					["time"] = 1719999427,
+				}, -- [10]
+				{
+					["tabs"] = {
+						{
+							["title"] = "LEVELING\\Silithus (59-60)",
+							["step"] = 1,
+						}, -- [1]
+					},
+					["current"] = {
+						["title"] = "LEVELING\\Silithus (59-60)",
+						["step"] = 1,
+					},
+					["event"] = "GUIDES_LOADED",
+					["time"] = 1719999427,
+				}, -- [11]
+				{
+					["time"] = 1719999462,
+					["event"] = "SHUTDOWN",
+				}, -- [12]
+			},
+			["class"] = "WARRIOR",
+			["ATsearchitems"] = {
+			},
+			["gear_3_score"] = true,
+			["guidename"] = "LEVELING\\Silithus (59-60)",
+			["unloadedguide"] = false,
+			["taxis"] = {
+				["432:672"] = true,
+				["translation"] = {
+					["enUS"] = {
+					},
+				},
+			},
+			["favourites"] = {
+			},
+			["statweightsmoved"] = true,
+			["AThiddenitems"] = {
+			},
+			["lastlogin"] = 1719999422,
+			["gear_4_score"] = true,
+			["initialFlightPathsLoaded"] = true,
+			["faction"] = "Alliance",
+			["guidestephistory"] = {
+				["LEVELING\\Silithus (59-60)"] = {
+					["steps"] = {
+					},
+					["lasttime"] = 1719999427,
+				},
+			},
+			["actionbarmacrowarning"] = false,
+			["gear_1_score"] = true,
+			["gear_active_build"] = 1,
+			["CurrentDeals"] = {
+			},
+			["savednotifications"] = {
+				{
+					["notiftype"] = "gearpop",
+					["priority"] = 41,
+					["text"] = "Click to review.",
+					["data"] = {
+						["reviewed"] = false,
+						["ident"] = "gearpop",
+						["cleartype"] = true,
+						["shown"] = true,
+						["slots"] = 2,
+						["added"] = 1719999427,
+					},
+					["title"] = "You have 2 upgrades available",
+				}, -- [1]
+				{
+					["notiftype"] = "welcome",
+					["priority"] = 21,
+					["text"] = "* See the |cfffe6100new WoW Classic Guides|r\n",
+					["data"] = {
+						["shown"] = true,
+						["added"] = 1719999427,
+						["cleartype"] = true,
+						["keeponclick"] = true,
+					},
+					["title"] = "Welcome to Zygor Guides",
+				}, -- [2]
+				{
+					["notiftype"] = "skills",
+					["priority"] = 42,
+					["text"] = "Click to see skills.",
+					["data"] = {
+						["shown"] = true,
+						["added"] = 1719999429,
+						["cleartype"] = true,
+					},
+					["title"] = "You have new skills available.",
+				}, -- [3]
+				{
+					["notiftype"] = "orientation",
+					["priority"] = 51,
+					["text"] = "Click to open in new tab.",
+					["data"] = {
+						["shown"] = true,
+						["added"] = 1719999431,
+						["cleartype"] = true,
+					},
+					["title"] = "Run Startup Orientation to improve guide directions",
+				}, -- [4]
+			},
+			["GGbuyitems"] = {
+			},
+			["gear_selected_build"] = 1,
+			["keptItems"] = {
+			},
+			["guides_history_ZGV4clear"] = true,
+			["guideTurnInsOnly"] = false,
+			["guides_history"] = {
+				{
+					"LEVELING\\Silithus (59-60)", -- [1]
+					1, -- [2]
+				}, -- [1]
+			},
+			["gear_2_score"] = true,
+			["questrewards"] = {
+			},
+			["SkillsKnown"] = {
+				[""] = {
+					["max"] = 0,
+					["level"] = 0,
+					["placeholder"] = true,
+					["active"] = false,
+				},
+				["Blacksmithing"] = {
+					["name"] = "Blacksmithing",
+					["active"] = true,
+					["max"] = 300,
+					["level"] = 286,
+					["skillID"] = 164,
+				},
+				["First Aid"] = {
+					["name"] = "First Aid",
+					["active"] = true,
+					["max"] = 300,
+					["level"] = 300,
+					["skillID"] = 129,
+				},
+				["Mining"] = {
+					["name"] = "Mining",
+					["active"] = true,
+					["max"] = 300,
+					["level"] = 300,
+					["skillID"] = 186,
+				},
+			},
+			["race"] = "Human",
+			["timeperlevel"] = {
+				[60] = 5583889,
+				["total"] = 1189335,
+			},
+			["PlayerMoney"] = {
+				[1719957600] = {
+					["gain"] = 0,
+					["endmoney"] = 4143867,
+					["startmoney"] = 4143867,
+					["loss"] = 0,
+					["timestamp"] = 1719957600,
+				},
+			},
+			["debuglog"] = {
+				"11:36:36.655.830> Viewer started. ---------------------------", -- [1]
+				"11:37:04.401.016> Viewer started. ---------------------------", -- [2]
+			},
+			["tabguides"] = {
+				{
+					["title"] = "LEVELING\\Silithus (59-60)",
+					["step"] = 1,
+				}, -- [1]
+			},
+			["RecipesKnownNew"] = {
+			},
+		},
+	},
+	["global"] = {
+		["gii_cache"] = {
+			[0] = {
+			},
+			["item:19376::::::::60:::::::::"] = {
+				"Archimtiros' Ring of Reckoning", -- [1]
+				"|cffa335ee|Hitem:19376::::::::60:::::::::|h[Archimtiros' Ring of Reckoning]|h|r", -- [2]
+				4, -- [3]
+				83, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133382, -- [10]
+				111528, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:21394:849:::::::60:::::::::"] = {
+				"Drape of Unyielding Strength", -- [1]
+				"|cffa335ee|Hitem:21394:849:::::::60:::::::::|h[Drape of Unyielding Strength]|h|r", -- [2]
+				4, -- [3]
+				67, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133772, -- [10]
+				0, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				254, -- [15]
+				495, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:16863::::::::60:::::::::|h[Gauntlets of Might]|h|r"] = {
+				"Gauntlets of Might", -- [1]
+				"|cffa335ee|Hitem:16863::::::::60:::::::::|h[Gauntlets of Might]|h|r", -- [2]
+				4, -- [3]
+				66, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132944, -- [10]
+				17917, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				209, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999427,
+			},
+			["item:184937::::::::60:::::::::"] = {
+				"Chronoboon Displacer", -- [1]
+				"|cffffffff|Hitem:184937::::::::60:::::::::|h[Chronoboon Displacer]|h|r", -- [2]
+				1, -- [3]
+				60, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				133879, -- [10]
+				2000, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:2901::::::::60:::::::::"] = {
+				"Mining Pick", -- [1]
+				"|cffffffff|Hitem:2901::::::::60:::::::::|h[Mining Pick]|h|r", -- [2]
+				1, -- [3]
+				4, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPONMAINHAND", -- [9]
+				134708, -- [10]
+				16, -- [11]
+				2, -- [12]
+				14, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:6948::::::::60:::::::::"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::60:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:23040::::::::60:::::::::"] = {
+				"Glyph of Deflection", -- [1]
+				"|cffa335ee|Hitem:23040::::::::60:::::::::|h[Glyph of Deflection]|h|r", -- [2]
+				4, -- [3]
+				90, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				135443, -- [10]
+				91160, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:22416:1891:::::::60:::::::::"] = {
+				"Dreadnaught Breastplate", -- [1]
+				"|cffa335ee|Hitem:22416:1891:::::::60:::::::::|h[Dreadnaught Breastplate]|h|r", -- [2]
+				4, -- [3]
+				92, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_CHEST", -- [9]
+				132737, -- [10]
+				128887, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				523, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["item:9172::::::::60:::::::::"] = {
+				"Invisibility Potion", -- [1]
+				"|cffffffff|Hitem:9172::::::::60:::::::::|h[Invisibility Potion]|h|r", -- [2]
+				1, -- [3]
+				47, -- [4]
+				37, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134805, -- [10]
+				500, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:19148:1505:::::::60:::::::::|h[Dark Iron Helm]|h|r"] = {
+				"Dark Iron Helm", -- [1]
+				"|cffa335ee|Hitem:19148:1505:::::::60:::::::::|h[Dark Iron Helm]|h|r", -- [2]
+				4, -- [3]
+				66, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				133124, -- [10]
+				25399, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:18854::::::::60:::::::::"] = {
+				"Insignia of the Alliance", -- [1]
+				"|cff0070dd|Hitem:18854::::::::60:::::::::|h[Insignia of the Alliance]|h|r", -- [2]
+				3, -- [3]
+				0, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133452, -- [10]
+				3750, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:19431::::::::60:::::::::"] = {
+				"Styleen's Impeding Scarab", -- [1]
+				"|cffa335ee|Hitem:19431::::::::60:::::::::|h[Styleen's Impeding Scarab]|h|r", -- [2]
+				4, -- [3]
+				75, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133605, -- [10]
+				103117, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:23053::::::::60:::::::::"] = {
+				"Stormrage's Talisman of Seething", -- [1]
+				"|cffa335ee|Hitem:23053::::::::60:::::::::|h[Stormrage's Talisman of Seething]|h|r", -- [2]
+				4, -- [3]
+				92, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				133317, -- [10]
+				86443, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:17904::::::::60:::::::::|h[Stormpike Insignia Rank 6]|h|r"] = {
+				"Stormpike Insignia Rank 6", -- [1]
+				"|cffa335ee|Hitem:17904::::::::60:::::::::|h[Stormpike Insignia Rank 6]|h|r", -- [2]
+				4, -- [3]
+				60, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133433, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:22418:2583:::::::60:::::::::"] = {
+				"Dreadnaught Helmet", -- [1]
+				"|cffa335ee|Hitem:22418:2583:::::::60:::::::::|h[Dreadnaught Helmet]|h|r", -- [2]
+				4, -- [3]
+				88, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				133160, -- [10]
+				80096, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				523, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["item:19384::::::::60:::::::::"] = {
+				"Master Dragonslayer's Ring", -- [1]
+				"|cffa335ee|Hitem:19384::::::::60:::::::::|h[Master Dragonslayer's Ring]|h|r", -- [2]
+				4, -- [3]
+				83, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133383, -- [10]
+				130616, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:23040::::::::60:::::::::|h[Glyph of Deflection]|h|r"] = {
+				"Glyph of Deflection", -- [1]
+				"|cffa335ee|Hitem:23040::::::::60:::::::::|h[Glyph of Deflection]|h|r", -- [2]
+				4, -- [3]
+				90, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				135443, -- [10]
+				91160, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:23219::::::::60:::::::::"] = {
+				"Girdle of the Mentor", -- [1]
+				"|cffa335ee|Hitem:23219::::::::60:::::::::|h[Girdle of the Mentor]|h|r", -- [2]
+				4, -- [3]
+				85, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_WAIST", -- [9]
+				132502, -- [10]
+				44473, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffffffff|Hitem:11231::::::::60:::::::::|h[Altered Black Dragonflight Molt]|h|r"] = {
+				"Altered Black Dragonflight Molt", -- [1]
+				"|cffffffff|Hitem:11231::::::::60:::::::::|h[Altered Black Dragonflight Molt]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				10, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134430, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:19019:1900:::::::60:::::::::"] = {
+				"Thunderfury, Blessed Blade of the Windseeker", -- [1]
+				"|cffff8000|Hitem:19019:1900:::::::60:::::::::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r", -- [2]
+				5, -- [3]
+				80, -- [4]
+				60, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Swords", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135349, -- [10]
+				255355, -- [11]
+				2, -- [12]
+				7, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:16309::::::::60:::::::::|h[Drakefire Amulet]|h|r"] = {
+				"Drakefire Amulet", -- [1]
+				"|cff0070dd|Hitem:16309::::::::60:::::::::|h[Drakefire Amulet]|h|r", -- [2]
+				3, -- [3]
+				63, -- [4]
+				50, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				133444, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:2802::::::::60:::::::::"] = {
+				"Blazing Emblem", -- [1]
+				"|cff0070dd|Hitem:2802::::::::60:::::::::|h[Blazing Emblem]|h|r", -- [2]
+				3, -- [3]
+				43, -- [4]
+				38, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133434, -- [10]
+				1625, -- [11]
+				4, -- [12]
+				0, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:15138:2619:::::::60:::::::::|h[Onyxia Scale Cloak]|h|r"] = {
+				"Onyxia Scale Cloak", -- [1]
+				"|cff0070dd|Hitem:15138:2619:::::::60:::::::::|h[Onyxia Scale Cloak]|h|r", -- [2]
+				3, -- [3]
+				60, -- [4]
+				55, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133757, -- [10]
+				15198, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cff1eff00|Hitem:18269::::::::60:::::::::|h[Gordok Green Grog]|h|r"] = {
+				"Gordok Green Grog", -- [1]
+				"|cff1eff00|Hitem:18269::::::::60:::::::::|h[Gordok Green Grog]|h|r", -- [2]
+				2, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				10, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				132790, -- [10]
+				375, -- [11]
+				0, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:11231::::::::60:::::::::"] = {
+				"Altered Black Dragonflight Molt", -- [1]
+				"|cffffffff|Hitem:11231::::::::60:::::::::|h[Altered Black Dragonflight Molt]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				10, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134430, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:23030:849:::::::60:::::::::"] = {
+				"Cloak of the Scourge", -- [1]
+				"|cffa335ee|Hitem:23030:849:::::::60:::::::::|h[Cloak of the Scourge]|h|r", -- [2]
+				4, -- [3]
+				83, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133775, -- [10]
+				59817, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:3030::::::::60:::::::::"] = {
+				"Razor Arrow", -- [1]
+				"|cffffffff|Hitem:3030::::::::60:::::::::|h[Razor Arrow]|h|r", -- [2]
+				1, -- [3]
+				30, -- [4]
+				25, -- [5]
+				"Projectile", -- [6]
+				"Arrow", -- [7]
+				200, -- [8]
+				"INVTYPE_AMMO", -- [9]
+				132382, -- [10]
+				0, -- [11]
+				6, -- [12]
+				2, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:22798::::::::60:::::::::|h[Might of Menethil]|h|r"] = {
+				"Might of Menethil", -- [1]
+				"|cffa335ee|Hitem:22798::::::::60:::::::::|h[Might of Menethil]|h|r", -- [2]
+				4, -- [3]
+				89, -- [4]
+				60, -- [5]
+				"Weapon", -- [6]
+				"Two-Handed Maces", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				133502, -- [10]
+				326465, -- [11]
+				2, -- [12]
+				5, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:14529::::::::60:::::::::|h[Runecloth Bandage]|h|r"] = {
+				"Runecloth Bandage", -- [1]
+				"|cffffffff|Hitem:14529::::::::60:::::::::|h[Runecloth Bandage]|h|r", -- [2]
+				1, -- [3]
+				52, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				20, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				133681, -- [10]
+				500, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:13446::::::::60:::::::::|h[Major Healing Potion]|h|r"] = {
+				"Major Healing Potion", -- [1]
+				"|cffffffff|Hitem:13446::::::::60:::::::::|h[Major Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				55, -- [4]
+				45, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134834, -- [10]
+				1000, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:22811::::::::60:::::::::"] = {
+				"Soulstring", -- [1]
+				"|cffa335ee|Hitem:22811::::::::60:::::::::|h[Soulstring]|h|r", -- [2]
+				4, -- [3]
+				83, -- [4]
+				60, -- [5]
+				"Weapon", -- [6]
+				"Bows", -- [7]
+				1, -- [8]
+				"INVTYPE_RANGED", -- [9]
+				135501, -- [10]
+				157520, -- [11]
+				2, -- [12]
+				2, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:21601::::::::60:::::::::"] = {
+				"Ring of Emperor Vek'lor", -- [1]
+				"|cffa335ee|Hitem:21601::::::::60:::::::::|h[Ring of Emperor Vek'lor]|h|r", -- [2]
+				4, -- [3]
+				81, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133423, -- [10]
+				79025, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:17904::::::::60:::::::::"] = {
+				"Stormpike Insignia Rank 6", -- [1]
+				"|cffa335ee|Hitem:17904::::::::60:::::::::|h[Stormpike Insignia Rank 6]|h|r", -- [2]
+				4, -- [3]
+				60, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133433, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:14530::::::::60:::::::::"] = {
+				"Heavy Runecloth Bandage", -- [1]
+				"|cffffffff|Hitem:14530::::::::60:::::::::|h[Heavy Runecloth Bandage]|h|r", -- [2]
+				1, -- [3]
+				58, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				20, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				133682, -- [10]
+				1000, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:23038::::::::60:::::::::"] = {
+				"Band of Unnatural Forces", -- [1]
+				"|cffa335ee|Hitem:23038::::::::60:::::::::|h[Band of Unnatural Forces]|h|r", -- [2]
+				4, -- [3]
+				85, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133390, -- [10]
+				60256, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:13446::::::::60:::::::::"] = {
+				"Major Healing Potion", -- [1]
+				"|cffffffff|Hitem:13446::::::::60:::::::::|h[Major Healing Potion]|h|r", -- [2]
+				1, -- [3]
+				55, -- [4]
+				45, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134834, -- [10]
+				1000, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:13965::::::::60:::::::::"] = {
+				"Blackhand's Breadth", -- [1]
+				"|cff0070dd|Hitem:13965::::::::60:::::::::|h[Blackhand's Breadth]|h|r", -- [2]
+				3, -- [3]
+				63, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133604, -- [10]
+				16250, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:18269::::::::60:::::::::"] = {
+				"Gordok Green Grog", -- [1]
+				"|cff1eff00|Hitem:18269::::::::60:::::::::|h[Gordok Green Grog]|h|r", -- [2]
+				2, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				10, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				132790, -- [10]
+				375, -- [11]
+				0, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:22421:2564:::::::60:::::::::"] = {
+				"Dreadnaught Gauntlets", -- [1]
+				"|cffa335ee|Hitem:22421:2564:::::::60:::::::::|h[Dreadnaught Gauntlets]|h|r", -- [2]
+				4, -- [3]
+				88, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132962, -- [10]
+				53974, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				523, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["item:22420:929:::::::60:::::::::"] = {
+				"Dreadnaught Sabatons", -- [1]
+				"|cffa335ee|Hitem:22420:929:::::::60:::::::::|h[Dreadnaught Sabatons]|h|r", -- [2]
+				4, -- [3]
+				86, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132587, -- [10]
+				73173, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				523, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:13209::::::::60:::::::::|h[Seal of the Dawn]|h|r"] = {
+				"Seal of the Dawn", -- [1]
+				"|cff0070dd|Hitem:13209::::::::60:::::::::|h[Seal of the Dawn]|h|r", -- [2]
+				3, -- [3]
+				61, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133612, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:18778::::::::60:::::::::"] = {
+				"Swift White Steed", -- [1]
+				"|cffa335ee|Hitem:18778::::::::60:::::::::|h[Swift White Steed]|h|r", -- [2]
+				4, -- [3]
+				60, -- [4]
+				60, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				132261, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				3, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffffffff|Hitem:12219::::::::60:::::::::|h[Unadorned Seal of Ascension]|h|r"] = {
+				"Unadorned Seal of Ascension", -- [1]
+				"|cffffffff|Hitem:12219::::::::60:::::::::|h[Unadorned Seal of Ascension]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				135725, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cff0070dd|Hitem:11815::::::::60:::::::::|h[Hand of Justice]|h|r"] = {
+				"Hand of Justice", -- [1]
+				"|cff0070dd|Hitem:11815::::::::60:::::::::|h[Hand of Justice]|h|r", -- [2]
+				3, -- [3]
+				58, -- [4]
+				53, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133434, -- [10]
+				10000, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:22417:2583:::::::60:::::::::"] = {
+				"Dreadnaught Legplates", -- [1]
+				"|cffa335ee|Hitem:22417:2583:::::::60:::::::::|h[Dreadnaught Legplates]|h|r", -- [2]
+				4, -- [3]
+				88, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				134681, -- [10]
+				106420, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				523, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["|cffffffff|Hitem:13442::::::::60:::::::::|h[Mighty Rage Potion]|h|r"] = {
+				"Mighty Rage Potion", -- [1]
+				"|cffffffff|Hitem:13442::::::::60:::::::::|h[Mighty Rage Potion]|h|r", -- [2]
+				1, -- [3]
+				51, -- [4]
+				46, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134821, -- [10]
+				500, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:9172::::::::60:::::::::|h[Invisibility Potion]|h|r"] = {
+				"Invisibility Potion", -- [1]
+				"|cffffffff|Hitem:9172::::::::60:::::::::|h[Invisibility Potion]|h|r", -- [2]
+				1, -- [3]
+				47, -- [4]
+				37, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134805, -- [10]
+				500, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:13209::::::::60:::::::::"] = {
+				"Seal of the Dawn", -- [1]
+				"|cff0070dd|Hitem:13209::::::::60:::::::::|h[Seal of the Dawn]|h|r", -- [2]
+				3, -- [3]
+				61, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133612, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:16863::::::::60:::::::::"] = {
+				"Gauntlets of Might", -- [1]
+				"|cffa335ee|Hitem:16863::::::::60:::::::::|h[Gauntlets of Might]|h|r", -- [2]
+				4, -- [3]
+				66, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HAND", -- [9]
+				132944, -- [10]
+				17917, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				209, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:18821::::::::60:::::::::|h[Quick Strike Ring]|h|r"] = {
+				"Quick Strike Ring", -- [1]
+				"|cffa335ee|Hitem:18821::::::::60:::::::::|h[Quick Strike Ring]|h|r", -- [2]
+				4, -- [3]
+				67, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133349, -- [10]
+				64030, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:13442::::::::60:::::::::"] = {
+				"Mighty Rage Potion", -- [1]
+				"|cffffffff|Hitem:13442::::::::60:::::::::|h[Mighty Rage Potion]|h|r", -- [2]
+				1, -- [3]
+				51, -- [4]
+				46, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134821, -- [10]
+				500, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:22954::::::::60:::::::::"] = {
+				"Kiss of the Spider", -- [1]
+				"|cffa335ee|Hitem:22954::::::::60:::::::::|h[Kiss of the Spider]|h|r", -- [2]
+				4, -- [3]
+				85, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				135442, -- [10]
+				91160, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:13523::::::::60:::::::::"] = {
+				"Blood of Innocents", -- [1]
+				"|cffffffff|Hitem:13523::::::::60:::::::::|h[Blood of Innocents]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134804, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffffffff|Hitem:14530::::::::60:::::::::|h[Heavy Runecloth Bandage]|h|r"] = {
+				"Heavy Runecloth Bandage", -- [1]
+				"|cffffffff|Hitem:14530::::::::60:::::::::|h[Heavy Runecloth Bandage]|h|r", -- [2]
+				1, -- [3]
+				58, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				20, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				133682, -- [10]
+				1000, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:12219::::::::60:::::::::"] = {
+				"Unadorned Seal of Ascension", -- [1]
+				"|cffffffff|Hitem:12219::::::::60:::::::::|h[Unadorned Seal of Ascension]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				135725, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:23038::::::::60:::::::::|h[Band of Unnatural Forces]|h|r"] = {
+				"Band of Unnatural Forces", -- [1]
+				"|cffa335ee|Hitem:23038::::::::60:::::::::|h[Band of Unnatural Forces]|h|r", -- [2]
+				4, -- [3]
+				85, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133390, -- [10]
+				60256, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:13523::::::::60:::::::::|h[Blood of Innocents]|h|r"] = {
+				"Blood of Innocents", -- [1]
+				"|cffffffff|Hitem:13523::::::::60:::::::::|h[Blood of Innocents]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Quest", -- [6]
+				"Quest", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134804, -- [10]
+				0, -- [11]
+				12, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:17013:1505:::::::60:::::::::"] = {
+				"Dark Iron Leggings", -- [1]
+				"|cffa335ee|Hitem:17013:1505:::::::60:::::::::|h[Dark Iron Leggings]|h|r", -- [2]
+				4, -- [3]
+				60, -- [4]
+				55, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				134584, -- [10]
+				26441, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:23023::::::::60:::::::::"] = {
+				"Sadist's Collar", -- [1]
+				"|cffa335ee|Hitem:23023::::::::60:::::::::|h[Sadist's Collar]|h|r", -- [2]
+				4, -- [3]
+				83, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				133319, -- [10]
+				86443, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:22806:1900:::::::60:::::::::"] = {
+				"Widow's Remorse", -- [1]
+				"|cffa335ee|Hitem:22806:1900:::::::60:::::::::|h[Widow's Remorse]|h|r", -- [2]
+				4, -- [3]
+				81, -- [4]
+				60, -- [5]
+				"Weapon", -- [6]
+				"One-Handed Swords", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPON", -- [9]
+				135370, -- [10]
+				182204, -- [11]
+				2, -- [12]
+				7, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:1973::::::::60:::::::::|h[Orb of Deception]|h|r"] = {
+				"Orb of Deception", -- [1]
+				"|cff0070dd|Hitem:1973::::::::60:::::::::|h[Orb of Deception]|h|r", -- [2]
+				3, -- [3]
+				59, -- [4]
+				54, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				134334, -- [10]
+				4618, -- [11]
+				4, -- [12]
+				0, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:184937::::::::60:::::::::|h[Chronoboon Displacer]|h|r"] = {
+				"Chronoboon Displacer", -- [1]
+				"|cffffffff|Hitem:184937::::::::60:::::::::|h[Chronoboon Displacer]|h|r", -- [2]
+				1, -- [3]
+				60, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				5, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				133879, -- [10]
+				2000, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffa335ee|Hitem:23053::::::::60:::::::::|h[Stormrage's Talisman of Seething]|h|r"] = {
+				"Stormrage's Talisman of Seething", -- [1]
+				"|cffa335ee|Hitem:23053::::::::60:::::::::|h[Stormrage's Talisman of Seething]|h|r", -- [2]
+				4, -- [3]
+				92, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				133317, -- [10]
+				86443, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:22423:1886:::::::60:::::::::"] = {
+				"Dreadnaught Bracers", -- [1]
+				"|cffa335ee|Hitem:22423:1886:::::::60:::::::::|h[Dreadnaught Bracers]|h|r", -- [2]
+				4, -- [3]
+				88, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_WRIST", -- [9]
+				132614, -- [10]
+				50527, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				523, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["item:20039::::::1208:386263296:60:::::::::"] = {
+				"Dark Iron Boots of the Bear", -- [1]
+				"|cffa335ee|Hitem:20039::::::1208:386263296:60:::::::::|h[Dark Iron Boots of the Bear]|h|r", -- [2]
+				4, -- [3]
+				70, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132551, -- [10]
+				31709, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:18404::::::::60:::::::::"] = {
+				"Onyxia Tooth Pendant", -- [1]
+				"|cffa335ee|Hitem:18404::::::::60:::::::::|h[Onyxia Tooth Pendant]|h|r", -- [2]
+				4, -- [3]
+				74, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				133296, -- [10]
+				6714, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:12344::::::::60:::::::::"] = {
+				"Seal of Ascension", -- [1]
+				"|cff0070dd|Hitem:12344::::::::60:::::::::|h[Seal of Ascension]|h|r", -- [2]
+				3, -- [3]
+				61, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133343, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:12344::::::::60:::::::::|h[Seal of Ascension]|h|r"] = {
+				"Seal of Ascension", -- [1]
+				"|cff0070dd|Hitem:12344::::::::60:::::::::|h[Seal of Ascension]|h|r", -- [2]
+				3, -- [3]
+				61, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133343, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:11815::::::::60:::::::::"] = {
+				"Hand of Justice", -- [1]
+				"|cff0070dd|Hitem:11815::::::::60:::::::::|h[Hand of Justice]|h|r", -- [2]
+				3, -- [3]
+				58, -- [4]
+				53, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133434, -- [10]
+				10000, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:16309::::::::60:::::::::"] = {
+				"Drakefire Amulet", -- [1]
+				"|cff0070dd|Hitem:16309::::::::60:::::::::|h[Drakefire Amulet]|h|r", -- [2]
+				3, -- [3]
+				63, -- [4]
+				50, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				133444, -- [10]
+				0, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:17013:1505:::::::60:::::::::|h[Dark Iron Leggings]|h|r"] = {
+				"Dark Iron Leggings", -- [1]
+				"|cffa335ee|Hitem:17013:1505:::::::60:::::::::|h[Dark Iron Leggings]|h|r", -- [2]
+				4, -- [3]
+				60, -- [4]
+				55, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_LEGS", -- [9]
+				134584, -- [10]
+				26441, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffa335ee|Hitem:19384::::::::60:::::::::|h[Master Dragonslayer's Ring]|h|r"] = {
+				"Master Dragonslayer's Ring", -- [1]
+				"|cffa335ee|Hitem:19384::::::::60:::::::::|h[Master Dragonslayer's Ring]|h|r", -- [2]
+				4, -- [3]
+				83, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133383, -- [10]
+				130616, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:23043:929:::::::60:::::::::"] = {
+				"The Face of Death", -- [1]
+				"|cffa335ee|Hitem:23043:929:::::::60:::::::::|h[The Face of Death]|h|r", -- [2]
+				4, -- [3]
+				90, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Shields", -- [7]
+				1, -- [8]
+				"INVTYPE_SHIELD", -- [9]
+				134971, -- [10]
+				174810, -- [11]
+				4, -- [12]
+				6, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:2802::::::::60:::::::::|h[Blazing Emblem]|h|r"] = {
+				"Blazing Emblem", -- [1]
+				"|cff0070dd|Hitem:2802::::::::60:::::::::|h[Blazing Emblem]|h|r", -- [2]
+				3, -- [3]
+				43, -- [4]
+				38, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133434, -- [10]
+				1625, -- [11]
+				4, -- [12]
+				0, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:22798::::::::60:::::::::"] = {
+				"Might of Menethil", -- [1]
+				"|cffa335ee|Hitem:22798::::::::60:::::::::|h[Might of Menethil]|h|r", -- [2]
+				4, -- [3]
+				89, -- [4]
+				60, -- [5]
+				"Weapon", -- [6]
+				"Two-Handed Maces", -- [7]
+				1, -- [8]
+				"INVTYPE_2HWEAPON", -- [9]
+				133502, -- [10]
+				326465, -- [11]
+				2, -- [12]
+				5, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:20039::::::1208:386263296:60:::::::::|h[Dark Iron Boots of the Bear]|h|r"] = {
+				"Dark Iron Boots of the Bear", -- [1]
+				"|cffa335ee|Hitem:20039::::::1208:386263296:60:::::::::|h[Dark Iron Boots of the Bear]|h|r", -- [2]
+				4, -- [3]
+				70, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_FEET", -- [9]
+				132551, -- [10]
+				31709, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:3030::::::::60:::::::::|h[Razor Arrow]|h|r"] = {
+				"Razor Arrow", -- [1]
+				"|cffffffff|Hitem:3030::::::::60:::::::::|h[Razor Arrow]|h|r", -- [2]
+				1, -- [3]
+				30, -- [4]
+				25, -- [5]
+				"Projectile", -- [6]
+				"Arrow", -- [7]
+				200, -- [8]
+				"INVTYPE_AMMO", -- [9]
+				132382, -- [10]
+				0, -- [11]
+				6, -- [12]
+				2, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:18821::::::::60:::::::::"] = {
+				"Quick Strike Ring", -- [1]
+				"|cffa335ee|Hitem:18821::::::::60:::::::::|h[Quick Strike Ring]|h|r", -- [2]
+				4, -- [3]
+				67, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_FINGER", -- [9]
+				133349, -- [10]
+				64030, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:13965::::::::60:::::::::|h[Blackhand's Breadth]|h|r"] = {
+				"Blackhand's Breadth", -- [1]
+				"|cff0070dd|Hitem:13965::::::::60:::::::::|h[Blackhand's Breadth]|h|r", -- [2]
+				3, -- [3]
+				63, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133604, -- [10]
+				16250, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:2901::::::::60:::::::::|h[Mining Pick]|h|r"] = {
+				"Mining Pick", -- [1]
+				"|cffffffff|Hitem:2901::::::::60:::::::::|h[Mining Pick]|h|r", -- [2]
+				1, -- [3]
+				4, -- [4]
+				1, -- [5]
+				"Weapon", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_WEAPONMAINHAND", -- [9]
+				134708, -- [10]
+				16, -- [11]
+				2, -- [12]
+				14, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffa335ee|Hitem:18404::::::::60:::::::::|h[Onyxia Tooth Pendant]|h|r"] = {
+				"Onyxia Tooth Pendant", -- [1]
+				"|cffa335ee|Hitem:18404::::::::60:::::::::|h[Onyxia Tooth Pendant]|h|r", -- [2]
+				4, -- [3]
+				74, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_NECK", -- [9]
+				133296, -- [10]
+				6714, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffa335ee|Hitem:23043:929:::::::60:::::::::|h[The Face of Death]|h|r"] = {
+				"The Face of Death", -- [1]
+				"|cffa335ee|Hitem:23043:929:::::::60:::::::::|h[The Face of Death]|h|r", -- [2]
+				4, -- [3]
+				90, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Shields", -- [7]
+				1, -- [8]
+				"INVTYPE_SHIELD", -- [9]
+				134971, -- [10]
+				174810, -- [11]
+				4, -- [12]
+				6, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["item:15138:2619:::::::60:::::::::"] = {
+				"Onyxia Scale Cloak", -- [1]
+				"|cff0070dd|Hitem:15138:2619:::::::60:::::::::|h[Onyxia Scale Cloak]|h|r", -- [2]
+				3, -- [3]
+				60, -- [4]
+				55, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133757, -- [10]
+				15198, -- [11]
+				4, -- [12]
+				1, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:22419:2716:::::::60:::::::::"] = {
+				"Dreadnaught Pauldrons", -- [1]
+				"|cffa335ee|Hitem:22419:2716:::::::60:::::::::|h[Dreadnaught Pauldrons]|h|r", -- [2]
+				4, -- [3]
+				86, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_SHOULDER", -- [9]
+				135060, -- [10]
+				72911, -- [11]
+				4, -- [12]
+				4, -- [13]
+				1, -- [14]
+				254, -- [15]
+				523, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999425,
+			},
+			["item:19148:1505:::::::60:::::::::"] = {
+				"Dark Iron Helm", -- [1]
+				"|cffa335ee|Hitem:19148:1505:::::::60:::::::::|h[Dark Iron Helm]|h|r", -- [2]
+				4, -- [3]
+				66, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Plate", -- [7]
+				1, -- [8]
+				"INVTYPE_HEAD", -- [9]
+				133124, -- [10]
+				25399, -- [11]
+				4, -- [12]
+				4, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["item:1973::::::::60:::::::::"] = {
+				"Orb of Deception", -- [1]
+				"|cff0070dd|Hitem:1973::::::::60:::::::::|h[Orb of Deception]|h|r", -- [2]
+				3, -- [3]
+				59, -- [4]
+				54, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				134334, -- [10]
+				4618, -- [11]
+				4, -- [12]
+				0, -- [13]
+				2, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cff0070dd|Hitem:18854::::::::60:::::::::|h[Insignia of the Alliance]|h|r"] = {
+				"Insignia of the Alliance", -- [1]
+				"|cff0070dd|Hitem:18854::::::::60:::::::::|h[Insignia of the Alliance]|h|r", -- [2]
+				3, -- [3]
+				0, -- [4]
+				0, -- [5]
+				"Armor", -- [6]
+				"Miscellaneous", -- [7]
+				1, -- [8]
+				"INVTYPE_TRINKET", -- [9]
+				133452, -- [10]
+				3750, -- [11]
+				4, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffffffff|Hitem:6948::::::::60:::::::::|h[Hearthstone]|h|r"] = {
+				"Hearthstone", -- [1]
+				"|cffffffff|Hitem:6948::::::::60:::::::::|h[Hearthstone]|h|r", -- [2]
+				1, -- [3]
+				1, -- [4]
+				0, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				134414, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				1, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+			["|cffa335ee|Hitem:21394:849:::::::60:::::::::|h[Drape of Unyielding Strength]|h|r"] = {
+				"Drape of Unyielding Strength", -- [1]
+				"|cffa335ee|Hitem:21394:849:::::::60:::::::::|h[Drape of Unyielding Strength]|h|r", -- [2]
+				4, -- [3]
+				67, -- [4]
+				60, -- [5]
+				"Armor", -- [6]
+				"Cloth", -- [7]
+				1, -- [8]
+				"INVTYPE_CLOAK", -- [9]
+				133772, -- [10]
+				0, -- [11]
+				4, -- [12]
+				1, -- [13]
+				1, -- [14]
+				254, -- [15]
+				495, -- [16]
+				false, -- [17]
+				["timestamp"] = 1719999427,
+			},
+			["item:14529::::::::60:::::::::"] = {
+				"Runecloth Bandage", -- [1]
+				"|cffffffff|Hitem:14529::::::::60:::::::::|h[Runecloth Bandage]|h|r", -- [2]
+				1, -- [3]
+				52, -- [4]
+				0, -- [5]
+				"Consumable", -- [6]
+				"Consumable", -- [7]
+				20, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				133681, -- [10]
+				500, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999425,
+			},
+			["|cffa335ee|Hitem:18778::::::::60:::::::::|h[Swift White Steed]|h|r"] = {
+				"Swift White Steed", -- [1]
+				"|cffa335ee|Hitem:18778::::::::60:::::::::|h[Swift White Steed]|h|r", -- [2]
+				4, -- [3]
+				60, -- [4]
+				60, -- [5]
+				"Miscellaneous", -- [6]
+				"Junk", -- [7]
+				1, -- [8]
+				"INVTYPE_NON_EQUIP_IGNORE", -- [9]
+				132261, -- [10]
+				0, -- [11]
+				15, -- [12]
+				0, -- [13]
+				3, -- [14]
+				254, -- [15]
+				[17] = false,
+				["timestamp"] = 1719999427,
+			},
+		},
+		["questnames"] = {
+		},
+		["questnames_lang"] = "enUS",
+		["gii_cache_lang"] = "enUS",
+		["sv_version"] = 3,
+	},
+	["factionrealm"] = {
+		["Alliance - Pyrewood Village"] = {
+			["characters"] = {
+				["Naediin"] = {
+					["classname"] = "Warrior",
+					["statweights"] = {
+					},
+					["dualwield"] = true,
+					["gear"] = {
+						{
+							48.25, -- [1]
+							12.85, -- [2]
+							35.56, -- [3]
+							nil, -- [4]
+							50.335, -- [5]
+							49.83, -- [6]
+							46.505, -- [7]
+							35.81, -- [8]
+							30.405, -- [9]
+							34.02500000000001, -- [10]
+							23.66, -- [11]
+							18.23, -- [12]
+							1.85, -- [13]
+							0.65, -- [14]
+							12.815, -- [15]
+							294.3389999999999, -- [16]
+							343.468, -- [17]
+							274.129, -- [18]
+							["specname"] = "Arms",
+							["Scanned"] = true,
+						}, -- [1]
+						{
+							48.25, -- [1]
+							12.85, -- [2]
+							35.56, -- [3]
+							nil, -- [4]
+							50.335, -- [5]
+							49.83, -- [6]
+							46.505, -- [7]
+							35.81, -- [8]
+							30.405, -- [9]
+							34.02500000000001, -- [10]
+							23.66, -- [11]
+							18.23, -- [12]
+							1.85, -- [13]
+							0.65, -- [14]
+							12.815, -- [15]
+							294.3389999999999, -- [16]
+							343.468, -- [17]
+							274.129, -- [18]
+							["specname"] = "Fury",
+							["Scanned"] = true,
+						}, -- [2]
+						{
+							48.25, -- [1]
+							12.85, -- [2]
+							35.56, -- [3]
+							nil, -- [4]
+							50.335, -- [5]
+							49.83, -- [6]
+							46.505, -- [7]
+							35.81, -- [8]
+							30.405, -- [9]
+							34.02500000000001, -- [10]
+							23.66, -- [11]
+							18.23, -- [12]
+							1.85, -- [13]
+							0.65, -- [14]
+							12.815, -- [15]
+							294.3389999999999, -- [16]
+							343.468, -- [17]
+							274.129, -- [18]
+							["specname"] = "Prot",
+							["Scanned"] = true,
+						}, -- [3]
+						{
+							48.25, -- [1]
+							12.85, -- [2]
+							35.56, -- [3]
+							nil, -- [4]
+							50.335, -- [5]
+							49.83, -- [6]
+							46.505, -- [7]
+							35.81, -- [8]
+							30.405, -- [9]
+							34.02500000000001, -- [10]
+							23.66, -- [11]
+							18.23, -- [12]
+							1.85, -- [13]
+							0.65, -- [14]
+							12.815, -- [15]
+							294.3389999999999, -- [16]
+							343.468, -- [17]
+							274.129, -- [18]
+							["specname"] = "FuryProt",
+							["Scanned"] = true,
+						}, -- [4]
+					},
+					["level"] = 60,
+					["class"] = "WARRIOR",
+					["classnum"] = 1,
+				},
+			},
+			["bankdata"] = {
+				["Naediin"] = {
+				},
+			},
+			["gold_scan_data"] = {
+			},
+			["gold_scan_time"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Naediin - Pyrewood Village"] = "Naediin",
+	},
+	["profiles"] = {
+		["Naediin - Pyrewood Village"] = {
+			["tmp__was_starlight"] = true,
+			["maplines_alpha"] = 1,
+			["n_nc_enabled"] = true,
+			["geareffects"] = true,
+			["skin"] = "default",
+			["debug_flags"] = {
+				["display"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+				["lr_initpath_v"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+				["gold"] = {
+					["color"] = "ffffdd00",
+					["enabled"] = true,
+				},
+			},
+			["gold_profitlevel"] = 0.25,
+			["arrowskin"] = "Starlight",
+			["load_im"] = true,
+			["travelmode"] = 2,
+			["widgetshome"] = {
+			},
+			["lastdailycheck"] = 1719999402,
+			["load_gold"] = true,
+			["gold_format_white"] = false,
+			["expired_elite_shown"] = false,
+			["dispprimary"] = {
+				["showborder"] = true,
+			},
+			["gold_tooltips_guide"] = 1,
+			["featuredhide"] = {
+			},
+			["lastweeklycheck"] = 1719999402,
+			["widgets_first_run_done"] = true,
+			["pathfinding_comfort"] = 0,
+			["aucmode"] = "unit",
+			["gold_tooltips_ah"] = 2,
+			["lastdaily"] = 66197,
+			["welcomehash"] = "1b7f0e555cf05f1e0b3e7a0e0dabf489",
+			["show_ui"] = true,
+			["stickycolored"] = false,
+			["mapbuttonframe_offset"] = {
+				660, -- [1]
+				7, -- [2]
+			},
+			["widgets"] = {
+				["timeplayed"] = {
+					2, -- [1]
+					0, -- [2]
+					2, -- [3]
+					2, -- [4]
+				},
+				["guidehistory"] = {
+					0, -- [1]
+					0, -- [2]
+					3, -- [3]
+					2, -- [4]
+				},
+				["guidesuggest"] = {
+					0, -- [1]
+					3, -- [2]
+					3, -- [3]
+					2, -- [4]
+				},
+				["gold"] = {
+					2, -- [1]
+					2, -- [2]
+					2, -- [3]
+					2, -- [4]
+				},
+			},
+			["n_nc_numpetguides"] = 5,
+			["load_betaguides"] = true,
+			["widgetshomelast"] = {
+			},
+			["lastweekly"] = 584597,
+			["hide_dev_once"] = false,
+			["frame_anchor"] = {
+				"CENTER", -- [1]
+				nil, -- [2]
+				"CENTER", -- [3]
+				0, -- [4]
+				0, -- [5]
+			},
+			["load_mail"] = true,
+			["gold_tooltips_shift"] = true,
+		},
+		["Naediin"] = {
+			["show_ui"] = true,
+			["gold_tooltips_shift"] = true,
+			["load_gold"] = true,
+			["gold_format_white"] = false,
+			["aucmode"] = "unit",
+			["hide_dev_once"] = false,
+			["arrowskin"] = "Starlight",
+			["mapbuttonframe_offset"] = {
+				660, -- [1]
+				7, -- [2]
+			},
+			["welcomehash"] = "1b7f0e555cf05f1e0b3e7a0e0dabf489",
+			["load_mail"] = true,
+			["n_nc_enabled"] = true,
+			["travelmode"] = 2,
+			["lastweeklycheck"] = 1719999427,
+			["widgets"] = {
+				["guidehistory"] = {
+					0, -- [1]
+					0, -- [2]
+					3, -- [3]
+					2, -- [4]
+				},
+				["guidesuggest"] = {
+					0, -- [1]
+					3, -- [2]
+					3, -- [3]
+					2, -- [4]
+				},
+				["gold"] = {
+					2, -- [1]
+					2, -- [2]
+					2, -- [3]
+					2, -- [4]
+				},
+				["timeplayed"] = {
+					2, -- [1]
+					0, -- [2]
+					2, -- [3]
+					2, -- [4]
+				},
+			},
+			["load_im"] = true,
+			["widgetshome"] = {
+			},
+			["expired_elite_shown"] = false,
+			["lastdaily"] = 66172,
+			["lastweekly"] = 584572,
+			["widgetshomelast"] = {
+			},
+			["widgets_first_run_done"] = true,
+			["skin"] = "default",
+			["lastdailycheck"] = 1719999427,
+			["gold_tooltips_guide"] = 1,
+			["pathfinding_comfort"] = 0,
+			["tmp__was_starlight"] = true,
+			["maplines_alpha"] = 1,
+			["geareffects"] = true,
+			["featuredhide"] = {
+			},
+			["gold_profitlevel"] = 0.25,
+			["stickycolored"] = false,
+			["dispprimary"] = {
+				["showborder"] = true,
+			},
+			["load_betaguides"] = true,
+			["usernamed"] = true,
+			["n_nc_numpetguides"] = 5,
+			["gold_tooltips_ah"] = 2,
+			["frame_anchor"] = {
+				"CENTER", -- [1]
+				nil, -- [2]
+				"CENTER", -- [3]
+				557.5000610351562, -- [4]
+				102.5000610351563, -- [5]
+			},
+			["debug_flags"] = {
+				["gold"] = {
+					["color"] = "ffffdd00",
+					["enabled"] = true,
+				},
+				["display"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+				["lr_initpath_v"] = {
+					["enabled"] = false,
+					["color"] = false,
+				},
+			},
+		},
+	},
+}

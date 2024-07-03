@@ -1,0 +1,22 @@
+
+SkilletWho = {
+	["wowBuild"] = "55140",
+	["guid"] = "Player-5284-01C52AA9",
+	["raceFile"] = "Human",
+	["locale"] = "enUS",
+	["player"] = "Naediin",
+	["classFile"] = "WARRIOR",
+	["faction"] = "Alliance",
+	["wowVersion"] = 11502,
+	["version"] = "1.91",
+	["realm"] = "Pyrewood Village",
+}
+SkilletDBPC = {
+	"Wed Jul  3 11:36:33 2024(D0): FlushAllData()", -- [1]
+	"Wed Jul  3 11:36:33 2024(D0): FlushCustomData()", -- [2]
+	"Wed Jul  3 11:36:33 2024(M): InitializeProfile(OnNewProfile, Naediin - Pyrewood Village)", -- [3]
+}
+SkilletMemory = {
+}
+SkilletProfile = {
+}
